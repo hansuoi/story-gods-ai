@@ -18,13 +18,26 @@
 | [全体構成](docs/story/outline.md) | 主要な転換点と結末 |
 | [中心事件](docs/story/central-case.md) | 1598年・2018年・2026年の事件 |
 | [現場・時系列設計](docs/story/scene-geometry.md) | 蝶番の視界・救助と修復の順序 |
-| [連載構成](docs/story/series-plan.md) | 全18話の暫定構成・各話の引き |
-| [第1話脚本](docs/scripts/episode-01.md) | 第1話の脚本と画面構成 |
-| [第2話脚本](docs/scripts/episode-02.md) | 第2話の脚本 |
-| [第3話脚本](docs/scripts/episode-03.md) | 第3話の脚本 |
-| [第4話脚本](docs/scripts/episode-04.md) | 第4話の脚本 |
-| [第5話脚本](docs/scripts/episode-05.md) | 第5話の脚本 |
-| [第6話脚本](docs/scripts/episode-06.md) | 第6話の脚本 |
+| [連載構成](docs/story/series-plan.md) | 全18話の構成・各話の引き |
+| [証拠・伏線管理](docs/story/evidence-and-reveals.md) | 真相・手掛かり・登場人物の知識 |
+| [第1話「帰ってきた人」](docs/scripts/episode-01.md) | 漫画脚本初稿 |
+| [第2話「名前のない電話」](docs/scripts/episode-02.md) | 漫画脚本初稿 |
+| [第3話「十分間」](docs/scripts/episode-03.md) | 漫画脚本初稿 |
+| [第4話「閉じる扉」](docs/scripts/episode-04.md) | 漫画脚本初稿 |
+| [第5話「誰の写真」](docs/scripts/episode-05.md) | 漫画脚本初稿 |
+| [第6話「同じ穴」](docs/scripts/episode-06.md) | 漫画脚本初稿 |
+| [第7話「上流と下流」](docs/scripts/episode-07.md) | 漫画脚本初稿 |
+| [第8話「隠した名前」](docs/scripts/episode-08.md) | 漫画脚本初稿 |
+| [第9話「あの日の水位」](docs/scripts/episode-09.md) | 漫画脚本初稿 |
+| [第10話「優しい嘘」](docs/scripts/episode-10.md) | 漫画脚本初稿 |
+| [第11話「仕事を教えた人」](docs/scripts/episode-11.md) | 漫画脚本初稿 |
+| [第12話「直す仕事」](docs/scripts/episode-12.md) | 漫画脚本初稿 |
+| [第13話「神様の名簿」](docs/scripts/episode-13.md) | 漫画脚本初稿 |
+| [第14話「二つの責任」](docs/scripts/episode-14.md) | 漫画脚本初稿 |
+| [第15話「記録庫」](docs/scripts/episode-15.md) | 漫画脚本初稿 |
+| [第16話「壊れたままで」](docs/scripts/episode-16.md) | 漫画脚本初稿 |
+| [第17話「原状回復」](docs/scripts/episode-17.md) | 漫画脚本初稿 |
+| [第18話「神谷家」](docs/scripts/episode-18.md) | 漫画脚本初稿 |
 | [世界設定](docs/setting/world.md) | カムイが知られた社会 |
 | [カムイ能力](docs/setting/kamui.md) | 修復、能力の制約、戦闘 |
 | [組織](docs/setting/organizations.md) | 神楽、行政、探偵事務所 |
@@ -37,7 +50,7 @@
 
 ## 制作状況
 
-全18話の暫定構成と第1～6話の漫画脚本初稿を作成済み。ネーム・作画は未制作。
+第一部・全18話の漫画脚本初稿を作成済み。ネーム・作画は未制作。脚本も推敲・改稿の対象とする。
 
 ## 原作
 
