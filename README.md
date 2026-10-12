@@ -21,6 +21,8 @@
 | [連載構成](docs/story/series-plan.md) | 全18話の構成・各話の引き |
 | [証拠・伏線管理](docs/story/evidence-and-reveals.md) | 真相・手掛かり・登場人物の知識 |
 | [第1話「帰ってきた人」](docs/scripts/episode-01.md) | 漫画脚本初稿 |
+| [第1話文字ネーム](docs/name/episode-01.md) | 32ページのコマ割り・台詞・ページ演出 |
+| [第1話レイアウトサムネイル](docs/name/episode-01-thumbnails.svg) | 32ページの配置・密度を見渡す図（作画ではない） |
 | [第2話「名前のない電話」](docs/scripts/episode-02.md) | 漫画脚本初稿 |
 | [第3話「十分間」](docs/scripts/episode-03.md) | 漫画脚本初稿 |
 | [第4話「閉じる扉」](docs/scripts/episode-04.md) | 漫画脚本初稿 |
@@ -46,11 +48,13 @@
 | [ビジュアル方針](docs/design/visual-direction.md) | 漫画としての演出 |
 | [原作からの変更理由](docs/setting/adaptation.md) | 引き継ぐ／変える判断 |
 | [設定と整合性](docs/setting/consistency.md) | 能力・捜査・時系列の制約 |
-| [面白さに基づくレビュー](docs/review/2026-10-12-story.md) | 今回の追加レビューと対応 |
+| [面白さに基づくレビュー](docs/review/2026-10-12-story.md) | 初期案のレビューと対応 |
+| [第一部全体レビュー](docs/review/2026-10-12-first-arc.md) | 全18話の面白さ・未解決事項 |
+| [第5・6話の改稿記録](docs/review/2026-10-12-pacing-pass.md) | 調査の反復を削った理由 |
 
 ## 制作状況
 
-第一部・全18話の漫画脚本初稿を作成済み。ネーム・作画は未制作。脚本も推敲・改稿の対象とする。
+第一部・全18話の漫画脚本初稿を作成済み。第5・6話はテンポ改善の第2稿へ改稿。第1話は32ページの**文字ネーム**およびコマ配置サムネイルを作成済み。人物の作画・完成ネーム・完成原稿は未制作。今後も脚本・設定を推敲する。
 
 ## 原作
 
