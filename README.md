@@ -22,6 +22,7 @@
 | [証拠・伏線管理](docs/story/evidence-and-reveals.md) | 真相・手掛かり・登場人物の知識 |
 | [第1話「帰ってきた人」](docs/scripts/episode-01.md) | 漫画脚本初稿 |
 | [第1話文字ネーム](docs/name/episode-01.md) | 32ページのコマ割り・台詞・ページ演出 |
+| [第1話P01–P04作画ラフ](docs/art/episode-01/README.md) | 2024年の救助をページ別のSVGにした試作（完成原稿ではない） |
 | [第1話レイアウトサムネイル](docs/name/episode-01-thumbnails.svg) | 32ページの配置・密度を見渡す図（作画ではない） |
 | [キャラクター比較図](docs/design/character-lineup-v01.svg) | 主要5人の体格・髪・服・小道具のベクター試作 |
 | [作画用デザイン基準](docs/design/character-study-v01.md) | 5人の識別基準・生成画像の採否 |
