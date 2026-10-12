@@ -23,6 +23,8 @@
 | [第1話「帰ってきた人」](docs/scripts/episode-01.md) | 漫画脚本初稿 |
 | [第1話文字ネーム](docs/name/episode-01.md) | 32ページのコマ割り・台詞・ページ演出 |
 | [第1話レイアウトサムネイル](docs/name/episode-01-thumbnails.svg) | 32ページの配置・密度を見渡す図（作画ではない） |
+| [キャラクター比較図](docs/design/character-lineup-v01.svg) | 主要5人の体格・髪・服・小道具のベクター試作 |
+| [作画用デザイン基準](docs/design/character-study-v01.md) | 5人の識別基準・生成画像の採否 |
 | [第2話「名前のない電話」](docs/scripts/episode-02.md) | 漫画脚本初稿 |
 | [第3話「十分間」](docs/scripts/episode-03.md) | 漫画脚本初稿 |
 | [第4話「閉じる扉」](docs/scripts/episode-04.md) | 漫画脚本初稿 |
