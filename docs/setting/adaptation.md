@@ -23,6 +23,5 @@
 ## 参考資料
 
 - GitHub原作リポジトリ: https://github.com/hansuoi/story-gods
-- Miro「漫画原作」ボード: https://miro.com/app/board/uXjVIhSCSc8=/
 
 本資料は、原作の設定をすべて転載したものではなく、AI版として採用・変更した内容を記録する。
