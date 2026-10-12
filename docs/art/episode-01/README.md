@@ -4,7 +4,7 @@
 
 **段階:** 完成漫画ではない。顔の造形、パース、動き、吹き出し、台詞、機構描画には未完成箇所がある。画像内の小さな補足文字は制作メモを含む。正式な台詞は [文字ネーム](../../name/episode-01.md) を参照。
 
-[脚本](../../scripts/episode-01.md) ／ [32ページ文字ネーム](../../name/episode-01.md) ／ [扉の機構設計](door-mechanism.md) ／ [構図・連続性チェック](continuity.md) ／ [全ページを続けて閲覧](gallery.md)
+[脚本](../../scripts/episode-01.md) ／ [32ページ文字ネーム](../../name/episode-01.md) ／ [扉の機構設計](door-mechanism.md) ／ [扉の4段階カットアウェイ図](door-cutaway.svg) ／ [構図・連続性チェック](continuity.md) ／ [全ページを続けて閲覧](gallery.md)
 
 | 進捗 | 状態 |
 | --- | --- |
