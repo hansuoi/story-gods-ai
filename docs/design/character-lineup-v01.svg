@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1510" height="785" viewBox="0 0 1510 785">
+<rect x="0" y="0" width="1510" height="785" rx="0" fill="#f0f0ef" stroke="none" stroke-width="1"/>
+<text x="52" y="49" font-family="Noto Sans JP, sans-serif" text-anchor="start" font-size="29" fill="#26272b" font-weight="700">神谷家 — 原状回復 ／ キャラクター・シルエット比較 v0.1</text>
+<text x="52" y="80" font-family="Noto Sans JP, sans-serif" text-anchor="start" font-size="15" fill="#565b61" font-weight="400">正式な顔設定画ではない。身長差・服の形・小物・姿勢を検証するための編集可能なベクター試作。</text>
+<rect x="23" y="124" width="260" height="577" rx="13" fill="#fdfdfc" stroke="#d7d8d8" stroke-width="1"/>
+<rect x="23" y="124" width="260" height="6" rx="0" fill="#8c6878" stroke="none" stroke-width="1"/>
+<g transform="translate(153 0)">
+<path d="M -130 586 H 130" stroke="#c4c9cc" stroke-width="1"/>
+<path d="M -80 532 Q -88 462 -52 426 L -36 399 L 36 399 Q 54.400000000000006 430 80 462 L 83 532 Z" fill="#393942" stroke="#242e34" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -35 404 L -53 457 L -13 530 M 33 404 L 54 459 L 18 530" fill="none" stroke="#b8b0b5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -9 413 L 8 530 M 11 416 L 20 525" fill="none" stroke="#a5a2ad" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-69" y="486" width="40" height="56" rx="5" fill="#9b858b" stroke="#403941" stroke-width="1"/>
+<path d="M -64 486 Q -49 453 -34 487" fill="none" stroke="#403941" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-19" y="373" width="38" height="50" rx="9" fill="#e2bdad" stroke="#392d2c" stroke-width="1.5"/>
+<ellipse cx="-38" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<ellipse cx="38" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<path d="M -40 309 Q -44 270 -29 252 Q 0 239 29 252 Q 44 275 40 309 L 32 353 Q 0 403 -32 353 Z" fill="#e6c4b1" stroke="#40373a" stroke-width="2"/>
+<path d="M -30 315 Q -20 309 -11 314 M 11 314 Q 20 309 30 315" fill="none" stroke="#353537" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-20" cy="317" r="3" fill="#24282b"/><circle cx="21" cy="317" r="3" fill="#24282b"/>
+<path d="M -1 317 l -2 21 l 6 2 M -7 357 Q 1 360 9 356" fill="none" stroke="#8f6560" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -42 309 Q -50 244 -11 234 Q 18 227 39 251 L 44 307 Q 24 293 16 274 Q -9 297 -38 286 L -36 352 Q -43 360 -46 347 Z" fill="#27272a" stroke="#262628" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 28 269 Q 49 307 37 337" fill="none" stroke="#ad9a8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -31 302 Q -20 299 -10 303 M 10 302 Q 20 298 32 303" fill="none" stroke="#34363c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="153" y="177" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="24" fill="#20242c" font-weight="700">神谷安希</text>
+<text x="153" y="205" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5c6168" font-weight="400">31歳　主人公・非能力者</text>
+<text x="153" y="633" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="15" fill="#333941" font-weight="400">顎下の黒髪／片耳かけ</text>
+<text x="153" y="665" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5a6168" font-weight="400">手帳・ロングコート</text>
+<rect x="309" y="124" width="260" height="577" rx="13" fill="#fdfdfc" stroke="#d7d8d8" stroke-width="1"/>
+<rect x="309" y="124" width="260" height="6" rx="0" fill="#7e99a9" stroke="none" stroke-width="1"/>
+<g transform="translate(439 0)">
+<path d="M -130 586 H 130" stroke="#c4c9cc" stroke-width="1"/>
+<path d="M -83.5 532 Q -91.5 462 -54.275 426 L -36 399 L 36 399 Q 56.78 430 83.5 462 L 86.5 532 Z" fill="#e5e5e2" stroke="#242e34" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -38 408 L -15 448 L 0 424 L 14 444 L 34 407" fill="none" stroke="#848b8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -7 449 L -6 528" fill="none" stroke="#7d7f81" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -74 487 L -53 491 M 51 483 L 73 488" fill="none" stroke="#7e7d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-19" y="373" width="38" height="50" rx="9" fill="#e2bdad" stroke="#392d2c" stroke-width="1.5"/>
+<ellipse cx="-39.5" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<ellipse cx="39.5" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<path d="M -41.5 309 Q -45.5 270 -29 252 Q 0 239 29 252 Q 45.5 275 41.5 309 L 33.5 353 Q 0 403 -33.5 353 Z" fill="#e6c4b1" stroke="#40373a" stroke-width="2"/>
+<path d="M -30 315 Q -20 309 -11 314 M 11 314 Q 20 309 30 315" fill="none" stroke="#353537" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-20" cy="317" r="3" fill="#24282b"/><circle cx="21" cy="317" r="3" fill="#24282b"/>
+<path d="M -1 317 l -2 21 l 6 2 M -7 357 Q 1 360 9 356" fill="none" stroke="#8f6560" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -46 296 Q -56 250 -32 242 L -39 231 L -14 237 L 1 226 L 19 235 L 36 229 L 39 248 Q 54 260 45 296 L 31 282 L 23 262 L 1 280 L -17 262 L -31 292 Z" fill="#22262b" stroke="#1c2428" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -19 245 L -35 281 M 18 247 L 28 271" fill="none" stroke="#717a7b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 24 360 L 63 355" fill="none" stroke="#bd6886" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="66" cy="355" r="6" fill="#e7a7b8" stroke="#805564" stroke-width="1"/>
+<path d="M -31 302 Q -20 299 -10 303 M 10 302 Q 20 298 32 303" fill="none" stroke="#34363c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="439" y="177" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="24" fill="#20242c" font-weight="700">神谷榊</text>
+<text x="439" y="205" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5c6168" font-weight="400">32歳　探偵・水の使い手</text>
+<text x="439" y="633" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="15" fill="#333941" font-weight="400">無造作な黒髪／長身</text>
+<text x="439" y="665" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5a6168" font-weight="400">棒付きキャンディー</text>
+<rect x="595" y="124" width="260" height="577" rx="13" fill="#fdfdfc" stroke="#d7d8d8" stroke-width="1"/>
+<rect x="595" y="124" width="260" height="6" rx="0" fill="#cf4849" stroke="none" stroke-width="1"/>
+<g transform="translate(725 0)">
+<path d="M -130 586 H 130" stroke="#c4c9cc" stroke-width="1"/>
+<path d="M -71 532 Q -79 462 -46.15 426 L -36 399 L 36 399 Q 48.28 430 71 462 L 74 532 Z" fill="#c44842" stroke="#242e34" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -43 409 L 0 456 L 42 408" fill="none" stroke="#f7d4d0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 0 455 L 0 533" fill="none" stroke="#db908b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 17 440 l 13 -6 l 4 17 l -16 5 Z" fill="none" stroke="#91c8de" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 27 436 q 10 -23 0 -31" fill="none" stroke="#80b7d6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-19" y="373" width="38" height="50" rx="9" fill="#e2bdad" stroke="#392d2c" stroke-width="1.5"/>
+<ellipse cx="-34" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<ellipse cx="34" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<path d="M -36 309 Q -40 270 -29 252 Q 0 239 29 252 Q 40 275 36 309 L 28 353 Q 0 403 -28 353 Z" fill="#e6c4b1" stroke="#40373a" stroke-width="2"/>
+<path d="M -30 315 Q -20 309 -11 314 M 11 314 Q 20 309 30 315" fill="none" stroke="#353537" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-20" cy="317" r="3" fill="#24282b"/><circle cx="21" cy="317" r="3" fill="#24282b"/>
+<path d="M -1 317 l -2 21 l 6 2 M -7 357 Q 1 360 9 356" fill="none" stroke="#8f6560" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -40 313 Q -44 256 -20 246 Q 17 227 39 259 L 39 311 Q 31 283 23 269 Q -9 280 -20 272 L -31 320 Z" fill="#272e36" stroke="#293037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -34 284 L -33 341 M -29 284 L -27 335" fill="none" stroke="#c3b5a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -31 302 Q -20 299 -10 303 M 10 302 Q 20 298 32 303" fill="none" stroke="#34363c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="725" y="177" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="24" fill="#20242c" font-weight="700">三枝凪</text>
+<text x="725" y="205" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5c6168" font-weight="400">20歳　修復作業員・留め針</text>
+<text x="725" y="633" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="15" fill="#333941" font-weight="400">短髪・片側刈り込み</text>
+<text x="725" y="665" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5a6168" font-weight="400">青糸の安全ピン</text>
+<rect x="881" y="124" width="260" height="577" rx="13" fill="#fdfdfc" stroke="#d7d8d8" stroke-width="1"/>
+<rect x="881" y="124" width="260" height="6" rx="0" fill="#8b9e8c" stroke="none" stroke-width="1"/>
+<g transform="translate(1011 0)">
+<path d="M -130 586 H 130" stroke="#c4c9cc" stroke-width="1"/>
+<path d="M -98 532 Q -106 462 -63.7 426 L -36 399 L 36 399 Q 66.64 430 98 462 L 101 532 Z" fill="#475353" stroke="#242e34" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -66 424 L -40 530 M 64 423 L 42 530" fill="none" stroke="#86938e" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-36" y="480" width="23" height="29" rx="2" fill="#394744" stroke="#202b2a" stroke-width="1"/>
+<rect x="15" y="484" width="23" height="29" rx="2" fill="#394744" stroke="#202b2a" stroke-width="1"/>
+<rect x="-19" y="373" width="38" height="50" rx="9" fill="#e2bdad" stroke="#392d2c" stroke-width="1.5"/>
+<ellipse cx="-45" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<ellipse cx="45" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<path d="M -47 309 Q -51 270 -29 252 Q 0 239 29 252 Q 51 275 47 309 L 39 353 Q 0 403 -39 353 Z" fill="#e6c4b1" stroke="#40373a" stroke-width="2"/>
+<path d="M -30 315 Q -20 309 -11 314 M 11 314 Q 20 309 30 315" fill="none" stroke="#353537" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-20" cy="317" r="3" fill="#24282b"/><circle cx="21" cy="317" r="3" fill="#24282b"/>
+<path d="M -1 317 l -2 21 l 6 2 M -7 357 Q 1 360 9 356" fill="none" stroke="#8f6560" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -48 304 Q -49 257 -15 242 Q 19 230 47 252 L 46 301 Q 17 279 0 287 L -42 291 Z" fill="#1d282b" stroke="#1b2124" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -35 265 L 33 259" fill="none" stroke="#657271" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -31 302 Q -20 299 -10 303 M 10 302 Q 20 298 32 303" fill="none" stroke="#34363c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1011" y="177" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="24" fill="#20242c" font-weight="700">久住真琴</text>
+<text x="1011" y="205" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5c6168" font-weight="400">38歳　設備技術員・蝶番</text>
+<text x="1011" y="633" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="15" fill="#333941" font-weight="400">短い黒髪／大柄</text>
+<text x="1011" y="665" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5a6168" font-weight="400">作業ベスト・工具</text>
+<rect x="1167" y="124" width="260" height="577" rx="13" fill="#fdfdfc" stroke="#d7d8d8" stroke-width="1"/>
+<rect x="1167" y="124" width="260" height="6" rx="0" fill="#6c92aa" stroke="none" stroke-width="1"/>
+<g transform="translate(1297 0)">
+<path d="M -130 586 H 130" stroke="#c4c9cc" stroke-width="1"/>
+<path d="M -88.5 532 Q -96.5 462 -57.525 426 L -36 399 L 36 399 Q 60.18000000000001 430 88.5 462 L 91.5 532 Z" fill="#394650" stroke="#242e34" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -44 405 L -18 452 L 4 411 M 42 406 L 22 454 L 4 411" fill="none" stroke="#adb5c0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -4 448 L -3 533" fill="none" stroke="#7d8d9b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-62" y="474" width="30" height="46" rx="2" fill="#b4b9b8" stroke="#39454b" stroke-width="1"/>
+<rect x="-19" y="373" width="38" height="50" rx="9" fill="#e2bdad" stroke="#392d2c" stroke-width="1.5"/>
+<ellipse cx="-40.5" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<ellipse cx="40.5" cy="323" rx="10" ry="17" fill="#dfb9a8" stroke="#453637" stroke-width="1.8"/>
+<path d="M -42.5 309 Q -46.5 270 -29 252 Q 0 239 29 252 Q 46.5 275 42.5 309 L 34.5 353 Q 0 403 -34.5 353 Z" fill="#e6c4b1" stroke="#40373a" stroke-width="2"/>
+<path d="M -30 315 Q -20 309 -11 314 M 11 314 Q 20 309 30 315" fill="none" stroke="#353537" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-20" cy="317" r="3" fill="#24282b"/><circle cx="21" cy="317" r="3" fill="#24282b"/>
+<path d="M -1 317 l -2 21 l 6 2 M -7 357 Q 1 360 9 356" fill="none" stroke="#8f6560" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -45 315 Q -46 262 -34 250 Q -14 239 6 240 Q 44 244 45 283 L 40 312 L 30 275 Q 0 266 -37 285 Z" fill="#787879" stroke="#555d61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -33 262 L -24 281 M 15 251 L 25 271" fill="none" stroke="#e6e3db" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -31 302 Q -20 299 -10 303 M 10 302 Q 20 298 32 303" fill="none" stroke="#34363c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1297" y="177" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="24" fill="#20242c" font-weight="700">芹沢慧</text>
+<text x="1297" y="205" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5c6168" font-weight="400">47歳　防災責任者・非能力者</text>
+<text x="1297" y="633" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="15" fill="#333941" font-weight="400">短い白髪交じりの髪</text>
+<text x="1297" y="665" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="14" fill="#5a6168" font-weight="400">作業ノート・腕時計</text>
+<text x="755" y="745" font-family="Noto Sans JP, sans-serif" text-anchor="middle" font-size="15" fill="#44484d" font-weight="400">比較の判定軸：髪の長さ／肩幅・体格／上着の形／小物／姿勢。色彩が消えても識別できること。</text>
+</svg>
