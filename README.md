@@ -78,7 +78,7 @@
 ## 原作
 
 - 原作: 浮曇非路『神谷家の呪われし宿命』
-- 原作リポジトリ: https://github.com/hansuoi/story-gods
+- 原作・公開作品ページ: https://ukigmo.work/works/gods01/
 
 ## ライセンス
 

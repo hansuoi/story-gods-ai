@@ -22,4 +22,4 @@
 | 神谷椿の名簿 | 新設 | 過去を隠したのが椿本人とは限らないという反転を作る |
 | 師弟による復讐・世代交代・椿の復活 | 不採用 | 新作では同じ役割を担う必然がない |
 
-原作: https://github.com/hansuoi/story-gods
+原作・公開作品ページ: https://ukigmo.work/works/gods01/
