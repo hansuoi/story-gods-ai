@@ -18,6 +18,8 @@
 
 [留め針の5段階動作図](episode-03-ability-sequence.svg) ／ [30ページのレイアウト一覧](episode-03-thumbnails.svg)
 
+[第3話構図ラフ全30ページ](../art/episode-03/README.md) ／ [連続閲覧](../art/episode-03/gallery.md)
+
 ## 全ページの画面設計
 
 ### P01　同じ机
