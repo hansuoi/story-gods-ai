@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400"><defs>
+<linearGradient id="dusk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18242d"/><stop offset=".56" stop-color="#47545b"/><stop offset="1" stop-color="#80918f"/></linearGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6c7978"/><stop offset="1" stop-color="#29383b"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf0"/><stop offset="1" stop-color="#d5d5be"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r="1.3" fill="#172932" opacity=".26"/></pattern>
+</defs><rect x="0" y="0" width="1600" height="2400" fill="#f2f3ef" stroke="#111e26" stroke-width="5"/>
+<g id="p09-1-empty-genkan"><svg x="55" y="55" width="1490" height="1380" viewBox="0 0 1490 1380"><rect x="2" y="2" width="1486" height="1376" fill="#e6eae5" stroke="#121e26" stroke-width="7"/><rect x="0" y="0" width="1490" height="1380" fill="url(#dusk)" stroke="none" stroke-width="0"/>
+<path d="M0 0H1490V420L0 653Z" fill="#1a2731" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 908L1490 533V1380H0Z" fill="url(#floor)" stroke="#1b2c33" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 895L1489 546M0 1026L1490 660M0 1166L1490 810" fill="none" stroke="#a9b8ae" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M196 0L435 0L432 922L198 998Z" fill="#252e35" stroke="#0f1d26" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1233 0H1490V653L1233 690Z" fill="#17252d" stroke="#0d1720" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M435 0L1235 0V670L435 859Z" fill="#3a4a4d" stroke="#1e2d32" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M465 40L1193 40V554L465 711Z" fill="#252f37" stroke="#7d908c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M445 862L1219 652" fill="none" stroke="#e1e6dd" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="685" y="220" width="348" height="135" fill="#73857f" stroke="#4a6065" stroke-width="5"/>
+<path d="M712 281L994 278M712 324L994 317" fill="none" stroke="#b0c2b8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M494 812L1160 645L1240 727L546 938Z" fill="#8d9e96" stroke="#455b61" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(622 968) scale(0.62)"><path d="M-38-75Q2-112 40-75L53 42Q56 82 5 88Q-49 92-51 44Z" fill="#1e2d34" stroke="#0c1720" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-35-39Q0-56 37-40M-34 38Q1 15 40 40" fill="none" stroke="#657877" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(712 948) scale(0.62)"><path d="M-38-75Q2-112 40-75L53 42Q56 82 5 88Q-49 92-51 44Z" fill="#1e2d34" stroke="#0c1720" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-35-39Q0-56 37-40M-34 38Q1 15 40 40" fill="none" stroke="#657877" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<path d="M899 803Q978 770 1053 805Q1081 845 1047 886Q974 916 903 881Z" fill="none" stroke="#c5d1c5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M919 817Q973 801 1034 822M926 875Q975 888 1029 867" fill="none" stroke="#e0e8da" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(1274 900) scale(0.76)">
+<path d="M-73-16Q-135 32-128 225L-109 389L119 389L129 193Q140 24 64-17Z" fill="#252f39" stroke="#141c24" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-43-22L-7 30L41-23M-15 37L-20 355" fill="none" stroke="#91a0a0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-52-136Q-57-188-12-215Q38-217 51-142L29-67Q10-42-19-81Z" fill="#d5b6a5" stroke="#323b43" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-61-135Q-73-231-11-246Q64-251 71-156L47-102L38-171Q6-160-51-127L-48-37L-67-47Z" fill="#151e28" stroke="#0b141d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-19-125L-5-125M17-125L30-124M3-87L15-90" fill="none" stroke="#424c53" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-102 179L-154 321L-77 352" fill="none" stroke="#d5b6a5" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 161L144 306" fill="none" stroke="#d5b6a5" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="61" y="1265" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" fill="#f1f5ee" font-size="33" font-weight="500">帰宅したのは、一人。</text></svg></g>
+<g id="p09-2-unfinished-greeting"><svg x="810" y="1464" width="735" height="870" viewBox="0 0 735 870"><rect x="2" y="2" width="731" height="866" fill="#e6eae5" stroke="#121e26" stroke-width="7"/><rect x="0" y="0" width="710" height="830" fill="#c3d0ca" stroke="none" stroke-width="0"/>
+<g transform="translate(409 568) scale(1.14)">
+<path d="M-73-16Q-135 32-128 225L-109 389L119 389L129 193Q140 24 64-17Z" fill="#252f39" stroke="#141c24" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-43-22L-7 30L41-23M-15 37L-20 355" fill="none" stroke="#91a0a0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-52-136Q-57-188-12-215Q38-217 51-142L29-67Q10-42-19-81Z" fill="#d5b6a5" stroke="#323b43" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-61-135Q-73-231-11-246Q64-251 71-156L47-102L38-171Q6-160-51-127L-48-37L-67-47Z" fill="#151e28" stroke="#0b141d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-19-125L-5-125M17-125L30-124M3-87L15-90" fill="none" stroke="#424c53" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-102 179L-154 321L-77 352" fill="none" stroke="#d5b6a5" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 161L144 306" fill="none" stroke="#d5b6a5" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M339 467L355 465M385 489L404 489" fill="none" stroke="#5c5050" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="40" y="56" width="425" height="153" fill="#fffef9" stroke="#4b6066" stroke-width="3"/>
+<text x="71" y="145" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" fill="#273941" font-size="55" font-weight="500">た……</text>
+<path d="M426 214L402 241L396 211" fill="none" stroke="#4b6066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="41" y="773" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" fill="#273941" font-size="27" font-weight="500">最後の音が、続かない。</text></svg></g>
+<g id="p09-3-receipt-note"><svg x="55" y="1464" width="730" height="870" viewBox="0 0 730 870"><rect x="2" y="2" width="726" height="866" fill="#e6eae5" stroke="#121e26" stroke-width="7"/><rect x="0" y="0" width="750" height="830" fill="#647473" stroke="none" stroke-width="0"/>
+<path d="M0 236L750 113L750 830H0Z" fill="#abb8ab" stroke="#61757b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 247L688 152M22 412L750 301" fill="none" stroke="#e6e9df" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="138" y="258" width="520" height="251" fill="#919a84" stroke="none" stroke-width="0"/><rect x="123" y="245" width="520" height="251" fill="url(#paper)" stroke="#c0c5ad" stroke-width="3"/><path d="M582 245L639 306L639 245" fill="#f2f0dc" stroke="#b8bdad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="156" y="363" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" fill="#324047" font-size="37" font-weight="500">経費、帰ってから</text>
+<path d="M442 521L499 509L541 573L555 646L498 659L455 589Z" fill="#d9bba9" stroke="#4c5351" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M478 557L508 578M501 579L524 604" fill="none" stroke="#9f887e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="35" y="769" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" fill="#f8f9f4" font-size="30" font-weight="500">榊の字のままだった。</text></svg></g>
+</svg>
