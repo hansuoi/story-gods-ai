@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400"><defs>
+<linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19272f"/><stop offset=".6" stop-color="#718780"/><stop offset="1" stop-color="#b9c9bd"/></linearGradient>
+<linearGradient id="parchment" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efeada"/><stop offset=".64" stop-color="#d4d1bd"/><stop offset="1" stop-color="#a6ad9f"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ebd5c5"/><stop offset="1" stop-color="#bfa69c"/></linearGradient>
+<pattern id="dots" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r="1.2" fill="#253b43" opacity=".22"/></pattern>
+</defs><rect x="0" y="0" width="1600" height="2400" rx="0" fill="#f4f5f0" stroke="none" stroke-width="0"/>
+<g id="p14-1-notes"><svg x="65" y="65" width="1470" height="536" viewBox="0 0 1470 536"><rect x="2" y="2" width="1466" height="532" rx="0" fill="#e7ebe5" stroke="#162831" stroke-width="8"/><rect x="0" y="0" width="1470" height="540" rx="0" fill="#bdcec4" stroke="none" stroke-width="0"/>
+<path d="M0 415L1470 263V540H0Z" fill="#91a59b" stroke="#657c7c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="136" y="68" width="702" height="409" rx="0" fill="#fffefa" stroke="#81968c" stroke-width="6"/>
+<text x="171" y="130" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="36" font-weight="500" fill="#1b313b">警察へ伝えるメモ</text>
+<text x="176" y="202" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="31" font-weight="500" fill="#1b313b">・死亡当日の移動先：旧汀橋方面</text>
+<text x="176" y="277" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="31" font-weight="500" fill="#1b313b">・2018年資料　TB-18-042</text>
+<text x="176" y="354" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="31" font-weight="500" fill="#1b313b">・榊の字『保留』</text>
+<g transform="translate(1165 373) scale(0.57)"><path d="M-224 135Q-142 44-59 8L36 17Q85 9 113-16L137-80Q152-114 178-100Q202-80 173-40L145 22Q169 28 190 8L215-27Q233-56 255-42Q274-25 256 4L203 88Q137 176 25 177L-150 224Z" fill="url(#skin)" stroke="#6d7872" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M138 20L186 68M168 47L204 77" fill="none" stroke="#a39389" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="960" y="485" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="29" font-weight="500" fill="#1b313b"></text></svg></g>
+<g id="p14-2-call"><svg x="816" y="632" width="719" height="769" viewBox="0 0 719 769"><rect x="2" y="2" width="715" height="765" rx="0" fill="#e7ebe5" stroke="#162831" stroke-width="8"/><rect x="0" y="0" width="727" height="765" rx="0" fill="#cad9d0" stroke="none" stroke-width="0"/>
+<g transform="translate(509 519) scale(1)">
+<path d="M-91-12Q-154 21-153 228L-139 395H147L153 199Q154 30 78-17Z" fill="#2e3840" stroke="#15242c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-51-13L-10 48L39-7M-13 56L-17 373" fill="none" stroke="#c3d1ca" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-52-141Q-65-202-5-226Q64-232 67-145L41-79Q16-46-18-77Z" fill="url(#skin)" stroke="#475355" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-62-136Q-86-249-8-259Q72-259 76-163L57-112L40-175Q-5-152-53-118L-48-34L-66-41Z" fill="#18242d" stroke="#0c1922" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-32-126L-17-127M14-127L32-126M-8-85L8-86" fill="none" stroke="#3b4750" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M398 396L505 306" fill="none" stroke="#dbbfad" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="383" y="226" width="127" height="232" rx="23" fill="#2c4148" stroke="#182830" stroke-width="9"/>
+<rect x="402" y="260" width="87" height="133" rx="7" fill="#cbdcd5" stroke="none" stroke-width="0"/>
+<rect x="43" y="35" width="429" height="137" rx="16" fill="#fffefa" stroke="#32444b" stroke-width="4"/>
+<text x="61" y="90" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="27" font-weight="500" fill="#1b313b">夫が行った場所に関係する</text>
+<text x="61" y="133" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="28" font-weight="500" fill="#1b313b">資料があります。</text></svg></g>
+<g id="p14-3-police"><svg x="65" y="632" width="724" height="769" viewBox="0 0 724 769"><rect x="2" y="2" width="720" height="765" rx="0" fill="#e7ebe5" stroke="#162831" stroke-width="8"/><rect x="0" y="0" width="715" height="765" rx="0" fill="#556d73" stroke="none" stroke-width="0"/>
+<rect x="76" y="115" width="492" height="436" rx="0" fill="#e3ebe5" stroke="#90a6a0" stroke-width="7"/>
+<path d="M82 154L480 153M90 428L535 428" fill="none" stroke="#859b97" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M138 509L153 288Q176 193 274 210Q361 230 390 329L421 578H127Z" fill="#374951" stroke="#202e38" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M191 231Q194 131 262 124Q330 137 336 246L309 284L203 284Z" fill="#c3c8c3" stroke="#283a40" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M190 237Q181 123 256 92Q330 100 342 211L322 234L296 157L201 188Z" fill="#253941" stroke="#1b2c34" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="27" y="33" width="659" height="167" rx="12" fill="#fffefa" stroke="#344c55" stroke-width="3"/>
+<text x="56" y="98" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="31" font-weight="500" fill="#1b313b">資料の写しをお願いします。</text>
+<text x="56" y="152" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="29" font-weight="500" fill="#1b313b">現場には近づかないで。</text>
+<text x="61" y="721" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="27" font-weight="500" fill="#f1f3ee">別の捜査も、進んでいる。</text></svg></g>
+<g id="p14-4-coat"><svg x="65" y="1432" width="1470" height="904" viewBox="0 0 1470 904"><rect x="2" y="2" width="1466" height="900" rx="0" fill="#e7ebe5" stroke="#162831" stroke-width="8"/><rect x="0" y="0" width="1470" height="825" rx="0" fill="#728781" stroke="none" stroke-width="0"/>
+<path d="M0 678L1470 498V825H0Z" fill="#425960" stroke="#243840" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="102" y="99" width="862" height="515" rx="0" fill="#becdc3" stroke="#536c70" stroke-width="7"/>
+<path d="M240 480L226 101M778 477L794 105" fill="none" stroke="#8ea69d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M347 160Q428 98 514 140L593 254L647 525L236 528L289 265Z" fill="#273642" stroke="#142631" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M430 142L429 491M351 166L410 238L363 510M517 166L452 236L494 506" fill="none" stroke="#718584" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(1111 596) scale(0.74)">
+<path d="M-91-12Q-154 21-153 228L-139 395H147L153 199Q154 30 78-17Z" fill="#2e3840" stroke="#15242c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-51-13L-10 48L39-7M-13 56L-17 373" fill="none" stroke="#c3d1ca" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-52-141Q-65-202-5-226Q64-232 67-145L41-79Q16-46-18-77Z" fill="url(#skin)" stroke="#475355" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-62-136Q-86-249-8-259Q72-259 76-163L57-112L40-175Q-5-152-53-118L-48-34L-66-41Z" fill="#18242d" stroke="#0c1922" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-32-126L-17-127M14-127L32-126M-8-85L8-86" fill="none" stroke="#3b4750" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M916 593L1169 587" fill="none" stroke="#e1ebe5" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg></g>
+</svg>
