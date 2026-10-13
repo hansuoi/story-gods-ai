@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400"><defs>
+<linearGradient id="overcast" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dce5e1"/><stop offset=".45" stop-color="#aabbb5"/><stop offset="1" stop-color="#627a7a"/></linearGradient>
+<linearGradient id="night" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#182630"/><stop offset="1" stop-color="#687e7d"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ceddd5"/><stop offset=".42" stop-color="#819a99"/><stop offset="1" stop-color="#3f5963"/></linearGradient>
+<pattern id="riverlines" width="38" height="25" patternUnits="userSpaceOnUse"><path d="M-4 11Q10 4 31 13L42 12" fill="none" stroke="#d6e2de" stroke-width="3" opacity=".52"/></pattern>
+<pattern id="mesh" width="51" height="38" patternUnits="userSpaceOnUse"><path d="M-2 0L51 38M0 38L51 0" fill="none" stroke="#708d8f" stroke-width="2.4" opacity=".8"/></pattern>
+</defs><rect x="0" y="0" width="1600" height="2400" rx="0" fill="#f2f3ef" stroke="none" stroke-width="0"/><g id="p15-01-office-lock"><svg x="65" y="65" width="1470" height="570" viewBox="0 0 1470 570"><rect x="1" y="1" width="1468" height="568" rx="0" fill="#eef1e9" stroke="#182932" stroke-width="8"/><rect x="0" y="0" width="1470" height="570" rx="0" fill="#41565c" stroke="none" stroke-width="0"/>
+<rect x="55" y="0" width="822" height="570" rx="0" fill="#5d7475" stroke="#263b43" stroke-width="13"/><rect x="89" y="21" width="713" height="526" rx="0" fill="#a3b4a9" stroke="#516a6a" stroke-width="6"/>
+<rect x="931" y="36" width="491" height="520" rx="0" fill="#2f444b" stroke="#182830" stroke-width="10"/>
+<path d="M984 106L1356 106M984 469L1356 469" fill="none" stroke="#667f7e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1080" y="200" width="114" height="170" rx="12" fill="#b6c7bf" stroke="#5e797b" stroke-width="7"/>
+<circle cx="1139" cy="275" r="23" fill="#1d333c" stroke="#859f9b" stroke-width="6"/>
+<g transform="translate(1145 286) scale(0.55)">
+<circle cx="0" cy="0" r="31" fill="none" stroke="#dde6df" stroke-width="13"/>
+<path d="M25 17L188 144L160 172L139 152L118 174L89 148L106 124Z" fill="url(#metal)" stroke="#4b6167" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M-15 556L758 460" fill="none" stroke="#dce8de" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="87" y="513" font-size="76" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" fill="#edf2eb">カチ</text></svg></g><g id="p15-02-viaduct"><svg x="65" y="666" width="1470" height="1180" viewBox="0 0 1470 1180"><rect x="1" y="1" width="1468" height="1178" rx="0" fill="#eef1e9" stroke="#182932" stroke-width="8"/><rect x="0" y="0" width="1470" height="1180" rx="0" fill="url(#overcast)" stroke="none" stroke-width="0"/>
+<path d="M0 0H1470V436.6L0 637.2Z" fill="#586d72" stroke="#263943" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 495.59999999999997L1470 283.2" fill="none" stroke="#c6d1ca" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-43" y="436.6" width="62" height="519.2" rx="0" fill="#60787a" stroke="#344c53" stroke-width="5"/><rect x="324.5" y="436.6" width="62" height="519.2" rx="0" fill="#60787a" stroke="#344c53" stroke-width="5"/><rect x="692" y="436.6" width="62" height="519.2" rx="0" fill="#60787a" stroke="#344c53" stroke-width="5"/><rect x="1059.5" y="436.6" width="62" height="519.2" rx="0" fill="#60787a" stroke="#344c53" stroke-width="5"/><rect x="1427" y="436.6" width="62" height="519.2" rx="0" fill="#60787a" stroke="#344c53" stroke-width="5"/>
+<path d="M0 932.2L1470 814.1999999999999V1180H0Z" fill="#b2c0b5" stroke="#7b9390" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 955.8000000000001L1470 837.8" fill="none" stroke="#e1e7df" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M264.59999999999997 849.6L235.20000000000002 1180" fill="none" stroke="#c8d3c7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M624.5999999999999 849.6L595.2 1180" fill="none" stroke="#c8d3c7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M984.5999999999999 849.6L955.2 1180" fill="none" stroke="#c8d3c7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(1008 721) scale(1.12)">
+<path d="M-106-10Q-181 24-170 251L-160 481L156 481L162 228Q171 24 90-10Z" fill="#303a43" stroke="#14242d" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-59-13L-9 44L51-10M-9 44L-13 462" fill="none" stroke="#7b8d8f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-51-160Q-65-236 2-253Q67-239 61-154L39-84Q12-51-19-91Z" fill="#d6bca9" stroke="#38484c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-62-150Q-78-269 0-282Q81-277 82-167L58-103L43-188Q8-162-54-142L-47-41L-65-56Z" fill="#1b242e" stroke="#101921" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-32-140L-16-142M16-143L32-141M-8-97L8-99" fill="none" stroke="#3f4b4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-118 179L-181 305L-138 347M127 185L167 295" fill="none" stroke="#d4b8a6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M0 891Q370 737 610 822L767 858" fill="none" stroke="#4a686d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M260 704L425 813M265 699L427 796" fill="none" stroke="#f0f6eb" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="57" y="1137" font-size="30" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" fill="#273940"></text></svg></g><g id="p15-03-decision"><svg x="65" y="1878" width="1470" height="455" viewBox="0 0 1470 455"><rect x="1" y="1" width="1468" height="453" rx="0" fill="#eef1e9" stroke="#182932" stroke-width="8"/><rect x="0" y="0" width="1470" height="480" rx="0" fill="#354c56" stroke="none" stroke-width="0"/>
+<path d="M0 306L1470 165V480H0Z" fill="#223b45" stroke="#142731" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(350 284) scale(0.79)"><path d="M-43-72L38-78L58 8Q96 60 46 83L-69 87Q-93 61-62 37Z" fill="#283942" stroke="#111d28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M-32-54L21-58" fill="none" stroke="#869994" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(559 252) scale(0.79)"><path d="M-43-72L38-78L58 8Q96 60 46 83L-69 87Q-93 61-62 37Z" fill="#283942" stroke="#111d28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M-32-54L21-58" fill="none" stroke="#869994" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="658" y="58" width="726" height="218" rx="18" fill="#fbfcf5" stroke="#587079" stroke-width="4"/>
+<text x="695" y="133" font-size="43" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" fill="#273940">……誰に会う</text>
+<text x="695" y="209" font-size="44" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" fill="#273940">つもりだったの。</text>
+<path d="M745 268L639 326L697 261" fill="none" stroke="#587079" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></g></svg>
