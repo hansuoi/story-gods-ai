@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1020" viewBox="0 0 1560 1020">
+<defs><pattern id="angle" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M0 0L14 14" stroke="#8a9f99" opacity=".2" stroke-width="2"/></pattern><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#486c7a"/></marker></defs>
+<rect x="0" y="0" width="1560" height="1020" fill="#f1f4ef" stroke="none" stroke-width="0"/>
+<text x="52" y="61" font-family="Noto Sans JP,sans-serif" font-size="36" font-weight="600" text-anchor="start" fill="#283f46">第4話「閉じる扉」｜旧排水管理室・画面上の位置関係</text>
+<text x="53" y="99" font-family="Noto Sans JP,sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#687978">本図は漫画内の架空施設の俯瞰作画資料。比例図・実在する消防設備の設計図ではない。</text>
+<rect x="30" y="136" width="1010" height="781" fill="#d9e1db" stroke="#96a7a2" stroke-width="3"/>
+<text x="87" y="187" font-family="Noto Sans JP,sans-serif" font-size="30" font-weight="600" text-anchor="start" fill="#3e6270">N ↑</text>
+<text x="88" y="222" font-family="Noto Sans JP,sans-serif" font-size="24" font-weight="600" text-anchor="start" fill="#283f46">2026年・旧排水管理室</text>
+<!-- exterior main route from south entrance A up to B and east to D -->
+<rect x="238" y="570" width="182" height="289" fill="#fcfcfa" stroke="#73898a" stroke-width="5"/>
+<rect x="240" y="349" width="489" height="196" fill="#fcfcfa" stroke="#73898a" stroke-width="5"/>
+<rect x="504" y="291" width="201" height="69" fill="#fcfcfa" stroke="#73898a" stroke-width="5"/>
+<rect x="734" y="328" width="241" height="242" fill="#c4d2cd" stroke="#4b656b" stroke-width="6"/>
+<rect x="532" y="195" width="174" height="146" fill="#b3c7c3" stroke="#425e67" stroke-width="6"/>
+<rect x="241" y="837" width="178" height="32" fill="#a8b5b1" stroke="#60767c" stroke-width="2"/>
+<text x="261" y="809" font-family="Noto Sans JP,sans-serif" font-size="27" font-weight="600" text-anchor="start" fill="#283f46">A 受付</text>
+<text x="251" y="893" font-family="Noto Sans JP,sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#283f46">道路から入る</text>
+<path d="M329 819L329 471L600 438" fill="none" stroke="#6e999a" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="15 12" marker-end="url(#arrow)"/>
+<text x="269" y="628" font-family="Noto Sans JP,sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#567981">6m</text>
+<text x="440" y="400" font-family="Noto Sans JP,sans-serif" font-size="24" font-weight="600" text-anchor="start" fill="#283f46">B 曲がり角</text>
+<text x="580" y="386" font-family="Noto Sans JP,sans-serif" font-size="24" font-weight="600" text-anchor="start" fill="#567981">4m</text>
+<text x="802" y="385" font-family="Noto Sans JP,sans-serif" font-size="28" font-weight="600" text-anchor="start" fill="#283f46">設備室</text>
+<text x="784" y="431" font-family="Noto Sans JP,sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#283f46">点検扉の奥</text>
+<text x="574" y="247" font-family="Noto Sans JP,sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#283f46">C 制御室</text>
+<text x="543" y="286" font-family="Noto Sans JP,sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#283f46">点検窓</text>
+<rect x="666" y="306" width="39" height="34" fill="#e6ede6" stroke="#6a8589" stroke-width="3"/>
+<path d="M635 309L714 429" fill="none" stroke="#b36b67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 7"/>
+<text x="734" y="290" font-family="Noto Sans JP,sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#8b5750">C→D 視界6m</text>
+<!-- hinge location D-->
+<circle cx="725" cy="441" r="19" fill="#edeee8" stroke="#476773" stroke-width="7"/>
+<path d="M726 444L841 447" fill="none" stroke="#5d8190" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M726 445Q789 448 801 523" fill="none" stroke="#5d8190" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 7"/>
+<text x="757" y="486" font-family="Noto Sans JP,sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#283f46">D 点検扉</text>
+<text x="753" y="521" font-family="Noto Sans JP,sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#283f46">設備室側へ開く</text>
+<!-- E is south side -->
+<rect x="802" y="572" width="91" height="42" fill="#e7ede8" stroke="#687c80" stroke-width="3"/>
+<path d="M849 590L849 672" fill="none" stroke="#4a7786" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="762" y="695" font-family="Noto Sans JP,sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#283f46">E 非常出口</text>
+<text x="762" y="722" font-family="Noto Sans JP,sans-serif" font-size="19" font-weight="600" text-anchor="start" fill="#283f46">屋外避難通路へ</text>
+<rect x="738" y="730" width="236" height="117" fill="#e7ebe5" stroke="#7a9092" stroke-width="4"/>
+<text x="755" y="780" font-family="Noto Sans JP,sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#283f46">屋外安全区域</text>
+<text x="755" y="818" font-family="Noto Sans JP,sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#283f46">15–16話 安希の位置</text>
+<!-- visibility occlusion -->
+<path d="M420 342L490 342" fill="none" stroke="#354b54" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+<text x="45" y="955" font-family="Noto Sans JP,sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#283f46">A→B 6m／B→D 約4m／C→D 約6m。久住の蝶番操作距離8m以内。数字は物語上の目安。</text>
+<!-- notes panel -->
+<rect x="1085" y="135" width="437" height="780" fill="#fcfcfa" stroke="#91a39f" stroke-width="3"/>
+<text x="1109" y="185" font-family="Noto Sans JP,sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#283f46">第4話で読者に伝える順</text>
+<text x="1111" y="243" font-family="Noto Sans JP,sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#283f46">① 本来は受付Aで面会</text>
+<text x="1111" y="293" font-family="Noto Sans JP,sans-serif" font-size="22" font-weight="600" text-anchor="start" fill="#283f46">② 事前通知で廊下側へ変更</text>
+<text x="1111" y="343" font-family="Noto Sans JP,sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#283f46">③ 凪はB付近で音を聞く</text>
+<text x="1111" y="393" font-family="Noto Sans JP,sans-serif" font-size="22" font-weight="600" text-anchor="start" fill="#283f46">④ Dのそばで榊が倒れていた</text>
+<path d="M1106 421L1493 421" fill="none" stroke="#a7b6b0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="1111" y="471" font-family="Noto Sans JP,sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#283f46">意図的に未確定のこと</text>
+<text x="1110" y="527" font-family="Noto Sans JP,sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#283f46">・凪がCの人物を見たか</text>
+<text x="1110" y="568" font-family="Noto Sans JP,sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#283f46">・榊が変更通知を見たか</text>
+<text x="1110" y="609" font-family="Noto Sans JP,sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#283f46">・Dの損傷と死因の関係</text>
+<text x="1110" y="650" font-family="Noto Sans JP,sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#283f46">・誰が導線を変更したか</text>
+<path d="M1106 689L1493 689" fill="none" stroke="#a7b6b0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="1111" y="738" font-family="Noto Sans JP,sans-serif" font-size="19" font-weight="600" text-anchor="start" fill="#283f46">実線：固定された施設構造</text>
+<text x="1111" y="777" font-family="Noto Sans JP,sans-serif" font-size="19" font-weight="600" text-anchor="start" fill="#283f46">破線：人物の移動・視線の候補</text>
+<text x="1111" y="819" font-family="Noto Sans JP,sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#283f46">現状では警察保全区画に入らない</text>
+<text x="1111" y="859" font-family="Noto Sans JP,sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#283f46">後付け仕切りの位置は未確定</text>
+</svg>
