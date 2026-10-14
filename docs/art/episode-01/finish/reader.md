@@ -102,7 +102,7 @@
 
 ### P25：久住の親切
 
-[![第1話P25・久住の親切](p25-ink-trial-v01.svg)](p25-ink-trial-v01.svg)
+[![第1話P25・久住の親切](p25-ink-trial-v02.svg)](p25-ink-trial-v02.svg)
 
 ### P26：普通の先輩
 
@@ -130,7 +130,7 @@
 
 ### P32：非通知の電話
 
-[![第1話P32・非通知の電話](p32-ink-trial-v01.svg)](p32-ink-trial-v01.svg)
+[![第1話P32・非通知の電話](p32-ink-trial-v02.svg)](p32-ink-trial-v02.svg)
 
 ---
 
