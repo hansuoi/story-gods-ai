@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400"><defs>
+<linearGradient id="gray" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dee5db"/><stop offset=".5" stop-color="#a7bbb2"/><stop offset="1" stop-color="#455d63"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dce5dc"/><stop offset=".42" stop-color="#a3baba"/><stop offset="1" stop-color="#526d78"/></linearGradient>
+<pattern id="grain" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r="1.3" fill="#536d70" opacity=".18"/></pattern>
+<pattern id="mesh" width="37" height="44" patternUnits="userSpaceOnUse"><path d="M-3 0L37 44M0 44L37 0" stroke="#708b8d" stroke-width="2" fill="none"/></pattern>
+</defs><rect x="0" y="0" width="1600" height="2400" rx="0" fill="#f2f4ee" stroke="none" stroke-width="0"/><g id="p20-01-pin"><svg x="65" y="65" width="1470" height="640" viewBox="0 0 1470 640"><rect x="1" y="1" width="1468" height="638" rx="0" fill="#e3eae2" stroke="#192b35" stroke-width="8"/><rect x="0" y="0" width="1470" height="640" rx="0" fill="#839b9b" stroke="none" stroke-width="0"/>
+<path d="M0 564L1470 377V640H0Z" fill="#6d8684" stroke="#42616b" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(793 303) scale(3.45)">
+<path d="M-61 55Q-81-10-32-65Q17-120 69-62Q105-16 74 42Q60 75 12 88Q-49 97-61 55Z" fill="none" stroke="#728e9f" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-50 41Q-26-26 29-14Q70-5 55 42Q46 67 15 67L-66 50M-60 52L-96 63" fill="none" stroke="#dde9eb" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M42-65Q91-101 124-61" fill="none" stroke="#9cbac2" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg></g><g id="p20-02-nagi-ability"><svg x="823" y="736" width="712" height="677" viewBox="0 0 712 677"><rect x="1" y="1" width="710" height="675" rx="0" fill="#e3eae2" stroke="#192b35" stroke-width="8"/><rect x="0" y="0" width="714" height="677" rx="0" fill="#c5d5ca" stroke="none" stroke-width="0"/>
+<rect x="49.980000000000004" y="74.47" width="485.52000000000004" height="331.73" rx="0" fill="#f0f2eb" stroke="#788c86" stroke-width="7"/>
+<path d="M0 500.98L714 440.05V677H0Z" fill="#839891" stroke="#526d72" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="64.25999999999999" y="419.74" width="571.2" height="33.85" rx="0" fill="#6c8580" stroke="#394f55" stroke-width="8"/><g transform="translate(399 448) scale(0.88)"><path d="M-79-22Q-149-5-148 188L-134 433L134 433L156 203Q164-1 75-24Z" fill="#a26362" stroke="#17272e" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-44-20L0 41L46-17M-8 45L-10 400" fill="none" stroke="#b4c6c0" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-59-155Q-77-220-7-232Q70-227 65-150L45-87Q13-54-23-89Z" fill="#d5b9a9" stroke="#415157" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><path d="M-59-175Q-70-273 9-286Q80-269 76-184L58-130L48-175L-33-157L-36-45L-65-52Z" fill="#202d35" stroke="#101c27" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-64-179Q-85-158-80-110L-72-92L-62-143" fill="none" stroke="#7f9699" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M-30-142L-12-144M16-143L33-140M-9-102L7-102" fill="none" stroke="#414b4d" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><g transform="translate(82 26) scale(0.25)">
+<path d="M-61 55Q-81-10-32-65Q17-120 69-62Q105-16 74 42Q60 75 12 88Q-49 97-61 55Z" fill="none" stroke="#728e9f" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-50 41Q-26-26 29-14Q70-5 55 42Q46 67 15 67L-66 50M-60 52L-96 63" fill="none" stroke="#dde9eb" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M42-65Q91-101 124-61" fill="none" stroke="#9cbac2" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+</g><path d="M98 45Q121 70 127 113" fill="none" stroke="#d4e5e4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></g>
+<rect x="28" y="26" width="651" height="206" rx="18" fill="#fffefa" stroke="#475e64" stroke-width="4"/><text x="50" y="80" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" font-size="30" fill="#223640">『留め針』。</text><text x="50" y="123" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" font-size="30" fill="#223640">壊れた部分を</text><text x="50" y="166" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" font-size="30" fill="#223640">一箇所だけ残せます。</text></svg></g><g id="p20-03-aki-question"><svg x="65" y="736" width="730" height="677" viewBox="0 0 730 677"><rect x="1" y="1" width="728" height="675" rx="0" fill="#e3eae2" stroke="#192b35" stroke-width="8"/><rect x="0" y="0" width="730" height="677" rx="0" fill="#c5d5ca" stroke="none" stroke-width="0"/>
+<rect x="51.1" y="74.47" width="496.40000000000003" height="331.73" rx="0" fill="#f0f2eb" stroke="#788c86" stroke-width="7"/>
+<path d="M0 500.98L730 440.05V677H0Z" fill="#839891" stroke="#526d72" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="65.7" y="419.74" width="584" height="33.85" rx="0" fill="#6c8580" stroke="#394f55" stroke-width="8"/><g transform="translate(403 456) scale(0.9)"><path d="M-79-22Q-149-5-148 188L-134 433L134 433L156 203Q164-1 75-24Z" fill="#343e48" stroke="#17272e" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-44-20L0 41L46-17M-8 45L-10 400" fill="none" stroke="#b4c6c0" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-59-155Q-77-220-7-232Q70-227 65-150L45-87Q13-54-23-89Z" fill="#d5b9a9" stroke="#415157" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><path d="M-71-153Q-88-274 4-286Q91-272 80-163L63-108L40-200Q10-162-59-142L-54-45L-75-55Z" fill="#19252f" stroke="#101a23" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-49-207L44-247" fill="none" stroke="#697980" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M-30-142L-12-144M16-143L33-140M-9-102L7-102" fill="none" stroke="#414b4d" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></g>
+<rect x="20" y="26" width="664" height="218" rx="18" fill="#fffefa" stroke="#475e64" stroke-width="4"/><text x="42" y="85" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" font-size="35" fill="#223640">夫の身体も、</text><text x="42" y="133" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" font-size="35" fill="#223640">こんなふうに……？</text></svg></g><g id="p20-04-silence"><svg x="65" y="1444" width="1470" height="889" viewBox="0 0 1470 889"><rect x="1" y="1" width="1468" height="887" rx="0" fill="#e3eae2" stroke="#192b35" stroke-width="8"/><rect x="0" y="0" width="1470" height="904" rx="0" fill="#647d7e" stroke="none" stroke-width="0"/>
+<path d="M0 644L1470 509V904H0Z" fill="#415d62" stroke="#263c49" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(865 671) scale(1.23)"><path d="M-79-22Q-149-5-148 188L-134 433L134 433L156 203Q164-1 75-24Z" fill="#a26362" stroke="#17272e" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-44-20L0 41L46-17M-8 45L-10 400" fill="none" stroke="#b4c6c0" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-59-155Q-77-220-7-232Q70-227 65-150L45-87Q13-54-23-89Z" fill="#d5b9a9" stroke="#415157" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><path d="M-59-175Q-70-273 9-286Q80-269 76-184L58-130L48-175L-33-157L-36-45L-65-52Z" fill="#202d35" stroke="#101c27" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+ <path d="M-64-179Q-85-158-80-110L-72-92L-62-143" fill="none" stroke="#7f9699" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M-30-142L-12-144M16-143L33-140M-9-102L7-102" fill="none" stroke="#414b4d" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><g transform="translate(82 26) scale(0.25)">
+<path d="M-61 55Q-81-10-32-65Q17-120 69-62Q105-16 74 42Q60 75 12 88Q-49 97-61 55Z" fill="none" stroke="#728e9f" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-50 41Q-26-26 29-14Q70-5 55 42Q46 67 15 67L-66 50M-60 52L-96 63" fill="none" stroke="#dde9eb" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M42-65Q91-101 124-61" fill="none" stroke="#9cbac2" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+</g><path d="M98 45Q121 70 127 113" fill="none" stroke="#d4e5e4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M-105 142L-19 213L96 256" fill="none" stroke="#d5b9a9" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/><g transform="translate(95 264) scale(0.35)">
+<path d="M-61 55Q-81-10-32-65Q17-120 69-62Q105-16 74 42Q60 75 12 88Q-49 97-61 55Z" fill="none" stroke="#728e9f" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-50 41Q-26-26 29-14Q70-5 55 42Q46 67 15 67L-66 50M-60 52L-96 63" fill="none" stroke="#dde9eb" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M42-65Q91-101 124-61" fill="none" stroke="#9cbac2" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+</g></g>
+<path d="M715 645L1178 642" fill="none" stroke="#a7c3c2" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(1108 691) scale(1.52)">
+<path d="M-61 55Q-81-10-32-65Q17-120 69-62Q105-16 74 42Q60 75 12 88Q-49 97-61 55Z" fill="none" stroke="#728e9f" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-50 41Q-26-26 29-14Q70-5 55 42Q46 67 15 67L-66 50M-60 52L-96 63" fill="none" stroke="#dde9eb" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M42-65Q91-101 124-61" fill="none" stroke="#9cbac2" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg></g></svg>
