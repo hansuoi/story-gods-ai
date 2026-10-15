@@ -1,0 +1,34 @@
+name: Episode 01 PDF and image proof
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'docs/art/episode-01/finish/readproof/**'
+      - 'tools/build_readproof.py'
+      - 'tools/export_episode01.py'
+      - '.github/workflows/episode01-proof.yml'
+permissions:
+  contents: read
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies and Japanese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
+          python -m pip install 'CairoSVG>=2.7,<3' 'Pillow>=10,<13' 'pypdf>=5,<8'
+      - name: Validate SVG pages
+        run: python tools/build_readproof.py
+      - name: Export 32-page vector PDF and thumbnails
+        run: python tools/export_episode01.py --width 500
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode01-reading-proof
+          path: build/episode01/
+          retention-days: 30
