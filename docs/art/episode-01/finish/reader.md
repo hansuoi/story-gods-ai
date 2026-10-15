@@ -1,24 +1,24 @@
-# 第1話「帰ってきた人」P01～P32｜仕上げ試作・連続ビュー
+# 第1話「帰ってきた人」P01～P32｜仕上げ試作・台詞整理版（連続ビュー）
 
-**清書試作／完成原稿ではない。** 2024年の地下歩道の救助から、2026年10月の葬儀・警察の説明へと連続で閲覧する。各SVGは独立した1600×2400px相当の編集可能な画面。
+**清書試作／完成原稿ではない。** 2026-10-15の台詞整理版を優先して表示。20ページの余分な画面内説明を削った比較改稿であり、採用判定は未実施。 2024年の地下歩道の救助から、2026年10月の葬儀・警察の説明へと連続で閲覧する。各SVGは独立した1600×2400px相当の編集可能な画面。
 
 [制作判定](README.md) ／ [脚本](../../../scripts/episode-01.md) ／ [文字ネーム](../../../name/episode-01.md) ／ [構図ラフ全32ページ](../gallery.md)
 
 ### P01：届かない手（2024年）
 
-[![第1話P01・救助の入口](p01-ink-trial-v02.svg)](p01-ink-trial-v02.svg)
+[![第1話P01・救助の入口](p01-ink-trial-v02-dialogue-pass.svg)](p01-ink-trial-v02-dialogue-pass.svg)
 
 ### P02：数滴（保持ピンを狙う）
 
-[![第1話P02・数滴](p02-ink-trial-v02.svg)](p02-ink-trial-v02.svg)
+[![第1話P02・数滴](p02-ink-trial-v02-dialogue-pass.svg)](p02-ink-trial-v02-dialogue-pass.svg)
 
 ### P03：ピン（救助員たちが扉を開く）
 
-[![第1話P03・救助](p03-ink-trial-v02.svg)](p03-ink-trial-v02.svg)
+[![第1話P03・救助](p03-ink-trial-v02-dialogue-pass.svg)](p03-ink-trial-v02-dialogue-pass.svg)
 
 ### P04：「帰るよ」（壊した箇所だけ修復）
 
-[![第1話P04・帰るよ](p04-ink-trial-v02.svg)](p04-ink-trial-v02.svg)
+[![第1話P04・帰るよ](p04-ink-trial-v02-dialogue-pass.svg)](p04-ink-trial-v02-dialogue-pass.svg)
 
 ### P05：帰ってきた人（2026年10月）
 
@@ -26,15 +26,15 @@
 
 ### P06：無傷の遺体
 
-[![第1話P06・無傷の榊と止まる手](p06-ink-trial-v01.svg)](p06-ink-trial-v01.svg)
+[![第1話P06・無傷の榊と止まる手](p06-ink-trial-v01-dialogue-pass.svg)](p06-ink-trial-v01-dialogue-pass.svg)
 
 ### P07：いつものキャンディーがない
 
-[![第1話P07・参列者の声と安希](p07-ink-trial-v01.svg)](p07-ink-trial-v01.svg)
+[![第1話P07・参列者の声と安希](p07-ink-trial-v01-dialogue-pass.svg)](p07-ink-trial-v01-dialogue-pass.svg)
 
 ### P08：扉で死んだのか
 
-[![第1話P08・警察の説明と安希の疑問](p08-ink-trial-v01.svg)](p08-ink-trial-v01.svg)
+[![第1話P08・警察の説明と安希の疑問](p08-ink-trial-v01-dialogue-pass.svg)](p08-ink-trial-v01-dialogue-pass.svg)
 
 ### P09：空いた靴の場所
 
@@ -58,7 +58,7 @@
 
 ### P14：警察へ資料を渡す
 
-[![第1話P14・資料番号を伝え、現場へは近づかないよう言われる](p14-ink-trial-v01.svg)](p14-ink-trial-v01.svg)
+[![第1話P14・資料番号を伝え、現場へは近づかないよう言われる](p14-ink-trial-v01-dialogue-pass.svg)](p14-ink-trial-v01-dialogue-pass.svg)
 
 ### P15：現場へ
 
@@ -66,7 +66,7 @@
 
 ### P16：旧汀橋管理室
 
-[![第1話P16・新しい金具と姿の見えない凪の声](p16-ink-trial-v01.svg)](p16-ink-trial-v01.svg)
+[![第1話P16・新しい金具と姿の見えない凪の声](p16-ink-trial-v01-dialogue-pass.svg)](p16-ink-trial-v01-dialogue-pass.svg)
 
 ### P17：初めて見る凪
 
@@ -86,11 +86,11 @@
 
 ### P21：写真だけでは
 
-[![第1話P21・写真だけでは](p21-ink-trial-v01.svg)](p21-ink-trial-v01.svg)
+[![第1話P21・写真だけでは](p21-ink-trial-v01-dialogue-pass.svg)](p21-ink-trial-v01-dialogue-pass.svg)
 
 ### P22：2018年の封筒
 
-[![第1話P22・2018年の封筒](p22-ink-trial-v01.svg)](p22-ink-trial-v01.svg)
+[![第1話P22・2018年の封筒](p22-ink-trial-v01-dialogue-pass.svg)](p22-ink-trial-v01-dialogue-pass.svg)
 
 ### P23：凪の母
 
@@ -98,39 +98,39 @@
 
 ### P24：受付は、まだいます
 
-[![第1話P24・受付は、まだいます](p24-ink-trial-v01.svg)](p24-ink-trial-v01.svg)
+[![第1話P24・受付は、まだいます](p24-ink-trial-v01-dialogue-pass.svg)](p24-ink-trial-v01-dialogue-pass.svg)
 
 ### P25：久住の親切
 
-[![第1話P25・久住の親切](p25-ink-trial-v02.svg)](p25-ink-trial-v02.svg)
+[![第1話P25・久住の親切](p25-ink-trial-v02-dialogue-pass.svg)](p25-ink-trial-v02-dialogue-pass.svg)
 
 ### P26：普通の先輩
 
-[![第1話P26・普通の先輩](p26-ink-trial-v01.svg)](p26-ink-trial-v01.svg)
+[![第1話P26・普通の先輩](p26-ink-trial-v01-dialogue-pass.svg)](p26-ink-trial-v01-dialogue-pass.svg)
 
 ### P27：帰りの電車
 
-[![第1話P27・帰りの電車](p27-ink-trial-v01.svg)](p27-ink-trial-v01.svg)
+[![第1話P27・帰りの電車](p27-ink-trial-v01-dialogue-pass.svg)](p27-ink-trial-v01-dialogue-pass.svg)
 
 ### P28：もう一つの台帳
 
-[![第1話P28・もう一つの台帳](p28-ink-trial-v01.svg)](p28-ink-trial-v01.svg)
+[![第1話P28・もう一つの台帳](p28-ink-trial-v01-dialogue-pass.svg)](p28-ink-trial-v01-dialogue-pass.svg)
 
 ### P29：本人へ返却
 
-[![第1話P29・本人へ返却](p29-ink-trial-v01.svg)](p29-ink-trial-v01.svg)
+[![第1話P29・本人へ返却](p29-ink-trial-v01-dialogue-pass.svg)](p29-ink-trial-v01-dialogue-pass.svg)
 
 ### P30：依頼者：神谷榊
 
-[![第1話P30・依頼者：神谷榊](p30-ink-trial-v01.svg)](p30-ink-trial-v01.svg)
+[![第1話P30・依頼者：神谷榊](p30-ink-trial-v01-dialogue-pass.svg)](p30-ink-trial-v01-dialogue-pass.svg)
 
 ### P31：調査対象：神谷榊
 
-[![第1話P31・調査対象：神谷榊](p31-ink-trial-v01.svg)](p31-ink-trial-v01.svg)
+[![第1話P31・調査対象：神谷榊](p31-ink-trial-v01-dialogue-pass.svg)](p31-ink-trial-v01-dialogue-pass.svg)
 
 ### P32：非通知の電話
 
-[![第1話P32・非通知の電話](p32-ink-trial-v02.svg)](p32-ink-trial-v02.svg)
+[![第1話P32・非通知の電話](p32-ink-trial-v02-dialogue-pass.svg)](p32-ink-trial-v02-dialogue-pass.svg)
 
 ---
 
