@@ -8,6 +8,8 @@
 
 **P05は手の改稿v0.2、P06は葬儀4コマ案v0.2を比較版に使用した。** 読書検証用の仮選択であり、完成採用ではない。
 
+[完成判定・作業状況](STATUS.md) ／ [PDF・PNGを書き出すGitHub Actions](https://github.com/hansuoi/story-gods-ai/actions/workflows/episode01-proof.yml)
+
 ## 改稿の重点
 
 | ページ | 検証したい体験 | 残る作画課題 |
