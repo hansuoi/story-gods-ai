@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400"><defs>
+<linearGradient id="overcast" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dce5e1"/><stop offset=".45" stop-color="#aabbb5"/><stop offset="1" stop-color="#627a7a"/></linearGradient>
+<linearGradient id="night" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#182630"/><stop offset="1" stop-color="#687e7d"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ceddd5"/><stop offset=".42" stop-color="#819a99"/><stop offset="1" stop-color="#3f5963"/></linearGradient>
+<pattern id="riverlines" width="38" height="25" patternUnits="userSpaceOnUse"><path d="M-4 11Q10 4 31 13L42 12" fill="none" stroke="#d6e2de" stroke-width="3" opacity=".52"/></pattern>
+<pattern id="mesh" width="51" height="38" patternUnits="userSpaceOnUse"><path d="M-2 0L51 38M0 38L51 0" fill="none" stroke="#708d8f" stroke-width="2.4" opacity=".8"/></pattern>
+</defs><rect x="0" y="0" width="1600" height="2400" rx="0" fill="#f2f3ef" stroke="none" stroke-width="0"/><g id="p16-01-facility-establishing"><svg x="65" y="65" width="1470" height="1177" viewBox="0 0 1470 1177"><rect x="1" y="1" width="1468" height="1175" rx="0" fill="#eef1e9" stroke="#182932" stroke-width="8"/><rect x="0" y="0" width="1470" height="1177" rx="0" fill="url(#overcast)" stroke="none" stroke-width="0"/>
+<path d="M0 776.82Q441 659.1200000000001 852.5999999999999 823.9L1470 741.51V1177H0Z" fill="#758e92" stroke="#4c6870" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="617.4" y="329.56000000000006" width="543.9" height="388.41" rx="0" fill="#7e9693" stroke="#435c61" stroke-width="12"/>
+<rect x="749.7" y="223.63" width="264.59999999999997" height="188.32" rx="0" fill="#b1c2b8" stroke="#5a7678" stroke-width="8"/>
+<rect x="705.6" y="400.18" width="161.7" height="235.4" rx="0" fill="#536e73" stroke="#344f58" stroke-width="8"/>
+<rect x="1029" y="388.41" width="101.43" height="235.4" rx="0" fill="#435e68" stroke="#293f4a" stroke-width="7"/>
+<path d="M676.2 317.79L1220.1 317.79L1131.9 211.85999999999999L690.9 211.85999999999999Z" fill="#41585b" stroke="#263b43" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 694.43L735 659.1200000000001" fill="none" stroke="#d4e3d8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="139.65" y="364.87" width="124.95" height="400.18" rx="0" fill="#b4c7c3" stroke="#50696e" stroke-width="7"/>
+<path d="M152.88 427.251L249.9 427.251" fill="none" stroke="#415f67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M152.88 470.79999999999995L249.9 470.79999999999995" fill="none" stroke="#415f67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M152.88 514.349L249.9 514.349" fill="none" stroke="#415f67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M152.88 557.898L249.9 557.898" fill="none" stroke="#415f67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M152.88 601.447L249.9 601.447" fill="none" stroke="#415f67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M152.88 644.9960000000001L249.9 644.9960000000001" fill="none" stroke="#415f67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="0" y="882.75" width="1470" height="294.25" rx="0" fill="#6a8c97" stroke="none" stroke-width="0"/>
+<rect x="0" y="906.2900000000001" width="1470" height="270.71000000000004" rx="0" fill="url(#riverlines)" stroke="none" stroke-width="0"/>
+<path d="M0 859.2099999999999L1470 823.9" fill="none" stroke="#dfeae6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="0" y="894.52" width="1470" height="14" rx="0" fill="#516b70" stroke="#314d55" stroke-width="4"/>
+<rect x="0" y="905.52" width="1470" height="260.71" rx="0" fill="url(#mesh)" stroke="none" stroke-width="0"/>
+<rect x="-7" y="860.52" width="18" height="316.47999999999996" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="238" y="860.52" width="18" height="316.47999999999996" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="483" y="860.52" width="18" height="316.47999999999996" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="728" y="860.52" width="18" height="316.47999999999996" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="973" y="860.52" width="18" height="316.47999999999996" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="1218" y="860.52" width="18" height="316.47999999999996" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="1463" y="860.52" width="18" height="316.47999999999996" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/>
+<path d="M0 1094.6100000000001L1470 1023.99" fill="none" stroke="#becfc5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(267 818) scale(0.42)">
+<path d="M-106-10Q-181 24-170 251L-160 481L156 481L162 228Q171 24 90-10Z" fill="#303a43" stroke="#14242d" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-59-13L-9 44L51-10M-9 44L-13 462" fill="none" stroke="#7b8d8f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-51-160Q-65-236 2-253Q67-239 61-154L39-84Q12-51-19-91Z" fill="#d6bca9" stroke="#38484c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-62-150Q-78-269 0-282Q81-277 82-167L58-103L43-188Q8-162-54-142L-47-41L-65-56Z" fill="#1b242e" stroke="#101921" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-32-140L-16-142M16-143L32-141M-8-97L8-99" fill="none" stroke="#3f4b4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-118 179L-181 305L-138 347M127 185L167 295" fill="none" stroke="#d4b8a6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="116" y="183" font-size="42" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" fill="#233a42">旧汀橋排水管理室</text>
+<text x="133" y="581" font-size="28" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" fill="#405e66">2018</text></svg></g><g id="p16-02-new-hinge"><svg x="822" y="1274" width="713" height="587" viewBox="0 0 713 587"><rect x="1" y="1" width="711" height="585" rx="0" fill="#eef1e9" stroke="#182932" stroke-width="8"/><rect x="0" y="0" width="713" height="587" rx="0" fill="#8ea7a3" stroke="none" stroke-width="0"/>
+<rect x="0" y="0" width="713" height="590" rx="0" fill="url(#overcast)" stroke="none" stroke-width="0"/>
+<g transform="translate(440 299) scale(0.9)">
+<rect x="-95" y="-244" width="198" height="481" rx="0" fill="#4d6770" stroke="#253f49" stroke-width="9"/>
+<rect x="-55" y="-200" width="108" height="398" rx="0" fill="url(#metal)" stroke="#314e59" stroke-width="10"/>
+<circle cx="4" cy="-143" r="20" fill="#d5e1d9" stroke="#54727b" stroke-width="7"/><circle cx="4" cy="-44" r="20" fill="#d5e1d9" stroke="#54727b" stroke-width="7"/><circle cx="4" cy="55" r="20" fill="#d5e1d9" stroke="#54727b" stroke-width="7"/><circle cx="4" cy="154" r="20" fill="#d5e1d9" stroke="#54727b" stroke-width="7"/>
+<path d="M-91-246L-12-214M-91 230L-12 194" fill="none" stroke="#e7f4e9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="0" y="393.29" width="713" height="14" rx="0" fill="#516b70" stroke="#314d55" stroke-width="4"/>
+<rect x="0" y="404.29" width="713" height="177.83999999999997" rx="0" fill="url(#mesh)" stroke="none" stroke-width="0"/>
+<rect x="-7" y="359.29" width="18" height="227.70999999999998" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="111.83333333333333" y="359.29" width="18" height="227.70999999999998" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="230.66666666666666" y="359.29" width="18" height="227.70999999999998" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="349.5" y="359.29" width="18" height="227.70999999999998" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="468.3333333333333" y="359.29" width="18" height="227.70999999999998" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="587.1666666666666" y="359.29" width="18" height="227.70999999999998" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/><rect x="706" y="359.29" width="18" height="227.70999999999998" rx="0" fill="#5f7b7d" stroke="#3a545b" stroke-width="4"/>
+<path d="M0 493.08000000000004L713 457.86" fill="none" stroke="#becfc5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+></svg></g><g id="p16-03-aki-stops"><svg x="65" y="1274" width="727" height="587" viewBox="0 0 727 587"><rect x="1" y="1" width="725" height="585" rx="0" fill="#eef1e9" stroke="#182932" stroke-width="8"/><rect x="0" y="0" width="725" height="587" rx="0" fill="#c6d5c9" stroke="none" stroke-width="0"/>
+<path d="M0 488L725 352V587H0Z" fill="#819d99" stroke="#59747a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(328 368) scale(0.74)">
+<path d="M-106-10Q-181 24-170 251L-160 481L156 481L162 228Q171 24 90-10Z" fill="#303a43" stroke="#14242d" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-59-13L-9 44L51-10M-9 44L-13 462" fill="none" stroke="#7b8d8f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-51-160Q-65-236 2-253Q67-239 61-154L39-84Q12-51-19-91Z" fill="#d6bca9" stroke="#38484c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-62-150Q-78-269 0-282Q81-277 82-167L58-103L43-188Q8-162-54-142L-47-41L-65-56Z" fill="#1b242e" stroke="#101921" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-32-140L-16-142M16-143L32-141M-8-97L8-99" fill="none" stroke="#3f4b4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-118 179L-181 305L-138 347M127 185L167 295" fill="none" stroke="#d4b8a6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M446 376Q509 342 544 325" fill="none" stroke="#e4cbb8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M520 301L561 298" fill="none" stroke="#9e7570" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+></svg></g><g id="p16-04-unseen-voice"><svg x="65" y="1893" width="1470" height="440" viewBox="0 0 1470 440"><rect x="1" y="1" width="1468" height="438" rx="0" fill="#eef1e9" stroke="#182932" stroke-width="8"/><rect x="0" y="0" width="1470" height="427" rx="0" fill="#4a656d" stroke="none" stroke-width="0"/>
+<path d="M0 376L1470 255V427H0Z" fill="#2c4752" stroke="#1b3341" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="216" y="66" width="1012" height="220" rx="18" fill="#fffefa" stroke="#4e6b71" stroke-width="4"/>
+<text x="277" y="149" font-size="58" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-weight="500" fill="#273940">そこ、工事中ですよ。</text>
+<path d="M1147 289L1247 361L1212 280" fill="none" stroke="#4e6b71" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></g></svg>
