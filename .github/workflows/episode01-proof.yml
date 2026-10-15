@@ -25,6 +25,8 @@ jobs:
           python -m pip install 'CairoSVG>=2.7,<3' 'Pillow>=10,<13' 'pypdf>=5,<8'
       - name: Validate SVG pages
         run: python tools/build_readproof.py
+      - name: Check essential story beats and page-turn withholding
+        run: python tools/check_episode01_story.py
       - name: Export 32-page vector PDF and thumbnails
         run: python tools/export_episode01.py --width 500
       - uses: actions/upload-artifact@v4
