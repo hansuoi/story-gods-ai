@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400"><defs>
 <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19272f"/><stop offset=".6" stop-color="#718780"/><stop offset="1" stop-color="#b9c9bd"/></linearGradient>
 <linearGradient id="parchment" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efeada"/><stop offset=".64" stop-color="#d4d1bd"/><stop offset="1" stop-color="#a6ad9f"/></linearGradient>
 <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ebd5c5"/><stop offset="1" stop-color="#bfa69c"/></linearGradient>
