@@ -5,14 +5,18 @@
 <path d="M134 253L637 253M134 383L637 383M134 515L637 515M134 646L637 646" fill="none" stroke="#c1cdc2" stroke-width="4" stroke-linejoin="round"/>
 
 
->
->
 <g transform="translate(1077 590)">
 <path d="M-197-37Q-292 27-270 268L-236 504H245L267 259Q278 43 189-30Z" fill="#1d303d" stroke="#0c1c2b" stroke-width="16" stroke-linejoin="round"/>
 <path d="M-129-246Q-151-376-29-403Q113-406 147-284L120-151Q67-66-43-144Z" fill="#dec0b0" stroke="#42505a" stroke-width="11" stroke-linejoin="round"/>
 <path d="M-151-295Q-169-429-32-457Q139-456 167-326L127-263L102-370L-130-284L-132-144L-165-178Z" fill="#152633" stroke="#0d1726" stroke-width="15" stroke-linejoin="round"/>
-<path d="M-75-278L-40-277M23-281L67-281M-9-194L14-201" fill="none" stroke="#495159" stroke-width="5" stroke-linejoin="round"/>
-<path d="M195 110L274 77M194 131L293 98" fill="none" stroke="#dec0b0" stroke-width="19" stroke-linejoin="round"/>
+<path d="M-78-294Q-56-307-31-295M19-296Q47-309 72-289" fill="none" stroke="#34444b" stroke-width="9" stroke-linecap="round"/>
+<path d="M-78-272Q-57-282-36-272Q-57-262-77-269M21-275Q46-287 71-272Q48-262 23-270" fill="#f4eee5" stroke="#38454a" stroke-width="5"/>
+<ellipse cx="-55" cy="-272" rx="7" ry="9" fill="#42555b"/><ellipse cx="46" cy="-274" rx="7" ry="9" fill="#42555b"/>
+<path d="M-12-262L-17-220L-4-215M-30-181Q-5-188 23-181M-23-171Q-2-167 18-173" fill="none" stroke="#805e5a" stroke-width="5" stroke-linecap="round"/>
+<path d="M-88-245L-66-239M39-240L68-245M-36-151Q-4-143 25-151" fill="none" stroke="#ae8f81" stroke-width="3"/>
+<path d="M189 88Q205 54 246 57L291 90L310 151L292 202L250 216L211 176L196 135Z" fill="#ddbcaa" stroke="#685d57" stroke-width="7"/>
+<path d="M205 98L267 104M207 123L280 137M221 150L283 169" fill="none" stroke="#9c8177" stroke-width="5" stroke-linecap="round"/>
+<path d="M245 75Q263 62 279 76L301 104Q312 126 295 139" fill="none" stroke="#e7c6b5" stroke-width="18" stroke-linecap="round"/>
 <rect x="245" y="27" width="106" height="210" fill="#293f48" stroke="#162730" stroke-width="9"/>
 </g>
 <rect x="525" y="763" width="853" height="167" fill="#fffdf8" stroke="#3c535c" stroke-width="4"/>
