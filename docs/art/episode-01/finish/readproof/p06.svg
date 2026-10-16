@@ -23,7 +23,7 @@
 <path d="M122 221Q100 142 156 101Q193 78 239 113Q264 145 256 197L223 272L144 262Z" fill="#c4c9c1" stroke="#34444b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M116 179Q106 95 174 73Q236 59 264 142L246 169L227 135L155 154Z" fill="#36464c" stroke="#25333c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M143 277L208 313L273 257M210 309L209 610" fill="none" stroke="#b0bdb5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="281" y="39" width="416" height="213" fill="#fffef9" stroke="#20353d" stroke-width="3"/><text x="303" y="82" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="31" fill="#1c2c34" font-weight="500">能力による損傷は</text><text x="303" y="125" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="31" fill="#1c2c34" font-weight="500">修復されている</text><text x="303" y="168" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="31" fill="#1c2c34" font-weight="500">ようです</text>
+<rect x="281" y="39" width="416" height="213" fill="#fffef9" stroke="#20353d" stroke-width="3"/><text x="303" y="91" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="38" fill="#1c2c34" font-weight="500">能力による損傷は</text><text x="303" y="139" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="38" fill="#1c2c34" font-weight="500">修復されている</text><text x="303" y="187" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="38" fill="#1c2c34" font-weight="500">ようです</text>
 </svg></g>
 <g id="panel-03-aki-reaching"><svg x="60" y="1140" width="715" height="610" viewBox="0 0 715 610"><rect x="0" y="0" width="715" height="610" fill="#dae3dc" stroke="#18262e" stroke-width="8"/><rect x="0" y="0" width="710" height="610" fill="#d6dfd7" stroke="none" stroke-width="0"/>
 <path d="M0 488L710 321V610H0Z" fill="#7e9490" stroke="#415a61" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
@@ -37,6 +37,6 @@
 <path d="M69 411L1096 214L1480 224" fill="none" stroke="#f0f5ee" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M900 226Q970 263 1065 230L1113 196L1161 218L1136 275Q1080 320 1002 318L936 303Z" fill="#d3b8a7" stroke="#3c484b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M938 284L917 349M1035 316L1014 366" fill="none" stroke="#e4ebe5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="66" y="37" width="484" height="135" fill="#fffef9" stroke="#20353d" stroke-width="3"/><text x="88" y="80" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="32" fill="#1c2c34" font-weight="500">警察が調べています</text>
+<rect x="66" y="37" width="484" height="135" fill="#fffef9" stroke="#20353d" stroke-width="3"/><text x="88" y="91" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="38" fill="#1c2c34" font-weight="500">警察が調べています</text>
 </svg></g>
 </svg>
