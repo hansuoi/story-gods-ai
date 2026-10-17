@@ -14,8 +14,11 @@
 <path d="M-160-247Q-75-322 42-309M-171-164Q-100-181-54-221M33-314Q113-298 159-247" fill="none" stroke="#627780" stroke-width="5" stroke-linecap="round"/>
 <!-- Eyes locked on the detective, with an asymmetric frown -->
 <path d="M-133-65Q-91-93-55-80M31-96Q76-115 116-84" stroke="#28363a" stroke-width="9" fill="none" stroke-linecap="round"/>
-<path d="M-133-33Q-93-16-55-39M30-46Q68-22 114-45" stroke="#535558" stroke-width="6" fill="none" stroke-linecap="round"/>
-<path d="M-95-31L-84-35M76-40L88-39" stroke="#17242a" stroke-width="8" stroke-linecap="round"/>
+<path d="M-137-35Q-97-70-49-46Q-78-9-137-35Z" fill="#eae9e0" stroke="#40484b" stroke-width="5" stroke-linejoin="round"/>
+<path d="M27-54Q75-89 120-58Q89-21 27-54Z" fill="#eae9e0" stroke="#40484b" stroke-width="5" stroke-linejoin="round"/>
+<path d="M-137-35Q-96-20-49-46M27-54Q76-35 120-58" fill="none" stroke="#666466" stroke-width="2.5"/>
+<ellipse cx="-86" cy="-41" rx="15" ry="20" fill="#34444b"/><ellipse cx="83" cy="-57" rx="15" ry="20" fill="#34444b"/>
+<circle cx="-91" cy="-48" r="5" fill="#faf9f1"/><circle cx="79" cy="-64" r="5" fill="#faf9f1"/>
 <path d="M-7-42Q-14 13 7 21L29 17M-42 62Q-13 51 27 56" stroke="#a47e75" stroke-width="5" fill="none" stroke-linecap="round"/>
 <path d="M-105 48Q-75 83-36 92M93 85Q121 63 140 36" stroke="#caa092" stroke-width="4" fill="none" opacity=".7"/>
 <!-- Hand gripping the lapel, not a detached floating glove -->
