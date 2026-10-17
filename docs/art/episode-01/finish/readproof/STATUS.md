@@ -47,3 +47,20 @@ GitHubのコミット・CI・実際のPNGを分けて評価する。既存の完
 - P29〜31: 同じ資料・同じ人物の連続した動作として自然に読めるか、32ページを通して再確認する必要がある。
 - 今回作成したSVGのレンダリング成功は完成採用を意味しない。描き直しと目視検査を継続する。
 
+
+## 2026-10-17 追加清書: P06〜08
+
+ページの作画修正とレンダリングを実施。完成品質への採用は引き続き **0/32ページ**。
+
+| ページ | 実際の原稿変更 | 検証結果 | 完成判定 |
+| --- | --- | --- | --- |
+| P06 | 榊の閉眼・顔の輪郭・髪を清書。葬儀担当者の顔を描き分け、安希が榊に触れる寸前で指を止める最後のコマを再構成 | [顔・担当者の修正](https://github.com/hansuoi/story-gods-ai/commit/0fcd9b8651f7d5256f2f61022d96e555f9ee6dfc)、[接触直前の構図修正](https://github.com/hansuoi/story-gods-ai/commit/a086317c5ea51b8fa9145c599850785e6223f652)、[最新CI成功・PNG目視済み](https://github.com/hansuoi/story-gods-ai/actions/runs/39036066963) | 未採用 |
+| P07 | 棺に横たわる榊の顔の大ゴマと、安希が『別の人みたい』と感じる顔・喪服・手のコマを描き直し | [修正コミット](https://github.com/hansuoi/story-gods-ai/commit/67dcaadcb5f8032d95bed2daccc47c5aca4eb2da)、[CI成功・PNG目視済み](https://github.com/hansuoi/story-gods-ai/actions/runs/39035796183) | 未採用 |
+| P08 | 安希が警察に反論する最終コマの顔・姿勢・手を描き直し。初回の閉眼に見える描線を開眼へ修正 | [姿勢・顔](https://github.com/hansuoi/story-gods-ai/commit/5fcbe09cd1405db1cfa2b359bee8ecf3c6d771b0)、[開眼](https://github.com/hansuoi/story-gods-ai/commit/ebae1f85fdd16dbb2b6ed834559b83251c9029cc)、[最新CI成功・PNG目視済み](https://github.com/hansuoi/story-gods-ai/actions/runs/39036401816) | 未採用 |
+
+### PNG目視後の残課題
+
+- P06: 榊の顔はP07と近づいたが、髪・頬・目・枕の遠近には単純化が残る。手と頬の距離は描いたが、自然な身体動作として再確認が必要。
+- P07: 榊の髪型と閉眼の連続性は改善。顔・首・棺の透視と安希の手の解剖学的表現には清書が残る。参列者の人物描写は簡略的。
+- P08: 最終コマで安希が目を開けて刑事に向き合う表情を確認。前半3コマの人物作画と面談室の空間表現は依然として簡略的。
+- 全32ページの最終通読・人物の統一・視線や動作の連続性の検証は未完了。レンダリング成功や部分的な修正を完成採用数に加えない。
