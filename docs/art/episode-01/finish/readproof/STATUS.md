@@ -38,7 +38,7 @@ GitHubのコミット・CI・実際のPNGを分けて評価する。既存の完
 | --- | --- | --- | --- |
 | P29 | 安希の手で封筒から資料を取り出す構図を修正 | [コミット 4ad35e7](https://github.com/hansuoi/story-gods-ai/commit/4ad35e753ba6cad7f3856322b96b87897e97c36c)・[CI](https://github.com/hansuoi/story-gods-ai/actions/runs/39025680266) | 未採用 |
 | P30 | 3コマ目に資料を持つ手と机上の紙束を描き直し、4コマ目で手が調査対象欄を覆う構図に変更 | [コミット b3ea9f1](https://github.com/hansuoi/story-gods-ai/commit/b3ea9f1c1e94666474e15993628b7478fb70361a)・[CI成功](https://github.com/hansuoi/story-gods-ai/actions/runs/39032104923)・生成PNG目視済み | 未採用 |
-| P31 | 2コマ目に綴じ穴と破れた紙の縁を追加。4コマ目に途中で途切れた記載と手を描き直し、1・3コマ目の手と表情も修正 | [コミット b9d3abb](https://github.com/hansuoi/story-gods-ai/commit/b9d3abb0c2761b258ef7a7e4c7eab80d32fb27f1)、[97917ea](https://github.com/hansuoi/story-gods-ai/commit/97917ea27d77755fa068ef2b9fc18c1ca218394c)、[2e31edd](https://github.com/hansuoi/story-gods-ai/commit/2e31eddf733f5e65d2b8861deca60c5e6e0e64b5)・[CI](https://github.com/hansuoi/story-gods-ai/actions/runs/39032264548)。前段階PNGは目視済み。最終コミットのPNG目視は要確認 | 未採用 |
+| P31 | 2コマ目に綴じ穴と破れた紙の縁を追加。4コマ目に途中で途切れた記載と手を描き直し、1・3コマ目の手と表情も修正 | [コミット b9d3abb](https://github.com/hansuoi/story-gods-ai/commit/b9d3abb0c2761b258ef7a7e4c7eab80d32fb27f1)、[97917ea](https://github.com/hansuoi/story-gods-ai/commit/97917ea27d77755fa068ef2b9fc18c1ca218394c)、[2e31edd](https://github.com/hansuoi/story-gods-ai/commit/2e31eddf733f5e65d2b8861deca60c5e6e0e64b5)・[CI](https://github.com/hansuoi/story-gods-ai/actions/runs/39032264548)。最終コミットの[CI成功](https://github.com/hansuoi/story-gods-ai/actions/runs/39032264548)とPNG目視を確認済み。手は資料右側に移動したが人物作画は未完 | 未採用 |
 
 ### 実際のPNGから判明した未解決の問題
 
