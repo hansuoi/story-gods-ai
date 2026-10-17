@@ -5,11 +5,21 @@
 <pattern id="mesh" width="37" height="44" patternUnits="userSpaceOnUse"><path d="M-3 0L37 44M0 44L37 0" stroke="#708b8d" stroke-width="2" fill="none"/></pattern>
 </defs><rect x="0" y="0" width="1600" height="2400" rx="0" fill="#f2f4ee" stroke="none" stroke-width="0"/><g id="p20-01-pin"><svg x="65" y="65" width="1470" height="640" viewBox="0 0 1470 640"><rect x="1" y="1" width="1468" height="638" rx="0" fill="#e3eae2" stroke="#192b35" stroke-width="8"/><rect x="0" y="0" width="1470" height="640" rx="0" fill="#839b9b" stroke="none" stroke-width="0"/>
 <path d="M0 564L1470 377V640H0Z" fill="#6d8684" stroke="#42616b" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- The pin is being removed from Nagi's red jacket, not floating in empty space. -->
+<path d="M0 0H733Q769 82 739 184L722 640H0Z" fill="#a26362" stroke="#542e38" stroke-width="7"/>
+<path d="M275 0L541 0L661 267L510 640L326 640L428 279Z" fill="#b77b70" stroke="#633f46" stroke-width="8"/>
+<path d="M540 0L680 0L740 172L672 296L596 166Z" fill="#e0b7a5" stroke="#633f46" stroke-width="7"/>
+<path d="M0 563L635 525" stroke="#683f45" stroke-width="6" fill="none"/>
+<path d="M365 50L461 213L373 339M607 51L525 231L630 332" stroke="#e4b4a5" stroke-width="7" fill="none"/>
 <g transform="translate(793 303) scale(3.45)">
 <path d="M-61 55Q-81-10-32-65Q17-120 69-62Q105-16 74 42Q60 75 12 88Q-49 97-61 55Z" fill="none" stroke="#728e9f" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M-50 41Q-26-26 29-14Q70-5 55 42Q46 67 15 67L-66 50M-60 52L-96 63" fill="none" stroke="#dde9eb" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M42-65Q91-101 124-61" fill="none" stroke="#9cbac2" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
-</g>
+</g><!-- The hand holds the released pin at its clasp. The fingers are distinct from the blue thread. -->
+<path d="M1470 486L1347 426Q1307 409 1266 367L1167 261Q1142 234 1117 249Q1094 268 1120 297L1172 365L1082 286Q1052 263 1033 283Q1014 308 1046 338L1130 423L1036 362Q1008 348 992 371Q979 395 1010 417L1106 490L1036 459Q1006 447 996 475Q992 499 1027 514L1161 583Q1213 610 1276 606L1470 640Z" fill="#dbb9a8" stroke="#445054" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1119 298L1177 369M1046 338L1130 423M1010 417L1106 490M1027 514L1122 551" fill="none" stroke="#b99385" stroke-width="5" stroke-linecap="round"/>
+<path d="M1338 423Q1384 425 1470 450V640H1364Q1321 562 1338 423Z" fill="#a26362" stroke="#542e38" stroke-width="9"/>
+
 </svg></g><g id="p20-02-nagi-ability"><svg x="823" y="736" width="712" height="677" viewBox="0 0 712 677"><rect x="1" y="1" width="710" height="675" rx="0" fill="#e3eae2" stroke="#192b35" stroke-width="8"/><rect x="0" y="0" width="714" height="677" rx="0" fill="#c5d5ca" stroke="none" stroke-width="0"/>
 <rect x="49.980000000000004" y="74.47" width="485.52000000000004" height="331.73" rx="0" fill="#f0f2eb" stroke="#788c86" stroke-width="7"/>
 <path d="M0 500.98L714 440.05V677H0Z" fill="#839891" stroke="#526d72" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
