@@ -29,3 +29,21 @@ P32：同じ書類名の再掲を削り、無言電話に答える安希の台�
 GitHubの [Episode 01 PDF and image proof](https://github.com/hansuoi/story-gods-ai/actions/workflows/episode01-proof.yml) で実行結果を確認する。成功した実行があれば `episode01-reading-proof` という成果物に `episode01-reading-proof.pdf`、`contact-sheet.png`、個別PNG32枚が含まれる。
 
 **2026-10-17にCI実行と実際のページ画像を確認済み。** なお、画像生成の成功・SVG構造の妥当性は人物の画力・読書体験の合格を意味しない。完成採用は依然0/32ページ。
+
+## 2026-10-17 夜の追加作業: P29〜P31
+
+GitHubのコミット・CI・実際のPNGを分けて評価する。既存の完成採用 0/32ページという判定は変更しない。
+
+| ページ | 原稿の変更 | 検証の根拠 | 完成採用 |
+| --- | --- | --- | --- |
+| P29 | 安希の手で封筒から資料を取り出す構図を修正 | [コミット 4ad35e7](https://github.com/hansuoi/story-gods-ai/commit/4ad35e753ba6cad7f3856322b96b87897e97c36c)・[CI](https://github.com/hansuoi/story-gods-ai/actions/runs/39025680266) | 未採用 |
+| P30 | 3コマ目に資料を持つ手と机上の紙束を描き直し、4コマ目で手が調査対象欄を覆う構図に変更 | [コミット b3ea9f1](https://github.com/hansuoi/story-gods-ai/commit/b3ea9f1c1e94666474e15993628b7478fb70361a)・[CI成功](https://github.com/hansuoi/story-gods-ai/actions/runs/39032104923)・生成PNG目視済み | 未採用 |
+| P31 | 2コマ目に綴じ穴と破れた紙の縁を追加。4コマ目に途中で途切れた記載と手を描き直し、1・3コマ目の手と表情も修正 | [コミット b9d3abb](https://github.com/hansuoi/story-gods-ai/commit/b9d3abb0c2761b258ef7a7e4c7eab80d32fb27f1)、[97917ea](https://github.com/hansuoi/story-gods-ai/commit/97917ea27d77755fa068ef2b9fc18c1ca218394c)、[2e31edd](https://github.com/hansuoi/story-gods-ai/commit/2e31eddf733f5e65d2b8861deca60c5e6e0e64b5)・[CI](https://github.com/hansuoi/story-gods-ai/actions/runs/39032264548)。前段階PNGは目視済み。最終コミットのPNG目視は要確認 | 未採用 |
+
+### 実際のPNGから判明した未解決の問題
+
+- P30: 書類を持つ手の位置は読み取れるようになったが、安希の頭部・目・体と室内背景が単純な図形であり、完成漫画の人物作画には達していない。
+- P31: 紙の破れと綴じ穴の表現を確認できたが、書類から1枚が抜かれた事実が一見して明確とは言い切れない。安希の表情・手指と読書体験も未達。
+- P29〜31: 同じ資料・同じ人物の連続した動作として自然に読めるか、32ページを通して再確認する必要がある。
+- 今回作成したSVGのレンダリング成功は完成採用を意味しない。描き直しと目視検査を継続する。
+
