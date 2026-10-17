@@ -42,12 +42,23 @@
 <path d="M657 253L689 222M666 283L703 268" stroke="#6e7e7d" stroke-width="4" opacity=".7"/>
 <path d="M462 279L464 325M515 264L503 339M556 287L530 347" fill="none" stroke="#948c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="46" y="95" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="43" fill="#1c2c34" font-weight="500">……死因は？</text></svg></g>
-<g id="panel-04-the-unanswered-question"><svg x="60" y="1780" width="1480" height="560" viewBox="0 0 1480 560"><rect x="0" y="0" width="1480" height="560" fill="#dae3dc" stroke="#18262e" stroke-width="8"/><rect x="0" y="0" width="1480" height="490" fill="#2a393f" stroke="none" stroke-width="0"/>
-<path d="M0 0H1480V160L0 380Z" fill="#586b6a" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M0 426L1013 178L1480 203V490H0Z" fill="#c0cdc5" stroke="#567078" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M69 411L1096 214L1480 224" fill="none" stroke="#f0f5ee" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M900 226Q970 263 1065 230L1113 196L1161 218L1136 275Q1080 320 1002 318L936 303Z" fill="#d3b8a7" stroke="#3c484b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M938 284L917 349M1035 316L1014 366" fill="none" stroke="#e4ebe5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="66" y="37" width="484" height="135" fill="#fffef9" stroke="#20353d" stroke-width="3"/><text x="88" y="91" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="38" fill="#1c2c34" font-weight="500">警察が調べています</text>
-</svg></g>
-</svg>
+<g id="panel-04-the-unanswered-question"><svg x="60" y="1780" width="1480" height="560" viewBox="0 0 1480 560">
+<defs><linearGradient id="coffin-p04" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b2c2b8"/><stop offset=".5" stop-color="#e9eee6"/><stop offset="1" stop-color="#a1b6ac"/></linearGradient></defs>
+<rect x="2" y="2" width="1476" height="556" fill="#293b44" stroke="#18262e" stroke-width="8"/>
+<path d="M0 371L890 101L1480 156V560H0Z" fill="#53696f" stroke="#293e45" stroke-width="13"/>
+<path d="M0 413L882 149L1480 196V560H0Z" fill="url(#coffin-p04)" stroke="#c7d6ca" stroke-width="10"/>
+<path d="M29 449L905 198L1478 242" fill="none" stroke="#f5f7f0" stroke-width="8"/>
+<!-- Sakaki's still face beyond Aki's hand, with visible distance between fingertips and cheek -->
+<path d="M997 313Q1025 213 1135 196Q1283 188 1337 279Q1355 348 1303 416Q1239 458 1134 430Q1019 411 997 313Z" fill="#dac2b3" stroke="#57686b" stroke-width="8"/>
+<path d="M988 299Q991 190 1124 166Q1211 136 1280 183Q1343 217 1345 272L1312 263Q1297 230 1248 226Q1167 260 1123 235L1043 310L1032 364L1007 352Z" fill="#1b2730" stroke="#122029" stroke-width="10"/>
+<path d="M1092 321Q1118 328 1146 314M1218 309Q1240 319 1266 308M1173 320Q1166 348 1179 354M1149 385Q1182 388 1210 378" fill="none" stroke="#8a827a" stroke-width="4"/>
+<path d="M1081 475Q1220 431 1386 481" fill="none" stroke="#eff3eb" stroke-width="25"/>
+<!-- The hand extends across the coffin; an actual gap remains near Sakaki's cheek -->
+<path d="M-25 557Q141 495 263 424L409 371L493 435L365 534L317 560Z" fill="#1b2731" stroke="#13212a" stroke-width="12"/>
+<path d="M387 379Q467 334 543 314L645 277L717 249Q746 247 755 270Q761 289 733 302L669 322L791 252Q823 241 831 267Q836 283 808 302L705 368L847 290Q873 275 886 298Q894 314 863 339L734 420L873 353Q895 344 908 362Q918 379 890 397L771 459Q684 507 585 488L461 458Z" fill="#dfbdac" stroke="#46565c" stroke-width="10" stroke-linejoin="round"/>
+<path d="M651 323L705 367M697 369L733 421M721 429L765 458" fill="none" stroke="#b19183" stroke-width="5"/>
+<path d="M924 351L971 336" stroke="#e4e9e3" stroke-width="4" stroke-dasharray="5 13" opacity=".8"/>
+<!-- Unanswered official response is present but the visual focus stays on the hand that cannot touch -->
+<rect x="48" y="36" width="518" height="125" fill="#fffef9" stroke="#20353d" stroke-width="4"/>
+<text x="77" y="111" font-family="Noto Sans CJK JP,Noto Sans JP,sans-serif" font-size="39" fill="#1c2c34">警察が調べています</text>
+</svg></g></svg>
