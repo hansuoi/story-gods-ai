@@ -55,7 +55,7 @@
 <path d="M1119 340Q1156 302 1188 325Q1214 347 1191 377L1172 396Q1142 404 1119 375Z" fill="#d6b6a3" stroke="#354a52" stroke-width="9"/>
 <path d="M1134 343L1188 354M1139 366L1177 380" stroke="#a18375" stroke-width="4"/>
 <!-- Rain-coated rescuer braces and reaches with a true shoulder/elbow/wrist chain -->
-<g transform="translate(411 256)">
+<g transform="translate(610 256)">
 <path d="M-132 7Q-220 56-249 255L-249 374H147L177 216Q171 47 101 12Z" fill="#405966" stroke="#1b303d" stroke-width="12"/>
 <path d="M-126 22L-71 94L7 43L89 99L104 25" stroke="#d5e5e0" stroke-width="14" fill="none"/>
 <path d="M-172 94Q-224 161-176 251L-101 251" fill="none" stroke="#718f92" stroke-width="15"/>
@@ -68,8 +68,8 @@
 <path d="M-58-81L-33-85M16-81L41-85" stroke="#34444b" stroke-width="5"/>
 <path d="M-29-46Q0-30 26-44" stroke="#8b736a" stroke-width="4" fill="none"/>
 </g>
-<path d="M778 197L880 186L945 210" fill="none" stroke="#d6c2ae" stroke-width="30" stroke-linecap="round"/>
-<path d="M870 189L957 213" stroke="#a8c9c6" stroke-width="12" stroke-linecap="round"/>
+<path d="M1017 395Q1064 384 1128 351" fill="none" stroke="#d5b4a2" stroke-width="27" stroke-linecap="round"/>
+<path d="M1013 408Q1078 399 1129 368" fill="none" stroke="#a0c2c2" stroke-width="8" stroke-linecap="round"/>
 <path d="M768 214L806 245L792 282" fill="none" stroke="#b1d7d7" stroke-width="7"/>
 <ellipse cx="224" cy="95" rx="176" ry="65" fill="#fcfcf6" stroke="#1a2b33" stroke-width="5"/>
 <text x="105" y="110" fill="#1a303a" font-family="Noto Sans CJK JP,Noto Sans JP,sans-serif" font-size="42" font-weight="700">レバーを！</text>
@@ -129,9 +129,9 @@
 <path d="M-44-78L-20-74M22-77L44-78" stroke="#344650" stroke-width="5"/>
 </g>
 <path d="M90 450L357 451M1274 440L1480 411" stroke="#d9e8e1" stroke-width="6" stroke-dasharray="16 12" fill="none"/>
-<ellipse cx="1349" cy="103" rx="118" ry="74" fill="#fefef9" stroke="#263842" stroke-width="5"/>
-<path d="M1240 138L1176 178L1257 157" fill="#fefef9" stroke="#263842" stroke-width="4"/>
-<text x="1276" y="119" font-family="Noto Sans CJK JP,Noto Sans JP,sans-serif" font-size="44" font-weight="700" fill="#20343d">こっちだ！</text>
+<ellipse cx="1331" cy="112" rx="136" ry="78" fill="#fefef9" stroke="#263842" stroke-width="5"/>
+<path d="M1219 146L1156 184L1236 166" fill="#fefef9" stroke="#263842" stroke-width="4"/>
+<text x="1208" y="126" font-family="Noto Sans CJK JP,Noto Sans JP,sans-serif" font-size="42" font-weight="700" fill="#20343d">こっちだ！</text>
 <rect x="4" y="4" width="1472" height="584" fill="none" stroke="#14252e" stroke-width="8"/>
 </svg></g>
 <!-- P03-4: wet landing below, child stands with both feet on the dry stair above waterline -->
