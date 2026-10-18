@@ -151,3 +151,12 @@ P01最終コマの榊のシャツ・両腕・ズボン・革靴を描き直し�
 - mainに[色付きP01原稿生成スクリプト](../../../../../tools/build_color_p01_candidate.py)および[専用GitHub Actions](../../../../../.github/workflows/episode01-color-p01.yml)を追加。
 - [CI #39110424294](https://github.com/hansuoi/story-gods-ai/actions/runs/39110424294)でPNG出力に成功し、生成された画像を開いて目視した。この**CI版は会話内v06とは別の候補**。CI版の榊は旧模式図を使用しており、完成採用不可。
 - 次回: P01コマ2の少年の手と救助員の手を高密度画像内で自然に描き、階段・水位の遠近を直す。次に榊の白シャツ・革靴を同じ画風の独立素材として制作し、**ソース画像のGitHub保存・CIでの同一PNG再生成**まで確認してから完成判定する。
+
+## 2026-10-18 P01カラーv07の実画像制作とGitHub保存
+
+**結果: 実際の画像候補を作成・GitHubへ保存したが未採用。完成採用0/32ページ。**
+
+- [P01カラーv07](../final-candidates/p01/p01-color-composite-v07.webp)は1400×2070px、SHA-256 `b7c0ba897d5d2a962a5f7768900113b7775e727ab2d05ad3142a7460a368f7b7`。中段を1つの連続背景に再構成し、少年の顔を扉板で隠し、救助員の手袋との距離を見せた。下段はv06の高密度カラー画像を保持。
+- [コマ2素材](../final-candidates/p01/assets/p01-panel2-hands-v07.webp)、[v06の元ページ](../final-candidates/p01/p01-color-composite-v06.webp)、[濡れた袖の素材](../final-candidates/p01/assets/middle-source-v01.webp)と[合成スクリプト](../../../../tools/compose_p01_color_v07.py)を同時に保存。ローカルで同じ素材から再生成したv07のWebPハッシュは一致した。
+- [詳細レビュー](../final-candidates/p01/REVIEW.md#v07連続した扉隙間の1コマへ差し替え2026-10-18)で不採用と判定。手袋・袖の造形と扉の継ぎ目は不自然で、階段・水位跡・榊の革靴も未達。v06と比較して中段の空間は改善したが、正式採用できる品質ではない。
+- 次回: コマ2を人物・扉・両手を含む**独立した新規原画**として描き直す。コマ1の階段と水位、コマ3の革靴も独立素材へ分割。GitHub Actionsでのハッシュ一致検証は別途必要。
