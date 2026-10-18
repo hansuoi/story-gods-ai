@@ -67,7 +67,7 @@
 - [P01コマ2の独立素材](assets/p01-panel2-hands-v07.webp): 1296 × 474 px、WebP、SHA-256 `6b254f93ae395d366dbfc41fb629fba14a89f5ae239d0e2690823cb3ff799e86`。
 - [v06のカラー合成元](p01-color-composite-v06.webp): SHA-256 `abe284098226580f0b2bc57137da8380acba223b535d2a994406855ea9ee33d6`。これは[前回のv06レビュー](REVIEW_V06.md)で扱ったPNGとは**ファイル形式とハッシュが異なる**。
 - [救助員の濡れた衣服の参照素材](assets/middle-source-v01.webp): SHA-256 `e10a94de15865361f11d46782580da0c9b9a175889cb4b2a263dcfdcd6e7af06`。少年の元画像は既存の `assets/p01-panel2-boy-source-v01.webp` を使用。
-- [再合成スクリプト](../../../../../tools/compose_p01_color_v07.py): コマ2の背景・扉板・手・衣服・水滴を合成し、台詞を独立組版する。**保存した3入力画像からローカル再実行し、v07のWebPのSHA-256が完全一致することを確認**。GitHub CI上での同一ハッシュ検証は未実施。
+- [再合成スクリプト](../../../../../../tools/compose_p01_color_v07.py): コマ2の背景・扉板・手・衣服・水滴を合成し、台詞を独立組版する。**保存した3入力画像からローカル再実行し、v07のWebPのSHA-256が完全一致することを確認**。GitHub CI上での同一ハッシュ検証は未実施。
 
 ### v06から変更した実画像の比較
 
