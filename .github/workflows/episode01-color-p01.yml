@@ -1,0 +1,31 @@
+name: Episode 01 P01 color art candidate
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/build_color_p01_candidate.py'
+      - 'docs/art/episode-01/finish/final-candidates/p01/assets/**'
+      - '.github/workflows/episode01-color-p01.yml'
+permissions:
+  contents: read
+jobs:
+  p01:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install art rendering dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
+          python -m pip install 'Pillow>=10,<13'
+      - name: Render P01 color artwork candidate (not a finished page)
+        run: python tools/build_color_p01_candidate.py --output build/episode01-color/p01-candidate.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode01-p01-color-art-candidate
+          path: build/episode01-color/p01-candidate.png
+          retention-days: 30
