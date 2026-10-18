@@ -56,7 +56,7 @@
 <path d="M1134 343L1188 354M1139 366L1177 380" stroke="#a18375" stroke-width="4"/>
 <!-- Rain-coated rescuer braces and reaches with a true shoulder/elbow/wrist chain -->
 <g transform="translate(610 256)">
-<path d="M-132 7Q-220 56-249 255L-249 374H147L177 216Q171 47 101 12Z" fill="#405966" stroke="#1b303d" stroke-width="12"/>
+<path d="M-132 7Q-220 56-249 255L-249 374H147L177 216Q171 47 101 12Z" fill="#405966" stroke="#1b303d" stroke-width="12"/><path d="M-43-55L-46 34Q-1 57 43 30L40-56Z" fill="#d6b9a7" stroke="#3b4e56" stroke-width="7"/><path d="M-61-4L-12 44L36-5" fill="none" stroke="#eff5ed" stroke-width="9"/>
 <path d="M-126 22L-71 94L7 43L89 99L104 25" stroke="#d5e5e0" stroke-width="14" fill="none"/>
 <path d="M-172 94Q-224 161-176 251L-101 251" fill="none" stroke="#718f92" stroke-width="15"/>
 <path d="M114 37Q185 67 235 112L319 137L329 196L228 192Q125 176 73 110Z" fill="#4c6875" stroke="#1d3240" stroke-width="11"/>
@@ -65,8 +65,8 @@
 <path d="M-88-80Q-122-148-56-194Q17-233 78-170Q100-131 75-70L43-31L-64-35Z" fill="#d7bca7" stroke="#30414c" stroke-width="8"/>
 <path d="M-107-105Q-104-206-9-224Q85-222 111-115L79-106Q29-128-17-111L-76-91Z" fill="#cfdbd5" stroke="#2c434f" stroke-width="9"/>
 <path d="M-112-106L112-107" stroke="#f0f6ee" stroke-width="13" stroke-linecap="round"/>
-<path d="M-58-81L-33-85M16-81L41-85" stroke="#34444b" stroke-width="5"/>
-<path d="M-29-46Q0-30 26-44" stroke="#8b736a" stroke-width="4" fill="none"/>
+<path d="M-62-103Q-39-113-17-101M13-104Q38-111 57-99" stroke="#273943" stroke-width="7" fill="none"/><path d="M-58-78Q-37-71-20-80M18-80Q39-71 55-81" stroke="#454d4f" stroke-width="4" fill="none"/><circle cx="-35" cy="-79" r="4" fill="#21343d"/><circle cx="37" cy="-80" r="4" fill="#21343d"/>
+<path d="M-28-44Q-3-53 25-45" stroke="#8b736a" stroke-width="4" fill="none"/>
 </g>
 <path d="M1017 395Q1064 384 1128 351" fill="none" stroke="#d5b4a2" stroke-width="27" stroke-linecap="round"/>
 <path d="M1013 408Q1078 399 1129 368" fill="none" stroke="#a0c2c2" stroke-width="8" stroke-linecap="round"/>
@@ -92,7 +92,7 @@
 <path d="M-20 511Q203 478 401 512M444 545Q667 517 868 555M897 501Q1128 469 1453 520" stroke="#bed8d6" stroke-width="7" fill="none"/>
 <!-- Left rescuer kneels, supports boy beneath one arm -->
 <g transform="translate(515 344)">
-<path d="M-116-18Q-196 4-205 168L-185 266L30 263L149 286L172 234L33 177L123 117Q127 16 74-18Z" fill="#3c5360" stroke="#192f3b" stroke-width="11"/>
+<path d="M-116-18Q-196 4-205 168L-185 266L30 263L149 286L172 234L33 177L123 117Q127 16 74-18Z" fill="#3c5360" stroke="#192f3b" stroke-width="11"/><path d="M-38-72L-38 33Q7 53 42 16L32-68Z" fill="#d6b9a7" stroke="#344e58" stroke-width="7"/><path d="M-74-12L-28 43L25-14" fill="none" stroke="#c8d8d1" stroke-width="10"/>
 <path d="M-157 166L-184 265L-89 277L-52 204L-20 265L56 257L26 181" fill="#263b47" stroke="#142a35" stroke-width="9"/>
 <path d="M44 38Q112 37 158 9L198-23L233 22L180 61Q112 113 42 110Z" fill="#486674" stroke="#1c3641" stroke-width="10"/>
 <path d="M208-8Q225-25 241-13L249 24L228 47L196 23Z" fill="#dbbaa7" stroke="#3d515a" stroke-width="7"/>
@@ -103,7 +103,7 @@
 </g>
 <!-- Child leans toward the dry side, wet hair and arms distinct from the rescuers -->
 <g transform="translate(795 301)">
-<path d="M-65 90Q-94 135-78 218L-63 275L46 278L79 159Q76 96 56 83Z" fill="#9aaeb4" stroke="#273e48" stroke-width="10"/>
+<path d="M-65 90Q-94 135-78 218L-63 275L46 278L79 159Q76 96 56 83Z" fill="#9aaeb4" stroke="#273e48" stroke-width="10"/><path d="M-29 0L-24 95Q3 110 34 86L31-6Z" fill="#dfbda8" stroke="#566970" stroke-width="6"/><path d="M-31 72L2 113L33 72" stroke="#d4e1dc" stroke-width="8" fill="none"/>
 <path d="M-57 218L-47 323L-14 327L-7 238L22 325L58 321L61 222" fill="#546c76" stroke="#273944" stroke-width="9"/>
 <path d="M-55 320L-67 336L-6 342L-12 319M24 319L22 346L80 343L60 319" fill="#243e49" stroke="#162b37" stroke-width="7"/>
 <path d="M-58 104Q-90 114-121 48L-160 9L-186 33L-133 143Q-103 193-57 189" fill="#8da5ab" stroke="#334a55" stroke-width="9"/>
@@ -119,7 +119,7 @@
 </g>
 <!-- Right rescuer braces in the opening and supports the child, rather than posing -->
 <g transform="translate(1116 350)">
-<path d="M-91-11Q-144 13-160 149L-159 238L107 252L141 118Q136 26 79-9Z" fill="#344e5b" stroke="#162d38" stroke-width="10"/>
+<path d="M-91-11Q-144 13-160 149L-159 238L107 252L141 118Q136 26 79-9Z" fill="#344e5b" stroke="#162d38" stroke-width="10"/><path d="M-34-55L-34 27Q8 50 47 20L40-62Z" fill="#d7b9a7" stroke="#334c56" stroke-width="7"/><path d="M-60-12L-19 47L35-8" fill="none" stroke="#cbdcd3" stroke-width="9"/>
 <path d="M-129 203L-139 312L-83 317L-53 245L-30 316L47 309L65 244" fill="#233b47" stroke="#172e3a" stroke-width="8"/>
 <path d="M-108 50Q-176 73-224 50L-270 13L-299 48L-237 132Q-182 167-101 153Z" fill="#4e6975" stroke="#253e4c" stroke-width="10"/>
 <path d="M-279 19Q-310 5-325 28Q-332 53-292 62L-272 54Z" fill="#d6b9a8" stroke="#465c61" stroke-width="7"/>
