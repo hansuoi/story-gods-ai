@@ -20,8 +20,7 @@ RECTS = [
     (48, 54, 1352, 838),      # upper half: Sakaki in his coffin
     (730, 864, 1352, 1295),   # right middle: Aki's hand stops
     (48, 864, 700, 1746),     # left vertical: funeral attendant
-    (730, 1323, 1352, 1746),  # right lower: Aki, no answer
-    (48, 1774, 1352, 2044),   # lower strip: coffin edge and unanswered question
+    (730, 1323, 1352, 2044),  # lower right: coffin edge and unanswered question
 ]
 SEED = 20261018
 
@@ -122,29 +121,16 @@ def attendant(canvas):
     d.line([(250,1539),(356,1730)],fill=(138,145,146),width=4)
     d.rectangle(box,outline=INK,width=BORDER)
 
-def aki_panel(canvas):
-    box=RECTS[3];glow(canvas,box,(39,45,53))
-    d=ImageDraw.Draw(canvas)
-    # Aki, 31, chin-length black hair tucked behind one ear, no glasses.
-    poly(d,[(839,1734),(865,1535),(960,1483),(1070,1504),(1148,1640),
-            (1205,1746)],(17,23,31),(9,12,17),5)
-    poly(d,[(941,1390),(1045,1394),(1103,1474),(1102,1583),(1045,1635),
-            (959,1597),(913,1503)],(173,152,140),(66,66,73),5)
-    poly(d,[(914,1488),(927,1377),(1004,1340),(1084,1381),(1113,1480),
-            (1079,1454),(1062,1398),(1022,1451),(979,1412),(946,1502)],
-         (17,23,31),(9,12,19),6)
-    d.line([(979,1524),(1024,1530)],fill=(86,78,77),width=4)
-    d.line([(1043,1542),(1077,1548)],fill=(86,78,77),width=4)
-    d.line([(1012,1582),(1045,1590)],fill=(106,86,86),width=3)
-    d.rectangle(box,outline=INK,width=BORDER)
-
 def strip(canvas):
-    box=RECTS[4];glow(canvas,box,(41,49,58))
+    box=RECTS[3];glow(canvas,box,(41,49,58))
     d=ImageDraw.Draw(canvas)
-    d.polygon([(70,2010),(1070,1815),(1327,1902),(440,2035)],fill=(204,211,212))
-    d.line([(65,1994),(1067,1796),(1334,1884)],fill=(246,249,247),width=9)
-    # Aki's still-withheld fingertips at the lower right.
-    d.line([(1200,2042),(1190,1973),(1154,1938)],fill=(179,151,139),width=24)
+    d.polygon([(754,1930),(1140,1420),(1328,1510),(968,2027)],fill=(204,211,212))
+    d.line([(754,1907),(1136,1400),(1334,1485)],fill=(246,249,247),width=9)
+    d.line([(815,2000),(1220,1520)],fill=(143,155,161),width=7)
+    # Aki's fingertips stop above the coffin rim; the body stays outside this panel.
+    poly(d,[(1170,2040),(1130,1980),(1104,1922),(1123,1902),
+            (1152,1917),(1188,1969),(1212,2040)],(181,155,142),(79,75,79),5)
+    d.line([(1105,1924),(1092,1895),(1104,1870)],fill=(198,172,157),width=13)
     d.rectangle(box,outline=INK,width=BORDER)
 
 def balloon(draw, xy, text, size=38):
@@ -159,8 +145,8 @@ def balloon(draw, xy, text, size=38):
 def title_layer():
     im=Image.new("RGBA",(W,H),(0,0,0,0));d=ImageDraw.Draw(im)
     balloon(d,(70,1010,420,1230),"能力による損傷は\n修復されている\nそうです",36)
-    balloon(d,(785,1450,1270,1588),"……それで、死因は？",36)
-    balloon(d,(70,1810,700,1968),"警察が調べています",43)
+    balloon(d,(70,1460,635,1600),"……それで、死因は？",36)
+    balloon(d,(765,1510,1320,1660),"警察が調べています",36)
     d.text((1270,2028),"06",font=font(26),fill=(224,226,225,255))
     return im
 
@@ -169,7 +155,7 @@ def main():
     p.add_argument("--out-dir",type=Path,default=Path("build/episode01-color/p06"))
     a=p.parse_args();a.out_dir.mkdir(parents=True,exist_ok=True)
     art=Image.new("RGB",(W,H),PAPER)
-    upper(art);hand_panel(art);attendant(art);aki_panel(art);strip(art)
+    upper(art);hand_panel(art);attendant(art);strip(art)
     overlay=title_layer()
     composite=Image.alpha_composite(art.convert("RGBA"),overlay).convert("RGB")
     for name,im in [("p06-art-v01.png",art),("p06-text-v01.png",overlay),
