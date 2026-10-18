@@ -8,7 +8,7 @@
 - **原画:** `p05-funeral-art-v01.png`、1400 × 2100px、SHA-256 `aa86e05c4f250e93e8ec4fd6fbbaf6449f23bd556fc4fc97c5d2970e022077d7`
 - **文字レイヤー:** `p05-title-overlay-v01.png`、1400 × 2100px、SHA-256 `215832d9cce1854a88f60435dbe912f26a6ef4e79ad4c05bb7420536bf6b8971`
 - **合成画像:** `p05-color-candidate-v01.png`、1400 × 2100px、SHA-256 `3ec3d4b766671515f54a75b26ef5e720a93f68dbb221e0f074ebf01a5673c4dd`
-- **再生成用ソース:** [tools/build_color_p05_candidate.py](../../../../../tools/build_color_p05_candidate.py)（コミット `3b6613d56f58c3307a200c0943750a4f45b082f8`）。Python・Pillow・NumPyと日本語フォントを使い、既存のP01画像を使用せず背景、棺、人物、手、文字を描く。
+- **再生成用ソース:** [tools/build_color_p05_candidate.py](../../../../../../tools/build_color_p05_candidate.py)（コミット `3b6613d56f58c3307a200c0943750a4f45b082f8`）。Python・Pillow・NumPyと日本語フォントを使い、既存のP01画像を使用せず背景、棺、人物、手、文字を描く。
 - **保存状況:** 上記PNGは会話の作業環境で作成・実画像確認した。**GitHubにPNG本体は未保存**。コミット済みのソースはローカル画像と同一のソースではなく、同じ構図を再生成するために整理した別実装である。両者の画像ハッシュ一致は未検証。
 
 ## 画像を見た結果
