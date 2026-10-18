@@ -54,5 +54,41 @@ def main() -> None:
     for name, path in paths.items():
         print(name, path, path.stat().st_size, sha(path))
 
+    # Preserve the v06 output and independently render the newly drawn v08
+    # source in the same artifact directory. Both remain unaccepted candidates.
+    v08_source = Path(
+        "docs/art/episode-01/finish/final-candidates/p05/"
+        "p05-color-candidate-v08.svg"
+    )
+    if v08_source.is_file():
+        v08_art_svg, v08_title_svg = split_layers(
+            v08_source.read_text(encoding="utf-8")
+        )
+        v08_files = {
+            "art": args.out_dir / "p05-art-v08.png",
+            "overlay": args.out_dir / "p05-title-overlay-v08.png",
+            "composite": args.out_dir / "p05-color-candidate-v08.png",
+        }
+        cairosvg.svg2png(
+            bytestring=v08_art_svg.encode("utf-8"),
+            write_to=str(v08_files["art"]),
+        )
+        cairosvg.svg2png(
+            bytestring=v08_title_svg.encode("utf-8"),
+            write_to=str(v08_files["overlay"]),
+        )
+        a08 = Image.open(v08_files["art"]).convert("RGBA")
+        t08 = Image.open(v08_files["overlay"]).convert("RGBA")
+        if a08.size != (1400, 2100) or t08.size != a08.size:
+            raise RuntimeError("Unexpected P05 v08 raster dimensions")
+        if t08.getbbox() is None:
+            raise RuntimeError("P05 v08 title overlay is empty")
+        Image.alpha_composite(a08, t08).convert("RGB").save(
+            v08_files["composite"], optimize=True
+        )
+        for name, path in v08_files.items():
+            print("v08-" + name, path, path.stat().st_size, sha(path))
+
+
 if __name__ == "__main__":
     main()
