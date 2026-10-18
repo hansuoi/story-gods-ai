@@ -20,7 +20,7 @@
 | [現場・時系列設計](docs/story/scene-geometry.md) | 蝶番の視界・救助と修復の順序 |
 | [連載構成](docs/story/series-plan.md) | 全18話の構成・各話の引き |
 | [証拠・伏線管理](docs/story/evidence-and-reveals.md) | 真相・手掛かり・登場人物の知識 |
-| [第1話「帰ってきた人」](docs/scripts/episode-01.md) | 漫画脚本初稿 |
+| [完成原稿の制作プロセス](docs/art/episode-01/finish/PRODUCTION_PROCESS.md) | カラー生成・コマ別作画・文字組版・品質判定と制作方法の継続改善 |\n| [P01カラー制作仕様](docs/art/episode-01/finish/final-candidates/p01/SPEC.md) | 冒頭3コマを完成画像にするための演出・人物・場面・不採用条件 |\n| [第1話「帰ってきた人」](docs/scripts/episode-01.md) | 漫画脚本初稿 |
 | [第1話文字ネーム](docs/name/episode-01.md) | 32ページのコマ割り・台詞・ページ演出 |
 | [第1話作画ラフ 32ページ](docs/art/episode-01/README.md) | 全32ページの編集可能なSVG構図ラフ（完成原稿ではない） |
 | [第1話連続ビュー](docs/art/episode-01/gallery.md) | 第1話の32ページを順番に閲覧 |
