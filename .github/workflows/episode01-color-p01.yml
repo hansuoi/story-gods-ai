@@ -1,9 +1,10 @@
-name: Episode 01 P01 color art candidate
+name: Episode 01 P01 and P05 color art candidates
 on:
   workflow_dispatch:
   push:
     paths:
       - 'tools/build_color_p01_candidate.py'
+      - 'tools/build_color_p05_candidate_v03.py'
       - 'docs/art/episode-01/finish/final-candidates/p01/assets/**'
       - '.github/workflows/episode01-color-p01.yml'
 permissions:
@@ -21,9 +22,16 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends fonts-noto-cjk
-          python -m pip install 'Pillow>=10,<13'
+          python -m pip install 'Pillow>=10,<13' 'numpy>=1.26,<3'
       - name: Render P01 color artwork candidate (not a finished page)
         run: python tools/build_color_p01_candidate.py --output build/episode01-color/p01-candidate.png
+      - name: Render P05 funeral title-page candidate (not a finished page)
+        run: python tools/build_color_p05_candidate_v03.py --out-dir build/episode01-color/p05
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode01-p05-color-art-candidate
+          path: build/episode01-color/p05/
+          retention-days: 30
       - uses: actions/upload-artifact@v4
         with:
           name: episode01-p01-color-art-candidate
