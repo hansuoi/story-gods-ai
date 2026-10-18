@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="2100" viewBox="0 0 1400 2100">
+<defs>
+ <linearGradient id="wall" x2=".9" y2="1"><stop stop-color="#222d37"/><stop offset=".54" stop-color="#56626b"/><stop offset="1" stop-color="#171e28"/></linearGradient>
+ <radialGradient id="light" cx=".78" cy=".28" r=".82"><stop stop-color="#f5f4eb" stop-opacity=".54"/><stop offset=".62" stop-color="#a6b0b3" stop-opacity=".08"/><stop offset="1" stop-color="#080c15" stop-opacity=".62"/></radialGradient>
+ <linearGradient id="floor" x1=".2" y1="0" x2=".7" y2="1"><stop stop-color="#6d7678"/><stop offset="1" stop-color="#1a242b"/></linearGradient>
+ <linearGradient id="coffin" x1=".05" y1=".1" x2=".85" y2=".9"><stop stop-color="#f6f7f2"/><stop offset=".38" stop-color="#dce4e2"/><stop offset=".73" stop-color="#a7b4b8"/><stop offset="1" stop-color="#eef1ed"/></linearGradient>
+ <linearGradient id="coffinSide" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#b3bfc0"/><stop offset="1" stop-color="#525f66"/></linearGradient>
+ <linearGradient id="dress" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#1b2630"/><stop offset=".45" stop-color="#0b111a"/><stop offset="1" stop-color="#252d35"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d5bcb0"/><stop offset=".48" stop-color="#9b8179"/><stop offset="1" stop-color="#6d5a59"/></linearGradient>
+
+ <linearGradient id="ivoryWood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#faf8f0"/><stop offset=".38" stop-color="#f0ede3"/><stop offset=".8" stop-color="#d6d7d1"/><stop offset="1" stop-color="#fcf9f1"/></linearGradient>
+ <radialGradient id="fleshSoft" cx=".24" cy=".2" r="1.05"><stop stop-color="#ead1c2"/><stop offset=".47" stop-color="#c5a69a"/><stop offset=".83" stop-color="#937972"/><stop offset="1" stop-color="#5c5052"/></radialGradient>
+ <linearGradient id="silk" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#353941"/><stop offset=".33" stop-color="#0a0d15"/><stop offset=".78" stop-color="#20252d"/><stop offset="1" stop-color="#080c13"/></linearGradient>
+ <clipPath id="lidClip"><path d="M531 1269L849 1438L1291 781L1092 685Z"/></clipPath>
+ <filter id="blur"><feGaussianBlur stdDeviation="38"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+ <pattern id="grain" width="37" height="41" patternUnits="userSpaceOnUse"><circle cx="2" cy="5" r=".8" fill="#fff" opacity=".11"/><circle cx="22" cy="32" r=".7" fill="#080d12" opacity=".24"/></pattern>
+</defs>
+<!-- P05 v08: newly reconstructed hands, coffin material, fabric and lighting. Not a finished page. -->
+<!-- quiet funeral hall -->
+<rect width="1400" height="2100" fill="url(#wall)"/>
+<path d="M0 765L1400 665V2100H0Z" fill="url(#floor)"/>
+<path d="M0 765L1400 665" stroke="#d5dedc" stroke-opacity=".24" stroke-width="5"/>
+<path d="M0 0H110V2100H0Z" fill="#111923" opacity=".48"/>
+<path d="M1090 0H1400V680H1090Z" fill="#dce2dd" opacity=".09" stroke="#eff1e9" stroke-opacity=".12" stroke-width="9"/>
+<path d="M1245 0V674M1090 350H1400" stroke="#d7dfdb" stroke-opacity=".18" stroke-width="8"/>
+<path d="M310 0V753M690 0V713" stroke="#dce0dc" stroke-opacity=".08" stroke-width="4"/>
+<path d="M1400 710L110 2100M1400 710L880 2100M1400 710L1400 2100" stroke="#d6ddda" stroke-opacity=".075" stroke-width="3"/>
+<rect width="1400" height="2100" fill="url(#light)"/>
+<path d="M1050 60L1370 40L1210 2050L730 2050Z" fill="#f2eee4" opacity=".055"/>
+<!-- coffin shadow -->
+<path d="M540 1330L885 1600L1380 835L1140 645Z" fill="#050a12" opacity=".68" filter="url(#blur)"/>
+<!-- bier legs -->
+<path d="M770 1550L748 1810M1208 992L1226 1230" stroke="#283039" stroke-width="34" stroke-linecap="round"/>
+<path d="M770 1550L748 1810M1208 992L1226 1230" stroke="#a1abad" stroke-opacity=".45" stroke-width="6"/>
+<!-- white coffin, visibly closed -->
+<path d="M553 1327L862 1500L1291 814L1104 710Z" fill="url(#coffinSide)" stroke="#29333d" stroke-width="8"/>
+<path d="M553 1327L862 1500L862 1570L552 1390Z" fill="#859399" stroke="#39464e" stroke-width="7"/>
+<path d="M862 1500L1291 814L1289 879L862 1570Z" fill="#aab8b9" stroke="#46535b" stroke-width="7"/>
+<path d="M531 1269L849 1438L1291 781L1092 685Z" fill="url(#ivoryWood)" stroke="#6f797d" stroke-width="8"/>
+<path d="M565 1267L844 1404L1240 791L1096 723Z" fill="none" stroke="#fafff9" stroke-opacity=".92" stroke-width="9"/>
+<path d="M581 1296L852 1434L1280 792" fill="none" stroke="#75858b" stroke-opacity=".52" stroke-width="4"/>
+<path d="M620 1323L844 1430L1218 841" fill="none" stroke="#faffff" stroke-opacity=".24" stroke-width="20"/>
+
+<!-- Subtle lacquered wood grain, on the same plane as the closed coffin lid -->
+<g clip-path="url(#lidClip)" fill="none" stroke-linecap="round">
+  <path d="M573 1278Q744 1334 853 1392Q1038 1094 1265 782" stroke="#a4a9a2" stroke-opacity=".22" stroke-width="4"/>
+  <path d="M609 1294Q753 1340 844 1380Q1044 1067 1229 799" stroke="#ffffff" stroke-opacity=".42" stroke-width="3"/>
+  <path d="M646 1308Q772 1361 836 1365Q1000 1128 1200 830" stroke="#a9aea9" stroke-opacity=".16" stroke-width="5"/>
+  <path d="M680 1332Q757 1345 827 1355Q1018 1042 1169 813" stroke="#fff" stroke-opacity=".19" stroke-width="2"/>
+  <path d="M702 1345Q756 1368 824 1378" stroke="#778789" stroke-opacity=".13" stroke-width="2"/>
+</g>
+<!-- restrained overhead ceiling wash and shadow across the floor -->
+<path d="M980 120L1400 0L1320 1560L850 1680Z" fill="#fff5e3" opacity=".025"/>
+<path d="M200 2010Q730 1760 1370 1010" stroke="#c9cfd0" stroke-opacity=".11" stroke-width="12" fill="none"/>
+<!-- minimal funeral flower in background -->
+<path d="M1258 763L1325 619M1271 777L1340 670" stroke="#566d62" stroke-width="6"/>
+<g fill="#e5e7e0" stroke="#a5ada6" stroke-width="2"><ellipse cx="1330" cy="615" rx="15" ry="34" transform="rotate(24 1330 615)"/><ellipse cx="1351" cy="637" rx="17" ry="30" transform="rotate(80 1351 637)"/><ellipse cx="1306" cy="646" rx="14" ry="28" transform="rotate(-45 1306 646)"/></g>
+<!-- Aki: her shoulder and hands, face outside frame -->
+<path d="M-40 1220Q116 1050 264 1095Q405 1145 478 1280L605 1530L716 2100H-30Z" fill="url(#dress)" stroke="#060b11" stroke-width="13"/>
+<path d="M0 1280Q114 1144 222 1163L289 1234Q197 1300 160 1470L95 2100H-20Z" fill="#26303a" opacity=".74"/>
+<path d="M278 1130Q377 1200 409 1315L463 1564" fill="none" stroke="#59636c" stroke-opacity=".52" stroke-width="12"/>
+<path d="M285 1135Q309 1260 260 1380" fill="none" stroke="#060b11" stroke-opacity=".85" stroke-width="12"/>
+<path d="M73 1470Q115 1580 180 1645M115 1770L186 1890M388 1500L470 1630" fill="none" stroke="#a7afb2" stroke-opacity=".22" stroke-width="9"/>
+<!-- Layered mourning sleeve and two tightly clasped hands; hand anatomy is independently inspectable -->
+<path d="M193 1585Q298 1558 403 1614Q494 1665 567 1754L520 1898Q408 1856 300 1796L220 1725Z" fill="url(#silk)" stroke="#070b12" stroke-width="12"/>
+<path d="M256 1632Q362 1636 456 1718M288 1748Q404 1804 477 1822" stroke="#889197" stroke-opacity=".27" stroke-width="8" fill="none"/>
+<path d="M477 1709Q516 1702 546 1735L579 1781L521 1852L457 1801Z" fill="#0c1017" stroke="#62656b" stroke-width="6"/>
+<path d="M483 1719L525 1745" stroke="#adb1af" stroke-opacity=".52" stroke-width="4"/>
+<!-- far hand, thumb pressed against the knuckles -->
+<path d="M505 1710Q552 1680 596 1716Q624 1736 631 1770L616 1834Q610 1882 577 1901Q542 1910 518 1885L486 1838Q466 1794 479 1752Z" fill="url(#fleshSoft)" stroke="#4a4142" stroke-width="7"/>
+<path d="M548 1742Q574 1731 596 1754Q617 1778 604 1808" fill="none" stroke="#f3dfd0" stroke-opacity=".57" stroke-width="8"/>
+<path d="M595 1804Q591 1850 566 1877" fill="none" stroke="#564c4c" stroke-opacity=".5" stroke-width="5"/>
+<!-- near hand: palm and curled individual fingers -->
+<path d="M393 1773Q413 1732 455 1730Q491 1728 526 1754L567 1805Q588 1841 565 1874L519 1929Q487 1956 453 1935L402 1890Q365 1847 393 1773Z" fill="url(#fleshSoft)" stroke="#463b3d" stroke-width="8"/>
+<path d="M418 1760Q443 1745 471 1750" stroke="#ffe6d4" stroke-opacity=".58" stroke-width="8" fill="none"/>
+<!-- Four curled fingers, individually outlined and tapering -->
+<path d="M435 1782Q474 1765 526 1775Q551 1781 550 1798Q548 1815 522 1819L468 1822" fill="#d2b0a1" stroke="#544648" stroke-width="6"/>
+<path d="M427 1823Q471 1807 530 1821Q553 1827 550 1845Q547 1864 522 1862L468 1856" fill="#c8a598" stroke="#544648" stroke-width="6"/>
+<path d="M424 1858Q468 1854 510 1870Q534 1879 528 1898Q519 1916 496 1907L455 1886" fill="#c09d91" stroke="#554749" stroke-width="6"/>
+<path d="M420 1881Q453 1892 476 1913Q492 1931 480 1945Q464 1959 448 1942L408 1907" fill="#b89488" stroke="#544649" stroke-width="6"/>
+<!-- Thumbs cross at the center; highlights and nail planes -->
+<path d="M469 1749Q495 1735 521 1747Q539 1760 541 1780Q539 1795 525 1800Q507 1802 494 1785L470 1770Z" fill="#dfc0af" stroke="#665153" stroke-width="5"/>
+<path d="M509 1763Q524 1758 532 1772" stroke="#f8e4d5" stroke-width="4" opacity=".75" fill="none"/>
+<path d="M475 1802L501 1804M476 1840L508 1844M465 1880L490 1890" stroke="#f7dfd1" stroke-width="3" stroke-opacity=".5"/>
+<path d="M411 1802Q400 1840 418 1864" stroke="#ffead7" stroke-opacity=".35" stroke-width="5" fill="none"/>
+<path d="M462 1940Q493 1944 519 1914" stroke="#2a2830" stroke-opacity=".5" stroke-width="5" fill="none"/>
+<!-- Fine cloth folds and the stillness of the hall -->
+<path d="M90 1492Q186 1390 272 1465M315 1198Q385 1257 425 1382" stroke="#bec4c7" stroke-opacity=".13" stroke-width="10" fill="none"/>
+<path d="M101 1770Q183 1901 237 2100M327 1450Q378 1544 405 1645" stroke="#080b11" stroke-opacity=".75" stroke-width="20" fill="none"/>
+<!-- fine folds and frame vignette -->
+<path d="M-5 1510Q99 1410 172 1448M250 1300Q293 1340 305 1450M283 1890L358 2075" fill="none" stroke="#b8c1c1" stroke-opacity=".12" stroke-width="6"/>
+<rect width="1400" height="2100" fill="url(#grain)"/>
+<rect x="0" y="0" width="1400" height="2100" fill="none" stroke="#101923" stroke-width="20"/>
+<!-- separate typography layer to be split in raster build -->
+<g fill="#f1f0e9" font-family="'Noto Serif CJK JP','Noto Serif JP',serif" text-anchor="start">
+<text x="142" y="170" font-size="52" font-family="'Noto Sans CJK JP',sans-serif" letter-spacing="3">2026年10月</text>
+<path d="M142 214H657" stroke="#d6dce0" stroke-opacity=".5" stroke-width="2"/>
+<text x="133" y="365" font-size="126" font-weight="600" letter-spacing="9">神谷家</text>
+<text x="146" y="458" font-size="55" letter-spacing="3">- 原状回復 -</text>
+<text x="146" y="565" font-size="44" font-family="'Noto Sans CJK JP',sans-serif">第1話  帰ってきた人</text>
+</g>
+</svg>
