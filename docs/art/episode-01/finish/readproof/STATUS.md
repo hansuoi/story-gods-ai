@@ -105,7 +105,7 @@ P01最終コマの榊のシャツ・両腕・ズボン・革靴を描き直し�
 
 | ページ | 原稿変更と現在の状態 | コミット・CI・目視根拠 | 完成採用 |
 | --- | --- | --- | --- |
-| P02 | 保持ピン・カム・ラッチ・解除レバーの仕組みを描き直した既存修正をP03と対照。機構の対応づけがなお直感的ではない | [fa09eb5](https://github.com/hansuoi/story-gods-ai/commit/fa09eb5efa3bf6c5ff63063a89dd309f0deaf3ac)、[CI #39047181314](https://github.com/hansuoi/story-gods-ai/actions/runs/39047181314)、最新P03と同じPDFのPNGを目視 | 未採用 |
+| P02 | P03で水滴が切断する保持ピンと同一のカム・ラッチ・解除レバーの構図に合わせて2コマ目を再構成。P02では曲がったピンがつながったまま、P03では切断後を描き分けた | [初期修正 fa09eb5](https://github.com/hansuoi/story-gods-ai/commit/fa09eb5efa3bf6c5ff63063a89dd309f0deaf3ac)、[再清書 01c005b](https://github.com/hansuoi/story-gods-ai/commit/01c005b048a3a38ed85fc45b0ff233a5c7f96f73)、[CI #39103224059 成功](https://github.com/hansuoi/story-gods-ai/actions/runs/39103224059)。最新PNGとPDF拡大画像を目視 | 未採用 |
 | P03 | 全4コマを置き換え、水滴が曲がった保持ピンに命中して切断→救助員が手動でレバーを回す→2人が少年を支えて開口部を通す→少年の足が乾いた段に乗る動作を描き分けた。さらに手とレバーの接続、ふきだし、首と胴体の接続、救助員の目を再調整 | [全コマ描き直し c1eeda3](https://github.com/hansuoi/story-gods-ai/commit/c1eeda375776f48d318f9dc128047fd867126f9e)、[手とセリフ c01d3e6](https://github.com/hansuoi/story-gods-ai/commit/c01d3e6490c438629132941859480adf4e3bd204)、[人体 785efe9](https://github.com/hansuoi/story-gods-ai/commit/785efe9bfd780ef62edcbf506979c57cef78aa80)、[CI #39102905268成功](https://github.com/hansuoi/story-gods-ai/actions/runs/39102905268)。個別PNGとベクターPDFの拡大画像を目視 | 未採用 |
 
 ### P03の実画像で確認した内容
@@ -114,3 +114,9 @@ P01最終コマの榊のシャツ・両腕・ズボン・革靴を描き直し�
 - 最終コマは水のある着地点と乾いた階段を区別し、少年の両足を段上に置いている。
 - ただし保持ピン・カムの技術的構造はまだ模式的で、P02と完全に同じ部品に見えるとは言い切れない。救助員と少年の顔・首・腕・手、扉の開いた角度と湿った地面の遠近には清書が残る。
 - SVGの検査・CI成功を漫画の完成品質の合格根拠にしない。P01〜P04の連続通読と人物作画の再構成を継続する。
+
+### P02機構の追加照合（2026-10-18）
+
+- [再清書 01c005b](https://github.com/hansuoi/story-gods-ai/commit/01c005b048a3a38ed85fc45b0ff233a5c7f96f73) により、P02の2コマ目のカム形状・ピンの曲がり方・ラッチ・解除レバーをP03の1コマ目と近づけた。
+- [CI #39103224059](https://github.com/hansuoi/story-gods-ai/actions/runs/39103224059) で32ページPNG/PDFの再生成成功。P02の縮小PNGとベクターPDFを拡大して目視し、吹き出し「ここだけ。」、部品名「曲がった保持ピン」「ラッチ」「解除レバー」が読めることを確認した。
+- P02のピンが切れる前／P03の同じピンが切れた後、という順序は以前より明瞭。ただし模式図に近く、3次元部品の連結構造と画力の完成判定は未合格。完成採用は引き続き0/32ページ。
