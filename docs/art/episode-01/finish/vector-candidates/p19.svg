@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="concrete" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ca4a0"/><stop offset=".6" stop-color="#596369"/><stop offset="1" stop-color="#29343f"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#bec7c5"/><stop offset=".4" stop-color="#657980"/><stop offset="1" stop-color="#2a343b"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#182d37"/><stop offset="1" stop-color="#0a171f"/></linearGradient>
+<linearGradient id="face" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#e8c8b5"/><stop offset="1" stop-color="#a68477"/></linearGradient>
+<pattern id="grain" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="4" cy="6" r=".7" fill="#f4f4ee" opacity=".12"/><circle cx="12" cy="13" r=".6" fill="#0e141b" opacity=".13"/></pattern>
+</defs>
+<rect width="1024" height="1536" fill="#f0ede6"/><rect x="29" y="28" width="966" height="1480" fill="#fdfbf6"/>
+<!-- P19 vertical primary frame showing an actual photo on smartphone -->
+<rect x="47" y="47" width="930" height="919" fill="url(#concrete)"/>
+<path d="M47 850L977 790V966H47Z" fill="#46535b"/>
+<path d="M91 55L930 55" stroke="#d3d5ca" stroke-width="6" opacity=".23"/>
+<!-- Aki and Nagi hands anchor phone frame -->
+<path d="M101 966Q124 766 248 713Q299 705 333 768L352 966Z" fill="#27333e"/>
+<path d="M660 966Q671 805 782 764L894 805L958 966Z" fill="#354958"/>
+<!-- phone angled not mirrored, screen 485x750 -->
+<g transform="translate(268 77) rotate(3 250 404)">
+<rect x="-13" y="1" width="514" height="828" rx="48" fill="#0e161e" stroke="#080f14" stroke-width="11"/>
+<rect x="13" y="32" width="463" height="747" rx="19" fill="url(#screen)" stroke="#364e57" stroke-width="5"/>
+<rect x="20" y="68" width="449" height="634" fill="#364b55"/>
+<!-- photograph concrete door hinge: characteristic crescent-shaped fracture on left -->
+<path d="M42 91L447 80V684L42 694Z" fill="#64727a" stroke="#33434d" stroke-width="7"/>
+<path d="M61 130L247 119L258 660L67 673Z" fill="#8f9998" stroke="#59666d" stroke-width="9"/>
+<path d="M269 109L432 99L439 646L280 654Z" fill="#4e5c64" stroke="#202d38" stroke-width="10"/>
+<path d="M236 163L317 159L330 586L240 599Z" fill="url(#metal)" stroke="#1d303c" stroke-width="11"/>
+<path d="M244 240L341 232L352 314L251 329Z" fill="#a3b7b9" stroke="#465b65" stroke-width="8"/>
+<circle cx="268" cy="274" r="12" fill="#354750"/><circle cx="324" cy="269" r="11" fill="#364950"/>
+<path d="M252 404L347 389L352 481L260 501Z" fill="#a2afb2" stroke="#566670" stroke-width="8"/>
+<circle cx="275" cy="445" r="12" fill="#46545c"/><circle cx="330" cy="437" r="12" fill="#46545c"/>
+<!-- recognizable jagged hinge defect crescent and deep split -->
+<path d="M259 322Q221 351 233 385Q240 402 269 412L283 386Q265 384 262 364Q263 339 286 330Z" fill="#192630" stroke="#bbc9cb" stroke-width="6"/>
+<path d="M253 332L273 358L245 381L277 397L261 423L284 441" fill="none" stroke="#182630" stroke-width="15" stroke-linejoin="round"/>
+<path d="M252 332L271 357L244 381L276 398L260 424L284 441" fill="none" stroke="#9bbcc7" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- thin uncanny blueish contour around damaged part, no energy burst -->
+<path d="M236 305Q202 345 219 390Q232 423 269 448" stroke="#d8ebee" stroke-width="4" fill="none" opacity=".88"/>
+<path d="M228 305Q190 348 211 401" stroke="#75a6b9" stroke-width="3" fill="none"/>
+<!-- old rust and scratches unlike replacement -->
+<path d="M90 190L108 217M382 485L410 516M104 542L122 560" stroke="#815f54" stroke-width="6" opacity=".55"/>
+<path d="M95 215L117 245M371 250L392 261" stroke="#b1baba" stroke-width="3" opacity=".55"/>
+<!-- phone camera gallery interface and timestamp -->
+<rect x="14" y="41" width="459" height="49" fill="#12252e" opacity=".85"/>
+<text x="51" y="76" font-family="monospace" font-size="29" fill="#e6ecec">17:42</text>
+<path d="M419 59L438 66L421 73" stroke="#d4dede" stroke-width="3" fill="none"/>
+<rect x="14" y="704" width="461" height="74" fill="#101c25"/>
+<text x="242" y="747" text-anchor="middle" font-size="24" font-family="sans-serif" fill="#dce6e8">IMG_1742</text>
+<circle cx="245" cy="803" r="10" fill="#5b686e"/>
+</g>
+<!-- holding fingers in front of phone -->
+<path d="M278 947Q225 859 251 785L290 721Q309 694 328 712Q341 727 328 753L299 800Q314 830 349 857L359 939" fill="url(#face)" stroke="#9a7467" stroke-width="6"/>
+<path d="M758 953Q819 875 782 798L754 737Q736 710 720 728Q707 749 729 778L741 821L705 869L687 946" fill="url(#face)" stroke="#95776d" stroke-width="6"/>
+<rect x="47" y="47" width="930" height="919" fill="url(#grain)"/>
+<!-- P19 panel 2 Aki recalls the new fittings -->
+<rect x="47" y="986" width="930" height="266" fill="#617279"/>
+<path d="M54 1248Q80 1068 243 1053Q403 1056 437 1252" fill="#1f2b39"/>
+<ellipse cx="250" cy="1058" rx="72" ry="92" fill="url(#face)"/>
+<path d="M177 1067Q171 967 251 967Q333 977 331 1061Q282 991 178 1069" fill="#202733"/>
+<path d="M261 1080L301 1083" stroke="#51464b" stroke-width="6" stroke-linecap="round"/>
+<path d="M285 1131Q305 1139 324 1129" stroke="#81595a" stroke-width="5" fill="none"/>
+<path d="M478 1027Q493 1005 540 1007H919Q951 1014 951 1055V1149Q946 1197 893 1200H569L518 1246L532 1197Q475 1180 474 1138Z" fill="#fffdf8" stroke="#202934" stroke-width="5"/>
+<text x="710" y="1119" font-size="45" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" fill="#1d262c">今は直ってた</text>
+<rect x="47" y="986" width="930" height="266" fill="url(#grain)"/>
+<!-- P19 panel 3 Nagi stays guarded, partial face and pin -->
+<rect x="47" y="1272" width="930" height="215" fill="#475867"/>
+<path d="M58 1487Q130 1350 277 1352Q402 1341 494 1487" fill="#2f4452"/>
+<path d="M148 1393L225 1483L305 1397" fill="#c3ccca"/>
+<path d="M302 1392Q329 1388 337 1411L331 1461Q310 1471 295 1449Z" stroke="#e1e9e6" stroke-width="5" fill="none"/>
+<path d="M313 1398Q337 1376 354 1399Q366 1422 354 1452" stroke="#3689b3" stroke-width="6" fill="none"/>
+<rect x="415" y="1295" width="525" height="159" rx="48" fill="#faf9f4" stroke="#202832" stroke-width="5"/>
+<path d="M468 1430L405 1477L503 1444" fill="#faf9f4" stroke="#202832" stroke-width="5"/>
+<text x="679" y="1371" font-size="39" font-family="Noto Sans CJK JP,sans-serif" text-anchor="middle" fill="#242b31">十分だけ、</text>
+<text x="679" y="1422" font-size="39" font-family="Noto Sans CJK JP,sans-serif" text-anchor="middle" fill="#242b31">直るのを止めました</text>
+<rect x="47" y="1272" width="930" height="215" fill="url(#grain)"/>
+<g fill="none" stroke="#17212b" stroke-width="5"><rect x="47" y="47" width="930" height="919"/><rect x="47" y="986" width="930" height="266"/><rect x="47" y="1272" width="930" height="215"/></g>
+</svg>
