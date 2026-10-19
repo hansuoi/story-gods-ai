@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6c7880"/><stop offset=".5" stop-color="#404b58"/><stop offset="1" stop-color="#1f2a36"/></linearGradient><linearGradient id="desk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#948679"/><stop offset="1" stop-color="#4c4846"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#ebc9b7"/><stop offset="1" stop-color="#a38274"/></linearGradient><pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#fff" opacity=".12"/><circle cx="12" cy="14" r=".65" fill="#121921" opacity=".1"/></pattern></defs>
+<rect width="1024" height="1536" fill="#ece7df"/><rect x="28" y="28" width="968" height="1480" fill="#fdfaf5"/>
+<!-- Panel 1: reopening office -->
+<rect x="47" y="47" width="930" height="424" fill="url(#night)"/>
+<rect x="116" y="75" width="515" height="397" fill="#2d3944" stroke="#94a1a0" stroke-width="11"/>
+<path d="M167 104L577 104V463H167Z" fill="#4c626b"/>
+<path d="M195 139H548" stroke="#a2b7b8" stroke-width="5"/>
+<path d="M180 260H558" stroke="#a2b7b8" stroke-width="8" opacity=".35"/>
+<rect x="242" y="153" width="352" height="65" fill="#e3e0d1" stroke="#7c8584" stroke-width="5"/>
+<text x="416" y="198" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="32" fill="#323b40">神谷探偵事務所</text>
+<circle cx="549" cy="350" r="27" fill="#c5c6b9" stroke="#3f5056" stroke-width="6"/>
+<path d="M551 352L620 389" stroke="#c0ac87" stroke-width="12" stroke-linecap="round"/>
+<path d="M612 386L647 375L658 393L637 399L659 412" stroke="#c5b18a" stroke-width="10" fill="none"/>
+<path d="M794 470Q780 266 705 244L636 277L660 465Z" fill="#222d3b"/>
+<path d="M635 288Q661 267 706 271" stroke="#e0b7a4" stroke-width="24" stroke-linecap="round"/>
+<rect x="47" y="47" width="930" height="424" fill="url(#grain)"/>
+<!-- Panel 2: compare receipts and case number -->
+<rect x="47" y="491" width="930" height="507" fill="url(#desk)"/>
+<path d="M68 946L977 899V998H68Z" fill="#605650"/>
+<path d="M96 543L439 522L482 920L112 953Z" fill="#eee8d8" stroke="#898377" stroke-width="7"/>
+<text x="267" y="591" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="31" fill="#4d5759">当日の経費</text>
+<path d="M129 648L421 627M133 701L426 682M144 765L434 741" stroke="#aab0a8" stroke-width="3"/>
+<g font-family="Noto Sans CJK JP,sans-serif" fill="#3c4951"><text x="157" y="694" font-size="29">汀橋方面</text><text x="156" y="746" font-size="29">タクシー</text><text x="157" y="815" font-size="34">18-07</text></g>
+<path d="M141 841L283 829" stroke="#b16f59" stroke-width="5"/>
+<path d="M523 529L891 514L924 899L540 927Z" fill="#e9e5d8" stroke="#8f8b7e" stroke-width="7"/>
+<text x="717" y="595" font-family="Noto Sans CJK JP,sans-serif" font-size="32" text-anchor="middle" fill="#3c484c">2018年／汀橋</text>
+<text x="715" y="647" font-family="Noto Sans CJK JP,sans-serif" font-size="26" text-anchor="middle" fill="#66706d">案件番号</text>
+<text x="712" y="737" font-family="monospace" font-size="54" font-weight="bold" text-anchor="middle" fill="#465052">18-07</text>
+<path d="M582 769L845 769" stroke="#b07156" stroke-width="5"/>
+<path d="M960 979Q941 896 863 832L770 780Q748 774 737 796Q732 815 762 828L838 870L853 979" fill="url(#skin)" stroke="#967467" stroke-width="6"/>
+<rect x="47" y="491" width="930" height="507" fill="url(#grain)"/>
+<!-- Panel 3: a second ledger has the same file number -->
+<rect x="47" y="1018" width="930" height="469" fill="url(#night)"/>
+<path d="M75 1407L961 1348V1487H75Z" fill="#4c4b46"/>
+<path d="M118 1090L237 1082L265 1405L135 1411Z" fill="#777d7b" stroke="#373f45" stroke-width="6"/>
+<path d="M249 1076L374 1072L396 1397L275 1401Z" fill="#867c70" stroke="#3e4347" stroke-width="7"/>
+<path d="M390 1078L541 1068L556 1386L409 1398Z" fill="#a09a87" stroke="#434749" stroke-width="7"/>
+<path d="M552 1068L699 1060L722 1377L574 1384Z" fill="#7b8282" stroke="#333e47" stroke-width="7"/>
+<path d="M711 1067L845 1058L856 1365L730 1377Z" fill="#9b8e7f" stroke="#444849" stroke-width="7"/>
+<rect x="418" y="1133" width="120" height="168" fill="#f4f0e5" stroke="#646c66" stroke-width="5"/>
+<text x="482" y="1198" text-anchor="middle" font-family="monospace" font-size="35" fill="#313b43" transform="rotate(-3 482 1198)">18-07</text>
+<path d="M446 1240H522" stroke="#7a847e" stroke-width="5"/>
+<path d="M67 1487Q81 1367 177 1346Q255 1352 315 1487" fill="#222d38"/>
+<rect x="580" y="1400" width="359" height="75" rx="32" fill="#fffdf7" stroke="#26313b" stroke-width="5"/>
+<path d="M629 1414L588 1380L652 1418" fill="#fffdf7" stroke="#26313b" stroke-width="5"/>
+<text x="759" y="1453" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="38" fill="#252f36">……これ？</text>
+<rect x="47" y="1018" width="930" height="469" fill="url(#grain)"/>
+<g fill="none" stroke="#17222a" stroke-width="5"><rect x="47" y="47" width="930" height="424"/><rect x="47" y="491" width="930" height="507"/><rect x="47" y="1018" width="930" height="469"/></g>
+</svg>
