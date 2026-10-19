@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="breakroom" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9da6a2"/><stop offset=".55" stop-color="#687579"/><stop offset="1" stop-color="#37454c"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#77828c"/><stop offset="1" stop-color="#293744"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#f0d4c0"/><stop offset=".6" stop-color="#caaa96"/><stop offset="1" stop-color="#a37e71"/></linearGradient>
+<linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2a3847"/><stop offset="1" stop-color="#101b25"/></linearGradient>
+<linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#526676"/><stop offset="1" stop-color="#1b2c3a"/></linearGradient>
+<pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="5" r=".8" fill="#fff" opacity=".13"/><circle cx="13" cy="14" r=".6" fill="#10161e" opacity=".1"/></pattern>
+</defs><rect width="1024" height="1536" fill="#ece8e0"/><rect x="30" y="28" width="964" height="1480" fill="#fefbf6"/>
+<!-- Panel 1: safe rest area, seats angled not face-to-face -->
+<rect x="47" y="47" width="930" height="611" fill="url(#breakroom)"/>
+<rect x="97" y="100" width="399" height="312" fill="#6d858b" stroke="#b7c4c0" stroke-width="11"/>
+<path d="M111 352L482 196V397L111 397Z" fill="#c4cbbd" opacity=".25"/>
+<path d="M559 83H940V401H559Z" fill="#68777a" stroke="#a1b0ab" stroke-width="8"/>
+<path d="M559 246H938M749 83V401" stroke="#aab8b1" stroke-width="8" opacity=".65"/>
+<path d="M47 495L977 463V658H47Z" fill="#6b6d68"/>
+<path d="M75 611L957 558" stroke="#b1ae9f" stroke-width="10" opacity=".5"/>
+<!-- table and chair legs -->
+<path d="M448 533L736 520L753 553L426 576Z" fill="#7d756c" stroke="#3a4246" stroke-width="6"/>
+<path d="M490 564L472 651M714 547L737 648" stroke="#42474a" stroke-width="15"/>
+<path d="M96 472L314 453L334 590L93 614Z" fill="#3a4852" stroke="#283640" stroke-width="9"/>
+<path d="M121 607L120 658M314 583L329 658" stroke="#28333b" stroke-width="15"/>
+<path d="M732 437L948 451L944 595L711 579Z" fill="#41505c" stroke="#2c3842" stroke-width="9"/>
+<path d="M736 574L716 658M922 598L939 658" stroke="#28333b" stroke-width="15"/>
+<!-- Aki sits left, back upright -->
+<path d="M138 658Q108 488 201 413Q305 381 382 548L423 658" fill="url(#coat)" stroke="#172531" stroke-width="7"/>
+<ellipse cx="255" cy="380" rx="77" ry="99" fill="url(#skin)"/>
+<path d="M181 375Q163 279 259 270Q337 285 337 386Q310 309 225 325Q198 336 181 375" fill="#202730"/>
+<path d="M191 383Q178 441 215 461" fill="#22252d"/>
+<path d="M236 402Q258 396 278 399" stroke="#59484d" stroke-width="5" fill="none"/>
+<path d="M278 431Q290 435 304 430" stroke="#895f5e" stroke-width="4" fill="none"/>
+<path d="M211 487L260 580L309 483" fill="#e4e1da"/>
+<path d="M298 574Q369 551 438 553" stroke="#202d38" stroke-width="27" stroke-linecap="round"/>
+<!-- Nagi sits right, angled to side, leaning forward -->
+<path d="M634 658Q607 488 694 439Q803 424 874 560L928 658" fill="url(#navy)" stroke="#1b2b36" stroke-width="7"/>
+<path d="M719 483L768 586L807 470" fill="#b7c8ca" stroke="#617984" stroke-width="4"/>
+<ellipse cx="762" cy="396" rx="70" ry="91" fill="url(#skin)" transform="rotate(10 762 396)"/>
+<path d="M700 376Q683 308 757 299Q829 303 830 392Q778 335 700 376" fill="#252b34"/>
+<path d="M703 377L711 433M711 387L715 424" stroke="#6e6667" stroke-width="5"/>
+<path d="M765 408L783 412" stroke="#4d4144" stroke-width="5"/>
+<path d="M785 449L803 447" stroke="#835a5c" stroke-width="4"/>
+<!-- safety pin blue thread -->
+<path d="M823 514Q831 502 846 514L845 545Q826 552 815 533Z" stroke="#f0eee4" stroke-width="5" fill="none"/>
+<path d="M837 510Q857 488 866 507Q878 526 861 546" stroke="#368fc0" stroke-width="6" fill="none"/>
+<rect x="47" y="47" width="930" height="611" fill="url(#grain)"/>
+<!-- Panel 2: Nagi reveals she called ambulance -->
+<rect x="47" y="677" width="930" height="311" fill="url(#shade)"/>
+<path d="M65 988Q105 795 289 795Q478 817 516 988" fill="url(#navy)" stroke="#182a37" stroke-width="7"/>
+<ellipse cx="323" cy="770" rx="92" ry="114" fill="url(#skin)"/>
+<path d="M230 771Q221 676 309 654Q410 666 416 761Q358 708 236 773" fill="#232b35"/>
+<path d="M241 784L248 825M258 788L264 833" stroke="#777070" stroke-width="6"/>
+<path d="M278 785Q311 768 339 780M365 780Q388 772 412 782" stroke="#544448" stroke-width="6" fill="none"/>
+<path d="M335 860Q351 862 374 856" stroke="#885d5c" stroke-width="5" fill="none"/>
+<path d="M489 706Q509 680 550 686H904Q946 692 946 745V856Q936 902 890 910H586L513 959L535 905Q485 884 485 840Z" fill="#fffdf8" stroke="#1b242c" stroke-width="5"/>
+<text x="720" y="784" text-anchor="middle" font-size="34" font-family="Noto Sans CJK JP,sans-serif" fill="#262b30">救急に電話したのは、</text>
+<text x="720" y="838" text-anchor="middle" font-size="38" font-family="Noto Sans CJK JP,sans-serif" fill="#262b30">あたしです</text>
+<rect x="47" y="677" width="930" height="311" fill="url(#grain)"/>
+<!-- Panel 3: Aki short question -->
+<rect x="47" y="1007" width="930" height="208" fill="#7c8587"/>
+<path d="M47 1215L400 1215Q377 1040 254 1034Q99 1051 47 1215" fill="#26313f"/>
+<ellipse cx="259" cy="1055" rx="71" ry="79" fill="url(#skin)"/>
+<path d="M181 1051Q186 982 263 975Q327 980 332 1055Q253 1018 181 1051" fill="#222831"/>
+<path d="M267 1075Q283 1074 303 1075" stroke="#564a50" stroke-width="5"/>
+<rect x="438" y="1033" width="476" height="142" rx="62" fill="#fffdf9" stroke="#222c35" stroke-width="5"/>
+<path d="M485 1164L435 1214L543 1170" fill="#fffdf9" stroke="#222c35" stroke-width="5"/>
+<text x="675" y="1119" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="43" fill="#222b2f">なぜ、そこへ？</text>
+<rect x="47" y="1007" width="930" height="208" fill="url(#grain)"/>
+<!-- Panel 4: Nagi evasive, fingers to pin -->
+<rect x="47" y="1234" width="930" height="254" fill="#55626d"/>
+<path d="M47 1488Q99 1281 306 1254Q475 1258 540 1488" fill="url(#navy)"/>
+<path d="M259 1263L325 1459L394 1265" fill="#c2c6c3" stroke="#74858a" stroke-width="5"/>
+<path d="M322 1321L324 1488" stroke="#506c78" stroke-width="7"/>
+<path d="M370 1332Q384 1325 395 1340L393 1396Q379 1406 363 1390L362 1354Z" fill="none" stroke="#e3e7e2" stroke-width="7"/>
+<path d="M384 1332Q406 1315 421 1337Q433 1353 419 1391" fill="none" stroke="#3090c0" stroke-width="6" stroke-linecap="round"/>
+<path d="M561 1488Q547 1417 503 1377L436 1352Q409 1345 403 1361Q396 1380 422 1396L455 1410L429 1408Q401 1410 407 1432Q414 1447 458 1461L488 1488" fill="url(#skin)" stroke="#99786d" stroke-width="5"/>
+<path d="M416 1390L462 1422" fill="none" stroke="#aa8778" stroke-width="4"/>
+<rect x="601" y="1264" width="333" height="129" rx="53" fill="#fffdf9" stroke="#232c35" stroke-width="5"/>
+<path d="M628 1386L573 1455L697 1390" fill="#fffdf9" stroke="#232c35" stroke-width="5"/>
+<text x="766" y="1342" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="36" fill="#222b30">修復の仕事なんで</text>
+<rect x="47" y="1234" width="930" height="254" fill="url(#grain)"/>
+<g fill="none" stroke="#192228" stroke-width="5"><rect x="47" y="47" width="930" height="611"/><rect x="47" y="677" width="930" height="311"/><rect x="47" y="1007" width="930" height="208"/><rect x="47" y="1234" width="930" height="254"/></g>
+</svg>
