@@ -1,0 +1,37 @@
+{
+  "p07.png": {
+    "bytes": 93416,
+    "height": 1536,
+    "sha256": "85cb93e848e9778006e24fb7dac62aa152b1c3038d2c87aa14adba384e4cd17c",
+    "source": "p07.svg",
+    "width": 1024
+  },
+  "p09.png": {
+    "bytes": 43672,
+    "height": 1536,
+    "sha256": "8e518d2c6618f0bdb14f831f7e5271cc599fd8f023c9ae2ddab31dd2ce7b490f",
+    "source": "p09.svg",
+    "width": 1024
+  },
+  "p10.png": {
+    "bytes": 229734,
+    "height": 1536,
+    "sha256": "a8b9e41160c26cda2bd4637a4e66806551e137499d9989845d0899f35f1d8e3c",
+    "source": "p10.svg",
+    "width": 1024
+  },
+  "p11.png": {
+    "bytes": 253425,
+    "height": 1536,
+    "sha256": "a8dc9bc635788b3e2e0a09d9efd70da8331a115e7d4e003d163459822cf20db9",
+    "source": "p11.svg",
+    "width": 1024
+  },
+  "p12.png": {
+    "bytes": 267908,
+    "height": 1536,
+    "sha256": "f9534dc683070d2855e678f9fa48cc58ff7ffbb2efef13433c8f4480e7c93ddc",
+    "source": "p12.svg",
+    "width": 1024
+  }
+}
