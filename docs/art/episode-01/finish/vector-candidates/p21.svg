@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="room" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#8f9d9e"/><stop offset="1" stop-color="#303d49"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#eacdb8"/><stop offset="1" stop-color="#a57e70"/></linearGradient>
+<linearGradient id="aki" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#2e3542"/><stop offset="1" stop-color="#141c25"/></linearGradient>
+<linearGradient id="nagi" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#4f6470"/><stop offset="1" stop-color="#202c3b"/></linearGradient>
+<pattern id="grain" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="4" r=".6" fill="#fff" opacity=".13"/><circle cx="12" cy="14" r=".7" fill="#15191f" opacity=".11"/></pattern></defs>
+<rect width="1024" height="1536" fill="#eee9e1"/><rect x="27" y="26" width="970" height="1484" fill="#fbf9f4"/>
+<!-- Panel 1: Nagi not claiming to identify the responsible person -->
+<rect x="47" y="47" width="930" height="406" fill="url(#room)"/>
+<path d="M47 380L977 333V453H47Z" fill="#555e60"/>
+<path d="M65 453Q111 226 301 214Q470 223 541 453" fill="url(#nagi)" stroke="#1d2932" stroke-width="8"/>
+<path d="M227 246L307 396L388 244" fill="#c1cecf"/>
+<ellipse cx="316" cy="192" rx="79" ry="101" fill="url(#skin)"/>
+<path d="M233 196Q221 94 316 87Q405 101 407 198Q350 126 231 204" fill="#242931"/>
+<path d="M239 193L251 227" stroke="#75706d" stroke-width="5"/>
+<path d="M302 203L326 200M365 200L390 198" stroke="#50434a" stroke-width="5" stroke-linecap="round"/>
+<path d="M323 270Q345 277 367 267" stroke="#855d57" stroke-width="5" fill="none"/>
+<path d="M392 282Q415 262 426 282L422 341Q401 360 389 331Z" fill="none" stroke="#e5e5e0" stroke-width="7"/>
+<path d="M405 280Q433 255 443 285Q452 306 434 339" fill="none" stroke="#368dbc" stroke-width="6"/>
+<path d="M481 114Q518 78 567 85H903Q947 100 947 143V279Q939 322 889 326H573L504 365L528 319Q481 299 479 257Z" fill="#fffdf7" stroke="#27313a" stroke-width="5"/>
+<text x="718" y="189" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="35" fill="#263036">誰がやったかは、</text>
+<text x="718" y="244" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="35" fill="#263036">写ってない</text>
+<rect x="47" y="47" width="930" height="406" fill="url(#grain)"/>
+<!-- Panel 2 Aki refuses to conclude accident -->
+<rect x="47" y="473" width="930" height="369" fill="#707c83"/>
+<path d="M465 842Q494 659 640 661Q824 686 866 842" fill="url(#aki)" stroke="#1b2732" stroke-width="8"/>
+<ellipse cx="661" cy="626" rx="88" ry="115" fill="url(#skin)"/>
+<path d="M572 625Q554 510 662 505Q759 513 755 640Q718 539 598 609" fill="#222632"/>
+<path d="M577 635Q568 694 605 735" stroke="#242631" stroke-width="11"/>
+<path d="M627 652L665 648" stroke="#51484d" stroke-width="6" stroke-linecap="round"/>
+<path d="M655 713Q677 714 696 707" stroke="#8d5f60" stroke-width="5" fill="none"/>
+<path d="M102 541Q123 507 176 509H504Q541 522 541 570V684Q534 727 486 731H214L150 770L166 726Q101 704 101 660Z" fill="#fffcf7" stroke="#26303a" stroke-width="5"/>
+<text x="322" y="608" text-anchor="middle" font-size="33" font-family="Noto Sans CJK JP,sans-serif" fill="#263138">事故だったとも、</text>
+<text x="322" y="663" text-anchor="middle" font-size="33" font-family="Noto Sans CJK JP,sans-serif" fill="#263138">まだ言えない</text>
+<rect x="47" y="473" width="930" height="369" fill="url(#grain)"/>
+<!-- Panel 3: first time viewing same photo side by side -->
+<rect x="47" y="862" width="930" height="624" fill="url(#room)"/>
+<path d="M47 1386L977 1306V1486H47Z" fill="#655d56"/>
+<!-- Aki and Nagi now side by side -->
+<path d="M79 1307Q94 1084 275 1065Q417 1088 435 1348" fill="url(#aki)"/>
+<ellipse cx="288" cy="1028" rx="81" ry="103" fill="url(#skin)"/>
+<path d="M206 1038Q187 927 283 917Q380 929 369 1042Q323 958 208 1040" fill="#222632"/>
+<path d="M321 1046L340 1052" stroke="#564a4f" stroke-width="5"/>
+<path d="M378 1320Q399 1081 571 1066Q706 1089 773 1328" fill="url(#nagi)"/>
+<ellipse cx="567" cy="1029" rx="80" ry="101" fill="url(#skin)"/>
+<path d="M484 1038Q466 937 563 922Q664 926 662 1038Q587 965 484 1046" fill="#232b34"/>
+<path d="M493 1040L505 1070" stroke="#6e6967" stroke-width="5"/>
+<path d="M551 1057L582 1055" stroke="#4d4248" stroke-width="5"/>
+<!-- smartphone same P19 photo cropped as evidence -->
+<path d="M220 1299L833 1265L877 1486L185 1486Z" fill="#7e7265" stroke="#514c4a" stroke-width="6"/>
+<rect x="411" y="1270" width="185" height="196" rx="15" fill="#131d25" stroke="#172732" stroke-width="8"/>
+<svg x="419" y="1279" width="168" height="176" viewBox="231 99 578 810" preserveAspectRatio="xMidYMid meet" overflow="hidden"><image href="p19.png" x="0" y="0" width="1024" height="1536"/></svg>
+<path d="M324 1386Q371 1335 415 1362L432 1386Q445 1412 420 1425L374 1456L342 1486H251Z" fill="url(#skin)" stroke="#907064" stroke-width="5"/>
+<path d="M665 1395Q622 1348 592 1370Q575 1382 591 1409L641 1447L668 1486H766Z" fill="url(#skin)" stroke="#92746a" stroke-width="5"/>
+<rect x="695" y="896" width="247" height="125" rx="53" fill="#fffdf9" stroke="#252e36" stroke-width="5"/>
+<path d="M718 1005L676 1044L774 1017" fill="#fffdf9" stroke="#252e36" stroke-width="5"/>
+<text x="819" y="975" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="42" fill="#273035">……はい</text>
+<rect x="47" y="862" width="930" height="624" fill="url(#grain)"/>
+<g fill="none" stroke="#18232c" stroke-width="5"><rect x="47" y="47" width="930" height="406"/><rect x="47" y="473" width="930" height="369"/><rect x="47" y="862" width="930" height="624"/></g>
+</svg>
