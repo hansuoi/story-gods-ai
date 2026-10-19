@@ -9,6 +9,14 @@
 - 全ページの画質・日本語の表示・キャラクター整合性・演出を目視検査するまでは、`accepted` にしません。
 
 
+## 全体確認用・4ページ組レビュー画像
+
+生成済みのPNG32枚から作成した8枚のコンタクトシート。2026-10-19の目視検査で使用し、文字化けと証拠写真の欠落を発見・修正した。これらも**完成原稿ではなく作画候補**。
+
+[P01〜P04](./review-previews/sheet01.jpg) · [P05〜P08](./review-previews/sheet02.jpg) · [P09〜P12](./review-previews/sheet03.jpg) · [P13〜P16](./review-previews/sheet04.jpg) · [P17〜P20](./review-previews/sheet05.jpg) · [P21〜P24](./review-previews/sheet06.jpg) · [P25〜P28](./review-previews/sheet07.jpg) · [P29〜P32](./review-previews/sheet08.jpg)
+
+[目視レビュー記録](./REVIEW_VISUAL_2026-10-19.md)
+
 ## P01–04：2024年の救出
 
 
