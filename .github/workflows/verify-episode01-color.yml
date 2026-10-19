@@ -1,0 +1,42 @@
+name: Verify episode 01 original color artwork
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'docs/art/episode-01/finish/color-candidates/**'
+      - '.github/workflows/verify-episode01-color.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify original PNG bytes, dimensions and Git blob identity
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import json
+          import struct
+
+          root = Path("docs/art/episode-01/finish/color-candidates")
+          manifest = json.loads((root / "manifest.json").read_text(encoding="utf-8"))
+          pages = manifest["pages"]
+          assert pages, "No color art pages registered"
+          for name, expected in sorted(pages.items()):
+              filename = root / name
+              assert filename.is_file(), f"Missing {filename}"
+              data = filename.read_bytes()
+              assert data.startswith(b"\x89PNG\r\n\x1a\n"), f"Invalid PNG: {name}"
+              w, h = struct.unpack(">II", data[16:24])
+              sha256 = hashlib.sha256(data).hexdigest()
+              git_sha = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
+              assert len(data) == expected["bytes"], f"Size mismatch: {name}"
+              assert (w, h) == (expected["width"], expected["height"]), f"Dimensions mismatch: {name}"
+              assert sha256 == expected["sha256"], f"SHA-256 mismatch: {name}"
+              assert git_sha == expected["git_blob_sha"], f"Git blob mismatch: {name}"
+              print(f"PASS {name}: {w}x{h} {len(data)} bytes sha256={sha256[:16]} git={git_sha}")
+          print(f"PASS {len(pages)} original manga artwork images; GitHub bytes match local source digests.")
+          print("NOTE: byte identity does not imply final artistic acceptance.")
+          PY
