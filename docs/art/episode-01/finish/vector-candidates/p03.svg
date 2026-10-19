@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9babe"/><stop offset=".6" stop-color="#6b8390"/><stop offset="1" stop-color="#2a414f"/></linearGradient><linearGradient id="storm" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#7795a2"/><stop offset=".5" stop-color="#35516a"/><stop offset="1" stop-color="#14283d"/></linearGradient><linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#739caa"/><stop offset="1" stop-color="#17445e"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#dfc3af"/><stop offset="1" stop-color="#9d7a6c"/></linearGradient><pattern id="rain" width="31" height="57" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><path d="M7 4V33M19 28V50" stroke="#d5e5e9" stroke-width="2" opacity=".31"/></pattern></defs>
+<rect width="1024" height="1536" fill="#eef0ee"/><rect x="28" y="28" width="968" height="1480" fill="#fcfaf6"/>
+<!-- panel1 hit on single bent retaining pin, thin white trajectory -->
+<rect x="47" y="47" width="930" height="600" fill="url(#storm)"/>
+<path d="M58 554L645 462L667 647L60 647Z" fill="#3f5667"/>
+<path d="M633 111L937 85L977 647H679Z" fill="url(#steel)" stroke="#2c4150" stroke-width="13"/>
+<path d="M697 161L877 142L913 589L729 610Z" fill="#586c76" stroke="#344c5b" stroke-width="9"/>
+<path d="M740 244L840 230L855 333L753 351Z" fill="#adbdc0" stroke="#3a5364" stroke-width="10"/>
+<circle cx="778" cy="278" r="12" fill="#455f6a"/><circle cx="827" cy="269" r="12" fill="#415d68"/>
+<path d="M771 348L827 378L805 411L849 435" fill="none" stroke="#303f49" stroke-width="23" stroke-linejoin="round"/>
+<path d="M771 349L825 378L804 412L848 435" fill="none" stroke="#d2d6d2" stroke-width="9" stroke-linejoin="round"/>
+<!-- thin white streak backwards through rain -->
+<path d="M81 554Q321 521 490 431Q635 383 774 351" fill="none" stroke="#f8ffff" stroke-width="8" stroke-linecap="round"/>
+<path d="M94 569Q340 546 506 444Q651 396 770 354" fill="none" stroke="#a9e4f2" stroke-width="3" opacity=".8"/>
+<circle cx="774" cy="351" r="16" fill="#ecfdff"/>
+<path d="M771 339L762 313M779 337L801 311M787 354L818 355M778 366L796 385M759 352L736 371" stroke="#eefaff" stroke-width="6" stroke-linecap="round"/>
+<!-- Sakaki hand in corner -->
+<path d="M63 621Q101 483 194 437L301 418Q324 419 321 446Q315 466 283 468L218 479L181 621" fill="url(#skin)" stroke="#9e7b6c" stroke-width="6"/>
+<path d="M306 440L383 427" stroke="#e8ccba" stroke-width="18" stroke-linecap="round"/>
+<text x="739" y="126" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="69" fill="#f3faff" transform="rotate(-11 739 126)">ピンッ</text>
+<rect x="47" y="47" width="930" height="600" fill="url(#rain)"/>
+<!-- panel2 latch released; human rescuer pulls lever -->
+<rect x="47" y="667" width="930" height="365" fill="#4d6877"/>
+<path d="M76 686L607 674L638 1023L77 1032Z" fill="#607783" stroke="#2c4655" stroke-width="9"/>
+<circle cx="413" cy="844" r="94" fill="#9aafb4" stroke="#375263" stroke-width="13"/>
+<path d="M406 841L540 811" stroke="#394f5a" stroke-width="26" stroke-linecap="round"/>
+<path d="M505 814L616 758" stroke="#ced3c9" stroke-width="20" stroke-linecap="round"/>
+<path d="M643 706L709 678L740 731L665 776Z" fill="#b1c1c3" stroke="#495e69" stroke-width="8"/>
+<!-- retaining pin now visibly cut off on one tiny location -->
+<path d="M631 817L661 837" stroke="#d7e1dd" stroke-width="14" stroke-linecap="round"/>
+<path d="M689 859L716 879" stroke="#d7e1dd" stroke-width="14" stroke-linecap="round"/>
+<!-- rescuer sleeve/hand operating lever -->
+<path d="M889 1029Q864 891 771 828L654 763Q617 746 608 776Q604 799 639 816L716 870L758 1029" fill="url(#skin)" stroke="#9c796c" stroke-width="6"/>
+<path d="M900 1031L793 866" stroke="#e4d1a0" stroke-width="24"/>
+<rect x="78" y="700" width="291" height="100" rx="42" fill="#fffdf7" stroke="#182d3c" stroke-width="5"/>
+<text x="223" y="763" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="49" fill="#283946">押せる！</text>
+<rect x="47" y="667" width="930" height="365" fill="url(#rain)"/>
+<!-- panel3 multiple rescue workers pull child, wet flood -->
+<rect x="47" y="1052" width="930" height="300" fill="url(#storm)"/>
+<path d="M52 1264Q359 1202 604 1245Q786 1209 971 1260V1352H52Z" fill="url(#water)"/>
+<!-- emergency door now visibly open -->
+<path d="M467 1088L851 1062V1260L480 1284Z" fill="#243e51" stroke="#a5b4b4" stroke-width="13"/>
+<path d="M493 1088L631 1109L642 1253L506 1259Z" fill="#526a78" stroke="#293f4c" stroke-width="8"/>
+<!-- worker 1 pushing door -->
+<path d="M119 1352Q124 1152 276 1122Q414 1145 427 1352" fill="#c3a46e" stroke="#615441" stroke-width="5"/>
+<ellipse cx="276" cy="1130" rx="45" ry="50" fill="url(#skin)"/>
+<path d="M236 1106Q234 1057 276 1060Q321 1061 316 1108" fill="#d8ae5d" stroke="#655746" stroke-width="4"/>
+<path d="M167 1235L392 1220" stroke="#e3d3a0" stroke-width="16"/>
+<path d="M367 1213L501 1168" stroke="#d5bdaa" stroke-width="25" stroke-linecap="round"/>
+<!-- worker 2 stretches into door opening -->
+<path d="M647 1352Q654 1155 780 1125Q904 1128 971 1352" fill="#bd9d67" stroke="#605343" stroke-width="5"/>
+<ellipse cx="801" cy="1120" rx="40" ry="50" fill="url(#skin)"/>
+<path d="M768 1100Q767 1057 800 1063Q844 1063 846 1107" fill="#d3a960" stroke="#6a5547" stroke-width="5"/>
+<path d="M683 1211L896 1226" stroke="#e6d5a5" stroke-width="18"/>
+<!-- rescued child's arm between them -->
+<path d="M545 1209Q563 1194 595 1207L659 1244Q674 1262 662 1275Q651 1286 630 1277L583 1251L547 1278" fill="url(#skin)" stroke="#9a786b" stroke-width="5"/>
+<path d="M53 1336Q319 1296 556 1333Q754 1304 977 1337" stroke="#a7cad7" stroke-width="7" fill="none" opacity=".6"/>
+<rect x="47" y="1052" width="930" height="300" fill="url(#rain)"/>
+<!-- panel4 boy's foot on dry stair -->
+<rect x="47" y="1372" width="930" height="115" fill="#727978"/>
+<path d="M47 1467L977 1432V1487H47Z" fill="#b5b1a5"/>
+<path d="M386 1374L534 1373L565 1423L665 1439Q695 1457 663 1464L397 1471Q372 1459 384 1431Z" fill="#3d4a56" stroke="#26333d" stroke-width="6"/>
+<path d="M390 1452L662 1448" stroke="#9aa1a1" stroke-width="5"/>
+<rect x="61" y="1379" width="301" height="96" rx="42" fill="#fffdf8" stroke="#1c2c39" stroke-width="5"/>
+<text x="212" y="1443" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="35" fill="#25343e">……たすかった</text>
+<g fill="none" stroke="#142638" stroke-width="5"><rect x="47" y="47" width="930" height="600"/><rect x="47" y="667" width="930" height="365"/><rect x="47" y="1052" width="930" height="300"/><rect x="47" y="1372" width="930" height="115"/></g>
+</svg>
