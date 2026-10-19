@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="hall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c5c8c0"/><stop offset=".55" stop-color="#8e9692"/><stop offset="1" stop-color="#555f62"/></linearGradient><linearGradient id="coffin" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fffefa"/><stop offset=".7" stop-color="#e5eae5"/><stop offset="1" stop-color="#bec8c4"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e6c8b9"/><stop offset="1" stop-color="#b19489"/></linearGradient><linearGradient id="suit" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#555862"/><stop offset="1" stop-color="#252c36"/></linearGradient><pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="7" r=".7" fill="#fff" opacity=".12"/><circle cx="13" cy="14" r=".6" fill="#111b20" opacity=".1"/></pattern></defs>
+<rect width="1024" height="1536" fill="#efebe3"/><rect x="28" y="28" width="968" height="1480" fill="#fffdf8"/>
+<!-- Panel1 open white coffin with Sakaki intact and expressionless; no candy stick -->
+<rect x="47" y="47" width="930" height="500" fill="url(#hall)"/>
+<path d="M95 123L846 75L943 456L143 538Z" fill="url(#coffin)" stroke="#aab6b4" stroke-width="13"/>
+<path d="M143 147L812 109L875 430L180 496Z" fill="#d7dbd4" stroke="#e9eee9" stroke-width="11"/>
+<path d="M162 188L808 147" stroke="#f7f7f0" stroke-width="10"/>
+<path d="M181 500L900 443" stroke="#fcfdf7" stroke-width="7"/>
+<!-- shoulders lying still -->
+<path d="M252 466Q251 301 477 276Q678 287 765 448" fill="#2f353e" stroke="#aebbb9" stroke-width="6"/>
+<path d="M420 310L490 385L556 306" fill="#e7e7de"/>
+<ellipse cx="507" cy="259" rx="116" ry="134" fill="url(#skin)" transform="rotate(-7 507 259)"/>
+<path d="M388 257Q367 133 496 119Q639 137 635 274Q563 167 393 272" fill="#262c34"/>
+<path d="M438 279Q470 273 497 276M531 276Q558 272 589 273" stroke="#8a7c75" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M494 346Q519 349 546 339" stroke="#a07d7d" stroke-width="5" fill="none"/>
+<!-- white flowers close and silent -->
+<g fill="#faf9ed" stroke="#c1c7bb" stroke-width="3"><circle cx="204" cy="375" r="36"/><circle cx="245" cy="413" r="35"/><circle cx="805" cy="358" r="32"/><circle cx="827" cy="398" r="36"/><circle cx="170" cy="435" r="26"/></g>
+<rect x="47" y="47" width="930" height="500" fill="url(#grain)"/>
+<!-- panel2 Aki hand almost touching but stopping, a gap -->
+<rect x="47" y="567" width="930" height="230" fill="#9ba5a0"/>
+<path d="M63 762L966 702V797H63Z" fill="url(#coffin)"/>
+<path d="M51 674Q216 607 360 614" stroke="#eeeae2" stroke-width="23" opacity=".8" fill="none"/>
+<!-- face visible at right near fingertip -->
+<path d="M574 795Q563 623 742 609Q900 625 946 793" fill="#d4bbae" opacity=".75"/>
+<path d="M713 614Q782 572 860 625" stroke="#292d33" stroke-width="25" opacity=".8"/>
+<!-- reaching index finger ends with large visible 30px gap -->
+<path d="M63 797Q126 714 205 682L449 652Q494 652 489 681Q481 705 439 711L267 734L219 797" fill="url(#skin)" stroke="#997467" stroke-width="6"/>
+<path d="M484 681L551 661" stroke="#d1b49f" stroke-width="22" stroke-linecap="round"/>
+<circle cx="555" cy="662" r="5" fill="#c9ad9e"/>
+<rect x="47" y="567" width="930" height="230" fill="url(#grain)"/>
+<!-- panel3 attendant half seen; Aki's unmoving hand still central -->
+<rect x="47" y="817" width="930" height="440" fill="#6b787c"/>
+<path d="M48 1257Q56 1007 205 991Q358 1018 405 1257" fill="url(#suit)"/>
+<ellipse cx="171" cy="952" rx="113" ry="127" fill="url(#skin)"/>
+<!-- half face hidden at panel boundary -->
+<path d="M47 955Q44 828 175 821Q283 844 292 979Q205 877 47 975" fill="#4b4c4a"/>
+<path d="M149 986L188 987" stroke="#554b4c" stroke-width="6"/>
+<path d="M169 1070Q192 1079 211 1065" stroke="#896b68" stroke-width="5" fill="none"/>
+<!-- central coffin rim below speech, woman's hand not touching -->
+<path d="M250 1211L959 1177V1257H248Z" fill="url(#coffin)" stroke="#aeb6ae" stroke-width="8"/>
+<path d="M386 1246Q394 1157 476 1117L541 1083Q572 1071 581 1093Q587 1111 560 1132L516 1169L510 1247" fill="url(#skin)" stroke="#987569" stroke-width="6"/>
+<!-- primary attendant explanation -->
+<rect x="321" y="849" width="611" height="165" rx="57" fill="#fffdf8" stroke="#26323a" stroke-width="5"/>
+<path d="M363 1000L302 1050L407 1010" fill="#fffdf8" stroke="#26323a" stroke-width="5"/>
+<text x="626" y="914" text-anchor="middle" font-size="32" font-family="Noto Sans CJK JP,sans-serif" fill="#28323a">能力による損傷は</text>
+<text x="626" y="967" text-anchor="middle" font-size="32" font-family="Noto Sans CJK JP,sans-serif" fill="#28323a">修復されているそうです</text>
+<!-- Aki small question -->
+<rect x="548" y="1046" width="385" height="107" rx="46" fill="#fffdf9" stroke="#25313a" stroke-width="5"/>
+<text x="740" y="1113" text-anchor="middle" font-size="31" font-family="Noto Sans CJK JP,sans-serif" fill="#27323b">……それで、死因は？</text>
+<rect x="47" y="817" width="930" height="440" fill="url(#grain)"/>
+<!-- panel4 rim and hesitant hand, police investigating offscreen -->
+<rect x="47" y="1277" width="930" height="210" fill="#a8afaa"/>
+<path d="M47 1393L977 1328V1464L47 1487Z" fill="url(#coffin)" stroke="#9faeaa" stroke-width="8"/>
+<path d="M155 1487Q184 1409 286 1367L397 1349Q434 1349 434 1372Q433 1394 403 1399L312 1412L278 1487" fill="url(#skin)" stroke="#957266" stroke-width="5"/>
+<path d="M437 1373L502 1361" stroke="#d6bcad" stroke-width="20" stroke-linecap="round"/>
+<rect x="543" y="1291" width="410" height="116" rx="47" fill="#fffcf7" stroke="#26313a" stroke-width="5"/>
+<path d="M581 1393L532 1442L623 1405" fill="#fffcf7" stroke="#26313a" stroke-width="5"/>
+<text x="747" y="1364" text-anchor="middle" font-size="37" font-family="Noto Sans CJK JP,sans-serif" fill="#26323a">警察が調べています</text>
+<rect x="47" y="1277" width="930" height="210" fill="url(#grain)"/>
+<g fill="none" stroke="#1b252c" stroke-width="5"><rect x="47" y="47" width="930" height="500"/><rect x="47" y="567" width="930" height="230"/><rect x="47" y="817" width="930" height="440"/><rect x="47" y="1277" width="930" height="210"/></g>
+</svg>
