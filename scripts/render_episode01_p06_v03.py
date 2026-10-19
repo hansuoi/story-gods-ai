@@ -95,8 +95,8 @@ def main() -> None:
     contents = OUTPUT.read_bytes()
     assert contents[:8] == b"\x89PNG\r\n\x1a\n"
     assert Image.open(OUTPUT).size == PAGE_SIZE
-    manifest = {
-        "p06_v03.png": {
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {}
+    manifest["p06_v03.png"] = {
             "page": 6,
             "status": "candidate-needs-visual-review",
             "width": PAGE_SIZE[0],
@@ -109,7 +109,6 @@ def main() -> None:
             },
             "notes": "Recomposed art and precise independently typeset Japanese lettering; original files preserved.",
         }
-    }
     MANIFEST.write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
