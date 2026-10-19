@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="jacket" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#5b6971"/><stop offset="1" stop-color="#1f2d39"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e3c6b1"/><stop offset="1" stop-color="#a48278"/></linearGradient><linearGradient id="desk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a29383"/><stop offset="1" stop-color="#4b5255"/></linearGradient><pattern id="grain" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="6" r=".7" fill="#fff" opacity=".12"/><circle cx="13" cy="12" r=".6" fill="#101b27" opacity=".12"/></pattern></defs>
+<rect width="1024" height="1536" fill="#f1ede5"/><rect x="29" y="28" width="966" height="1480" fill="#fcfaf5"/>
+<!-- panel 1: Nagi's safety pin, name only -->
+<rect x="47" y="47" width="930" height="277" fill="url(#jacket)"/>
+<path d="M82 324Q150 95 350 60Q544 81 619 324" fill="#2e414e" stroke="#202d37" stroke-width="7"/>
+<path d="M276 94L369 307L453 94" fill="#bbc9cc" stroke="#78919a" stroke-width="6"/>
+<path d="M425 137Q483 98 512 140L518 234Q489 269 439 234Q410 184 425 137Z" fill="none" stroke="#e2e8e3" stroke-width="12"/>
+<path d="M448 136L500 224" fill="none" stroke="#aebfc5" stroke-width="6"/>
+<path d="M476 126Q538 87 570 147Q582 184 539 239" fill="none" stroke="#398fc0" stroke-width="8" stroke-linecap="round"/>
+<rect x="620" y="109" width="314" height="127" rx="54" fill="#fdfcf6" stroke="#252f36" stroke-width="5"/>
+<path d="M667 217L602 276L703 231" fill="#fdfcf6" stroke="#252f36" stroke-width="5"/>
+<text x="777" y="191" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="49" fill="#222b30">留め針</text>
+<rect x="47" y="47" width="930" height="277" fill="url(#grain)"/>
+<!-- panel 2: point to photo of P19, reused png so photo angle stays identical -->
+<rect x="47" y="344" width="930" height="585" fill="url(#desk)"/>
+<path d="M47 791L977 733V929H47Z" fill="#70665c"/>
+<!-- cropped source image of exactly P19 photo -->
+<rect x="448" y="392" width="440" height="481" rx="12" fill="#202b34" stroke="#151e26" stroke-width="10"/>
+<svg x="455" y="399" width="426" height="466" viewBox="235 103 570 810" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+<image href="p19.png" x="0" y="0" width="1024" height="1536"/>
+</svg>
+<!-- Nagi finger indicates damaged area without touching photo -->
+<path d="M131 929Q181 766 249 711L470 630Q508 609 525 637Q532 665 489 690L313 780L285 929" fill="url(#skin)" stroke="#916f62" stroke-width="6"/>
+<path d="M489 691L544 664" stroke="#a37e6d" stroke-width="5" stroke-linecap="round"/>
+<path d="M136 418Q152 375 216 377H364Q417 377 428 423V509Q426 548 383 562H255L207 612L223 559Q143 549 136 505Z" fill="#fdfbf7" stroke="#25303a" stroke-width="5"/>
+<text x="284" y="450" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="34" fill="#252d30">一箇所だけ。</text>
+<text x="284" y="508" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="34" fill="#252d30">十分だけ</text>
+<rect x="47" y="344" width="930" height="585" fill="url(#grain)"/>
+<!-- panel 3: Aki asks about husband -->
+<rect x="47" y="949" width="930" height="342" fill="#687783"/>
+<path d="M61 1291Q91 1066 260 1059Q456 1071 471 1291" fill="#25313d" stroke="#19232c" stroke-width="7"/>
+<ellipse cx="269" cy="1045" rx="87" ry="105" fill="url(#skin)"/>
+<path d="M174 1051Q169 945 266 934Q370 937 363 1056Q311 966 195 1055" fill="#222731"/>
+<path d="M267 1090L315 1087" stroke="#57494b" stroke-width="6" stroke-linecap="round"/>
+<path d="M296 1135Q315 1144 330 1138" stroke="#916769" stroke-width="5" fill="none"/>
+<path d="M459 974Q494 948 535 952H906Q951 964 951 1010V1194Q939 1246 895 1247H568L504 1287L517 1237Q453 1216 453 1168Z" fill="#fffcf7" stroke="#202832" stroke-width="5"/>
+<text x="703" y="1043" font-family="Noto Sans CJK JP,sans-serif" font-size="34" text-anchor="middle" fill="#252b32">榊の身体も……</text>
+<text x="703" y="1107" font-family="Noto Sans CJK JP,sans-serif" font-size="34" text-anchor="middle" fill="#252b32">こうやって</text>
+<text x="703" y="1167" font-family="Noto Sans CJK JP,sans-serif" font-size="34" text-anchor="middle" fill="#252b32">戻ったの？</text>
+<rect x="47" y="949" width="930" height="342" fill="url(#grain)"/>
+<!-- panel 4: silence, hand on pin, no answer -->
+<rect x="47" y="1311" width="930" height="176" fill="#435765"/>
+<path d="M56 1487Q143 1314 325 1324Q475 1326 581 1487" fill="url(#jacket)"/>
+<path d="M261 1319L332 1453L413 1323" fill="#c4cdca"/>
+<path d="M358 1346Q376 1336 384 1357L380 1421Q365 1435 349 1414L348 1363Z" fill="none" stroke="#e9ebe6" stroke-width="7"/>
+<path d="M368 1350Q399 1325 414 1352Q426 1377 405 1421" fill="none" stroke="#3997bf" stroke-width="6"/>
+<path d="M615 1487Q575 1426 508 1387L413 1370Q381 1363 376 1385Q373 1407 420 1422L456 1440L428 1445Q402 1454 411 1475L459 1487" fill="url(#skin)" stroke="#927266" stroke-width="5"/>
+<path d="M408 1418L454 1441" stroke="#ab897b" stroke-width="3" fill="none"/>
+<rect x="47" y="1311" width="930" height="176" fill="url(#grain)"/>
+<g stroke="#16212c" stroke-width="5" fill="none"><rect x="47" y="47" width="930" height="277"/><rect x="47" y="344" width="930" height="585"/><rect x="47" y="949" width="930" height="342"/><rect x="47" y="1311" width="930" height="176"/></g>
+</svg>
