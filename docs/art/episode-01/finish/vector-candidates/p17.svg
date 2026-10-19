@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#9da7a8"/><stop offset=".4" stop-color="#737f84"/><stop offset="1" stop-color="#394750"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e9d0b9"/><stop offset=".6" stop-color="#caa897"/><stop offset="1" stop-color="#967974"/></linearGradient>
+<linearGradient id="jacket" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#4a606f"/><stop offset=".35" stop-color="#2c424f"/><stop offset="1" stop-color="#161f2a"/></linearGradient>
+<linearGradient id="night" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#899392"/><stop offset=".6" stop-color="#4a585e"/><stop offset="1" stop-color="#273541"/></linearGradient>
+<pattern id="grain" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="3" cy="8" r=".8" fill="#e7ece9" opacity=".14"/><circle cx="12" cy="14" r=".7" fill="#111823" opacity=".13"/></pattern>
+</defs>
+<rect width="1024" height="1536" fill="#eee9e0"/><rect x="30" y="28" width="964" height="1480" fill="#fcfbf7"/>
+<!-- Panel one Nagi appears after P16 offscreen line. No dialogue. -->
+<rect x="47" y="47" width="930" height="612" fill="url(#sky)"/>
+<path d="M47 165L977 114V346L47 410Z" fill="#53646a" opacity=".7"/>
+<path d="M60 195L959 152" stroke="#b4bdb9" stroke-width="10" opacity=".3"/>
+<path d="M56 590L976 521V659H56Z" fill="#4b565a"/>
+<path d="M692 87L747 83L796 651L741 653Z" fill="#737f7c" opacity=".75"/>
+<path d="M114 659Q140 438 332 421Q539 416 562 659" fill="#353b44" opacity=".45"/>
+<!-- Nagi short, forward leaning windbreaker -->
+<path d="M255 659Q278 459 438 411Q595 416 690 659" fill="url(#jacket)" stroke="#1b2530" stroke-width="9"/>
+<path d="M372 454L448 591L520 444" fill="#c3ccd0" stroke="#687984" stroke-width="4"/>
+<path d="M397 451L455 597L470 659M507 451L449 597" fill="none" stroke="#677f89" stroke-width="8"/>
+<path d="M288 593L236 659M624 572L692 659" stroke="#1f3444" stroke-width="28" stroke-linecap="round"/>
+<path d="M449 593L462 651" stroke="#8b9ba3" stroke-width="5"/>
+<!-- hands lightly hovering near jacket pockets -->
+<path d="M281 624Q275 587 293 572L313 551Q333 550 334 570L315 607L345 659H290Z" fill="url(#skin)" stroke="#856b63" stroke-width="4"/>
+<!-- Nagi face, head tilted and leaning -->
+<g transform="rotate(-8 452 334)">
+<path d="M343 306Q331 185 434 153Q562 166 578 290L567 380Q548 458 466 478Q377 467 352 400Z" fill="url(#skin)" stroke="#916e67" stroke-width="6"/>
+<!-- one undercut side explicitly visible: shaved-left with dark hair short fine strokes -->
+<path d="M341 307Q325 184 430 153Q528 132 577 232Q542 231 506 213Q475 264 414 258Q381 276 341 307" fill="#222a34"/>
+<path d="M342 299Q335 363 360 409Q376 420 388 406L382 282" fill="#4c4446"/>
+<path d="M349 310L369 304M348 325L372 318M349 340L373 334M351 355L375 349" stroke="#7a7776" stroke-width="4" opacity=".8"/>
+<path d="M413 237Q449 175 526 175Q582 189 584 280Q559 255 524 246Q482 245 441 268" fill="#1c222c"/>
+<path d="M408 221Q448 184 509 191M448 231Q487 216 550 235" stroke="#55585a" stroke-width="5" opacity=".65" fill="none"/>
+<!-- eye and uncertain guarded expression -->
+<path d="M392 327Q420 312 445 324M505 317Q530 302 552 315" stroke="#332c32" stroke-width="7" fill="none" stroke-linecap="round"/>
+<ellipse cx="423" cy="333" rx="11" ry="14" fill="#45404a"/><ellipse cx="529" cy="325" rx="11" ry="15" fill="#45404a"/>
+<circle cx="425" cy="329" r="3.5" fill="#fff" opacity=".7"/><circle cx="531" cy="320" r="3.5" fill="#fff" opacity=".7"/>
+<path d="M477 346L466 386L484 386" stroke="#a47c73" stroke-width="4" fill="none"/>
+<path d="M451 411Q473 418 495 408" stroke="#815c5d" stroke-width="5" fill="none" stroke-linecap="round"/>
+</g>
+<!-- characteristic blue thread attached to pin -->
+<path d="M557 522Q566 508 574 526Q586 549 569 556L550 549Q540 532 557 522Z" fill="none" stroke="#e2e5df" stroke-width="5"/>
+<path d="M557 522Q547 541 573 555" fill="none" stroke="#bbc5ca" stroke-width="3"/>
+<path d="M566 521Q587 496 600 513Q620 528 609 550" fill="none" stroke="#3789bb" stroke-width="6" stroke-linecap="round"/>
+<rect x="47" y="47" width="930" height="612" fill="url(#grain)"/>
+<!-- panel two Aki speaks -->
+<rect x="47" y="678" width="930" height="282" fill="url(#night)"/>
+<path d="M72 960Q80 791 258 791Q421 813 452 960" fill="#1e2733"/>
+<ellipse cx="266" cy="795" rx="72" ry="96" fill="url(#skin)"/>
+<path d="M196 796Q190 701 261 698Q343 706 346 796Q301 728 204 805" fill="#24232c"/>
+<path d="M275 822L310 824" stroke="#4e4246" stroke-width="5" stroke-linecap="round"/>
+<path d="M301 874Q321 879 331 870" stroke="#845f5e" stroke-width="5" fill="none"/>
+<path d="M439 731Q447 694 507 700H888Q933 700 943 748V854Q938 902 888 903H558L499 944L518 898H487Q440 885 440 848Z" fill="#fffdf8" stroke="#283039" stroke-width="5"/>
+<text x="692" y="797" text-anchor="middle" font-size="36" font-family="Noto Sans CJK JP,sans-serif" fill="#202830">夫が、ここで</text>
+<text x="692" y="849" text-anchor="middle" font-size="36" font-family="Noto Sans CJK JP,sans-serif" fill="#202830">亡くなりました</text>
+<rect x="47" y="678" width="930" height="282" fill="url(#grain)"/>
+<!-- panel 3 trembling Nagi gaze -->
+<rect x="47" y="979" width="930" height="210" fill="#66747a"/>
+<path d="M50 1189L50 979H499Q530 1089 477 1189" fill="#384957" opacity=".4"/>
+<path d="M107 1189Q146 1017 362 1016Q516 1035 533 1189" fill="#c9a995" stroke="#866c64" stroke-width="5"/>
+<path d="M120 1078Q153 977 337 978Q476 985 526 1058Q383 1021 120 1078" fill="#212732"/>
+<path d="M222 1107Q262 1093 300 1112M360 1101Q397 1089 428 1104" stroke="#43383d" stroke-width="10" stroke-linecap="round"/>
+<ellipse cx="266" cy="1119" rx="17" ry="22" fill="#45454d"/><ellipse cx="391" cy="1112" rx="17" ry="23" fill="#45454d"/>
+<circle cx="271" cy="1112" r="6" fill="#e5e7df"/><circle cx="397" cy="1106" r="6" fill="#e5e7df"/>
+<path d="M487 1035Q518 1001 563 1007H910Q956 1009 956 1064V1134Q942 1172 903 1174H601L546 1190L560 1165Q495 1149 487 1124Z" fill="#fffdf9" stroke="#252b35" stroke-width="5"/>
+<text x="735" y="1081" text-anchor="middle" font-size="33" font-family="Noto Sans CJK JP,sans-serif" fill="#222b31">神谷さんの……</text>
+<text x="735" y="1130" text-anchor="middle" font-size="33" font-family="Noto Sans CJK JP,sans-serif" fill="#222b31">奥さん？</text>
+<rect x="47" y="979" width="930" height="210" fill="url(#grain)"/>
+<!-- panel 4: hand grasps pin; NO TEXT -->
+<rect x="47" y="1208" width="930" height="280" fill="url(#night)"/>
+<path d="M269 1488Q297 1292 496 1239Q695 1255 765 1488" fill="url(#jacket)" stroke="#202b33" stroke-width="9"/>
+<path d="M422 1251L507 1442L584 1255" fill="#b2c2c7" stroke="#6e858b" stroke-width="6"/>
+<path d="M509 1292L512 1479" stroke="#607e8d" stroke-width="7"/>
+<!-- pin and blue thread -->
+<path d="M559 1326Q591 1310 603 1341L596 1401Q579 1416 550 1395L543 1345Q549 1326 559 1326Z" fill="none" stroke="#e4e8e4" stroke-width="11"/>
+<path d="M581 1317Q622 1291 640 1324Q660 1362 637 1401" fill="none" stroke="#328fc6" stroke-width="8" stroke-linecap="round"/>
+<!-- Nagi hand grasping pin -->
+<path d="M772 1488Q744 1397 709 1352L645 1321Q619 1310 612 1334Q607 1357 633 1372L659 1384L610 1369Q586 1369 582 1390Q580 1407 606 1417L652 1435L628 1434Q605 1440 609 1455Q610 1476 650 1488" fill="url(#skin)" stroke="#916d62" stroke-width="6"/>
+<path d="M623 1362Q654 1369 680 1390M615 1411Q645 1418 678 1442" stroke="#9f7c71" stroke-width="4" fill="none"/>
+<rect x="47" y="1208" width="930" height="280" fill="url(#grain)"/>
+<g fill="none" stroke="#182128" stroke-width="5"><rect x="47" y="47" width="930" height="612"/><rect x="47" y="678" width="930" height="282"/><rect x="47" y="979" width="930" height="210"/><rect x="47" y="1208" width="930" height="280"/></g>
+</svg>
