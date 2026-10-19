@@ -25,7 +25,20 @@
 <rect x="47" y="683" width="930" height="346" fill="#55636c"/>
 <path d="M48 687L491 687V1029H48Z" fill="#273c48"/>
 <rect x="132" y="707" width="258" height="289" rx="14" fill="#16242f" stroke="#131a23" stroke-width="8"/>
-<svg x="145" y="718" width="232" height="265" viewBox="228 97 580 811" preserveAspectRatio="xMidYMid meet" overflow="hidden"><image href="p19.png" x="0" y="0" width="1024" height="1536"/></svg>
+<g transform="translate(145 718) scale(0.725 0.63)">
+<rect width="320" height="420" rx="9" fill="#65747a" stroke="#213440" stroke-width="8"/>
+<path d="M23 12L146 8L153 407L26 413Z" fill="#a2adac" stroke="#536973" stroke-width="7"/>
+<path d="M177 6L302 5L309 407L184 410Z" fill="#4d626e" stroke="#2e4250" stroke-width="7"/>
+<path d="M141 32L209 29L216 377L148 388Z" fill="#aec1c1" stroke="#3f5662" stroke-width="9"/>
+<path d="M139 89L220 84L227 139L143 150Z" fill="#c2cfd0" stroke="#647781" stroke-width="6"/>
+<circle cx="159" cy="112" r="10" fill="#465e67"/><circle cx="204" cy="110" r="10" fill="#465e67"/>
+<path d="M145 275L232 266L237 326L153 335Z" fill="#b7c6c8" stroke="#637983" stroke-width="6"/>
+<circle cx="164" cy="304" r="10" fill="#465d69"/><circle cx="216" cy="299" r="10" fill="#465d69"/>
+<path d="M147 151L123 182L150 207L130 233L168 255L145 278" fill="none" stroke="#253540" stroke-width="17" stroke-linejoin="round"/>
+<path d="M146 151L122 182L150 207L129 233L167 255L144 278" fill="none" stroke="#b5d6dc" stroke-width="4" stroke-linejoin="round"/>
+<path d="M129 139Q94 180 112 227Q119 255 156 290" stroke="#e2edef" stroke-width="5" fill="none"/>
+<path d="M116 135Q81 180 104 240" stroke="#6ab3c8" stroke-width="3" fill="none"/>
+</g>
 <!-- opposite memory of Sakaki's undamaged face, cool quiet profile -->
 <path d="M494 687H977V1029H494Z" fill="#9aa09c"/>
 <path d="M520 1029Q580 844 783 853Q931 864 975 1029" fill="#1e252e"/>
