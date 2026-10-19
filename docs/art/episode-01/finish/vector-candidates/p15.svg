@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="door" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#69737b"/><stop offset="1" stop-color="#1b252d"/></linearGradient><linearGradient id="city" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c1c4ba"/><stop offset=".6" stop-color="#929b98"/><stop offset="1" stop-color="#555e60"/></linearGradient><linearGradient id="concrete" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#717a7a"/><stop offset="1" stop-color="#29333a"/></linearGradient><linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#343b45"/><stop offset="1" stop-color="#101823"/></linearGradient><pattern id="grain" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".6" fill="#fff" opacity=".11"/><circle cx="12" cy="11" r=".6" fill="#101a22" opacity=".1"/></pattern></defs>
+<rect width="1024" height="1536" fill="#f0ede6"/><rect x="29" y="28" width="967" height="1480" fill="#faf9f6"/>
+<!-- panel 1 / locking the office door -->
+<rect x="48" y="48" width="928" height="395" fill="#535d66"/>
+<path d="M95 53L748 53V443H95Z" fill="url(#door)" stroke="#222e38" stroke-width="8"/>
+<path d="M701 53V443" stroke="#9ba5a4" stroke-width="8" opacity=".5"/>
+<rect x="449" y="195" width="165" height="167" rx="15" fill="#444d55" stroke="#86908f" stroke-width="6"/>
+<circle cx="525" cy="275" r="52" fill="#a6aaaa" stroke="#424f52" stroke-width="8"/>
+<circle cx="525" cy="275" r="18" fill="#353f43"/>
+<path d="M528 278L604 324" stroke="#c2b08a" stroke-width="15" stroke-linecap="round"/>
+<path d="M599 325L627 311L639 322L625 338L641 355" fill="none" stroke="#c4b18b" stroke-width="13" stroke-linecap="round"/>
+<path d="M976 443Q934 304 771 296Q684 286 628 307L616 342Q695 360 740 368Q828 409 841 443" fill="#202933" stroke="#141c25" stroke-width="5"/>
+<path d="M790 284Q770 267 730 266L647 272Q614 281 619 301Q627 319 668 314L739 310" fill="#dbb7a2" stroke="#9c786d" stroke-width="4"/>
+<rect x="48" y="48" width="928" height="395" fill="url(#grain)"/>
+<!-- panel 2 / Aki tiny under a viaduct -->
+<rect x="48" y="463" width="928" height="666" fill="url(#city)"/>
+<path d="M48 564L976 526V626L48 669Z" fill="#727e82" opacity=".65"/>
+<g fill="#6b797b" opacity=".55"><path d="M50 574V1030H181V602Z"/><path d="M844 550V995H976V546Z"/><path d="M715 600V983H782V581Z"/></g>
+<path d="M48 588L976 500V684L48 791Z" fill="#4b545b" stroke="#29363c" stroke-width="12"/>
+<path d="M48 600L976 520V591L48 690Z" fill="#768085"/>
+<path d="M87 625L976 546" stroke="#b2b9b5" stroke-width="7" opacity=".36"/>
+<path d="M128 721L203 704V1089H121Z" fill="url(#concrete)" stroke="#363f45" stroke-width="7"/>
+<path d="M770 660L861 648V1106H765Z" fill="url(#concrete)" stroke="#363f45" stroke-width="7"/>
+<path d="M457 693L506 690V1048H461Z" fill="url(#concrete)" stroke="#363f45" stroke-width="6"/>
+<path d="M48 1058L976 990V1129H48Z" fill="#595c56"/>
+<path d="M48 1043L976 980" stroke="#d9d6c6" stroke-width="11" opacity=".5"/>
+<path d="M230 1088L938 1047" stroke="#c9c2ad" stroke-width="5" stroke-dasharray="50 39" opacity=".7"/>
+<!-- motion of ordinary city -->
+<g fill="#8b9291" stroke="#646e70" stroke-width="3"><rect x="303" y="922" width="141" height="50" rx="15"/><circle cx="329" cy="977" r="17" fill="#3c454b"/><circle cx="420" cy="977" r="17" fill="#3c454b"/><rect x="572" y="935" width="165" height="53" rx="12"/><circle cx="608" cy="992" r="16" fill="#3c454b"/><circle cx="715" cy="992" r="16" fill="#3c454b"/></g>
+<g fill="#343e45" opacity=".9"><ellipse cx="575" cy="901" rx="15" ry="19"/><path d="M561 916L584 918L591 969L558 970Z"/><path d="M567 965L562 1016L573 1016L581 970L586 1016L597 1016L589 964Z"/></g>
+<!-- Aki walking: tiny, alone -->
+<ellipse cx="489" cy="1012" rx="15" ry="18" fill="#c8ae9e"/>
+<path d="M474 1005Q470 986 488 986Q507 989 504 1009Z" fill="#272832"/>
+<path d="M469 1029Q486 1020 510 1028L521 1087L467 1089Z" fill="url(#coat)"/>
+<path d="M480 1087L474 1111M507 1086L515 1111" stroke="#22262c" stroke-width="11" stroke-linecap="round"/>
+<path d="M470 1037L454 1076M511 1040L523 1067" stroke="#252a33" stroke-width="10" stroke-linecap="round"/>
+<rect x="48" y="463" width="928" height="666" fill="url(#grain)"/>
+<!-- panel 3 / silent walking, one thought -->
+<rect x="48" y="1149" width="928" height="338" fill="#3d454c"/>
+<path d="M48 1149L451 1149L396 1487H48Z" fill="#586267"/>
+<path d="M50 1487L474 1212L976 1191V1487Z" fill="#50514d"/>
+<path d="M419 1487L606 1193M50 1452L371 1223" stroke="#8a918d" stroke-width="5" opacity=".35"/>
+<rect x="465" y="1181" width="466" height="198" rx="56" fill="#fafaf5" stroke="#1b232a" stroke-width="5"/>
+<path d="M492 1345L450 1411L559 1369" fill="#fafaf5" stroke="#1b232a" stroke-width="5"/>
+<text x="693" y="1253" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="35" fill="#242c30">……誰に会う</text>
+<text x="693" y="1307" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="35" fill="#242c30">つもりだったの</text>
+<rect x="48" y="1149" width="928" height="338" fill="url(#grain)"/>
+<g stroke="#151d24" stroke-width="5" fill="none"><rect x="48" y="48" width="928" height="395"/><rect x="48" y="463" width="928" height="666"/><rect x="48" y="1149" width="928" height="338"/></g>
+</svg>
