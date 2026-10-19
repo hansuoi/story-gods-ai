@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f3e9"/><stop offset="1" stop-color="#d7d3c6"/></linearGradient><linearGradient id="desk" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#817c74"/><stop offset="1" stop-color="#35424b"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#e9c9b6"/><stop offset="1" stop-color="#a77e72"/></linearGradient><pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="7" r=".7" fill="#fff" opacity=".12"/><circle cx="13" cy="13" r=".6" fill="#101922" opacity=".11"/></pattern></defs>
+<rect width="1024" height="1536" fill="#ece8e0"/><rect x="28" y="28" width="968" height="1480" fill="#fffdf7"/>
+<!-- panel1: withheld field is finally legible; no false confession -->
+<rect x="47" y="47" width="930" height="756" fill="url(#desk)"/>
+<path d="M161 104L792 83L836 762L204 786Z" fill="url(#paper)" stroke="#99968c" stroke-width="10"/>
+<path d="M190 163L804 144" stroke="#9ca59f" stroke-width="5"/>
+<text x="491" y="248" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="48" fill="#37464a" transform="rotate(-1 491 248)">汀橋水害・再調査</text>
+<path d="M237 327H759" stroke="#b2b9b0" stroke-width="5"/>
+<text x="493" y="419" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="40" fill="#536065">依頼者：神谷榊</text>
+<path d="M225 459H769" stroke="#bec4bb" stroke-width="5"/>
+<rect x="221" y="523" width="561" height="150" fill="#e9e5db" stroke="#89958e" stroke-width="6"/>
+<text x="501" y="622" font-family="Noto Sans CJK JP,sans-serif" font-size="61" text-anchor="middle" fill="#26343b">調査対象：神谷榊</text>
+<!-- finger sliding away from reveal -->
+<path d="M864 803Q855 679 828 653L797 614Q775 593 754 613Q741 636 767 657L792 691Q738 667 706 673Q685 685 695 705Q709 725 752 738L791 803" fill="url(#skin)" stroke="#9b786b" stroke-width="6"/>
+<path d="M699 705Q733 718 761 728" stroke="#b38b7b" stroke-width="4"/>
+<rect x="47" y="47" width="930" height="756" fill="url(#grain)"/>
+<!-- panel2 office photo of Sakaki half in shadow -->
+<rect x="47" y="823" width="930" height="384" fill="#61696a"/>
+<path d="M155 843L706 827L766 1177L180 1202Z" fill="#ebeadf" stroke="#666f70" stroke-width="11"/>
+<path d="M182 872L683 856L718 1140L217 1161Z" fill="#8d9c9a"/>
+<path d="M208 1149Q213 969 393 956Q569 966 649 1152" fill="#333b40"/>
+<ellipse cx="421" cy="962" rx="104" ry="124" fill="#d6bbaa"/>
+<path d="M313 959Q309 840 418 832Q537 849 540 973Q459 898 316 969" fill="#30323a"/>
+<path d="M410 991L450 986" stroke="#66525a" stroke-width="6"/>
+<path d="M433 1054Q450 1063 468 1051" stroke="#895e60" stroke-width="5" fill="none"/>
+<!-- shadow of Aki hand veils one side of photo, not proof of guilt -->
+<path d="M462 829L774 823L826 1185L509 1207Z" fill="#161d28" opacity=".58"/>
+<path d="M678 823Q659 862 639 905L575 1027Q556 1071 587 1078Q623 1084 642 1044L702 959L762 888" fill="#1f252d" opacity=".4"/>
+<rect x="47" y="823" width="930" height="384" fill="url(#grain)"/>
+<!-- panel3 missing single sheet; punched holes -->
+<rect x="47" y="1227" width="930" height="259" fill="#586166"/>
+<path d="M112 1256L707 1239L775 1486H140Z" fill="#eee9dc" stroke="#87867f" stroke-width="6"/>
+<path d="M199 1278L200 1473" stroke="#89948d" stroke-width="5"/>
+<g fill="#575e5c" stroke="#aaafa6" stroke-width="4"><circle cx="175" cy="1307" r="14"/><circle cx="182" cy="1358" r="14"/><circle cx="188" cy="1411" r="14"/><circle cx="194" cy="1463" r="14"/></g>
+<path d="M189 1321L264 1308M193 1366L265 1352M201 1421L270 1406" stroke="#b5b7af" stroke-width="4" stroke-dasharray="10 7"/>
+<rect x="536" y="1280" width="419" height="127" rx="51" fill="#fffdf8" stroke="#24303a" stroke-width="5"/>
+<path d="M581 1395L532 1455L636 1409" fill="#fffdf8" stroke="#24303a" stroke-width="5"/>
+<text x="748" y="1359" font-family="Noto Sans CJK JP,sans-serif" font-size="43" text-anchor="middle" fill="#243139">一枚、ない……</text>
+<rect x="47" y="1227" width="930" height="259" fill="url(#grain)"/>
+<g fill="none" stroke="#17212b" stroke-width="5"><rect x="47" y="47" width="930" height="756"/><rect x="47" y="823" width="930" height="384"/><rect x="47" y="1227" width="930" height="259"/></g>
+</svg>
