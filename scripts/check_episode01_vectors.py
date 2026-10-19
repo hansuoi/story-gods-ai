@@ -70,6 +70,14 @@ def run() -> list[str]:
         if root.attrib.get("width") != "1024" or root.attrib.get("height") != "1536":
             errors.append(f"P{page:02d}: wrong page dimensions")
         texts: list[str] = []
+        parents = {child: parent for parent in root.iter() for child in parent}
+        def inherited_cjk_font(element: ET.Element) -> bool:
+            current: ET.Element | None = element
+            while current is not None:
+                if "Noto Sans CJK JP" in current.attrib.get("font-family", ""):
+                    return True
+                current = parents.get(current)
+            return False
         for el in root.iter():
             if el.tag == SVG_NS + "image":
                 errors.append(f"P{page:02d}: external <image> can render blank; inline vectors instead")
@@ -77,7 +85,7 @@ def run() -> list[str]:
                 body = "".join(el.itertext()).strip()
                 if body:
                     texts.append(body)
-                    if JP.search(body) and "Noto Sans CJK JP" not in el.attrib.get("font-family", ""):
+                    if JP.search(body) and not inherited_cjk_font(el):
                         errors.append(f"P{page:02d}: missing Noto CJK font on Japanese text {body!r}")
         content = "\n".join(texts)
         for token in REQUIRED[page]:
