@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="p1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78838a"/><stop offset="1" stop-color="#303d48"/></linearGradient>
+<linearGradient id="p2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#997d6b"/><stop offset="1" stop-color="#4b4a49"/></linearGradient>
+<linearGradient id="p3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5e5f5d"/><stop offset="1" stop-color="#242e38"/></linearGradient>
+<linearGradient id="p4" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#75858c"/><stop offset="1" stop-color="#2b333b"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2=".6" y2="1"><stop stop-color="#e3c4ad"/><stop offset="1" stop-color="#ad897b"/></linearGradient>
+<pattern id="grain" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".65" fill="#fff" opacity=".14"/><circle cx="11" cy="13" r=".8" fill="#15191e" opacity=".09"/></pattern>
+</defs>
+<rect width="1024" height="1536" fill="#f1eee7"/><rect x="29" y="28" width="966" height="1480" fill="#fffefa"/>
+<!-- panel 1 / schedule gaps -->
+<rect x="48" y="48" width="928" height="381" fill="url(#p1)"/>
+<rect x="113" y="72" width="581" height="329" rx="5" transform="rotate(-3 113 72)" fill="#f4f1e6" stroke="#393a3c" stroke-width="6"/>
+<g transform="rotate(-3 113 72)" fill="none" stroke="#b5b4ad" stroke-width="3">
+<path d="M136 135H659M136 185H659M136 235H659M136 285H659M136 335H659"/><path d="M280 135V385"/>
+</g>
+<g font-family="Noto Sans CJK JP,sans-serif" font-size="24" fill="#686b68" transform="rotate(-3 113 72)"><text x="147" y="174">13:00</text><text x="147" y="224">14:00</text><text x="147" y="274">15:00</text><text x="147" y="324">17:00</text><text x="147" y="374">18:00</text></g>
+<path d="M400 142L580 133M399 194L508 188" stroke="#8b887e" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+<rect x="691" y="226" width="261" height="133" rx="40" fill="#fffdf7" stroke="#1d2329" stroke-width="5"/>
+<path d="M742 345L702 391L764 350" fill="#fffdf7" stroke="#1d2329" stroke-width="5"/>
+<text x="821" y="280" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="30" fill="#202528">本当に</text>
+<text x="821" y="318" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="30" fill="#202528">休みだった？</text>
+<rect x="48" y="48" width="928" height="381" fill="url(#grain)"/>
+<!-- panel 2 / trace only expense entry -->
+<rect x="48" y="449" width="928" height="340" fill="url(#p2)"/>
+<path d="M141 495L803 469L823 750L162 781Z" fill="#eee8da" stroke="#8e8a80" stroke-width="6"/>
+<path d="M161 564L801 538M169 616L807 590M175 673L814 646M182 726L817 701" stroke="#b7b6ac" stroke-width="3"/>
+<g font-family="Noto Sans CJK JP,sans-serif" fill="#515453" font-size="27"><text x="186" y="546">交通費</text><text x="185" y="599">未処理</text><text x="351" y="599">汀橋方面</text><text x="694" y="599">——</text></g>
+<rect x="333" y="559" width="209" height="47" rx="2" fill="none" stroke="#a64a42" stroke-width="5"/>
+<path d="M846 777Q801 746 717 697L508 617Q484 607 471 623Q459 642 488 654L680 751Q730 789 761 789Z" fill="url(#skin)" stroke="#9f8173" stroke-width="5"/>
+<path d="M491 652L432 620" stroke="#a88475" stroke-width="7" stroke-linecap="round"/>
+<rect x="48" y="449" width="928" height="340" fill="url(#grain)"/>
+<!-- panel 3 / overlapping taxi receipts -->
+<rect x="48" y="809" width="928" height="290" fill="url(#p3)"/>
+<g transform="translate(228 839) rotate(-8)">
+<path d="M0 0H285V242L265 232L245 242L220 232L192 242L170 232L143 242L120 232L90 242L65 232L42 242L20 232L0 242Z" fill="#f2ecdc" stroke="#bcb8ae" stroke-width="4"/>
+<g font-family="Noto Sans CJK JP,sans-serif" fill="#555a5a" font-size="21"><text x="26" y="39">タクシー領収書</text><text x="27" y="92">乗車時刻</text><text x="30" y="130" font-size="33">17:42</text></g>
+<path d="M23 153H256M23 173H256M23 194H180" stroke="#9da19f" stroke-width="3"/>
+</g>
+<g transform="translate(499 816) rotate(7)">
+<path d="M0 0H281V240L251 230L230 240L204 230L182 240L160 230L132 240L108 230L82 240L58 230L30 240L0 230Z" fill="#eeeade" stroke="#bcb8ae" stroke-width="4"/>
+<g font-family="Noto Sans CJK JP,sans-serif" fill="#555a5a" font-size="21"><text x="22" y="37">タクシー領収書</text><text x="25" y="93">到着時刻</text><text x="25" y="132" font-size="33">17:55</text></g>
+<path d="M21 153H256M21 175H256M21 195H180" stroke="#9da19f" stroke-width="3"/>
+</g>
+<rect x="48" y="809" width="928" height="290" fill="url(#grain)"/>
+<!-- panel 4 / Aki uncertain -->
+<rect x="48" y="1119" width="928" height="370" fill="url(#p4)"/>
+<path d="M63 1460Q121 1267 302 1309L437 1489H63Z" fill="#171d28"/>
+<ellipse cx="262" cy="1259" rx="102" ry="120" fill="url(#skin)" transform="rotate(-7 262 1259)"/>
+<path d="M146 1260Q128 1125 248 1120Q362 1119 367 1255Q332 1166 258 1181Q203 1197 146 1260" fill="#202530"/>
+<path d="M157 1232Q144 1324 213 1374" fill="#212630"/>
+<path d="M261 1284L306 1280" stroke="#5d5152" stroke-width="7" stroke-linecap="round"/>
+<path d="M313 1328Q339 1316 359 1325" stroke="#835a5b" stroke-width="5" fill="none"/>
+<path d="M399 1148Q439 1124 501 1134H890Q930 1141 936 1179L935 1340Q926 1381 873 1383H494L455 1429L468 1380Q401 1367 398 1304Z" fill="#fffdf9" stroke="#222830" stroke-width="5"/>
+<text x="671" y="1232" font-family="Noto Sans CJK JP,sans-serif" text-anchor="middle" font-size="39" fill="#20272b">仕事もないのに、</text>
+<text x="668" y="1294" font-family="Noto Sans CJK JP,sans-serif" text-anchor="middle" font-size="39" fill="#20272b">なんで……</text>
+<rect x="48" y="1119" width="928" height="370" fill="url(#grain)"/>
+<g stroke="#161e25" stroke-width="5" fill="none"><rect x="48" y="48" width="928" height="381"/><rect x="48" y="449" width="928" height="340"/><rect x="48" y="809" width="928" height="290"/><rect x="48" y="1119" width="928" height="370"/></g>
+</svg>
