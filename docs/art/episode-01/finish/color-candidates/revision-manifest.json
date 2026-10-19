@@ -1,0 +1,15 @@
+{
+  "p06_v03.png": {
+    "bytes": 1256144,
+    "height": 1536,
+    "notes": "Recomposed art and precise independently typeset Japanese lettering; original files preserved.",
+    "page": 6,
+    "sha256": "6e0695b4b4fa3a21c8422a880f473315f5c7aa5785989d2ebe81c2edb5380063",
+    "source": {
+      "p06.png": "e9832c44bf3a2bd8f2d471d08b87d30da90db8e99d95b3f5959ac14441684b43",
+      "p07.png": "1d23241f4721b08f2506f021eaa22b1536100758f3172824844d0a39db6cd4dd"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  }
+}
