@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="train" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b0b5b0"/><stop offset=".5" stop-color="#79858a"/><stop offset="1" stop-color="#354650"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#ebccb6"/><stop offset="1" stop-color="#ac867a"/></linearGradient><linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3d4b56"/><stop offset="1" stop-color="#192632"/></linearGradient><pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="6" r=".7" fill="#fff" opacity=".1"/><circle cx="14" cy="13" r=".7" fill="#111820" opacity=".12"/></pattern></defs>
+<rect width="1024" height="1536" fill="#ece8e0"/><rect x="28" y="28" width="968" height="1480" fill="#fefbf6"/>
+<!-- panel 1 train seat empty beside Aki -->
+<rect x="47" y="47" width="930" height="615" fill="url(#train)"/>
+<path d="M55 106H969V392H55Z" fill="#73878b" stroke="#ced6cc" stroke-width="12"/>
+<path d="M89 135H939V370H89Z" fill="#a6aba4"/>
+<path d="M89 336L940 258V370H89Z" fill="#62777f" opacity=".45"/>
+<path d="M489 108V392" stroke="#c2cdc4" stroke-width="13"/>
+<path d="M72 548Q81 431 202 429L459 438Q485 459 478 576L477 640H88Z" fill="#456174" stroke="#253b49" stroke-width="8"/>
+<path d="M518 438L824 421Q953 433 963 543L963 640H518Z" fill="#456174" stroke="#253b49" stroke-width="8"/>
+<path d="M518 501L946 501M100 501H465" stroke="#89a1a7" stroke-width="8" opacity=".4"/>
+<path d="M51 638H977" stroke="#b5c0be" stroke-width="18"/>
+<!-- Aki only left seat occupied -->
+<path d="M125 638Q112 477 259 459Q393 461 433 638" fill="url(#coat)" stroke="#1c2731" stroke-width="6"/>
+<path d="M235 492L285 577L336 483" fill="#e9e6dd"/>
+<ellipse cx="278" cy="442" rx="73" ry="94" fill="url(#skin)"/>
+<path d="M202 439Q193 341 277 333Q359 341 354 449Q304 372 204 449" fill="#252a32"/>
+<path d="M205 449Q194 505 232 533" fill="#252932"/>
+<path d="M273 464L312 460" stroke="#59494c" stroke-width="5" stroke-linecap="round"/>
+<path d="M298 516Q315 522 330 508" stroke="#85585c" stroke-width="5" fill="none"/>
+<path d="M101 578Q117 560 142 570M523 576L554 570" stroke="#809aa2" stroke-width="6"/>
+<rect x="47" y="47" width="930" height="615" fill="url(#grain)"/>
+<!-- panel 2 memory crossing: Nagi photo and intact Sakaki face -->
+<rect x="47" y="683" width="930" height="346" fill="#55636c"/>
+<path d="M48 687L491 687V1029H48Z" fill="#273c48"/>
+<rect x="132" y="707" width="258" height="289" rx="14" fill="#16242f" stroke="#131a23" stroke-width="8"/>
+<svg x="145" y="718" width="232" height="265" viewBox="228 97 580 811" preserveAspectRatio="xMidYMid meet" overflow="hidden"><image href="p19.png" x="0" y="0" width="1024" height="1536"/></svg>
+<!-- opposite memory of Sakaki's undamaged face, cool quiet profile -->
+<path d="M494 687H977V1029H494Z" fill="#9aa09c"/>
+<path d="M520 1029Q580 844 783 853Q931 864 975 1029" fill="#1e252e"/>
+<ellipse cx="767" cy="836" rx="105" ry="121" fill="#d1b9a8"/>
+<path d="M662 829Q646 720 755 706Q874 720 882 818Q808 754 664 840" fill="#262930"/>
+<path d="M762 862L793 861" stroke="#635055" stroke-width="6" stroke-linecap="round"/>
+<path d="M778 925Q798 937 821 924" stroke="#835b5a" stroke-width="4" fill="none"/>
+<path d="M492 684L538 1031" stroke="#e0ded2" stroke-width="15" opacity=".9"/>
+<rect x="47" y="683" width="930" height="346" fill="url(#grain)"/>
+<!-- panel 3 reflection in notebook -->
+<rect x="47" y="1049" width="930" height="437" fill="#4d575d"/>
+<path d="M48 1435L977 1345V1486H48Z" fill="#4e4945"/>
+<path d="M133 1111L544 1089L562 1456L156 1486Z" fill="#eee9dc" stroke="#757973" stroke-width="8"/>
+<path d="M180 1178L504 1165M184 1238L509 1221M190 1292L511 1280M195 1345L517 1339" stroke="#c6c7bc" stroke-width="4"/>
+<path d="M538 1475Q562 1348 525 1299L489 1224Q477 1194 453 1209Q436 1230 461 1263L473 1340L420 1422" fill="url(#skin)" stroke="#956f65" stroke-width="6"/>
+<rect x="525" y="1080" width="433" height="218" rx="54" fill="#fffdf8" stroke="#26313b" stroke-width="5"/>
+<path d="M559 1276L519 1347L626 1290" fill="#fffdf8" stroke="#26313b" stroke-width="5"/>
+<text x="744" y="1154" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="30" fill="#222e36">直せたものも、</text>
+<text x="744" y="1202" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="30" fill="#222e36">戻らない人も、</text>
+<text x="744" y="1251" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="30" fill="#222e36">ここにいる</text>
+<rect x="47" y="1049" width="930" height="437" fill="url(#grain)"/>
+<g fill="none" stroke="#19242e" stroke-width="5"><rect x="47" y="47" width="930" height="615"/><rect x="47" y="683" width="930" height="346"/><rect x="47" y="1049" width="930" height="437"/></g>
+</svg>
