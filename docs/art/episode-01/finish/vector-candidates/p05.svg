@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="hall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dddcd2"/><stop offset=".48" stop-color="#a9aca6"/><stop offset="1" stop-color="#62696a"/></linearGradient>
+<linearGradient id="coffin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#fffef7"/><stop offset=".6" stop-color="#eceee9"/><stop offset="1" stop-color="#bdc6c5"/></linearGradient>
+<linearGradient id="lid" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fdfefb"/><stop offset=".7" stop-color="#e8ebe5"/><stop offset="1" stop-color="#c6d0cb"/></linearGradient>
+<linearGradient id="suit" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#31343d"/><stop offset="1" stop-color="#0f151e"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#ebcdbc"/><stop offset="1" stop-color="#ab857e"/></linearGradient>
+<pattern id="grain" width="19" height="19" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#fff" opacity=".12"/><circle cx="14" cy="13" r=".75" fill="#272a2d" opacity=".10"/></pattern>
+</defs>
+<rect width="1024" height="1536" fill="url(#hall)"/>
+<!-- chapel rear walls and distant funeral flowers -->
+<path d="M93 72L935 55L943 1339L72 1410Z" fill="#bbbdb4" opacity=".55"/>
+<path d="M125 72V1188M890 70V1208" stroke="#909790" stroke-width="14" opacity=".35"/>
+<path d="M96 1234L916 1037V1536H0Z" fill="#757875" opacity=".38"/>
+<path d="M149 1040L934 898" stroke="#dad9d0" stroke-width="14" opacity=".18"/>
+<!-- white floral altar at distance, no body -->
+<g fill="#f2f1e8" stroke="#adb6b0" stroke-width="3">
+<circle cx="725" cy="412" r="46"/><circle cx="763" cy="362" r="42"/><circle cx="816" cy="397" r="48"/><circle cx="846" cy="467" r="42"/><circle cx="680" cy="461" r="39"/><circle cx="791" cy="466" r="42"/><circle cx="876" cy="412" r="27"/>
+</g>
+<g stroke="#777f79" stroke-width="5" opacity=".62"><path d="M738 548L710 402M750 536L770 351M804 557L819 386M834 547L858 462"/></g>
+<g fill="#eee8d6" opacity=".72"><circle cx="737" cy="410" r="17"/><circle cx="763" cy="367" r="17"/><circle cx="813" cy="401" r="20"/><circle cx="847" cy="462" r="19"/></g>
+<!-- long closed white coffin, diagonal receding from front towards flowers -->
+<path d="M342 1080L668 495L844 509L781 1162Z" fill="url(#lid)" stroke="#a3b1af" stroke-width="12"/>
+<path d="M342 1080L781 1162L774 1284L327 1181Z" fill="url(#coffin)" stroke="#9facab" stroke-width="10"/>
+<path d="M781 1162L844 509L834 615L774 1284Z" fill="#c6d1cc" stroke="#a0adab" stroke-width="8"/>
+<path d="M375 1062L682 523L814 536L754 1132Z" fill="none" stroke="#fdfef8" stroke-width="7"/>
+<path d="M359 1114L767 1191" stroke="#f8f9f3" stroke-width="6"/>
+<!-- silver unobtrusive handles -->
+<path d="M514 1216L589 1234M668 1247L727 1263" stroke="#afb7b5" stroke-width="14" stroke-linecap="round"/>
+<path d="M514 1218L588 1235M666 1249L726 1264" stroke="#f2f5f0" stroke-width="5" stroke-linecap="round"/>
+<!-- detached small arrangements against coffin -->
+<g fill="#f8f6ec" stroke="#c2c6ba" stroke-width="3"><circle cx="413" cy="1107" r="24"/><circle cx="440" cy="1133" r="28"/><circle cx="791" cy="723" r="18"/></g>
+<!-- Aki in foreground lower-left, mourning, small clenched hand -->
+<path d="M0 1536Q17 1134 161 1045Q263 1007 372 1144L420 1536Z" fill="url(#suit)" stroke="#151b25" stroke-width="12"/>
+<path d="M165 1056L252 1241L304 1095" fill="#e9e6e2" stroke="#9da3a3" stroke-width="5"/>
+<ellipse cx="204" cy="1030" rx="88" ry="118" fill="url(#skin)"/>
+<path d="M111 1024Q99 889 199 885Q308 896 296 1036Q254 942 133 1029" fill="#1f232d"/>
+<path d="M115 1017Q100 1100 158 1157" fill="#24262f"/>
+<path d="M195 1058L227 1056" stroke="#6b555b" stroke-width="6"/>
+<path d="M219 1120Q243 1127 257 1117" stroke="#8b6063" stroke-width="5" fill="none"/>
+<!-- black sleeve up to clenched fist -->
+<path d="M232 1394Q278 1326 322 1308L371 1343L378 1423L319 1489L253 1536H193Z" fill="#1b2029" stroke="#0d141f" stroke-width="7"/>
+<path d="M343 1317Q360 1283 384 1278Q405 1281 404 1307L424 1318Q441 1332 427 1354L435 1367Q446 1391 426 1402L417 1418Q420 1440 400 1447Q377 1455 347 1420L330 1374Z" fill="url(#skin)" stroke="#926f68" stroke-width="6"/>
+<path d="M364 1333L410 1351M355 1364L422 1380M352 1394L403 1412" stroke="#aa887d" stroke-width="4"/>
+<!-- title in high contrast negative space -->
+<text x="112" y="164" font-family="Noto Sans CJK JP,sans-serif" font-size="38" fill="#41494b">2026年10月</text>
+<text x="112" y="292" font-family="Noto Sans CJK JP,sans-serif" font-size="61" font-weight="bold" fill="#252d34">神谷家 - 原状回復 -</text>
+<path d="M116 316H808" stroke="#616768" stroke-width="4"/>
+<text x="116" y="397" font-family="Noto Sans CJK JP,sans-serif" font-size="46" fill="#273037">第1話 帰ってきた人</text>
+<rect x="0" y="0" width="1024" height="1536" fill="url(#grain)"/>
+</svg>
