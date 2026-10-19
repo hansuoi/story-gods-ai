@@ -13,7 +13,7 @@
 <ellipse cx="507" cy="259" rx="116" ry="134" fill="url(#skin)" transform="rotate(-7 507 259)"/>
 <path d="M388 257Q367 133 496 119Q639 137 635 274Q563 167 393 272" fill="#262c34"/>
 <path d="M438 279Q470 273 497 276M531 276Q558 272 589 273" stroke="#8a7c75" stroke-width="5" stroke-linecap="round" fill="none"/>
-<path d="M494 346Q519 349 546 339" stroke="#a07d7d" stroke-width="5" fill="none"/>
+<path d="M494 344Q519 344 546 344" stroke="#a07d7d" stroke-width="5" fill="none"/>
 <!-- white flowers close and silent -->
 <g fill="#faf9ed" stroke="#c1c7bb" stroke-width="3"><circle cx="204" cy="375" r="36"/><circle cx="245" cy="413" r="35"/><circle cx="805" cy="358" r="32"/><circle cx="827" cy="398" r="36"/><circle cx="170" cy="435" r="26"/></g>
 <rect x="47" y="47" width="930" height="500" fill="url(#grain)"/>
