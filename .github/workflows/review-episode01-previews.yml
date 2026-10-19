@@ -58,6 +58,7 @@ jobs:
                   draw.text((x, y + 4), f"P{n:02d}", fill="#222a32", font=font)
               bio = io.BytesIO()
               sheet.save(bio, format="JPEG", quality=88, optimize=True, subsampling=0)
+              (out / f"sheet{(start-1)//4+1:02d}.jpg").write_bytes(bio.getvalue())
               payload = base64.b64encode(bio.getvalue()).decode("ascii")
               (out / f"sheet{(start-1)//4+1:02d}.jpg.base64").write_text(payload + "\n", encoding="ascii")
               print(f"sheet {(start-1)//4+1:02d}: {len(bio.getvalue())} bytes, pages {start}-{start+3}")
@@ -66,7 +67,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/art/episode-01/finish/vector-candidates/review-previews/*.base64
+          git add docs/art/episode-01/finish/vector-candidates/review-previews/*.base64 docs/art/episode-01/finish/vector-candidates/review-previews/*.jpg
           if ! git diff --cached --quiet; then
             git commit -m "art(ep01): add four-page visual QA preview sheets"
             git pull --rebase origin main
