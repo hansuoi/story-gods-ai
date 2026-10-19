@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="desk" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#a28a7a"/><stop offset="1" stop-color="#494b4d"/></linearGradient>
+<linearGradient id="room" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#879298"/><stop offset=".6" stop-color="#58616b"/><stop offset="1" stop-color="#242f3a"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#e3beaa"/><stop offset="1" stop-color="#ad8275"/></linearGradient>
+<pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="6" r=".7" fill="#fff" opacity=".1"/><circle cx="14" cy="13" r=".7" fill="#0e1c24" opacity=".1"/></pattern>
+</defs><rect width="1024" height="1536" fill="#ebe7de"/><rect x="28" y="28" width="968" height="1480" fill="#fefbf5"/>
+<!-- Panel 1: memo dates and case number -->
+<rect x="48" y="48" width="928" height="285" fill="url(#desk)"/>
+<rect x="227" y="69" width="559" height="239" rx="5" fill="#f3eddf" stroke="#7d796f" stroke-width="5" transform="rotate(-2 227 69)"/>
+<g font-family="Noto Sans CJK JP,sans-serif" fill="#464e50" font-size="29" transform="rotate(-2 227 69)"><text x="264" y="131">2018年／汀橋</text><text x="264" y="192">案件番号</text><text x="455" y="192">18-07</text><text x="264" y="251">当日の行き先</text></g>
+<path d="M616 329L527 218" stroke="#222c32" stroke-width="18" stroke-linecap="round"/><path d="M534 223L515 200" stroke="#d5dadd" stroke-width="12" stroke-linecap="round"/>
+<path d="M803 333Q788 282 733 266L643 235Q622 223 616 245Q610 267 645 279L693 296L723 333" fill="url(#skin)" stroke="#997567" stroke-width="5"/>
+<rect x="48" y="48" width="928" height="285" fill="url(#grain)"/>
+<!-- Panel 2: Aki phones detective -->
+<rect x="48" y="353" width="928" height="450" fill="url(#room)"/>
+<path d="M55 784L970 702V803H55Z" fill="#3b4045"/>
+<path d="M97 398L387 378V730L97 757Z" fill="#5a626a" stroke="#9aa7a9" stroke-width="8"/>
+<path d="M119 423L366 405V712L119 730Z" fill="#8babae" opacity=".48"/>
+<path d="M118 653L365 535V719L118 730" fill="#ded7c5" opacity=".22"/>
+<path d="M122 803Q132 649 266 628Q398 637 439 803" fill="#19222e"/>
+<ellipse cx="283" cy="581" rx="89" ry="112" fill="url(#skin)"/>
+<path d="M195 586Q183 462 280 454Q386 464 373 591Q346 501 284 515Q235 520 195 586" fill="#24262f"/>
+<path d="M328 593L344 598" stroke="#5a4e50" stroke-width="5" stroke-linecap="round"/>
+<path d="M343 657Q327 664 317 660" stroke="#825c57" stroke-width="5" fill="none"/>
+<rect x="369" y="511" width="29" height="102" rx="12" transform="rotate(13 369 511)" fill="#2b363c" stroke="#10171e" stroke-width="4"/>
+<path d="M416 703Q397 651 384 624L359 602Q335 590 325 608L349 656L375 705" fill="url(#skin)" stroke="#977368" stroke-width="5"/>
+<path d="M461 390Q497 363 540 364H901Q945 374 945 428V565Q936 608 879 612H571L512 653L529 609Q460 595 456 550Z" fill="#fffdf8" stroke="#232b32" stroke-width="5"/>
+<text x="701" y="451" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="32" fill="#222a2f">当日の行き先に</text>
+<text x="701" y="500" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="32" fill="#222a2f">関係する資料が</text>
+<text x="701" y="549" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="32" fill="#222a2f">あります</text>
+<rect x="48" y="353" width="928" height="450" fill="url(#grain)"/>
+<!-- Panel 3: voice over phone -->
+<rect x="48" y="823" width="928" height="312" fill="#4c5560"/>
+<path d="M194 1108Q177 951 282 902L358 866Q388 850 402 878L441 975Q446 1003 413 1013L375 1023Q356 1041 378 1112" fill="url(#skin)" stroke="#997769" stroke-width="5"/>
+<rect x="270" y="863" width="92" height="250" rx="17" transform="rotate(-11 270 863)" fill="#151d25" stroke="#080f13" stroke-width="7"/>
+<rect x="286" y="885" width="62" height="181" rx="4" transform="rotate(-11 286 885)" fill="#8298a2"/>
+<circle cx="332" cy="1090" r="8" fill="#909ea0"/>
+<rect x="469" y="872" width="450" height="166" rx="56" fill="#faf8f3" stroke="#252b34" stroke-width="6"/>
+<path d="M515 1017L466 1084L564 1031" fill="#faf8f3" stroke="#252b34" stroke-width="5"/>
+<text x="692" y="945" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="35" fill="#23292d">現場には近づかないで</text>
+<text x="692" y="995" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="35" fill="#23292d">ください</text>
+<rect x="48" y="823" width="928" height="312" fill="url(#grain)"/>
+<!-- Panel 4: silent decision to leave -->
+<rect x="48" y="1155" width="928" height="332" fill="#747b80"/>
+<path d="M48 1487L976 1432V1487Z" fill="#4d4e4d"/>
+<path d="M235 1487Q257 1315 344 1264L467 1240Q516 1255 557 1304L618 1487" fill="#181e26" stroke="#0c131c" stroke-width="8"/>
+<ellipse cx="420" cy="1242" rx="71" ry="85" fill="url(#skin)"/>
+<path d="M347 1247Q344 1149 416 1147Q493 1166 493 1250L444 1208Q381 1210 347 1247" fill="#292a2f"/>
+<path d="M523 1323Q633 1228 746 1223L837 1374L765 1426L686 1328L585 1454Z" fill="#31383f" stroke="#1a242d" stroke-width="6"/>
+<path d="M606 1262Q657 1254 717 1279" stroke="#b6b5ab" stroke-width="6"/>
+<path d="M558 1340Q614 1342 657 1374L670 1412Q653 1438 626 1417L586 1382" fill="url(#skin)" stroke="#a17f71" stroke-width="5"/>
+<rect x="48" y="1155" width="928" height="332" fill="url(#grain)"/>
+<g fill="none" stroke="#171d24" stroke-width="5"><rect x="48" y="48" width="928" height="285"/><rect x="48" y="353" width="928" height="450"/><rect x="48" y="823" width="928" height="312"/><rect x="48" y="1155" width="928" height="332"/></g>
+</svg>
