@@ -93,7 +93,7 @@ def main() -> None:
 
     page.save(OUTPUT, optimize=True)
     contents = OUTPUT.read_bytes()
-    assert contents[:8] == b"\\x89PNG\\r\\n\\x1a\\n"
+    assert contents[:8] == b"\x89PNG\r\n\x1a\n"
     assert Image.open(OUTPUT).size == PAGE_SIZE
     manifest = {
         "p06_v03.png": {
