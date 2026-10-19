@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="desk" x1="0" y1="0" x2=".15" y2="1"><stop stop-color="#83786b"/><stop offset="1" stop-color="#463f3b"/></linearGradient>
+<linearGradient id="room" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8a9090"/><stop offset=".52" stop-color="#575e63"/><stop offset="1" stop-color="#29333c"/></linearGradient>
+<linearGradient id="clock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e8e4da"/><stop offset="1" stop-color="#aba99f"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dfbca9"/><stop offset="1" stop-color="#997971"/></linearGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+<pattern id="grain" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="4" r=".6" fill="#ffffff" opacity=".12"/><circle cx="9" cy="10" r=".6" fill="#0e1721" opacity=".12"/></pattern>
+</defs>
+<rect width="1024" height="1536" fill="#e8e4dc"/>
+<rect x="28" y="28" width="968" height="1480" fill="#f9f8f4"/>
+<!-- panel 1: cannot write back -->
+<g>
+<rect x="48" y="48" width="928" height="407" fill="url(#desk)"/>
+<path d="M48 104L976 48V130L48 200Z" fill="#e2d3bc" opacity=".13"/>
+<rect x="214" y="95" width="498" height="296" rx="4" transform="rotate(-7 214 95)" fill="#2c2b2b" opacity=".18"/>
+<rect x="206" y="82" width="498" height="296" rx="4" transform="rotate(-7 206 82)" fill="#ece4c9" stroke="#d8c5a4" stroke-width="3"/>
+<path d="M282 174L615 132M275 211L606 169M268 248L600 206M261 285L593 243" stroke="#928d78" stroke-width="2" opacity=".2"/>
+<path d="M740 328C723 288 703 273 674 266L630 252Q596 258 611 286L660 304L691 350L740 408L846 394Z" fill="url(#skin)" stroke="#96776b" stroke-width="4"/>
+<path d="M691 342L576 230" stroke="#24262b" stroke-width="16" stroke-linecap="round"/>
+<path d="M585 239L562 217" stroke="#b5bec1" stroke-width="13" stroke-linecap="round"/>
+<path d="M565 221L553 210" stroke="#33373a" stroke-width="5" stroke-linecap="round"/>
+<path d="M638 304Q614 280 593 266" fill="none" stroke="#a18475" stroke-width="3"/>
+<path d="M758 455Q734 389 692 356L783 288Q866 319 917 455" fill="#242b32"/>
+<path d="M48 48H976V455H48Z" fill="url(#grain)"/>
+</g>
+<!-- panel 2: two facing chairs, only one occupied -->
+<g>
+<rect x="48" y="473" width="928" height="661" fill="url(#room)"/>
+<path d="M48 953H976V1134H48Z" fill="#46443f"/>
+<path d="M50 947L976 942" stroke="#aeb0a7" stroke-width="5" opacity=".3"/>
+<path d="M88 511H430V813H88Z" fill="#39444c" stroke="#a3aaa5" stroke-width="12"/>
+<path d="M111 533H408V793H111Z" fill="#6d8790" opacity=".55"/>
+<path d="M111 730L408 596V793H111Z" fill="#d6cfbb" opacity=".22"/>
+<path d="M465 511H936" stroke="#adb2aa" stroke-width="7" opacity=".28"/>
+<path d="M680 473V836" stroke="#adb2aa" stroke-width="6" opacity=".15"/>
+<!-- empty chair to viewer's right -->
+<path d="M694 783Q778 745 877 796L882 970Q776 997 682 957Z" fill="#27313a" stroke="#151f27" stroke-width="10"/>
+<path d="M721 817Q776 794 849 826L850 930Q777 946 712 925Z" fill="#59616a" opacity=".6"/>
+<path d="M686 973L644 1111M870 975L901 1112" stroke="#24282c" stroke-width="16" stroke-linecap="round"/>
+<!-- seated Aki seen three quarter back -->
+<path d="M217 940Q229 782 348 765Q473 776 505 954L469 1063H242Z" fill="#1a2028" stroke="#111923" stroke-width="8"/>
+<path d="M295 831L360 963L415 825" fill="#ded9d2"/>
+<path d="M299 822L360 964L414 828" fill="#777d7f" opacity=".36"/>
+<ellipse cx="358" cy="739" rx="88" ry="113" fill="url(#skin)"/>
+<path d="M266 733Q267 614 353 610Q463 620 449 746Q436 695 416 667Q337 680 268 755Z" fill="#20242d"/>
+<path d="M273 716Q254 769 303 804" fill="#23242b"/>
+<path d="M385 771Q399 774 415 768" stroke="#654a47" stroke-width="4" stroke-linecap="round"/>
+<path d="M372 809Q382 811 391 805" stroke="#835953" stroke-width="4" fill="none"/>
+<path d="M201 1010L534 1010" stroke="#27292b" stroke-width="18"/>
+<path d="M201 1013L179 1112M521 1015L542 1114" stroke="#1e2226" stroke-width="16"/>
+<!-- separation of two chairs by a small table -->
+<ellipse cx="572" cy="1017" rx="122" ry="26" fill="#282a2b" opacity=".3"/>
+<path d="M490 969L670 969L689 994L473 994Z" fill="#77766e" stroke="#474a49" stroke-width="4"/>
+<path d="M581 993L581 1109" stroke="#464543" stroke-width="17"/>
+<!-- exact dialogue, position above empty chair -->
+<path d="M526 548Q546 516 593 512H897Q932 519 936 560L930 655Q916 696 869 697H660L605 737L620 694H576Q528 683 526 640Z" fill="#fafaf5" stroke="#252c34" stroke-width="5"/>
+<text x="728" y="585" text-anchor="middle" font-family="Noto Sans CJK JP, sans-serif" font-size="35" fill="#1c2227">次はちゃんと</text>
+<text x="728" y="634" text-anchor="middle" font-family="Noto Sans CJK JP, sans-serif" font-size="35" fill="#1c2227">説明してよ</text>
+<rect x="48" y="473" width="928" height="661" fill="url(#grain)"/>
+</g>
+<!-- panel 3: silent second hand -->
+<g>
+<rect x="48" y="1152" width="928" height="336" fill="#343b43"/>
+<circle cx="742" cy="1320" r="190" fill="#13191f" opacity=".45" filter="url(#soft)"/>
+<circle cx="741" cy="1322" r="176" fill="#383d40" stroke="#171d21" stroke-width="12"/>
+<circle cx="741" cy="1322" r="151" fill="url(#clock)" stroke="#8b8980" stroke-width="6"/>
+<g stroke="#555a58" stroke-width="7" stroke-linecap="round">
+<path d="M741 1187V1206M741 1436V1456M606 1322H624M859 1322H878"/>
+</g>
+<g stroke="#85877f" stroke-width="4" stroke-linecap="round">
+<path d="M650 1228L663 1241M829 1403L842 1416M650 1416L663 1403M829 1241L842 1228"/>
+</g>
+<path d="M741 1322L690 1253" stroke="#2e353b" stroke-width="13" stroke-linecap="round"/>
+<path d="M741 1322L826 1298" stroke="#2e353b" stroke-width="9" stroke-linecap="round"/>
+<path d="M741 1379L741 1218" stroke="#9d3b35" stroke-width="4" stroke-linecap="round"/>
+<circle cx="741" cy="1322" r="12" fill="#a13f37"/>
+<path d="M48 1152H976V1488H48Z" fill="url(#grain)"/>
+</g>
+<g fill="none" stroke="#15181c" stroke-width="5"><rect x="48" y="48" width="928" height="407"/><rect x="48" y="473" width="928" height="661"/><rect x="48" y="1152" width="928" height="336"/></g>
+</svg>
