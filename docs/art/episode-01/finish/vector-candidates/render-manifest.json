@@ -34,6 +34,13 @@
     "source": "p05.svg",
     "width": 1024
   },
+  "p06.png": {
+    "bytes": 264656,
+    "height": 1536,
+    "sha256": "d1dbf789af9ee2f16fc6e8379f406f22f807bfc8d9a94905bf99f436450399fc",
+    "source": "p06.svg",
+    "width": 1024
+  },
   "p07.png": {
     "bytes": 93416,
     "height": 1536,
