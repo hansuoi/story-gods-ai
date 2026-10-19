@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/review-episode01-previews.yml'
+      - 'docs/art/episode-01/finish/vector-candidates/render-manifest.json'
 permissions:
   contents: write
 concurrency:
