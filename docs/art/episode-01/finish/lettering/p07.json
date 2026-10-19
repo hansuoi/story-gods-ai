@@ -1,0 +1,52 @@
+{
+  "page": "P07",
+  "title": "キャンディーがない",
+  "source": "docs/name/episode-01.md",
+  "panels": [
+    {
+      "id": 1,
+      "type": "large",
+      "dialogue": [],
+      "description": "棺の中の榊の口元。キャンディーの棒がない。白い花。無言。"
+    },
+    {
+      "id": 2,
+      "type": "two-narrow",
+      "dialogue": [
+        {
+          "text": "父を助けて",
+          "speaker": "参列者"
+        },
+        {
+          "text": "いい人で",
+          "speaker": "参列者"
+        },
+        {
+          "text": "いつも笑って",
+          "speaker": "参列者"
+        }
+      ],
+      "description": "参列者の断片。顔を全員描かない。"
+    },
+    {
+      "id": 3,
+      "type": "medium",
+      "dialogue": [
+        {
+          "text": "別の人みたい",
+          "speaker": "安希",
+          "style": "whisper"
+        }
+      ],
+      "description": "安希の正面。小声。"
+    }
+  ],
+  "rendering": {
+    "strategy": "artwork_without_generated_text_then_overlay_exact_lettering",
+    "text_direction": "vertical",
+    "font": "Noto Sans CJK JP",
+    "source_of_truth": "this file",
+    "avoid_extra_text": true
+  },
+  "status": "lettering specification; not a finished artwork"
+}
