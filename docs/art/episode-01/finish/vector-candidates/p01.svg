@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="rain" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#899ea8"/><stop offset=".45" stop-color="#40586b"/><stop offset="1" stop-color="#121f2d"/></linearGradient><linearGradient id="stone" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#788992"/><stop offset="1" stop-color="#273d4c"/></linearGradient><linearGradient id="water" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#7e9eab"/><stop offset="1" stop-color="#1a445b"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#dec0ab"/><stop offset="1" stop-color="#a07c73"/></linearGradient><pattern id="drops" width="37" height="64" patternUnits="userSpaceOnUse" patternTransform="rotate(19)"><path d="M4 4V31M20 18V47" stroke="#d0e3e9" stroke-width="2" opacity=".35"/></pattern><pattern id="grain" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#fff" opacity=".15"/><circle cx="12" cy="13" r=".6" fill="#071c2b" opacity=".15"/></pattern></defs>
+<rect width="1024" height="1536" fill="#eef0ed"/><rect x="28" y="28" width="968" height="1480" fill="#fbfbf8"/>
+<!-- Panel1 look down flooded stairwell at distorted emergency door -->
+<rect x="47" y="47" width="930" height="782" fill="url(#rain)"/>
+<path d="M47 193L407 134L471 704L47 797Z" fill="url(#stone)" stroke="#31485a" stroke-width="13"/>
+<path d="M977 155L601 112L549 690L977 811Z" fill="url(#stone)" stroke="#263b4d" stroke-width="13"/>
+<path d="M410 132L599 115L572 694L463 704Z" fill="#283e4d"/>
+<path d="M330 205L671 180L701 388L306 416Z" fill="#596c75" stroke="#253b4a" stroke-width="11"/>
+<path d="M361 217L658 203L684 373L337 391Z" fill="#334e5f"/>
+<path d="M341 390L670 374L684 633L354 647Z" fill="#475a64" stroke="#263b49" stroke-width="12"/>
+<!-- door frame visibly skewed -->
+<path d="M346 383L673 370L694 644L370 662Z" fill="none" stroke="#9caaad" stroke-width="14"/>
+<path d="M374 403L656 394L671 637L391 640Z" fill="#294354" stroke="#192d3c" stroke-width="10"/>
+<path d="M540 391L558 638" stroke="#b0bdc0" stroke-width="13"/>
+<path d="M532 486L565 483" stroke="#909fa4" stroke-width="10"/>
+<!-- left wall water level stain -->
+<path d="M47 490Q151 474 243 501L439 457" stroke="#9c9685" stroke-width="23" fill="none" opacity=".54"/>
+<path d="M47 506L438 475" stroke="#a4b5b3" stroke-width="4" opacity=".45"/>
+<!-- stairs narrowing -->
+<path d="M48 752L471 558M976 748L570 550" stroke="#82959b" stroke-width="13"/>
+<g stroke="#a9b5b5" stroke-width="8" opacity=".52"><path d="M47 681L474 527M977 682L565 526M47 591L469 498M977 583L566 500"/></g>
+<!-- rescue worker distant orange reflective safety bands -->
+<path d="M257 648Q275 568 338 567Q390 581 397 657" fill="#d6a767" stroke="#594a3e" stroke-width="5"/>
+<ellipse cx="328" cy="549" rx="28" ry="33" fill="#cfb4a0"/>
+<path d="M298 541Q306 507 330 509Q356 515 358 543" fill="#d2a454"/>
+<path d="M270 610L385 594M269 640L392 629" stroke="#e3d6ad" stroke-width="11"/>
+<!-- rain and flood rushing toward reader -->
+<path d="M47 641Q251 596 485 664Q749 576 976 666V829H47Z" fill="url(#water)" opacity=".95"/>
+<g stroke="#b2d5e0" stroke-width="6" fill="none" opacity=".65"><path d="M54 705Q312 643 517 715Q709 670 964 708"/><path d="M49 764Q277 692 541 765Q725 715 980 778"/><path d="M195 793Q437 746 759 793"/></g>
+<rect x="47" y="47" width="930" height="782" fill="url(#drops)"/>
+<text x="100" y="115" font-size="37" font-family="Noto Sans CJK JP,sans-serif" fill="#f4f4ef">2024年</text>
+<path d="M554 78Q584 59 620 67H887Q934 75 934 117V212Q924 252 882 257H683L609 298L622 255Q549 244 547 194Z" fill="#fffdf9" stroke="#1a2a37" stroke-width="5"/>
+<text x="741" y="162" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="39" fill="#25313a">扉が開かない！</text>
+<rect x="47" y="47" width="930" height="782" fill="url(#grain)"/>
+<!-- panel2 child hand seen through door gap only, face hidden -->
+<rect x="47" y="849" width="930" height="351" fill="#304656"/>
+<path d="M69 857L469 857V1200H69Z" fill="#5a6a72"/>
+<path d="M487 847L949 849V1200H487Z" fill="#394d59"/>
+<path d="M452 849L505 849L534 1200L490 1200Z" fill="#1c303d" stroke="#899ca3" stroke-width="7"/>
+<path d="M464 944L498 942L502 1114L473 1113Z" fill="#183344"/>
+<path d="M490 1091Q502 1042 529 1016L576 978Q595 973 599 991Q604 1010 586 1027L571 1044L623 1041Q648 1044 644 1062Q640 1080 613 1079L575 1082L605 1093Q622 1107 614 1121Q605 1138 578 1122L550 1115L526 1199L493 1199Z" fill="url(#skin)" stroke="#9b7a6d" stroke-width="5"/>
+<path d="M52 1125Q276 1093 477 1132Q691 1118 975 1143V1200H52Z" fill="#2b5266" opacity=".8"/>
+<path d="M586 1125L592 1144" stroke="#b9dfe9" stroke-width="5" stroke-linecap="round"/>
+<circle cx="596" cy="1150" r="5" fill="#d6eaef"/>
+<rect x="92" y="881" width="295" height="93" rx="42" fill="#fffdf9" stroke="#1e2a34" stroke-width="5"/>
+<text x="242" y="945" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="37" fill="#253139">だれか……</text>
+<rect x="47" y="849" width="930" height="351" fill="url(#drops)"/>
+<!-- panel3 back of rescuer and a wet leather shoe entering water, Sakaki unseen -->
+<rect x="47" y="1220" width="930" height="267" fill="#364e5f"/>
+<path d="M48 1420Q362 1370 618 1391Q803 1374 977 1416V1487H47Z" fill="#315770"/>
+<path d="M48 1465Q312 1424 541 1465Q749 1429 977 1464" stroke="#a5cad3" stroke-width="6" opacity=".75" fill="none"/>
+<!-- rescuer back -->
+<path d="M104 1487Q116 1296 232 1252Q352 1247 437 1412L442 1487" fill="#be9e64" stroke="#665741" stroke-width="7"/>
+<path d="M147 1345L358 1343" stroke="#e3d2a4" stroke-width="21"/>
+<!-- leather shoe from offscreen -->
+<path d="M634 1237L721 1230L753 1367L891 1416Q914 1436 883 1446L630 1451Q600 1439 610 1412L631 1346Z" fill="#252d37" stroke="#131d28" stroke-width="11"/>
+<path d="M630 1412L884 1416M678 1271L727 1270" stroke="#73818a" stroke-width="5"/>
+<path d="M613 1438Q628 1399 682 1425Q781 1397 905 1434" fill="none" stroke="#aed7e1" stroke-width="7"/>
+<rect x="477" y="1228" width="462" height="102" rx="43" fill="#fffdf8" stroke="#1c2b36" stroke-width="5"/>
+<path d="M548 1320L495 1371L587 1327" fill="#fffdf8" stroke="#1c2b36" stroke-width="5"/>
+<text x="708" y="1295" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="34" fill="#27333b">開けりゃいいんだな？</text>
+<rect x="47" y="1220" width="930" height="267" fill="url(#drops)"/>
+<g fill="none" stroke="#142534" stroke-width="5"><rect x="47" y="47" width="930" height="782"/><rect x="47" y="849" width="930" height="351"/><rect x="47" y="1220" width="930" height="267"/></g>
+</svg>
