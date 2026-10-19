@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/render_episode01_p06_v03.py'
       - 'scripts/render_episode01_p07_v04.py'
+      - 'scripts/render_episode01_color_readthrough.py'
       - '.github/workflows/render-episode01-color-revisions.yml'
 permissions:
   contents: write
@@ -27,6 +28,7 @@ jobs:
         run: |
           python scripts/render_episode01_p06_v03.py
           python scripts/render_episode01_p07_v04.py
+          python scripts/render_episode01_color_readthrough.py
       - name: Verify output metadata and no edits to originals
         run: |
           python - <<'PY'
@@ -55,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/revision-manifest.json
+          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg
           if ! git diff --cached --quiet; then
             git commit -m "art(ep01): render P06 and P07 revised color candidates"
             git pull --rebase origin main
