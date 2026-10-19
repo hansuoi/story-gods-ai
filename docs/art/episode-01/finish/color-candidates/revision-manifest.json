@@ -11,5 +11,19 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p07_v04.png": {
+    "bytes": 1130764,
+    "height": 1536,
+    "notes": "Mouth-focused silent funeral panel; P05 white flowers feathered in foreground. Other three panels and exact speech unchanged.",
+    "page": 7,
+    "sha256": "b4cbbe917c79bb999ef3371d3cd8c681ccf11c1b5a51cfa44acd4ec1a912cc0d",
+    "source": {
+      "p05.png": "750daf4bc26b458c95561bd892a49e8df947216548c2bcbf0aa8fee47864d5c2",
+      "p07.png": "1d23241f4721b08f2506f021eaa22b1536100758f3172824844d0a39db6cd4dd"
+    },
+    "status": "candidate-needs-visual-review",
+    "unchanged_area": "pixels with y >= 569 exactly match p07.png",
+    "width": 1024
   }
 }
