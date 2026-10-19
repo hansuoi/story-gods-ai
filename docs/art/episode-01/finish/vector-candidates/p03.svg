@@ -53,6 +53,11 @@
 <ellipse cx="801" cy="1120" rx="40" ry="50" fill="url(#skin)"/>
 <path d="M768 1100Q767 1057 800 1063Q844 1063 846 1107" fill="#d3a960" stroke="#6a5547" stroke-width="5"/>
 <path d="M683 1211L896 1226" stroke="#e6d5a5" stroke-width="18"/>
+<!-- rescued child emerges between rescue workers -->
+<path d="M516 1346Q518 1243 562 1229Q608 1232 650 1352" fill="#535d66" stroke="#253744" stroke-width="7"/>
+<ellipse cx="574" cy="1203" rx="34" ry="44" fill="url(#skin)" stroke="#9c7d71" stroke-width="4"/>
+<path d="M540 1195Q537 1164 568 1156Q605 1163 609 1205Q577 1177 542 1204" fill="#293440"/>
+<path d="M568 1222Q584 1226 598 1219" stroke="#886463" stroke-width="3" fill="none"/>
 <!-- rescued child's arm between them -->
 <path d="M545 1209Q563 1194 595 1207L659 1244Q674 1262 662 1275Q651 1286 630 1277L583 1251L547 1278" fill="url(#skin)" stroke="#9a786b" stroke-width="5"/>
 <path d="M53 1336Q319 1296 556 1333Q754 1304 977 1337" stroke="#a7cad7" stroke-width="7" fill="none" opacity=".6"/>
