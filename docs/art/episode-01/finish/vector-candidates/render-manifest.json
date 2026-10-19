@@ -1,10 +1,10 @@
 {
   "p01.png": {
-    "bytes": 470442,
+    "bytes": 475798,
     "height": 1536,
-    "sha256": "1e9303fb7916ed1f8c933360a95cb4741b88bad2a5e5bae6c7b6cfb486e3a9dc",
+    "sha256": "c528864b5377c5fe846d90b6a55132df399d3f15762fdeea6c3728f03a3cca11",
     "source": "p01.svg",
-    "svg_sha256": "75495cb15fac9d941552fd8410e7a983a9262567aa04ca2afd97d556664897c9",
+    "svg_sha256": "e539d98f73ced42261931eb1a317644cbfaaa5d78ec5308b23110c5273cf331b",
     "width": 1024
   },
   "p02.png": {
@@ -16,11 +16,11 @@
     "width": 1024
   },
   "p03.png": {
-    "bytes": 480479,
+    "bytes": 482942,
     "height": 1536,
-    "sha256": "9bee8cb240ba6ad0a411131277e97a300b0d7664937a05e6b52937a9b23ca3e4",
+    "sha256": "1d667bdd5ecaa38192937bc16f6d8cf6fe9560038ce3a598ddfa644650f824d5",
     "source": "p03.svg",
-    "svg_sha256": "dfc84146af90ea20719e0cb8901b2677d8ddca8208c5caa92c42ab5bbbe25db4",
+    "svg_sha256": "c63975731a1addd3ee15332f53e838a2a5baa213e559443875cf33db31d49ff6",
     "width": 1024
   },
   "p04.png": {
