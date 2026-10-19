@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="storm" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#839da8"/><stop offset="1" stop-color="#1d374b"/></linearGradient><linearGradient id="white" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8f6e9"/><stop offset="1" stop-color="#b9c8c9"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#efceb7"/><stop offset="1" stop-color="#ab8375"/></linearGradient><linearGradient id="rainlight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c7d8d9"/><stop offset="1" stop-color="#6e8a95"/></linearGradient><pattern id="rain" width="35" height="67" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><path d="M4 7V40M21 25V58" stroke="#eef7f4" stroke-width="2" opacity=".35"/></pattern></defs>
+<rect width="1024" height="1536" fill="#edf0ed"/><rect x="28" y="28" width="968" height="1480" fill="#fcfbf7"/>
+<!-- panel1 boy wonders about magic; Sakaki candy -->
+<rect x="47" y="47" width="930" height="257" fill="url(#storm)"/>
+<path d="M53 304Q96 189 219 181Q322 191 367 304" fill="#586d77"/>
+<ellipse cx="219" cy="158" rx="57" ry="70" fill="url(#skin)"/>
+<path d="M160 159Q157 96 215 94Q286 102 280 160Q233 115 160 162" fill="#39424b"/>
+<path d="M448 304Q486 154 622 142Q813 155 879 304" fill="url(#white)"/>
+<ellipse cx="652" cy="128" rx="70" ry="87" fill="url(#skin)"/>
+<path d="M578 116Q575 43 656 40Q743 55 724 132Q667 79 581 124" fill="#28323b"/>
+<path d="M634 159Q656 172 676 154" stroke="#905f58" stroke-width="4" fill="none"/>
+<path d="M687 164L738 190" stroke="#e8efe9" stroke-width="8" stroke-linecap="round"/>
+<path d="M703 197Q739 181 766 207" stroke="url(#skin)" stroke-width="24" stroke-linecap="round"/>
+<rect x="71" y="65" width="249" height="95" rx="44" fill="#fffdf9" stroke="#263440" stroke-width="5"/>
+<text x="196" y="128" font-family="Noto Sans CJK JP,sans-serif" font-size="41" text-anchor="middle" fill="#26343f">魔法？</text>
+<rect x="715" y="67" width="237" height="90" rx="44" fill="#fffdf9" stroke="#263440" stroke-width="5"/>
+<text x="834" y="128" font-family="Noto Sans CJK JP,sans-serif" font-size="38" text-anchor="middle" fill="#26343f">仕事だよ</text>
+<rect x="47" y="47" width="930" height="257" fill="url(#rain)"/>
+<!-- panel2 repair only cut pin, old bend and dirty flood remain -->
+<rect x="47" y="324" width="930" height="438" fill="#405a69"/>
+<path d="M54 715Q325 652 587 699Q785 658 973 713V762H54Z" fill="#38617a"/>
+<path d="M190 370L791 343L829 707L212 735Z" fill="#768d97" stroke="#384c58" stroke-width="10"/>
+<path d="M255 401L657 382L687 692L271 710Z" fill="#516675" stroke="#2e4352" stroke-width="8"/>
+<path d="M614 448L695 438L712 518L620 536" fill="#a9bbbd" stroke="#576f7c" stroke-width="7"/>
+<circle cx="647" cy="483" r="10" fill="#4a606a"/><circle cx="683" cy="480" r="10" fill="#4a606a"/>
+<!-- same crooked pin shape reconnects on small fracture, but remains crooked -->
+<path d="M643 532L698 564L672 594L725 627" stroke="#c1cdcd" stroke-width="17" stroke-linejoin="round" fill="none"/>
+<path d="M671 564Q669 581 677 590" stroke="#e6f5f2" stroke-width="6" fill="none"/>
+<path d="M668 554Q649 584 674 605" stroke="#89d5e0" stroke-width="4" opacity=".9" fill="none"/>
+<path d="M165 746Q185 567 384 536Q535 536 551 757" fill="url(#white)"/>
+<path d="M438 599L634 558" stroke="url(#skin)" stroke-width="25" stroke-linecap="round"/>
+<rect x="65" y="350" width="257" height="88" rx="40" fill="#fffdf8" stroke="#1e2b37" stroke-width="5"/>
+<text x="194" y="408" font-size="36" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" fill="#25333c">雨は？</text>
+<rect x="346" y="351" width="595" height="108" rx="42" fill="#fffdf9" stroke="#1e2b37" stroke-width="5"/>
+<text x="645" y="417" font-size="35" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" fill="#25333c">オレが壊したもんじゃないからな</text>
+<rect x="47" y="324" width="930" height="438" fill="url(#rain)"/>
+<!-- panel3 phone call, exact banter -->
+<rect x="47" y="782" width="930" height="424" fill="#657c88"/>
+<path d="M58 1206Q87 935 288 930Q497 947 553 1206" fill="url(#white)"/>
+<ellipse cx="326" cy="903" rx="97" ry="115" fill="url(#skin)"/>
+<path d="M229 897Q214 793 313 780Q423 803 426 899Q364 829 232 907" fill="#25313b"/>
+<path d="M325 934L348 937" stroke="#55494e" stroke-width="5"/>
+<path d="M338 994Q357 1002 375 985" stroke="#875b57" stroke-width="5" fill="none"/>
+<path d="M444 910Q480 880 506 908L498 1016Q476 1042 454 1016Z" fill="#273845" stroke="#182733" stroke-width="7"/>
+<path d="M430 979Q441 966 455 977L462 1023Q451 1039 435 1024Z" fill="url(#skin)" stroke="#987769" stroke-width="4"/>
+<!-- phone caller label, Aki voice -->
+<rect x="500" y="803" width="423" height="73" rx="25" fill="#e5e9e4" stroke="#314652" stroke-width="5"/>
+<text x="711" y="850" text-anchor="middle" font-size="32" font-family="Noto Sans CJK JP,sans-serif" fill="#34444b">着信：安希ちゃん</text>
+<rect x="496" y="885" width="444" height="120" rx="45" fill="#fffdf8" stroke="#1d2b36" stroke-width="5"/>
+<text x="718" y="938" text-anchor="middle" font-size="29" font-family="Noto Sans CJK JP,sans-serif" fill="#29353e">レシートは持って帰って。</text>
+<text x="718" y="982" text-anchor="middle" font-size="29" font-family="Noto Sans CJK JP,sans-serif" fill="#29353e">プリンも二つ</text>
+<rect x="76" y="1052" width="354" height="102" rx="42" fill="#fffdf8" stroke="#1e2c38" stroke-width="5"/>
+<text x="254" y="1118" font-size="38" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" fill="#29353e">オレのは？</text>
+<rect x="544" y="1038" width="384" height="113" rx="44" fill="#fffdf8" stroke="#1e2c38" stroke-width="5"/>
+<text x="736" y="1107" font-size="38" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" fill="#29353e">自分で買って</text>
+<rect x="47" y="782" width="930" height="424" fill="url(#rain)"/>
+<!-- panel4 smile candy returns, rain becomes light before coffin page -->
+<rect x="47" y="1226" width="930" height="261" fill="url(#rainlight)"/>
+<path d="M48 1487Q105 1330 303 1310Q524 1327 561 1487" fill="url(#white)"/>
+<ellipse cx="316" cy="1336" rx="103" ry="112" fill="url(#skin)"/>
+<path d="M207 1335Q202 1220 317 1220Q434 1239 419 1350Q350 1267 212 1344" fill="#293039"/>
+<path d="M275 1374L309 1365M337 1363L372 1365" stroke="#55464a" stroke-width="6" stroke-linecap="round"/>
+<path d="M275 1437Q316 1460 360 1435" stroke="#8b5e59" stroke-width="6" fill="none"/>
+<path d="M357 1443L412 1468" stroke="#f4f4ec" stroke-width="8" stroke-linecap="round"/>
+<rect x="555" y="1289" width="384" height="128" rx="51" fill="#fffdf9" stroke="#1b2c38" stroke-width="5"/>
+<path d="M597 1407L561 1461L658 1420" fill="#fffdf9" stroke="#1b2c38" stroke-width="5"/>
+<text x="749" y="1371" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="53" fill="#26343e">帰るよ</text>
+<rect x="47" y="1226" width="930" height="261" fill="url(#rain)" opacity=".28"/>
+<g fill="none" stroke="#152638" stroke-width="5"><rect x="47" y="47" width="930" height="257"/><rect x="47" y="324" width="930" height="438"/><rect x="47" y="782" width="930" height="424"/><rect x="47" y="1226" width="930" height="261"/></g>
+</svg>
