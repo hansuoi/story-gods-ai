@@ -112,9 +112,9 @@
     "width": 1024
   },
   "p24.png": {
-    "bytes": 263313,
+    "bytes": 259252,
     "height": 1536,
-    "sha256": "fb1aba562a85e52054580c67dde0c494764443961ffe0598b204d54c9e0f42d3",
+    "sha256": "a5af7947f9c48eac84479b70ef2c3248a69d7ab806a4eb9a0d254389ce10c307",
     "source": "p24.svg",
     "width": 1024
   }
