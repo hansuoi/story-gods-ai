@@ -1,4 +1,11 @@
 {
+  "p01.png": {
+    "bytes": 470442,
+    "height": 1536,
+    "sha256": "1e9303fb7916ed1f8c933360a95cb4741b88bad2a5e5bae6c7b6cfb486e3a9dc",
+    "source": "p01.svg",
+    "width": 1024
+  },
   "p07.png": {
     "bytes": 93416,
     "height": 1536,
