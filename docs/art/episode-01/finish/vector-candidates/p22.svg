@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="room" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#8e9a9b"/><stop offset=".6" stop-color="#5d7078"/><stop offset="1" stop-color="#344653"/></linearGradient><linearGradient id="face" x1="0" y1="0" x2=".6" y2="1"><stop stop-color="#e5c8b7"/><stop offset="1" stop-color="#af897e"/></linearGradient><linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#526778"/><stop offset="1" stop-color="#1c2a36"/></linearGradient><pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="6" r=".7" fill="#fff" opacity=".12"/><circle cx="13" cy="13" r=".65" fill="#101820" opacity=".11"/></pattern></defs>
+<rect width="1024" height="1536" fill="#efebe3"/><rect x="28" y="27" width="968" height="1480" fill="#fffdf8"/>
+<!-- Panel1 envelope from P13, physically same artifact -->
+<rect x="47" y="47" width="930" height="338" fill="url(#room)"/>
+<path d="M47 331L977 290V385H47Z" fill="#6e6860"/>
+<path d="M113 286Q200 235 264 247L369 288Q398 318 375 343Q342 360 318 342L243 315L175 385H78Z" fill="url(#face)" stroke="#967569" stroke-width="5"/>
+<path d="M888 371Q849 264 758 237L670 256Q637 269 647 289Q662 306 698 300L749 298L784 372" fill="url(#face)" stroke="#967569" stroke-width="5"/>
+<rect x="322" y="97" width="341" height="251" rx="6" fill="#cec0a9" stroke="#736e61" stroke-width="7"/>
+<svg x="332" y="108" width="320" height="230" viewBox="240 199 545 345" preserveAspectRatio="xMidYMid slice" overflow="hidden"><image href="p13.png" x="0" y="0" width="1024" height="1536"/></svg>
+<rect x="47" y="47" width="930" height="338" fill="url(#grain)"/>
+<!-- Panel 2 Nagi recognition, touching pin -->
+<rect x="47" y="405" width="930" height="319" fill="#707d83"/>
+<path d="M61 724Q91 532 257 534Q432 548 493 724" fill="url(#blue)"/>
+<ellipse cx="278" cy="530" rx="87" ry="106" fill="url(#face)"/>
+<path d="M192 526Q170 432 266 417Q355 418 368 525Q317 460 197 535" fill="#232931"/>
+<path d="M193 533L207 566" stroke="#6b696b" stroke-width="5"/>
+<path d="M243 544L280 543M308 539L343 540" stroke="#4f4347" stroke-width="6" stroke-linecap="round"/>
+<path d="M265 604L305 605" stroke="#8d5f5f" stroke-width="4" fill="none"/>
+<path d="M334 609Q356 603 371 623L370 671Q350 695 337 660Z" fill="none" stroke="#dfebe5" stroke-width="7"/>
+<path d="M349 613Q375 584 393 615Q408 636 381 676" fill="none" stroke="#3389b4" stroke-width="6"/>
+<path d="M461 467Q480 443 527 444H904Q947 455 947 499V615Q935 662 888 666H558L505 712L519 663Q462 646 459 603Z" fill="#fffdf7" stroke="#202b33" stroke-width="5"/>
+<text x="704" y="560" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="43" fill="#263035">まだ、持ってたんだ</text>
+<rect x="47" y="405" width="930" height="319" fill="url(#grain)"/>
+<!-- Panel 3 Aki responds -->
+<rect x="47" y="744" width="930" height="223" fill="#7c8687"/>
+<path d="M60 967Q118 809 268 810Q400 826 451 967" fill="#212c37"/>
+<ellipse cx="253" cy="807" rx="74" ry="91" fill="url(#face)"/>
+<path d="M178 808Q176 718 251 708Q337 723 330 809Q289 747 180 813" fill="#20262f"/>
+<path d="M252 827L291 822" stroke="#51444a" stroke-width="5"/>
+<rect x="460" y="778" width="447" height="145" rx="60" fill="#fffdf9" stroke="#242d36" stroke-width="5"/>
+<path d="M503 902L453 965L556 913" fill="#fffdf9" stroke="#242d36" stroke-width="5"/>
+<text x="683" y="872" font-family="Noto Sans CJK JP,sans-serif" text-anchor="middle" font-size="55" fill="#202a31">「まだ」？</text>
+<rect x="47" y="744" width="930" height="223" fill="url(#grain)"/>
+<!-- Panel 4 no definite lie: Nagi avoids gaze -->
+<rect x="47" y="987" width="930" height="500" fill="url(#room)"/>
+<path d="M47 1378L977 1305V1487H47Z" fill="#4e5c61"/>
+<path d="M129 1487Q171 1157 433 1124Q664 1160 721 1487" fill="url(#blue)" stroke="#1b2a35" stroke-width="9"/>
+<path d="M315 1158L444 1372L538 1155" fill="#bdc8c8" stroke="#637987" stroke-width="7"/>
+<ellipse cx="437" cy="1145" rx="128" ry="143" fill="url(#face)" transform="rotate(10 437 1145)"/>
+<path d="M309 1147Q305 994 435 991Q567 1003 569 1138Q501 1047 316 1161" fill="#222a32"/>
+<path d="M327 1157L335 1211" stroke="#77706d" stroke-width="7"/>
+<path d="M413 1185L461 1196M499 1197L547 1206" stroke="#50484c" stroke-width="7" stroke-linecap="round"/>
+<path d="M471 1290Q493 1290 512 1285" stroke="#91686a" stroke-width="6" fill="none"/>
+<path d="M491 1358Q517 1347 533 1374L536 1431Q511 1458 482 1418Z" fill="none" stroke="#e3e9e4" stroke-width="7"/>
+<path d="M515 1357Q546 1336 563 1370Q580 1399 542 1442" fill="none" stroke="#368db5" stroke-width="7"/>
+<path d="M580 1487Q571 1434 558 1391L518 1350Q497 1340 483 1356Q472 1372 492 1395L526 1440L526 1487" fill="url(#face)" stroke="#997467" stroke-width="6"/>
+<rect x="630" y="1028" width="325" height="153" rx="51" fill="#fffdf8" stroke="#26313c" stroke-width="5"/>
+<path d="M674 1170L630 1224L709 1175" fill="#fffdf8" stroke="#26313c" stroke-width="5"/>
+<text x="791" y="1090" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="29" fill="#273039">仕事でも古い資料を</text>
+<text x="791" y="1137" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="29" fill="#273039">使うので</text>
+<rect x="47" y="987" width="930" height="500" fill="url(#grain)"/>
+<g fill="none" stroke="#19242d" stroke-width="5"><rect x="47" y="47" width="930" height="338"/><rect x="47" y="405" width="930" height="319"/><rect x="47" y="744" width="930" height="223"/><rect x="47" y="987" width="930" height="500"/></g>
+</svg>
