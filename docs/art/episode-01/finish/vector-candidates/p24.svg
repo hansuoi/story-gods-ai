@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="room" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9caaa8"/><stop offset=".6" stop-color="#607580"/><stop offset="1" stop-color="#334651"/></linearGradient><linearGradient id="face" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#e8cdb7"/><stop offset="1" stop-color="#aa7f73"/></linearGradient><linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3a4752"/><stop offset="1" stop-color="#151e2b"/></linearGradient><linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#506c7a"/><stop offset="1" stop-color="#253542"/></linearGradient><pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="6" r=".6" fill="#fff" opacity=".12"/><circle cx="12" cy="13" r=".7" fill="#101820" opacity=".11"/></pattern></defs>
+<rect width="1024" height="1536" fill="#efebe3"/><rect x="28" y="28" width="968" height="1480" fill="#fcfaf5"/>
+<!-- panel 1 Aki changes her tone: thanks -->
+<rect x="47" y="47" width="930" height="287" fill="url(#room)"/>
+<path d="M59 333Q83 185 269 167Q457 183 499 333" fill="url(#coat)"/>
+<ellipse cx="278" cy="163" rx="75" ry="88" fill="url(#face)"/>
+<path d="M204 166Q182 71 274 63Q366 78 360 171Q321 102 205 171" fill="#202731"/>
+<path d="M278 191L308 191" stroke="#51454a" stroke-width="5" stroke-linecap="round"/>
+<path d="M281 242Q312 245 332 234" stroke="#885b5c" stroke-width="4" fill="none"/>
+<rect x="482" y="99" width="451" height="149" rx="52" fill="#fffdf8" stroke="#25303a" stroke-width="5"/>
+<path d="M525 230L472 287L577 245" fill="#fffdf8" stroke="#25303a" stroke-width="5"/>
+<text x="709" y="182" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="41" fill="#242e36">話してくれて、ありがとう</text>
+<rect x="47" y="47" width="930" height="287" fill="url(#grain)"/>
+<!-- panel 2 Nagi first small smile; silence -->
+<rect x="47" y="354" width="930" height="294" fill="#697980"/>
+<path d="M167 648Q207 477 467 461Q696 478 754 648" fill="url(#jacket)" stroke="#233642" stroke-width="7"/>
+<ellipse cx="483" cy="464" rx="120" ry="133" fill="url(#face)"/>
+<path d="M356 464Q350 339 480 336Q599 345 600 476Q515 379 359 472" fill="#202935"/>
+<path d="M366 468L377 513" stroke="#726b6a" stroke-width="6"/>
+<path d="M434 485Q458 473 479 485M532 481Q553 471 571 484" stroke="#55474b" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M452 563Q482 577 526 559" stroke="#835c5e" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M535 577Q553 568 567 555" stroke="#a17870" stroke-width="4" fill="none"/>
+<path d="M608 594Q618 577 632 588L628 636Q611 648 603 619Z" fill="none" stroke="#e2e9e5" stroke-width="6"/>
+<path d="M614 588Q635 572 648 597Q658 617 638 635" fill="none" stroke="#3290be" stroke-width="6"/>
+<rect x="47" y="354" width="930" height="294" fill="url(#grain)"/>
+<!-- panel 3 offers card; Nagi worries detective gone -->
+<rect x="47" y="668" width="930" height="392" fill="#6f8389"/>
+<path d="M55 1060Q85 856 268 841Q420 860 483 1060" fill="url(#coat)"/>
+<ellipse cx="268" cy="830" rx="66" ry="81" fill="url(#face)"/>
+<path d="M195 829Q192 748 265 742Q344 753 344 834Q302 774 200 831" fill="#202832"/>
+<path d="M557 1060Q602 861 738 854Q879 865 977 1060" fill="url(#jacket)"/>
+<ellipse cx="747" cy="845" rx="63" ry="83" fill="url(#face)"/>
+<path d="M685 837Q680 760 745 751Q820 761 820 841Q775 784 687 843" fill="#242a35"/>
+<path d="M684 848L689 875" stroke="#6e6967" stroke-width="5"/>
+<!-- card carefully held at center -->
+<path d="M308 1010L475 938L523 960L360 1036Z" fill="#e9e7da" stroke="#555b5a" stroke-width="5"/>
+<text x="420" y="989" font-family="Noto Sans CJK JP,sans-serif" font-size="16" transform="rotate(-17 420 989)" fill="#363e40">神谷探偵事務所</text>
+<path d="M292 1060Q331 1020 364 1023L417 1040Q444 1056 431 1072" fill="url(#face)" stroke="#997469" stroke-width="5"/>
+<path d="M558 1058Q540 1023 519 1019L486 1025Q463 1042 478 1059" fill="url(#face)" stroke="#98766a" stroke-width="5"/>
+<path d="M448 697Q473 675 514 680H924Q960 689 961 729V821Q949 863 900 866H531L479 915L493 865Q445 843 444 801Z" fill="#fffdf8" stroke="#25313a" stroke-width="5"/>
+<text x="704" y="766" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="36" fill="#202a31">探偵さん、</text>
+<text x="704" y="816" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="36" fill="#202a31">もういないのに？</text>
+<rect x="47" y="668" width="930" height="392" fill="url(#grain)"/>
+<!-- panel 4 strongest: business card with name and Aki's response -->
+<rect x="47" y="1080" width="930" height="407" fill="#484f52"/>
+<path d="M47 1425L977 1320V1487H47Z" fill="#665e57"/>
+<path d="M155 1285L685 1209L766 1454L237 1487Z" fill="#f8f5ed" stroke="#88827a" stroke-width="9"/>
+<path d="M181 1325L706 1248" stroke="#d4d0c4" stroke-width="4"/>
+<text x="461" y="1370" font-family="Noto Sans CJK JP,sans-serif" font-size="48" text-anchor="middle" fill="#26343a" transform="rotate(-7 461 1370)">神谷探偵事務所</text>
+<path d="M277 1414L652 1359" stroke="#7a8b8b" stroke-width="3"/>
+<text x="475" y="1453" font-family="sans-serif" font-size="16" letter-spacing="2" text-anchor="middle" fill="#6a7475" transform="rotate(-7 475 1453)">KAMIYA DETECTIVE OFFICE</text>
+<path d="M74 1487Q91 1433 154 1387L237 1381Q268 1386 267 1411Q268 1430 237 1443L203 1464L187 1487" fill="url(#face)" stroke="#9a776c" stroke-width="6"/>
+<rect x="602" y="1100" width="334" height="118" rx="49" fill="#fffdf8" stroke="#222e37" stroke-width="5"/>
+<path d="M643 1204L598 1279L701 1213" fill="#fffdf8" stroke="#222e37" stroke-width="5"/>
+<text x="768" y="1177" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="39" fill="#263037">受付は、まだいます</text>
+<rect x="47" y="1080" width="930" height="407" fill="url(#grain)"/>
+<g fill="none" stroke="#16212a" stroke-width="5"><rect x="47" y="47" width="930" height="287"/><rect x="47" y="354" width="930" height="294"/><rect x="47" y="668" width="930" height="392"/><rect x="47" y="1080" width="930" height="407"/></g>
+</svg>
