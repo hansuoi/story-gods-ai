@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/render_episode01_p06_v03.py'
+      - 'scripts/render_episode01_p07_v04.py'
       - '.github/workflows/render-episode01-color-revisions.yml'
 permissions:
   contents: write
@@ -22,8 +23,10 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
           python -m pip install --disable-pip-version-check pillow
-      - name: Render the revised P06 candidate using existing color originals
-        run: python scripts/render_episode01_p06_v03.py
+      - name: Recompose P06 and P07 from verified original color PNGs
+        run: |
+          python scripts/render_episode01_p06_v03.py
+          python scripts/render_episode01_p07_v04.py
       - name: Verify output metadata and no edits to originals
         run: |
           python - <<'PY'
@@ -32,22 +35,29 @@ jobs:
           from hashlib import sha256
           from PIL import Image
           folder=Path("docs/art/episode-01/finish/color-candidates")
-          data=json.loads((folder/"revision-manifest.json").read_text(encoding="utf-8"))["p06_v03.png"]
-          out=folder/"p06_v03.png"
-          assert Image.open(out).size == (1024,1536)
-          assert out.stat().st_size == data["bytes"]
-          assert sha256(out.read_bytes()).hexdigest() == data["sha256"]
-          for name, oldhash in data["source"].items():
-              assert sha256((folder/name).read_bytes()).hexdigest() == oldhash
-          print("P06 color revision verified; original PNGs retained")
+          manifest=json.loads((folder/"revision-manifest.json").read_text(encoding="utf-8"))
+          for target in ("p06_v03.png", "p07_v04.png"):
+              data=manifest[target]
+              out=folder/target
+              assert Image.open(out).size == (1024,1536)
+              assert out.stat().st_size == data["bytes"]
+              assert sha256(out.read_bytes()).hexdigest() == data["sha256"]
+              for name, oldhash in data["source"].items():
+                  assert sha256((folder/name).read_bytes()).hexdigest() == oldhash
+              print(target, "verified", data["sha256"])
+          # P07 v04 must preserve the original speaker panels and exact lettering
+          src=Image.open(folder/"p07.png").convert("RGB")
+          revised=Image.open(folder/"p07_v04.png").convert("RGB")
+          assert src.crop((0,569,1024,1536)).tobytes()==revised.crop((0,569,1024,1536)).tobytes()
+          print("P06/P07 color revision verified; original PNGs retained")
           PY
       - name: Commit revised PNG and manifest
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/revision-manifest.json
+          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/revision-manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m "art(ep01): add recomposed P06 color candidate with exact lettering"
+            git commit -m "art(ep01): render P06 and P07 revised color candidates"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
