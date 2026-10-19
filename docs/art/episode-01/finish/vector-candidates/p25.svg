@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="site" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a2ada8"/><stop offset=".6" stop-color="#6b7a7b"/><stop offset="1" stop-color="#394a52"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#dfc0ab"/><stop offset="1" stop-color="#9d7a6d"/></linearGradient><linearGradient id="vest" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#687774"/><stop offset=".5" stop-color="#444f4d"/><stop offset="1" stop-color="#242e30"/></linearGradient><linearGradient id="nagi" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#57717f"/><stop offset="1" stop-color="#233440"/></linearGradient><pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="6" r=".7" fill="#fff" opacity=".12"/><circle cx="13" cy="14" r=".6" fill="#101b20" opacity=".11"/></pattern></defs>
+<rect width="1024" height="1536" fill="#eeeae2"/><rect x="28" y="28" width="968" height="1480" fill="#faf9f5"/>
+<!-- Panel 1: Aki leaves and is small in the distance -->
+<rect x="47" y="47" width="930" height="375" fill="url(#site)"/>
+<path d="M48 165L977 118V249L48 298Z" fill="#5f7278" opacity=".6"/>
+<path d="M86 117L494 96V355H86Z" fill="#778684" stroke="#525d5b" stroke-width="9"/>
+<path d="M67 335L977 280V422H67Z" fill="#646e6c"/>
+<path d="M67 364L977 297" stroke="#d9d0b6" stroke-width="7" opacity=".6"/>
+<!-- Nagi nearer, watching -->
+<path d="M89 422Q92 263 207 250Q337 247 357 422" fill="url(#nagi)" stroke="#243440" stroke-width="6"/>
+<ellipse cx="214" cy="245" rx="49" ry="70" fill="url(#skin)"/>
+<path d="M165 238Q160 183 210 177Q265 180 267 248Q236 212 165 248" fill="#262e35"/>
+<!-- Aki distant -->
+<ellipse cx="720" cy="291" rx="19" ry="25" fill="#bba090"/>
+<path d="M701 286Q699 261 720 263Q741 266 740 291" fill="#23262e"/>
+<path d="M687 320Q713 303 746 320L758 396H674Z" fill="#222d37"/>
+<path d="M699 395L695 416M738 396L740 416" stroke="#202833" stroke-width="10"/>
+<path d="M685 342L661 384M750 345L766 380" stroke="#25303a" stroke-width="10"/>
+<rect x="47" y="47" width="930" height="375" fill="url(#grain)"/>
+<!-- Panel 2 Kuzumi emerges; straightforward benevolent framing, broad forearms -->
+<rect x="47" y="443" width="930" height="666" fill="#697a7b"/>
+<path d="M48 543L977 483V794L48 846Z" fill="#596b71"/>
+<path d="M589 466L904 446L917 988L598 1042Z" fill="#475c62" stroke="#30454e" stroke-width="12"/>
+<path d="M620 485L882 463" stroke="#9ca9a6" stroke-width="7"/>
+<!-- Kuzumi large, work vest and boots -->
+<path d="M197 1109Q196 774 342 706Q483 655 630 729Q768 826 773 1109" fill="url(#vest)" stroke="#253135" stroke-width="11"/>
+<path d="M285 764L373 863L461 756L538 864L622 762" stroke="#b7b4a7" stroke-width="12" fill="none" opacity=".65"/>
+<path d="M351 809L363 1054M555 803L542 1072" stroke="#282f30" stroke-width="12"/>
+<path d="M309 926H419M506 930H622" stroke="#a1aaa4" stroke-width="9" opacity=".5"/>
+<rect x="423" y="988" width="110" height="105" rx="10" fill="#3c484a" stroke="#1b282e" stroke-width="5"/>
+<!-- little hinge hanging on belt -->
+<path d="M535 1021L552 1009L563 1070L545 1081Z" fill="#a4b3b4" stroke="#3b4a50" stroke-width="4"/>
+<circle cx="548" cy="1030" r="5" fill="#40505a"/><circle cx="555" cy="1064" r="5" fill="#40505a"/>
+<!-- broad neck and friendly serious face -->
+<path d="M375 735L384 689H544L551 756" fill="url(#skin)" stroke="#946f65" stroke-width="5"/>
+<ellipse cx="460" cy="600" rx="118" ry="137" fill="url(#skin)" stroke="#947166" stroke-width="5"/>
+<path d="M341 576Q321 442 467 439Q595 453 578 589Q537 494 451 490Q377 495 341 576" fill="#373b3b"/>
+<path d="M381 602Q425 590 448 608M482 604Q528 587 548 599" stroke="#54433e" stroke-width="9" stroke-linecap="round" fill="none"/>
+<path d="M444 641L433 681L455 686" fill="none" stroke="#9f776d" stroke-width="5"/>
+<path d="M425 732Q462 750 501 721" stroke="#865b56" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- large capable forearms resting naturally -->
+<path d="M246 882Q188 888 162 971L148 1089Q152 1111 179 1109L245 1033L307 951" fill="url(#skin)" stroke="#8d6b60" stroke-width="7"/>
+<path d="M665 876Q717 882 751 959L773 1090Q761 1112 734 1109L671 1043L609 955" fill="url(#skin)" stroke="#8d6b60" stroke-width="7"/>
+<!-- safety boots in foreground -->
+<path d="M304 1068L411 1068L408 1109L272 1109Z" fill="#252f32" stroke="#151e21" stroke-width="7"/>
+<path d="M532 1068L646 1068L681 1109L527 1109Z" fill="#252f32" stroke="#151e21" stroke-width="7"/>
+<rect x="620" y="492" width="314" height="140" rx="58" fill="#fffdf8" stroke="#243039" stroke-width="5"/>
+<path d="M661 620L617 686L701 631" fill="#fffdf8" stroke="#243039" stroke-width="5"/>
+<text x="774" y="578" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="46" fill="#263034">今の人は？</text>
+<rect x="47" y="443" width="930" height="666" fill="url(#grain)"/>
+<!-- Panel 3: Nagi answers, Kuzumi compassionate -->
+<rect x="47" y="1129" width="930" height="357" fill="url(#site)"/>
+<path d="M48 1487Q78 1301 236 1286Q370 1301 429 1487" fill="url(#nagi)"/>
+<ellipse cx="246" cy="1251" rx="64" ry="85" fill="url(#skin)"/>
+<path d="M178 1252Q169 1155 244 1156Q321 1166 315 1259Q256 1192 179 1260" fill="#232d35"/>
+<path d="M187 1257L195 1289" stroke="#6f6767" stroke-width="4"/>
+<path d="M551 1487Q600 1292 755 1294Q907 1321 973 1487" fill="url(#vest)"/>
+<ellipse cx="755" cy="1267" rx="73" ry="90" fill="url(#skin)"/>
+<path d="M681 1266Q673 1171 752 1173Q833 1180 829 1270Q769 1207 682 1273" fill="#363b3e"/>
+<path d="M725 1317Q751 1332 783 1313" stroke="#865a56" stroke-width="5" fill="none"/>
+<rect x="64" y="1151" width="365" height="97" rx="41" fill="#fdfbf7" stroke="#202b34" stroke-width="5"/>
+<path d="M170 1236L217 1280L198 1235" fill="#fdfbf7" stroke="#202b34" stroke-width="5"/>
+<text x="247" y="1214" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="32" fill="#252f36">神谷さんの奥さん</text>
+<rect x="560" y="1352" width="391" height="115" rx="44" fill="#fffdf8" stroke="#202b34" stroke-width="5"/>
+<path d="M661 1363L633 1316L689 1363" fill="#fffdf8" stroke="#202b34" stroke-width="5"/>
+<text x="755" y="1422" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="35" fill="#252f36">……大変だったな</text>
+<rect x="47" y="1129" width="930" height="357" fill="url(#grain)"/>
+<g fill="none" stroke="#17222a" stroke-width="5"><rect x="47" y="47" width="930" height="375"/><rect x="47" y="443" width="930" height="666"/><rect x="47" y="1129" width="930" height="357"/></g></svg>
