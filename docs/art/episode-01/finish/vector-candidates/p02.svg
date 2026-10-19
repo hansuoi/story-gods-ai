@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="storm" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#7f9ca5"/><stop offset=".6" stop-color="#3b586b"/><stop offset="1" stop-color="#172a3a"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#eed2bb"/><stop offset="1" stop-color="#af857a"/></linearGradient><linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f5e9"/><stop offset=".7" stop-color="#d4dcda"/><stop offset="1" stop-color="#a4b6b9"/></linearGradient><linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c7d0ce"/><stop offset=".6" stop-color="#778d93"/><stop offset="1" stop-color="#293e4e"/></linearGradient><pattern id="rain" width="32" height="70" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><path d="M6 5V34M24 29V58" stroke="#c9e1e7" stroke-width="2" opacity=".4"/></pattern></defs>
+<rect width="1024" height="1536" fill="#e7ebea"/><rect x="28" y="28" width="968" height="1480" fill="#fbfaf6"/>
+<!-- panel 1 half-body Sakaki casual candy, sleeves rolled -->
+<rect x="47" y="47" width="930" height="468" fill="url(#storm)"/>
+<path d="M49 467L975 393V515H49Z" fill="#335369"/>
+<path d="M366 515Q403 267 614 259Q797 261 901 515" fill="url(#shirt)" stroke="#a0aaab" stroke-width="8"/>
+<path d="M534 294L638 427L724 291" fill="none" stroke="#a8b5b7" stroke-width="11"/>
+<path d="M627 419L633 509" stroke="#8c9a9d" stroke-width="5"/>
+<circle cx="632" cy="448" r="5" fill="#829599"/>
+<path d="M398 393Q340 427 318 498" stroke="#d1c8b6" stroke-width="22" stroke-linecap="round"/>
+<!-- arm rolled sleeve -->
+<path d="M385 386L472 369L450 435L367 453Z" fill="#e1e3dd" stroke="#7c909b" stroke-width="6"/>
+<path d="M371 448L446 430L416 500L337 515" fill="url(#skin)" stroke="#a38273" stroke-width="6"/>
+<!-- Sakaki youthful half face -->
+<ellipse cx="639" cy="241" rx="105" ry="129" fill="url(#skin)"/>
+<path d="M529 237Q505 104 641 106Q766 117 749 253Q679 167 531 244" fill="#283039"/>
+<path d="M540 265L533 310" stroke="#706a6b" stroke-width="4"/>
+<path d="M605 254L628 250M670 249L694 245" stroke="#58494c" stroke-width="6" stroke-linecap="round"/>
+<path d="M623 330Q651 344 683 325" stroke="#855c5b" stroke-width="5" fill="none"/>
+<!-- candy stick in mouth -->
+<path d="M678 332L749 370" stroke="#ecede3" stroke-width="9" stroke-linecap="round"/>
+<!-- rescue worker lower left -->
+<path d="M48 515Q50 367 187 348Q293 351 326 515" fill="#cba567" stroke="#54473f" stroke-width="7"/>
+<ellipse cx="184" cy="334" rx="49" ry="60" fill="url(#skin)"/>
+<path d="M133 314Q143 259 182 259Q226 270 237 322" fill="#d5aa59" stroke="#675443" stroke-width="5"/>
+<path d="M91 434L282 430" stroke="#e7d6a2" stroke-width="18"/>
+<!-- bubbles -->
+<rect x="74" y="81" width="369" height="115" rx="46" fill="#fffdf8" stroke="#1c2b38" stroke-width="5"/>
+<text x="258" y="151" text-anchor="middle" font-size="39" font-family="Noto Sans CJK JP,sans-serif" fill="#23313d">水、どかせるのか？</text>
+<rect x="477" y="60" width="473" height="113" rx="45" fill="#fffdf8" stroke="#1c2b38" stroke-width="5"/>
+<text x="713" y="129" text-anchor="middle" font-size="34" font-family="Noto Sans CJK JP,sans-serif" fill="#23313d">そんな大仕事できねえよ</text>
+<rect x="47" y="47" width="930" height="468" fill="url(#rain)"/>
+<!-- panel2 pin holds latch cam so only one target -->
+<rect x="47" y="535" width="930" height="355" fill="#506979"/>
+<path d="M115 582L861 551L902 876L144 890Z" fill="url(#steel)" stroke="#334655" stroke-width="10"/>
+<path d="M192 624L596 604L622 822L214 843Z" fill="#516571" stroke="#263e4e" stroke-width="9"/>
+<path d="M599 638L779 608L799 678L609 702Z" fill="#b3c3c4" stroke="#455c65" stroke-width="9"/>
+<!-- latch cam, not responding to lever due to retaining pin -->
+<circle cx="595" cy="735" r="83" fill="#879da5" stroke="#2b4656" stroke-width="12"/>
+<circle cx="595" cy="735" r="42" fill="#536d7b" stroke="#c2caca" stroke-width="7"/>
+<path d="M582 724L658 671" stroke="#313f48" stroke-width="18" stroke-linecap="round"/>
+<path d="M638 676L676 638" stroke="#b2c5c8" stroke-width="11" stroke-linecap="round"/>
+<!-- bent retaining pin single target -->
+<path d="M654 663L714 697L690 725L736 745" fill="none" stroke="#3c4c56" stroke-width="19" stroke-linejoin="round"/>
+<path d="M653 662L711 696L690 726L736 745" fill="none" stroke="#c2c9c4" stroke-width="8" stroke-linejoin="round"/>
+<circle cx="691" cy="726" r="27" fill="none" stroke="#c1ccd0" stroke-width="3" opacity=".9"/>
+<!-- Sakaki finger points specifically to pin -->
+<path d="M933 883Q891 821 835 792L742 742Q720 729 708 747Q700 767 728 780L791 813L828 889" fill="url(#skin)" stroke="#9b7869" stroke-width="5"/>
+<path d="M735 756L688 733" stroke="#8c7168" stroke-width="6" stroke-linecap="round"/>
+<rect x="96" y="559" width="341" height="98" rx="42" fill="#fffdf8" stroke="#1b2c39" stroke-width="5"/>
+<text x="267" y="623" text-anchor="middle" font-size="42" font-family="Noto Sans CJK JP,sans-serif" fill="#25313b">壊すのは、ここ</text>
+<rect x="47" y="535" width="930" height="355" fill="url(#rain)"/>
+<!-- panel3 three droplets at fingertip, silence and negative space -->
+<rect x="47" y="910" width="930" height="211" fill="#203849"/>
+<path d="M47 1116Q123 1029 231 1008L337 994Q383 997 385 1016Q381 1034 345 1040L257 1054L167 1119" fill="url(#skin)" stroke="#987568" stroke-width="6"/>
+<path d="M392 1014L466 1009" stroke="#e6c9b6" stroke-width="17" stroke-linecap="round"/>
+<g fill="#d5eff4" stroke="#96b9c3" stroke-width="3"><path d="M552 1023Q541 1001 551 989Q570 1011 552 1023Z"/><path d="M656 1001Q645 978 660 967Q675 993 656 1001Z"/><path d="M762 1028Q750 1005 762 993Q778 1016 762 1028Z"/></g>
+<rect x="47" y="910" width="930" height="211" fill="url(#rain)"/>
+<!-- panel4 eye aligned with same untouched bent pin -->
+<rect x="47" y="1141" width="930" height="346" fill="#283e50"/>
+<path d="M47 1305L567 1162V1487H47Z" fill="#3b5361"/>
+<path d="M47 1446Q154 1244 339 1226Q491 1211 577 1440" fill="#d8baa7"/>
+<path d="M100 1346Q147 1253 320 1235Q462 1244 494 1342Q314 1293 100 1346" fill="#28313a"/>
+<path d="M234 1373Q289 1348 359 1358" stroke="#403c43" stroke-width="14" stroke-linecap="round"/>
+<ellipse cx="319" cy="1394" rx="23" ry="26" fill="#46505a"/>
+<circle cx="326" cy="1386" r="7" fill="#ebf1ed"/>
+<path d="M407 1441Q483 1428 523 1435" stroke="#a77f73" stroke-width="5" fill="none"/>
+<!-- pin remains on right, droplets not hitting yet -->
+<path d="M718 1218L825 1260L795 1304L852 1358" fill="none" stroke="#c1cecc" stroke-width="18" stroke-linejoin="round"/>
+<path d="M719 1218L819 1261L790 1305L849 1356" fill="none" stroke="#253847" stroke-width="7" stroke-linejoin="round"/>
+<path d="M350 1395L680 1277" fill="none" stroke="#c3e2e8" stroke-width="3" stroke-dasharray="10 20" opacity=".7"/>
+<rect x="676" y="1376" width="260" height="88" rx="39" fill="#fffdf8" stroke="#1d2c39" stroke-width="5"/>
+<text x="807" y="1436" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="40" fill="#25343e">……よし</text>
+<rect x="47" y="1141" width="930" height="346" fill="url(#rain)"/>
+<g fill="none" stroke="#152535" stroke-width="5"><rect x="47" y="47" width="930" height="468"/><rect x="47" y="535" width="930" height="355"/><rect x="47" y="910" width="930" height="211"/><rect x="47" y="1141" width="930" height="346"/></g>
+</svg>
