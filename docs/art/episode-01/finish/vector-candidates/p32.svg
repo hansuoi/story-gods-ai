@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#768389"/><stop offset=".55" stop-color="#485763"/><stop offset="1" stop-color="#202b37"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".65" y2="1"><stop stop-color="#f0d4c0"/><stop offset=".6" stop-color="#c59f90"/><stop offset="1" stop-color="#9b756d"/></linearGradient><linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#354451"/><stop offset="1" stop-color="#151f2b"/></linearGradient><pattern id="grain" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="4" cy="6" r=".7" fill="#fff" opacity=".11"/><circle cx="13" cy="13" r=".7" fill="#121b25" opacity=".12"/></pattern></defs>
+<rect width="1024" height="1536" fill="#eeebe3"/><rect x="28" y="28" width="968" height="1480" fill="#fffdf7"/>
+<!-- panel 1 unlisted office phone, no caller clue -->
+<rect x="47" y="47" width="930" height="233" fill="#697277"/>
+<path d="M47 270L977 240V280H47Z" fill="#545555"/>
+<rect x="308" y="65" width="424" height="202" rx="32" fill="#313f48" stroke="#1a2932" stroke-width="9"/>
+<path d="M344 76H698V110H344Z" fill="#242d33"/>
+<rect x="354" y="111" width="330" height="87" rx="5" fill="#c6cbc0" stroke="#37494c" stroke-width="5"/>
+<text x="518" y="173" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="55" fill="#354c53">非通知</text>
+<path d="M350 212H692" stroke="#a4abad" stroke-width="9" stroke-dasharray="37 19"/>
+<rect x="47" y="47" width="930" height="233" fill="url(#grain)"/>
+<!-- panel 2 reach for receiver, notebook stays open -->
+<rect x="47" y="300" width="930" height="336" fill="#7d7c74"/>
+<path d="M47 591L977 534V636H47Z" fill="#4f504c"/>
+<path d="M91 360L448 337L467 586L105 610Z" fill="#e9e5d9" stroke="#868d86" stroke-width="6"/>
+<path d="M448 337L633 358L663 606L466 586Z" fill="#e1ded2" stroke="#7e8884" stroke-width="6"/>
+<path d="M452 339L467 584" stroke="#979e96" stroke-width="6"/>
+<g stroke="#b7bcb2" stroke-width="3"><path d="M118 413L432 396M123 461L436 443M129 510L441 488"/><path d="M483 416L620 427M489 458L628 471M492 503L638 519"/></g>
+<path d="M576 342Q602 302 657 302L774 298Q810 316 805 352L786 427Q757 457 714 432L688 382L620 372" fill="#24343f" stroke="#14232d" stroke-width="7"/>
+<path d="M951 630Q928 509 829 457L744 425Q716 411 706 437Q700 458 733 473L803 511L821 631" fill="url(#skin)" stroke="#987567" stroke-width="6"/>
+<rect x="47" y="300" width="930" height="336" fill="url(#grain)"/>
+<!-- panel 3 Aki receives call and silence follows -->
+<rect x="47" y="656" width="930" height="339" fill="url(#night)"/>
+<path d="M47 995Q67 833 241 833Q407 859 438 995" fill="url(#coat)"/>
+<ellipse cx="250" cy="810" rx="81" ry="100" fill="url(#skin)"/>
+<path d="M170 812Q162 709 242 700Q343 709 346 814Q304 734 174 822" fill="#222832"/>
+<path d="M174 809Q164 878 203 919" fill="#222831"/>
+<path d="M246 840L282 835" stroke="#51474b" stroke-width="5" stroke-linecap="round"/>
+<path d="M273 890Q288 899 304 894" stroke="#895f60" stroke-width="5" fill="none"/>
+<!-- desk handset to face -->
+<path d="M338 740Q361 723 379 751L402 849Q390 882 372 872L355 837L342 779" fill="#24333c" stroke="#151d25" stroke-width="6"/>
+<path d="M352 830Q331 819 311 831L305 867Q327 886 346 872" fill="url(#skin)" stroke="#9d796c" stroke-width="4"/>
+<rect x="439" y="678" width="505" height="191" rx="56" fill="#fffcf7" stroke="#27323b" stroke-width="5"/>
+<path d="M477 844L426 928L531 864" fill="#fffcf7" stroke="#27323b" stroke-width="5"/>
+<text x="691" y="751" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="37" fill="#233037">はい。</text>
+<text x="691" y="813" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="37" fill="#233037">神谷探偵事務所です</text>
+<!-- unfilled right corner acts as silence, no voice shown -->
+<path d="M539 931H907" stroke="#758a93" stroke-width="3" opacity=".3"/>
+<rect x="47" y="656" width="930" height="339" fill="url(#grain)"/>
+<!-- last big panel: Aki's resolve mixed with fear, document behind NOT blown up -->
+<rect x="47" y="1015" width="930" height="472" fill="url(#night)"/>
+<path d="M60 1200L435 1167L458 1446L81 1460Z" fill="#d7d3c9" stroke="#737a7b" stroke-width="6" opacity=".6"/>
+<path d="M78 1246L420 1218" stroke="#a3aca7" stroke-width="4"/>
+<text x="245" y="1305" font-family="Noto Sans CJK JP,sans-serif" text-anchor="middle" font-size="24" fill="#566266" transform="rotate(-4 245 1305)">調査対象：神谷榊</text>
+<!-- Aki shoulders and head, fear shown by asymmetric tense brow and tear sheen -->
+<path d="M317 1487Q322 1280 558 1261Q787 1272 891 1487" fill="url(#coat)" stroke="#1d2934" stroke-width="9"/>
+<path d="M478 1299L589 1455L683 1303" fill="#dad9cf"/>
+<ellipse cx="587" cy="1200" rx="148" ry="172" fill="url(#skin)"/>
+<path d="M437 1202Q432 1031 585 1017Q750 1036 734 1222Q678 1096 519 1101Q467 1123 442 1220" fill="#202732"/>
+<path d="M454 1204Q443 1316 508 1382" fill="#242a34"/>
+<path d="M526 1219Q556 1204 572 1215M629 1206Q658 1195 683 1213" stroke="#51434a" stroke-width="9" stroke-linecap="round" fill="none"/>
+<ellipse cx="558" cy="1244" rx="11" ry="16" fill="#424046"/><ellipse cx="656" cy="1239" rx="11" ry="16" fill="#424046"/>
+<circle cx="562" cy="1239" r="3.5" fill="#efeee8"/><circle cx="659" cy="1234" r="3.5" fill="#efeee8"/>
+<path d="M596 1270L588 1315L604 1321" stroke="#a57a74" stroke-width="5" fill="none"/>
+<path d="M552 1361Q602 1372 644 1359" stroke="#80545a" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M678 1272Q686 1294 680 1308" stroke="#ddd0bc" stroke-width="5" opacity=".9" fill="none"/>
+<!-- clenched receiver hand, slightly trembling -->
+<path d="M737 1125Q767 1101 787 1122L834 1333Q831 1378 805 1382L764 1354L735 1202Z" fill="#2d3c48" stroke="#18232e" stroke-width="7"/>
+<path d="M775 1326Q744 1299 729 1322L724 1370Q732 1398 753 1401L781 1387L802 1368" fill="url(#skin)" stroke="#987267" stroke-width="5"/>
+<!-- final balloon high and left, avoid hiding frightened face -->
+<rect x="73" y="1037" width="382" height="158" rx="56" fill="#fffdf9" stroke="#232e37" stroke-width="5"/>
+<path d="M404 1180L446 1230L366 1190" fill="#fffdf9" stroke="#232e37" stroke-width="5"/>
+<text x="260" y="1111" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="34" fill="#26323a">夫のことなら、</text>
+<text x="260" y="1160" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="34" fill="#26323a">私が聞きます</text>
+<text x="918" y="1468" text-anchor="end" font-family="Noto Sans CJK JP,sans-serif" font-size="21" fill="#e1e3db">第1話終</text>
+<rect x="47" y="1015" width="930" height="472" fill="url(#grain)"/>
+<g fill="none" stroke="#16212a" stroke-width="5"><rect x="47" y="47" width="930" height="233"/><rect x="47" y="300" width="930" height="336"/><rect x="47" y="656" width="930" height="339"/><rect x="47" y="1015" width="930" height="472"/></g>
+</svg>
