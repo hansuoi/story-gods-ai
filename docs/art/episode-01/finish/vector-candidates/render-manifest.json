@@ -131,5 +131,12 @@
     "sha256": "e40d963fd4378e39a6e0d4aba2b5009cc16c94111baf48f51880d3910bcf51c1",
     "source": "p26.svg",
     "width": 1024
+  },
+  "p27.png": {
+    "bytes": 140146,
+    "height": 1536,
+    "sha256": "da19f7a2a4febda7ea193f652260e802b411e1e146de101b529d931087142f19",
+    "source": "p27.svg",
+    "width": 1024
   }
 }
