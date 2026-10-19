@@ -54,8 +54,12 @@
 <path d="M104 1487Q116 1296 232 1252Q352 1247 437 1412L442 1487" fill="#be9e64" stroke="#665741" stroke-width="7"/>
 <path d="M147 1345L358 1343" stroke="#e3d2a4" stroke-width="21"/>
 <!-- leather shoe from offscreen -->
-<path d="M634 1237L721 1230L753 1367L891 1416Q914 1436 883 1446L630 1451Q600 1439 610 1412L631 1346Z" fill="#252d37" stroke="#131d28" stroke-width="11"/>
+<path d="M634 1237L721 1230L753 1367L891 1416Q914 1436 883 1446L630 1451Q600 1439 610 1412L631 1346Z" fill="#17222e" stroke="#a7c0c8" stroke-width="12"/>
 <path d="M630 1412L884 1416M678 1271L727 1270" stroke="#73818a" stroke-width="5"/>
+<path d="M654 1275L704 1274L728 1367L667 1377Z" fill="#3b4c5b" opacity=".85"/>
+<path d="M627 1412Q743 1432 876 1416" fill="none" stroke="#dae9eb" stroke-width="8" opacity=".9"/>
+<path d="M560 1424Q598 1387 625 1399M894 1405Q936 1387 954 1421M596 1456Q639 1463 672 1451M856 1464Q904 1458 929 1438" fill="none" stroke="#d0edf0" stroke-width="8" stroke-linecap="round"/>
+<circle cx="570" cy="1399" r="8" fill="#e8fbfa"/><circle cx="915" cy="1384" r="6" fill="#e8fbfa"/>
 <path d="M613 1438Q628 1399 682 1425Q781 1397 905 1434" fill="none" stroke="#aed7e1" stroke-width="7"/>
 <rect x="477" y="1228" width="462" height="102" rx="43" fill="#fffdf8" stroke="#1c2b36" stroke-width="5"/>
 <path d="M548 1320L495 1371L587 1327" fill="#fffdf8" stroke="#1c2b36" stroke-width="5"/>
