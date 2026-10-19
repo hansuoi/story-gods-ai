@@ -5,6 +5,7 @@ on:
     paths:
       - 'docs/art/episode-01/finish/vector-candidates/*.svg'
       - '.github/workflows/render-episode01-svg.yml'
+      - 'scripts/check_episode01_vectors.py'
 concurrency:
   group: episode01-svg-render
   cancel-in-progress: false
@@ -23,6 +24,8 @@ jobs:
           sudo apt-get install -y fonts-noto-cjk
           python -m pip install --disable-pip-version-check cairosvg
           fc-match 'Noto Sans CJK JP'
+      - name: Lint manga page SVGs and dialogue
+        run: python scripts/check_episode01_vectors.py
       - name: Render SVG sources to PNG
         run: |
           python - <<'PY'
