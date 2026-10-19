@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="table" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#877668"/><stop offset="1" stop-color="#393c42"/></linearGradient><linearGradient id="drawer" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#40434b"/><stop offset="1" stop-color="#161e27"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#e4c2aa"/><stop offset="1" stop-color="#a07e70"/></linearGradient><pattern id="paper" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="5" cy="4" r=".8" fill="#817b70" opacity=".15"/><circle cx="12" cy="14" r=".6" fill="#817b70" opacity=".13"/></pattern></defs>
+<rect width="1024" height="1536" fill="#e6e2da"/><rect x="27" y="28" width="970" height="1480" fill="#fdfaf5"/>
+<!-- TOP PANEL: envelope from deep in a drawer -->
+<rect x="48" y="48" width="928" height="621" fill="url(#table)"/>
+<path d="M106 147L911 104L877 586L141 619Z" fill="#292c31" stroke="#171c22" stroke-width="15"/>
+<path d="M143 585L877 559L911 638L106 660Z" fill="#151b23"/>
+<path d="M171 175L824 150L804 526L198 545Z" fill="url(#drawer)"/>
+<g transform="rotate(-5 508 368)">
+<rect x="250" y="210" width="510" height="315" rx="6" fill="#d4c6a7" stroke="#95866f" stroke-width="8"/>
+<path d="M252 211L496 394L759 210" fill="none" stroke="#aaa084" stroke-width="6"/>
+<path d="M253 523L455 362M760 523L550 365" stroke="#baa98b" stroke-width="4"/>
+<path d="M256 217L271 243L263 273M753 473L730 496L745 518" stroke="#827664" stroke-width="5" fill="none" opacity=".75"/>
+<path d="M291 464L350 444M680 275L738 290" stroke="#8b7669" stroke-width="4" opacity=".55"/>
+<rect x="325" y="314" width="365" height="115" fill="#efeadb" stroke="#afa28d" stroke-width="4"/>
+<text x="505" y="381" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="49" fill="#45413d">2018年／汀橋</text>
+</g>
+<!-- Aki hand approaching envelope -->
+<path d="M911 669Q888 559 820 519L679 470Q640 454 631 479Q624 500 658 515L737 550L717 565Q676 545 662 568Q655 593 700 604L774 660Z" fill="url(#skin)" stroke="#916d5e" stroke-width="6"/>
+<path d="M711 537Q735 554 765 563" fill="none" stroke="#af8474" stroke-width="4"/>
+<!-- midleft addresses: legible category but not personal details -->
+<rect x="48" y="689" width="453" height="490" fill="#aaa99f"/>
+<path d="M93 727L477 717L471 1152L95 1152Z" fill="#efece1" stroke="#88877e" stroke-width="5"/>
+<text x="282" y="778" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="29" fill="#3d4749">汀橋／水害資料</text>
+<path d="M114 811H455" stroke="#9faba9" stroke-width="4"/>
+<g font-family="monospace" font-size="26" fill="#4a5557"><text x="117" y="857">01</text><text x="117" y="913">02</text><text x="117" y="969">03</text><text x="117" y="1025">04</text><text x="117" y="1081">05</text></g>
+<g stroke="#737e80" stroke-width="9" stroke-linecap="round" opacity=".38"><path d="M187 849H412M187 905H427M187 961H393M187 1017H421M187 1073H402"/></g>
+<path d="M98 1138L460 1124" stroke="#ada899" stroke-width="3"/>
+<!-- midright flood map -->
+<rect x="521" y="689" width="455" height="490" fill="#7c979d"/>
+<rect x="553" y="722" width="392" height="420" fill="#d4d5c7" stroke="#818d87" stroke-width="7"/>
+<path d="M581 730Q681 781 625 876Q582 948 710 992Q805 1020 840 1142" stroke="#7197a5" stroke-width="60" fill="none" opacity=".7"/>
+<path d="M581 730Q681 781 625 876Q582 948 710 992Q805 1020 840 1142" stroke="#d9edf0" stroke-width="7" fill="none" stroke-dasharray="10 15"/>
+<path d="M577 842L925 865M608 1111L899 733M553 1020L944 943M692 727L722 1141" stroke="#9aaca5" stroke-width="8" opacity=".5"/>
+<path d="M796 784L892 837M590 997L704 1098" stroke="#a7afa6" stroke-width="6"/>
+<g fill="#faf8e9" stroke="#444c55" stroke-width="4"><circle cx="779" cy="816" r="25"/><circle cx="832" cy="954" r="25"/><circle cx="665" cy="1054" r="25"/></g>
+<g font-family="monospace" font-size="22" text-anchor="middle" fill="#353e46"><text x="779" y="824">01</text><text x="832" y="962">02</text><text x="665" y="1062">03</text></g>
+<!-- bottom: withheld decision -->
+<rect x="48" y="1199" width="928" height="287" fill="#4f565b"/>
+<path d="M155 1208L776 1221L784 1486L130 1486Z" fill="#ebe7d9" stroke="#777b76" stroke-width="5"/>
+<path d="M217 1272L662 1278M215 1327L660 1335M214 1396L657 1400" stroke="#a9aba4" stroke-width="4" opacity=".55"/>
+<text x="496" y="1388" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="103" fill="#4d5052" transform="rotate(-2 496 1388)">保留</text>
+<path d="M953 1486Q922 1396 850 1368L732 1346Q695 1342 691 1363Q686 1381 713 1389L807 1413L779 1443L741 1486Z" fill="url(#skin)" stroke="#926f63" stroke-width="5"/>
+<g fill="none" stroke="#182027" stroke-width="5"><rect x="48" y="48" width="928" height="621"/><rect x="48" y="689" width="453" height="490"/><rect x="521" y="689" width="455" height="490"/><rect x="48" y="1199" width="928" height="287"/></g>
+</svg>
