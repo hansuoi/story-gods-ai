@@ -17,9 +17,20 @@
 <path d="M47 791L977 733V929H47Z" fill="#70665c"/>
 <!-- cropped source image of exactly P19 photo -->
 <rect x="448" y="392" width="440" height="481" rx="12" fill="#202b34" stroke="#151e26" stroke-width="10"/>
-<svg x="455" y="399" width="426" height="466" viewBox="235 103 570 810" preserveAspectRatio="xMidYMid meet" overflow="hidden">
-<image xlink:href="p19.png" x="0" y="0" width="1024" height="1536"/>
-</svg>
+<g transform="translate(475 405) scale(1.16 1.07)">
+<rect width="320" height="420" rx="9" fill="#65747a" stroke="#213440" stroke-width="8"/>
+<path d="M23 12L146 8L153 407L26 413Z" fill="#a2adac" stroke="#536973" stroke-width="7"/>
+<path d="M177 6L302 5L309 407L184 410Z" fill="#4d626e" stroke="#2e4250" stroke-width="7"/>
+<path d="M141 32L209 29L216 377L148 388Z" fill="#aec1c1" stroke="#3f5662" stroke-width="9"/>
+<path d="M139 89L220 84L227 139L143 150Z" fill="#c2cfd0" stroke="#647781" stroke-width="6"/>
+<circle cx="159" cy="112" r="10" fill="#465e67"/><circle cx="204" cy="110" r="10" fill="#465e67"/>
+<path d="M145 275L232 266L237 326L153 335Z" fill="#b7c6c8" stroke="#637983" stroke-width="6"/>
+<circle cx="164" cy="304" r="10" fill="#465d69"/><circle cx="216" cy="299" r="10" fill="#465d69"/>
+<path d="M147 151L123 182L150 207L130 233L168 255L145 278" fill="none" stroke="#253540" stroke-width="17" stroke-linejoin="round"/>
+<path d="M146 151L122 182L150 207L129 233L167 255L144 278" fill="none" stroke="#b5d6dc" stroke-width="4" stroke-linejoin="round"/>
+<path d="M129 139Q94 180 112 227Q119 255 156 290" stroke="#e2edef" stroke-width="5" fill="none"/>
+<path d="M116 135Q81 180 104 240" stroke="#6ab3c8" stroke-width="3" fill="none"/>
+</g>
 <!-- Nagi finger indicates damaged area without touching photo -->
 <path d="M131 929Q181 766 249 711L470 630Q508 609 525 637Q532 665 489 690L313 780L285 929" fill="url(#skin)" stroke="#916f62" stroke-width="6"/>
 <path d="M489 691L544 664" stroke="#a37e6d" stroke-width="5" stroke-linecap="round"/>
