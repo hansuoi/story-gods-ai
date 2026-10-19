@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs><linearGradient id="desk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8e8378"/><stop offset=".6" stop-color="#5b5550"/><stop offset="1" stop-color="#30363b"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#ead0bb"/><stop offset="1" stop-color="#ae8a7e"/></linearGradient><pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#fff" opacity=".12"/><circle cx="13" cy="14" r=".6" fill="#131922" opacity=".1"/></pattern></defs><rect width="1024" height="1536" fill="#ece9e0"/><rect x="29" y="28" width="966" height="1481" fill="#fffdf7"/>
+<!-- panel 1 envelope reverse, specific note -->
+<rect x="47" y="47" width="930" height="349" fill="url(#desk)"/>
+<path d="M165 100L773 88L809 352L143 365Z" fill="#d4c5aa" stroke="#9a876e" stroke-width="9"/>
+<path d="M154 340L466 191L793 326" stroke="#ada085" stroke-width="5" fill="none"/>
+<path d="M190 137L751 126" stroke="#a79c87" stroke-width="3" opacity=".45"/>
+<text x="491" y="287" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="58" fill="#51504a" transform="rotate(-2 491 287)">本人へ返却</text>
+<path d="M47 396Q67 309 153 288L215 295Q244 305 224 333L176 358L159 396" fill="url(#skin)" stroke="#9a796b" stroke-width="5"/>
+<rect x="47" y="47" width="930" height="349" fill="url(#grain)"/>
+<!-- panel 2 Aki compares Sakaki handwriting to records -->
+<rect x="47" y="416" width="930" height="415" fill="url(#desk)"/>
+<path d="M100 492L459 464L512 784L125 806Z" fill="#e8e4d7" stroke="#7e7a70" stroke-width="6"/>
+<path d="M516 480L898 449L923 783L548 805Z" fill="#f0e9db" stroke="#817b71" stroke-width="6"/>
+<g stroke="#b5b6aa" stroke-width="3"><path d="M140 553L445 528M146 605L451 581M151 657L457 633M157 708L463 684"/><path d="M564 535L880 509M569 586L884 564M574 644L888 621M580 693L892 677"/></g>
+<g font-family="Noto Sans CJK JP,sans-serif" fill="#596064" font-size="31"><text x="151" y="601" transform="rotate(-3 151 601)">保留</text><text x="575" y="579" transform="rotate(-4 575 579)">榊</text><text x="589" y="643" transform="rotate(-4 589 643)">2018／汀橋</text></g>
+<path d="M470 795Q438 706 456 650L488 605Q509 580 525 599Q534 618 521 644L497 684L527 775" fill="url(#skin)" stroke="#9d796a" stroke-width="5"/>
+<path d="M502 792Q538 730 571 712L622 691Q654 684 663 702Q667 718 640 733L582 764L566 816" fill="url(#skin)" stroke="#9d796a" stroke-width="5"/>
+<rect x="47" y="416" width="930" height="415" fill="url(#grain)"/>
+<!-- panel 3 opens envelope; inner thin booklet's title intentionally unreadable -->
+<rect x="47" y="851" width="930" height="636" fill="#4c585f"/>
+<path d="M47 1328L977 1264V1487H47Z" fill="#675b51"/>
+<path d="M125 1108L771 1088L846 1452L171 1487Z" fill="#d2c2a5" stroke="#8f7966" stroke-width="9"/>
+<path d="M126 1112L471 1357L784 1090" stroke="#aea083" stroke-width="6" fill="none"/>
+<path d="M335 945L743 947L759 1320L324 1294Z" fill="#efecde" stroke="#8b8b80" stroke-width="6"/>
+<path d="M349 960L751 959L741 1310L336 1281Z" fill="#b9b5a9" stroke="#646e70" stroke-width="5"/>
+<path d="M370 995L719 991L707 1273L363 1256Z" fill="#e5e0d2"/>
+<!-- don't show any cover title yet -->
+<path d="M144 1487Q152 1306 276 1223L358 1160Q384 1146 396 1166Q404 1184 371 1217L293 1308L318 1487" fill="url(#skin)" stroke="#967467" stroke-width="6"/>
+<path d="M969 1487Q939 1292 848 1208L761 1142Q739 1131 724 1149Q714 1171 745 1193L827 1290L811 1487" fill="url(#skin)" stroke="#967467" stroke-width="6"/>
+<path d="M380 1057L686 1042" stroke="#c5c1b2" stroke-width="3" opacity=".4"/>
+<rect x="47" y="851" width="930" height="636" fill="url(#grain)"/>
+<g fill="none" stroke="#18232b" stroke-width="5"><rect x="47" y="47" width="930" height="349"/><rect x="47" y="416" width="930" height="415"/><rect x="47" y="851" width="930" height="636"/></g>
+</svg>
