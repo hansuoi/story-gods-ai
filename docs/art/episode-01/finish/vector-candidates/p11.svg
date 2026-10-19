@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a5a9a2"/><stop offset=".54" stop-color="#666c71"/><stop offset="1" stop-color="#363f48"/></linearGradient>
+<linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9b8170"/><stop offset="1" stop-color="#554c48"/></linearGradient>
+<linearGradient id="shirt" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#f6f3e9"/><stop offset=".65" stop-color="#dddcd4"/><stop offset="1" stop-color="#aeb6b3"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6c7b3"/><stop offset="1" stop-color="#a9827b"/></linearGradient>
+<linearGradient id="calc" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#545d65"/><stop offset="1" stop-color="#202a33"/></linearGradient>
+<pattern id="texture" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="3" cy="7" r=".65" fill="#fff" opacity=".14"/><circle cx="17" cy="15" r=".7" fill="#16181d" opacity=".13"/></pattern>
+</defs>
+<rect width="1024" height="1536" fill="#ede9e0"/><rect x="28" y="27" width="968" height="1482" fill="#fbfaf5"/>
+<!-- P11 panel 1 / detective office and untouched white shirt -->
+<rect x="50" y="49" width="924" height="632" fill="url(#wall)"/>
+<path d="M50 550L974 535V681H50Z" fill="#4e4f4b"/>
+<path d="M100 140L480 100L480 500L100 520Z" fill="#59676b" stroke="#a8ada7" stroke-width="10"/>
+<path d="M124 164L454 131V468L124 487Z" fill="#82979b" opacity=".66"/>
+<path d="M129 422L459 278V475L129 493Z" fill="#bcc0b7" opacity=".28"/>
+<path d="M519 130H929V230H519Z" fill="#d5c9b2" stroke="#514a40" stroke-width="8"/>
+<text x="724" y="193" text-anchor="middle" font-family="Noto Sans CJK JP,sans-serif" font-size="43" fill="#242627">神谷探偵事務所</text>
+<!-- wooden desk -->
+<path d="M95 527L841 473L943 568L198 640Z" fill="url(#wood)" stroke="#4c4543" stroke-width="8"/>
+<path d="M198 640L943 568L943 625L198 694Z" fill="#4b413d"/>
+<path d="M282 622L265 679M851 594L880 673" stroke="#302c2b" stroke-width="18"/>
+<!-- Sakaki chair -->
+<path d="M585 339Q703 284 814 346L846 550Q710 573 580 547Z" fill="#282f39" stroke="#171f29" stroke-width="10"/>
+<path d="M606 371Q704 334 797 373L812 511Q710 529 605 508Z" fill="#536068" opacity=".75"/>
+<!-- white shirt hung over the chair -->
+<path d="M609 362L667 319L699 343L728 321L797 362L825 466L787 485L763 423L762 569L648 569L647 418L629 485L580 461Z" fill="url(#shirt)" stroke="#a0a6a4" stroke-width="5"/>
+<path d="M668 324L703 377L728 323M703 378L703 557" fill="none" stroke="#949f9d" stroke-width="4"/>
+<circle cx="706" cy="420" r="4" fill="#8d9795"/><circle cx="706" cy="464" r="4" fill="#8d9795"/><circle cx="706" cy="507" r="4" fill="#8d9795"/>
+<!-- Aki near edge, not moving shirt -->
+<path d="M80 681Q91 472 213 431Q342 453 356 681" fill="#202731"/>
+<ellipse cx="214" cy="416" rx="76" ry="104" fill="url(#skin)"/>
+<path d="M134 414Q129 300 209 297Q295 309 292 431Q260 345 139 417" fill="#252830"/>
+<path d="M254 455L273 452" stroke="#6a4e4e" stroke-width="5"/>
+<rect x="50" y="49" width="924" height="632" fill="url(#texture)"/>
+<!-- P11 panel 2 / open ledger and hands -->
+<rect x="50" y="701" width="924" height="460" fill="#706b63"/>
+<path d="M50 741L974 701V1161H50Z" fill="url(#wood)"/>
+<path d="M160 830L485 781L526 1104L194 1131Z" fill="#efe8d2" stroke="#83796b" stroke-width="5"/>
+<path d="M485 781L797 814L834 1114L526 1104Z" fill="#e2dfd3" stroke="#83796b" stroke-width="5"/>
+<path d="M486 782L527 1101" stroke="#8a8982" stroke-width="8"/>
+<g stroke="#a8a9a1" opacity=".7" stroke-width="2"><path d="M201 879L472 838M207 917L477 874M212 952L481 910M218 990L486 949M225 1030L491 987M231 1067L495 1027"/><path d="M516 845L789 869M519 883L796 906M523 918L803 943M527 956L809 981M532 994L817 1018M536 1035L822 1055"/></g>
+<path d="M238 845L282 837M241 883L341 866M248 923L322 907" stroke="#77796e" stroke-width="4"/>
+<path d="M549 865L659 873M555 904L650 911" stroke="#77796e" stroke-width="4"/>
+<!-- Aki's hand turning paper; shirt left untouched -->
+<path d="M920 1130Q848 1113 796 1071L676 1012Q652 993 640 1008Q625 1026 651 1048L719 1096Q687 1077 661 1067Q634 1053 628 1078Q620 1094 650 1109L739 1154Z" fill="url(#skin)" stroke="#9b776a" stroke-width="5"/>
+<rect x="50" y="701" width="924" height="460" fill="url(#texture)"/>
+<!-- P11 panel 3 / calculator, a halted finger -->
+<rect x="50" y="1181" width="924" height="306" fill="#303b42"/>
+<path d="M66 1469L974 1357V1487H66Z" fill="#555550"/>
+<g transform="translate(340,1196) rotate(-5)">
+<rect x="0" y="0" width="420" height="280" rx="21" fill="url(#calc)" stroke="#171f25" stroke-width="8"/>
+<rect x="34" y="24" width="354" height="64" rx="6" fill="#b4b9a8" stroke="#242e34" stroke-width="6"/>
+<text x="372" y="69" text-anchor="end" font-family="monospace" font-size="43" fill="#465044">17580</text>
+<g fill="#a8aaab" stroke="#27343a" stroke-width="4">
+<rect x="35" y="112" width="72" height="42" rx="6"/><rect x="121" y="112" width="72" height="42" rx="6"/><rect x="208" y="112" width="72" height="42" rx="6"/><rect x="296" y="112" width="90" height="42" rx="6"/>
+<rect x="35" y="164" width="72" height="42" rx="6"/><rect x="121" y="164" width="72" height="42" rx="6"/><rect x="208" y="164" width="72" height="42" rx="6"/><rect x="296" y="164" width="90" height="42" rx="6"/>
+<rect x="35" y="215" width="72" height="42" rx="6"/><rect x="121" y="215" width="72" height="42" rx="6"/><rect x="208" y="215" width="72" height="42" rx="6"/><rect x="296" y="215" width="90" height="42" rx="6"/>
+</g><g font-family="sans-serif" font-size="25" text-anchor="middle" fill="#252e33"><text x="71" y="143">7</text><text x="158" y="143">8</text><text x="245" y="143">9</text><text x="340" y="143">+</text><text x="71" y="195">4</text><text x="158" y="195">5</text><text x="245" y="195">6</text><text x="340" y="195">−</text><text x="71" y="246">1</text><text x="158" y="246">2</text><text x="245" y="246">3</text><text x="340" y="246">=</text></g>
+</g>
+<path d="M784 1289Q794 1251 818 1248Q852 1254 837 1294L824 1353Q810 1373 786 1362Q775 1354 777 1340Z" fill="url(#skin)" stroke="#9b776a" stroke-width="4"/>
+<path d="M792 1272Q802 1259 815 1263" stroke="#b18c7e" stroke-width="4" fill="none"/>
+<text x="138" y="1287" font-family="Noto Sans CJK JP,sans-serif" font-size="40" fill="#f1f0e8" transform="rotate(-7 138 1287)">カタ、カタ</text>
+<rect x="50" y="1181" width="924" height="306" fill="url(#texture)"/>
+<g fill="none" stroke="#171d21" stroke-width="5"><rect x="50" y="49" width="924" height="632"/><rect x="50" y="701" width="924" height="460"/><rect x="50" y="1181" width="924" height="306"/></g>
+</svg>
