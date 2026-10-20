@@ -5,6 +5,8 @@ on:
     paths:
       - 'scripts/render_episode01_p06_v03.py'
       - 'scripts/render_episode01_p07_v04.py'
+      - 'scripts/render_episode01_p08_v04.py'
+      - 'docs/art/episode-01/finish/color-candidates/sources/p08_interview_montage.png'
       - 'scripts/render_episode01_color_readthrough.py'
       - '.github/workflows/render-episode01-color-revisions.yml'
 permissions:
@@ -23,11 +25,12 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
-          python -m pip install --disable-pip-version-check pillow
-      - name: Recompose P06 and P07 from verified original color PNGs
+          python -m pip install --disable-pip-version-check pillow numpy
+      - name: Recompose P06–P08 from original color assets
         run: |
           python scripts/render_episode01_p06_v03.py
           python scripts/render_episode01_p07_v04.py
+          python scripts/render_episode01_p08_v04.py
           python scripts/render_episode01_color_readthrough.py
       - name: Verify output metadata and no edits to originals
         run: |
@@ -38,7 +41,7 @@ jobs:
           from PIL import Image
           folder=Path("docs/art/episode-01/finish/color-candidates")
           manifest=json.loads((folder/"revision-manifest.json").read_text(encoding="utf-8"))
-          for target in ("p06_v03.png", "p07_v04.png"):
+          for target in ("p06_v03.png", "p07_v04.png", "p08_v04.png"):
               data=manifest[target]
               out=folder/target
               assert Image.open(out).size == (1024,1536)
@@ -51,15 +54,15 @@ jobs:
           src=Image.open(folder/"p07.png").convert("RGB")
           revised=Image.open(folder/"p07_v04.png").convert("RGB")
           assert src.crop((0,569,1024,1536)).tobytes()==revised.crop((0,569,1024,1536)).tobytes()
-          print("P06/P07 color revision verified; original PNGs retained")
+          print("P06-P08 color revisions verified; original PNGs retained")
           PY
       - name: Commit revised PNG and manifest
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg
+          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/p08_v04.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg
           if ! git diff --cached --quiet; then
-            git commit -m "art(ep01): render P06 and P07 revised color candidates"
+            git commit -m "art(ep01): render P06-P08 revised color candidates"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
