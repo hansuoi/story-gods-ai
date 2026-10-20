@@ -60,9 +60,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Another scheduled run can update binary contact sheets. Never rebase a
+          # commit containing a JPG conflict; re-stage our generated outputs on
+          # top of the latest remote head instead.
+          git fetch origin main
+          git reset --mixed origin/main
           git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/p08_v04.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg
           if ! git diff --cached --quiet; then
             git commit -m "art(ep01): render P06-P08 revised color candidates"
-            git pull --rebase origin main
             git push origin HEAD:main
           fi
