@@ -17,7 +17,7 @@ PAGES = [
     ("P05", "p05.png"),
     ("P06 v03", "p06_v03.png"),
     ("P07 v04", "p07_v04.png"),
-    ("P08 candidate", "p08.png"),
+    ("P08 v04", "p08_v04.png"),
 ]
 
 def main() -> None:
