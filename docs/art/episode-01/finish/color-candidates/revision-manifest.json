@@ -25,5 +25,17 @@
     "status": "candidate-needs-visual-review",
     "unchanged_area": "pixels with y >= 569 exactly match p07.png",
     "width": 1024
+  },
+  "p08_v04.png": {
+    "bytes": 639129,
+    "height": 1536,
+    "notes": "Four P08 name-matched panels; painted characters from a generated montage, original Japanese lettering supplied only by this script; police technical diagram remains schematic.",
+    "page": 8,
+    "sha256": "2a6701aaee41cc57609878fa1225d80a084127398ad170b7b8d4bd453137ea59",
+    "source": {
+      "sources/p08_interview_montage.png": "d2742067128fca0dd8541d16899aebf60e011b422b6f1957411c183003c24d72"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
