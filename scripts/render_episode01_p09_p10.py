@@ -78,6 +78,24 @@ def make_p10(src):
     draw_panel(canvas,background,(31,1214,993,1506))
     return canvas
 
+
+def make_p13(src):
+    """Flood history file: the old folder, addresses/map, and Sakaki's '保留'."""
+    canvas=new_page()
+    # 2018 folder and historic flood photo. Avoid the generator's explanatory caption.
+    cover=crop_clean(src,(1222,280,1518,438))
+    draw_panel(canvas,cover,(31,30,993,724))
+    # Address sheet. Keep details too small to imply invented personal records.
+    addresses=crop_clean(src,(1325,320,1505,454))
+    draw_panel(canvas,addresses,(31,744,501,1147))
+    # Minatobashi map (same source page). Exclude montage captions.
+    mapping=crop_clean(src,(1330,12,1518,200))
+    draw_panel(canvas,mapping,(521,744,993,1147))
+    # The unresolved hold note closes the page, not a complete explanation.
+    hold=crop_clean(src,(1290,472,1518,575))
+    draw_panel(canvas,hold,(31,1167,993,1506))
+    return canvas
+
 def main():
     BASE.mkdir(parents=True,exist_ok=True)
     src=Image.open(SOURCE).convert('RGB')
@@ -85,7 +103,7 @@ def main():
     manifest_path=BASE/'revision-manifest.json'
     manifest=json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else {}
     source_sha=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
-    for n,fun in [(9,make_p09),(10,make_p10)]:
+    for n,fun in [(9,make_p09),(10,make_p10),(13,make_p13)]:
         target=BASE/f'p{n:02d}_v01.png'
         rendered=fun(src)
         assert rendered.size==PAGESIZE
