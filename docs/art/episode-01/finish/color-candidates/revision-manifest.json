@@ -61,5 +61,17 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p13_v01.png": {
+    "bytes": 1293165,
+    "height": 1536,
+    "notes": "AI generated panorama crops with exact Japanese lettering; requires review of scene details and image sampling.",
+    "page": 13,
+    "sha256": "048e13cced3c7f477111579958cb5c2bec2e4ef5f742d11518c3154d88e83051",
+    "source": {
+      "sources/p09_p12_generated_montage.png": "7c9e87a9fef3928b7ef84a1892ca1cb46ca2f7d5d867ebb7667e584efdf62bf5"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
