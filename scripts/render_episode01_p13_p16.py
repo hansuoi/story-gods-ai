@@ -9,7 +9,7 @@ from __future__ import annotations
 from pathlib import Path
 from hashlib import sha256
 import json
-from PIL import Image,ImageDraw,ImageFont
+from PIL import Image,ImageDraw,ImageFont,ImageOps
 from render_episode01_p09_p10 import BASE, FONT_FILE, new_page, draw_panel, balloon
 
 SRC=BASE/'sources/p13_p16_generated_montage.png'
@@ -28,7 +28,8 @@ def note(page,box,lines,fontsize=32):
 def make_p13(src):
     p=new_page()
     # Eight-year-old materials, worn envelope; do not show AI's exposition.
-    draw_panel(p,src.crop((187,14,378,312)),(30,30,994,703))
+    original_p13=Image.open(BASE/'p13_v01.png').convert('RGB')
+    draw_panel(p,original_p13.crop((33,32,991,721)),(30,30,994,703))
     # Multiple lives represented by many ordinary records (personal details unreadable).
     draw_panel(p,src.crop((6,733,378,983)),(30,723,500,1162))
     d=ImageDraw.Draw(p)
@@ -67,7 +68,13 @@ def make_p15(src):
     # Office lock in close-up, including original quiet click sound.
     draw_panel(p,src.crop((778,251,988,376)),(30,30,994,370))
     # Aki heading beneath elevated bridge: painterly figure not an icon.
-    draw_panel(p,src.crop((785,543,1140,729)),(30,390,994,1163))
+    # Crop toward Aki's head rather than the AI caption on the right.
+    region=(30,390,994,1163)
+    x0,y0,x1,y1=region
+    full=src.crop((783,475,999,729))
+    walking=ImageOps.fit(full,(x1-x0,y1-y0),Image.Resampling.LANCZOS,centering=(.5,.22))
+    p.paste(walking,(x0,y0))
+    ImageDraw.Draw(p).rectangle((x0,y0,x1-1,y1-1),outline='#20272b',width=5)
     # Unanswered interior thought over nighttime underpass (no character in this small panel).
     draw_panel(p,src.crop((786,770,1137,980)),(30,1183,994,1506))
     balloon(p,(474,1238,965,1447),['……誰に会う','つもりだったの'],fontsize=39)
@@ -101,7 +108,7 @@ def main():
         raw=path.read_bytes()
         assert raw[:8]==b'\x89PNG\r\n\x1a\n'
         manifest[name]={'page':int(name[1:3]),'status':'candidate-needs-visual-review','width':1024,'height':1536,'bytes':len(raw),
-          'sha256':sha256(raw).hexdigest(), 'source':{'sources/p13_p16_generated_montage.png':sha256(SRC.read_bytes()).hexdigest()},
+          'sha256':sha256(raw).hexdigest(), 'source':{'sources/p13_p16_generated_montage.png':sha256(SRC.read_bytes()).hexdigest(),**({'p13_v01.png':sha256((BASE/'p13_v01.png').read_bytes()).hexdigest()} if name=='p13_v02.png' else {})},
           'notes':'P13–P16 cinematic color mosaic crop, independently typeset exact name dialogue; no final acceptance.'}
         print(name,len(raw),manifest[name]['sha256'])
     manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n',encoding='utf-8')
