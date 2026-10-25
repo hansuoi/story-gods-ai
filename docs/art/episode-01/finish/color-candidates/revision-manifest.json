@@ -97,5 +97,29 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p14_v01.png": {
+    "bytes": 899068,
+    "height": 1536,
+    "notes": "Existing painted montage reused; P14 phone and P15 key/action include locally composed props, see visual review.",
+    "page": 14,
+    "sha256": "35f1c01298310aaa349b37e26c0ef87faae4fc626b8989a8994034ba388936ce",
+    "source": {
+      "sources/p09_p12_generated_montage.png": "7c9e87a9fef3928b7ef84a1892ca1cb46ca2f7d5d867ebb7667e584efdf62bf5"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p15_v01.png": {
+    "bytes": 1093181,
+    "height": 1536,
+    "notes": "Existing painted montage reused; P14 phone and P15 key/action include locally composed props, see visual review.",
+    "page": 15,
+    "sha256": "1c929ecc8c97fc894eb1804a6425eaea265f784679ee69a8b70b0952b43e9d4a",
+    "source": {
+      "sources/p09_p12_generated_montage.png": "7c9e87a9fef3928b7ef84a1892ca1cb46ca2f7d5d867ebb7667e584efdf62bf5"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
