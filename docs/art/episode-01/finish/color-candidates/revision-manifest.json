@@ -99,12 +99,13 @@
     "width": 1024
   },
   "p13_v02.png": {
-    "bytes": 1162650,
+    "bytes": 1201510,
     "height": 1536,
     "notes": "P13–P16 cinematic color mosaic crop, independently typeset exact name dialogue; no final acceptance.",
     "page": 13,
-    "sha256": "d57a702903f30032322181b9aba33c5bcd45d1c8a95c1751f146edb4047bd749",
+    "sha256": "cd8968710d7c361383b9e67ec69cfef626ec4f739e65483d23b4484800ba25fd",
     "source": {
+      "p13_v01.png": "048e13cced3c7f477111579958cb5c2bec2e4ef5f742d11518c3154d88e83051",
       "sources/p13_p16_generated_montage.png": "d6745e68fc2c5e696a182618356b9200dd2aa7953a877cf12657e6195ef09105"
     },
     "status": "candidate-needs-visual-review",
@@ -147,11 +148,11 @@
     "width": 1024
   },
   "p15_v02.png": {
-    "bytes": 1045309,
+    "bytes": 1057331,
     "height": 1536,
     "notes": "P13–P16 cinematic color mosaic crop, independently typeset exact name dialogue; no final acceptance.",
     "page": 15,
-    "sha256": "902b7be923e552d78a2b4181d1f6ca1883ca553936cd7562de7841da205d1935",
+    "sha256": "9e3efacb07e4732abe906aeabef92d3dc5d4195b34e10e8b793dc03c02f68efa",
     "source": {
       "sources/p13_p16_generated_montage.png": "d6745e68fc2c5e696a182618356b9200dd2aa7953a877cf12657e6195ef09105"
     },
