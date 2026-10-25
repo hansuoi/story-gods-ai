@@ -75,11 +75,11 @@
     "width": 1024
   },
   "p12_v01.png": {
-    "bytes": 999467,
+    "bytes": 934740,
     "height": 1536,
     "notes": "P11 or P12 photo-collage composition, hand-typeset Japanese and diagram elements; visual review required.",
     "page": 12,
-    "sha256": "deb4e0c1fbc54bfcaa2c91ae1981a7e424294c2687b9b387b6ff3726bf73cb4b",
+    "sha256": "18c0fb3b3d2abb2db2b9245c090e6e04fd3cb417daf41247aacd77f804a316d0",
     "source": {
       "sources/p09_p12_generated_montage.png": "7c9e87a9fef3928b7ef84a1892ca1cb46ca2f7d5d867ebb7667e584efdf62bf5"
     },
