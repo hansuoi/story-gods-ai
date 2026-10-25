@@ -109,7 +109,7 @@ def make_p12(src):
     draw_schedule(canvas,(73,45,620,443))
     balloon(canvas,(631,109,966,279),['本当に','休みだった？'],fontsize=37)
     # Keep the real-looking taxi receipt and map. Remove invented AI captions.
-    receipt=src.crop((1160,5,1529,273)).convert('RGB')
+    receipt=src.crop((1160,5,1529,150)).convert('RGB')
     draw_panel(canvas,receipt,(31,480,993,890))
     # Explicitly identify the information we may conclude, no invented dates.
     d=ImageDraw.Draw(canvas)
