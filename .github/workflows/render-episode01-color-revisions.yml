@@ -11,6 +11,7 @@ on:
       - 'scripts/render_episode01_p14_p15.py'
       - 'scripts/render_episode01_p13_p16.py'
       - 'scripts/render_episode01_color_review_p09_p15.py'
+      - 'scripts/render_episode01_color_review_p09_p16.py'
       - 'docs/art/episode-01/finish/color-candidates/sources/p08_interview_montage.png'
       - 'docs/art/episode-01/finish/color-candidates/sources/p09_p12_generated_montage.png'
       - 'docs/art/episode-01/finish/color-candidates/sources/p13_p16_generated_montage.png'
@@ -42,6 +43,7 @@ jobs:
           python scripts/render_episode01_p11_p12.py
           python scripts/render_episode01_p14_p15.py
           python scripts/render_episode01_p13_p16.py
+          python scripts/render_episode01_color_review_p09_p16.py
           python scripts/render_episode01_color_review_p09_p15.py
           python scripts/render_episode01_color_readthrough.py
       - name: Verify output metadata and no edits to originals
@@ -77,7 +79,7 @@ jobs:
           # top of the latest remote head instead.
           git fetch origin main
           git reset --mixed origin/main
-          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/p08_v04.png docs/art/episode-01/finish/color-candidates/p09_v01.png docs/art/episode-01/finish/color-candidates/p10_v01.png docs/art/episode-01/finish/color-candidates/p11_v01.png docs/art/episode-01/finish/color-candidates/p12_v01.png docs/art/episode-01/finish/color-candidates/p13_v01.png docs/art/episode-01/finish/color-candidates/p14_v01.png docs/art/episode-01/finish/color-candidates/p15_v01.png docs/art/episode-01/finish/color-candidates/p13_v02.png docs/art/episode-01/finish/color-candidates/p14_v02.png docs/art/episode-01/finish/color-candidates/p15_v02.png docs/art/episode-01/finish/color-candidates/p16_v01.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg docs/art/episode-01/finish/color-candidates/review_p09_p15.jpg
+          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/p08_v04.png docs/art/episode-01/finish/color-candidates/p09_v01.png docs/art/episode-01/finish/color-candidates/p10_v01.png docs/art/episode-01/finish/color-candidates/p11_v01.png docs/art/episode-01/finish/color-candidates/p12_v01.png docs/art/episode-01/finish/color-candidates/p13_v01.png docs/art/episode-01/finish/color-candidates/p14_v01.png docs/art/episode-01/finish/color-candidates/p15_v01.png docs/art/episode-01/finish/color-candidates/p13_v02.png docs/art/episode-01/finish/color-candidates/p14_v02.png docs/art/episode-01/finish/color-candidates/p15_v02.png docs/art/episode-01/finish/color-candidates/p16_v01.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg docs/art/episode-01/finish/color-candidates/review_p09_p15.jpg docs/art/episode-01/finish/color-candidates/review_p09_p16_current.jpg
           if ! git diff --cached --quiet; then
             git commit -m "art(ep01): render P06-P13 revised color candidates"
             git push origin HEAD:main
