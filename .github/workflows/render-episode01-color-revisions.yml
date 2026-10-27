@@ -12,6 +12,10 @@ on:
       - 'scripts/render_episode01_p13_p16.py'
       - 'scripts/render_episode01_color_review_p09_p15.py'
       - 'scripts/render_episode01_color_review_p09_p16.py'
+      - 'docs/art/episode-01/finish/color-candidates/p05.png'
+      - 'docs/art/episode-01/finish/color-candidates/p06.png'
+      - 'docs/art/episode-01/finish/color-candidates/p07.png'
+      - 'docs/art/episode-01/finish/color-candidates/p08.png'
       - 'docs/art/episode-01/finish/color-candidates/sources/p08_interview_montage.png'
       - 'docs/art/episode-01/finish/color-candidates/sources/p09_p12_generated_montage.png'
       - 'docs/art/episode-01/finish/color-candidates/sources/p13_p16_generated_montage.png'
@@ -34,7 +38,7 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
           python -m pip install --disable-pip-version-check pillow numpy
-      - name: Recompose P06–P13 from original color assets
+      - name: Recompose P06–P16 from original color assets
         run: |
           python scripts/render_episode01_p06_v03.py
           python scripts/render_episode01_p07_v04.py
@@ -68,7 +72,7 @@ jobs:
           src=Image.open(folder/"p07.png").convert("RGB")
           revised=Image.open(folder/"p07_v04.png").convert("RGB")
           assert src.crop((0,569,1024,1536)).tobytes()==revised.crop((0,569,1024,1536)).tobytes()
-          print("P06-P13 color revisions verified; original PNGs retained")
+          print("P06-P16 color revisions verified; original PNGs retained")
           PY
       - name: Commit revised PNG and manifest
         run: |
@@ -81,6 +85,6 @@ jobs:
           git reset --mixed origin/main
           git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/p08_v04.png docs/art/episode-01/finish/color-candidates/p09_v01.png docs/art/episode-01/finish/color-candidates/p10_v01.png docs/art/episode-01/finish/color-candidates/p11_v01.png docs/art/episode-01/finish/color-candidates/p12_v01.png docs/art/episode-01/finish/color-candidates/p13_v01.png docs/art/episode-01/finish/color-candidates/p14_v01.png docs/art/episode-01/finish/color-candidates/p15_v01.png docs/art/episode-01/finish/color-candidates/p13_v02.png docs/art/episode-01/finish/color-candidates/p14_v02.png docs/art/episode-01/finish/color-candidates/p15_v02.png docs/art/episode-01/finish/color-candidates/p16_v01.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg docs/art/episode-01/finish/color-candidates/review_p09_p15.jpg docs/art/episode-01/finish/color-candidates/review_p09_p16_current.jpg
           if ! git diff --cached --quiet; then
-            git commit -m "art(ep01): render P06-P13 revised color candidates"
+            git commit -m "art(ep01): render P06-P16 revised color candidates"
             git push origin HEAD:main
           fi
