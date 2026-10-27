@@ -247,5 +247,29 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p23_v01.png": {
+    "bytes": 893054,
+    "height": 1536,
+    "notes": "P23/P24 painterly fragments, flood gauge and detective-office card composed with exact Japanese lettering; final art still needs character/hand consistency review.",
+    "page": 23,
+    "sha256": "2bea0e57717425772f941c1cfc3d9529cb0e15399d0c6d9984c2b81e55f3ed70",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p24_v01.png": {
+    "bytes": 727069,
+    "height": 1536,
+    "notes": "P23/P24 painterly fragments, flood gauge and detective-office card composed with exact Japanese lettering; final art still needs character/hand consistency review.",
+    "page": 24,
+    "sha256": "c3f911899fa8a68abf4a408e04a0e4c11617798231c007994f751f252ce1493b",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
