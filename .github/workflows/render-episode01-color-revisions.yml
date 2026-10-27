@@ -11,6 +11,7 @@ on:
       - 'scripts/render_episode01_p14_p15.py'
       - 'scripts/render_episode01_p13_p16.py'
       - 'scripts/render_episode01_p17_p18.py'
+      - 'scripts/render_episode01_p19_p20.py'
       - 'scripts/render_episode01_color_review_p09_p15.py'
       - 'scripts/render_episode01_color_review_p09_p16.py'
       - 'docs/art/episode-01/finish/color-candidates/p05.png'
@@ -40,7 +41,7 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
           python -m pip install --disable-pip-version-check pillow numpy
-      - name: Recompose P06–P18 from original color assets
+      - name: Recompose P06–P20 from original color assets
         run: |
           python scripts/render_episode01_p06_v03.py
           python scripts/render_episode01_p07_v04.py
@@ -50,6 +51,7 @@ jobs:
           python scripts/render_episode01_p14_p15.py
           python scripts/render_episode01_p13_p16.py
           python scripts/render_episode01_p17_p18.py
+          python scripts/render_episode01_p19_p20.py
           python scripts/render_episode01_color_review_p09_p16.py
           python scripts/render_episode01_color_review_p09_p15.py
           python scripts/render_episode01_color_readthrough.py
@@ -62,7 +64,7 @@ jobs:
           from PIL import Image
           folder=Path("docs/art/episode-01/finish/color-candidates")
           manifest=json.loads((folder/"revision-manifest.json").read_text(encoding="utf-8"))
-          for target in ("p06_v03.png", "p07_v04.png", "p08_v04.png", "p09_v01.png", "p10_v01.png", "p11_v01.png", "p12_v01.png", "p13_v01.png", "p14_v01.png", "p15_v01.png", "p13_v02.png", "p14_v02.png", "p15_v02.png", "p16_v01.png", "p17_v01.png", "p18_v01.png"):
+          for target in ("p06_v03.png", "p07_v04.png", "p08_v04.png", "p09_v01.png", "p10_v01.png", "p11_v01.png", "p12_v01.png", "p13_v01.png", "p14_v01.png", "p15_v01.png", "p13_v02.png", "p14_v02.png", "p15_v02.png", "p16_v01.png", "p17_v01.png", "p18_v01.png", "p19_v01.png", "p20_v01.png"):
               data=manifest[target]
               out=folder/target
               assert Image.open(out).size == (1024,1536)
@@ -75,7 +77,7 @@ jobs:
           src=Image.open(folder/"p07.png").convert("RGB")
           revised=Image.open(folder/"p07_v04.png").convert("RGB")
           assert src.crop((0,569,1024,1536)).tobytes()==revised.crop((0,569,1024,1536)).tobytes()
-          print("P06-P18 color revisions verified; original PNGs retained")
+          print("P06-P20 color revisions verified; original PNGs retained")
           PY
       - name: Commit revised PNG and manifest
         run: |
@@ -86,8 +88,8 @@ jobs:
           # top of the latest remote head instead.
           git fetch origin main
           git reset --mixed origin/main
-          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/p08_v04.png docs/art/episode-01/finish/color-candidates/p09_v01.png docs/art/episode-01/finish/color-candidates/p10_v01.png docs/art/episode-01/finish/color-candidates/p11_v01.png docs/art/episode-01/finish/color-candidates/p12_v01.png docs/art/episode-01/finish/color-candidates/p13_v01.png docs/art/episode-01/finish/color-candidates/p14_v01.png docs/art/episode-01/finish/color-candidates/p15_v01.png docs/art/episode-01/finish/color-candidates/p13_v02.png docs/art/episode-01/finish/color-candidates/p14_v02.png docs/art/episode-01/finish/color-candidates/p15_v02.png docs/art/episode-01/finish/color-candidates/p16_v01.png docs/art/episode-01/finish/color-candidates/p17_v01.png docs/art/episode-01/finish/color-candidates/p18_v01.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg docs/art/episode-01/finish/color-candidates/review_p09_p15.jpg docs/art/episode-01/finish/color-candidates/review_p09_p16_current.jpg
+          git add docs/art/episode-01/finish/color-candidates/p06_v03.png docs/art/episode-01/finish/color-candidates/p07_v04.png docs/art/episode-01/finish/color-candidates/p08_v04.png docs/art/episode-01/finish/color-candidates/p09_v01.png docs/art/episode-01/finish/color-candidates/p10_v01.png docs/art/episode-01/finish/color-candidates/p11_v01.png docs/art/episode-01/finish/color-candidates/p12_v01.png docs/art/episode-01/finish/color-candidates/p13_v01.png docs/art/episode-01/finish/color-candidates/p14_v01.png docs/art/episode-01/finish/color-candidates/p15_v01.png docs/art/episode-01/finish/color-candidates/p13_v02.png docs/art/episode-01/finish/color-candidates/p14_v02.png docs/art/episode-01/finish/color-candidates/p15_v02.png docs/art/episode-01/finish/color-candidates/p16_v01.png docs/art/episode-01/finish/color-candidates/p17_v01.png docs/art/episode-01/finish/color-candidates/p18_v01.png docs/art/episode-01/finish/color-candidates/p19_v01.png docs/art/episode-01/finish/color-candidates/p20_v01.png docs/art/episode-01/finish/color-candidates/sources/p19_p20_hinge_photo.png docs/art/episode-01/finish/color-candidates/revision-manifest.json docs/art/episode-01/finish/color-candidates/review_p05_p08.jpg docs/art/episode-01/finish/color-candidates/review_p09_p15.jpg docs/art/episode-01/finish/color-candidates/review_p09_p16_current.jpg
           if ! git diff --cached --quiet; then
-            git commit -m "art(ep01): render P06-P18 revised color candidates"
+            git commit -m "art(ep01): render P06-P20 revised color candidates"
             git push origin HEAD:main
           fi
