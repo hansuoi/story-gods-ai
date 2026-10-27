@@ -322,5 +322,58 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p29_v01.png": {
+    "bytes": 520769,
+    "height": 1536,
+    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, art and prop poses still need final repaint.",
+    "page": 29,
+    "sha256": "4ed24bbe54e5afe427bf42d79b293806dd82decee6a198ffb0de4b2c8181ce5b",
+    "source": {
+      "sources/p13_p16_generated_montage.png": "d6745e68fc2c5e696a182618356b9200dd2aa7953a877cf12657e6195ef09105",
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p30_v01.png": {
+    "bytes": 499101,
+    "height": 1536,
+    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, art and prop poses still need final repaint.",
+    "page": 30,
+    "sha256": "f227cf6002bb6849b9d05fa213f0c2bb8ed8ad4a482c7c48c12f729131d593c0",
+    "source": {
+      "sources/p13_p16_generated_montage.png": "d6745e68fc2c5e696a182618356b9200dd2aa7953a877cf12657e6195ef09105",
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p31_v01.png": {
+    "bytes": 589552,
+    "height": 1536,
+    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, art and prop poses still need final repaint.",
+    "page": 31,
+    "sha256": "7a5379def5a9263becee9abb59b2e0cfd00f4710f09db5e47e4cd0e0e26121b3",
+    "source": {
+      "p06_v03.png": "6e0695b4b4fa3a21c8422a880f473315f5c7aa5785989d2ebe81c2edb5380063",
+      "sources/p13_p16_generated_montage.png": "d6745e68fc2c5e696a182618356b9200dd2aa7953a877cf12657e6195ef09105",
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p32_v01.png": {
+    "bytes": 604394,
+    "height": 1536,
+    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, art and prop poses still need final repaint.",
+    "page": 32,
+    "sha256": "ae6d8df6f41b242eb33fadc45337f6c1d8161fec945cb0a172569c7b7676e09e",
+    "source": {
+      "sources/p13_p16_generated_montage.png": "d6745e68fc2c5e696a182618356b9200dd2aa7953a877cf12657e6195ef09105",
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
