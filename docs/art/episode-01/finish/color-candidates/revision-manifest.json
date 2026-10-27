@@ -271,5 +271,29 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p25_v01.png": {
+    "bytes": 893334,
+    "height": 1536,
+    "notes": "Kuzumi is composed as an ordinary senior worker, not a villain. Clothes and friendly smile still need final repaint.",
+    "page": 25,
+    "sha256": "46802a3a0e91895190e5867649c38bfa1603c8fe2c71f94c957808ce2851fd63",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p26_v01.png": {
+    "bytes": 930426,
+    "height": 1536,
+    "notes": "Kuzumi is composed as an ordinary senior worker, not a villain. Clothes and friendly smile still need final repaint.",
+    "page": 26,
+    "sha256": "2e33884251a157b1442118290fd712b8130b58e221bbaa907234d0ce3541a6bc",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
