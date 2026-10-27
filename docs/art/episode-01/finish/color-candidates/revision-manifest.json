@@ -170,5 +170,29 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p17_v01.png": {
+    "bytes": 1032573,
+    "height": 1536,
+    "notes": "P17/P18 selected painted fragments, original AI captions excluded and correct name text typeset. Character hair, wardrobe, pin hand need final repaint.",
+    "page": 17,
+    "sha256": "826ff7e65f3ec94d0f68663d76a2e9715bce2149ca8a700ab1b0252eed455ee4",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p18_v01.png": {
+    "bytes": 851828,
+    "height": 1536,
+    "notes": "P17/P18 selected painted fragments, original AI captions excluded and correct name text typeset. Character hair, wardrobe, pin hand need final repaint.",
+    "page": 18,
+    "sha256": "e915fa1d020c9793c0a11ac5d764cb2a2bd2140a74d9fc4eb5165035302c3226",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
