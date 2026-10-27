@@ -220,5 +220,32 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p21_v01.png": {
+    "bytes": 880405,
+    "height": 1536,
+    "notes": "P21 shares the exact P19/P20 composited hinge image; P22 reuses P13 envelope. Color candidates require character costume/gesture repaint and final review.",
+    "page": 21,
+    "sha256": "8de68622b8094bdb4a42cb9ac7f22af620d3a42a7b1540179c2eb58278c42c88",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952",
+      "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p22_v01.png": {
+    "bytes": 778351,
+    "height": 1536,
+    "notes": "P21 shares the exact P19/P20 composited hinge image; P22 reuses P13 envelope. Color candidates require character costume/gesture repaint and final review.",
+    "page": 22,
+    "sha256": "43a068bb53f9cf408861772d8445fae5d1b70142564a03252ca3ed2a0cbf1213",
+    "source": {
+      "sources/p13_p16_generated_montage.png": "d6745e68fc2c5e696a182618356b9200dd2aa7953a877cf12657e6195ef09105",
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952",
+      "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
