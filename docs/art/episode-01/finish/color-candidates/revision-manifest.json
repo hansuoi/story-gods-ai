@@ -194,5 +194,31 @@
     },
     "status": "candidate-needs-visual-review",
     "width": 1024
+  },
+  "p19_v01.png": {
+    "bytes": 731374,
+    "height": 1536,
+    "notes": "Painterly montage fragments, same composited hinge photograph on P19/P20, correct independent Japanese lettering; the photo is illustrated, not actual forensic evidence.",
+    "page": 19,
+    "sha256": "03a2aca1a34944c47781b50b878c01f2091b6611cef93ab177d9277315da5efc",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952",
+      "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p20_v01.png": {
+    "bytes": 644616,
+    "height": 1536,
+    "notes": "Painterly montage fragments, same composited hinge photograph on P19/P20, correct independent Japanese lettering; the photo is illustrated, not actual forensic evidence.",
+    "page": 20,
+    "sha256": "509d3341ba136320ebb4099d0b3fe0a2f6bc52d6472a969d3ac8688945fd0639",
+    "source": {
+      "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952",
+      "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
   }
 }
