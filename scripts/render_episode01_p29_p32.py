@@ -92,7 +92,10 @@ def p32(src,old):
     scene(page,src,(917,438,1139,597),(30,644,994,995),focus=(.49,.46),dim=.09)
     d.rectangle((513,651,985,988),fill='#3b4c56')
     balloon(page,(535,729,968,938),['はい。','神谷探偵事務所です'],size=34)
-    scene(page,src,(918,437,1139,597),(30,1015,994,1506),focus=(.45,.49),dim=.06)
+    # The last panel must not repeat the same face crop as the preceding
+    # "Hello, Kamiya Detective Office" panel. Use the separate low-angle,
+    # side-lit Aki profile with visible grief, preserving fear as well as will.
+    scene(page,src,(1161,796,1381,960),(30,1015,994,1506),focus=(.42,.53),dim=.05)
     d.rectangle((522,1023,985,1497),fill='#354854')
     balloon(page,(539,1161,968,1408),['夫のことなら、','私が聞きます'],size=38)
     d.text((812,1455),'第1話終',font=font(25),fill='#dbe3e0')
@@ -113,7 +116,7 @@ def main():
         data=file.read_bytes();assert data[:8]==b'\x89PNG\r\n\x1a\n'
         sources=dict(common)
         if n==31:sources['sources/sakaki_living_portrait.png']=sha256(PORTRAIT.read_bytes()).hexdigest()
-        manifest[file.name]={'page':n,'status':'candidate-needs-visual-review','width':W,'height':H,'bytes':len(data),'sha256':sha256(data).hexdigest(),'source':sources,'notes':'P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive (not his coffin photo); remaining art still needs review.'}
+        manifest[file.name]={'page':n,'status':'candidate-needs-visual-review','width':W,'height':H,'bytes':len(data),'sha256':sha256(data).hexdigest(),'source':sources,'notes':'P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile differs from earlier phone-answer frame. Hand/receiver pose still requires repaint.'}
         print(file.name,len(data),manifest[file.name]['sha256'])
     dest.write_text(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n',encoding='utf-8')
 
