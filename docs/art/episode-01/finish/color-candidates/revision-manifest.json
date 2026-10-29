@@ -297,11 +297,11 @@
     "width": 1024
   },
   "p27_v01.png": {
-    "bytes": 747393,
+    "bytes": 747488,
     "height": 1536,
     "notes": "Train interior now shows Aki seated at left beside a visibly vacant right cushion; case-ledger candidate remains provisional and requires final character repaint.",
     "page": 27,
-    "sha256": "c7c0f0f936e9dd28ebbae3657f845930594349ced7b19ec98d5ad7a2cb1c331f",
+    "sha256": "450a27a4f14a35f6d5008416ee1c9f8ef9c87e51f3b9e20a157420a501439bb6",
     "source": {
       "p06_v03.png": "6e0695b4b4fa3a21c8422a880f473315f5c7aa5785989d2ebe81c2edb5380063",
       "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952",
