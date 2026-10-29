@@ -29,6 +29,7 @@ on:
       - 'docs/art/episode-01/finish/color-candidates/sources/p09_p12_generated_montage.png'
       - 'docs/art/episode-01/finish/color-candidates/sources/p13_p16_generated_montage.png'
       - 'docs/art/episode-01/finish/color-candidates/sources/p17_p20_generated_montage.png'
+      - 'docs/art/episode-01/finish/color-candidates/sources/sakaki_living_portrait.png'
       - 'scripts/render_episode01_color_readthrough.py'
       - '.github/workflows/render-episode01-color-revisions.yml'
 permissions:
