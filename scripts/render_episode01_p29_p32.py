@@ -116,7 +116,7 @@ def main():
         data=file.read_bytes();assert data[:8]==b'\x89PNG\r\n\x1a\n'
         sources=dict(common)
         if n==31:sources['sources/sakaki_living_portrait.png']=sha256(PORTRAIT.read_bytes()).hexdigest()
-        manifest[file.name]={'page':n,'status':'candidate-needs-visual-review','width':W,'height':H,'bytes':len(data),'sha256':sha256(data).hexdigest(),'source':sources,'notes':'P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile crop centered on Aki's tearful EYE and mouth (not her ear), different from earlier answering crop; hand/receiver pose still needs repaint.'}
+        manifest[file.name]={'page':n,'status':'candidate-needs-visual-review','width':W,'height':H,'bytes':len(data),'sha256':sha256(data).hexdigest(),'source':sources,'notes':'P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile crop centered on the tearful eye of Aki and mouth (not her ear), different from earlier answering crop; hand/receiver pose still needs repaint.'}
         print(file.name,len(data),manifest[file.name]['sha256'])
     dest.write_text(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n',encoding='utf-8')
 
