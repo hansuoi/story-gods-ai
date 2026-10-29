@@ -27,15 +27,15 @@ def p27(src,photo,sakaki):
     d.line((518,546,926,546),fill='#6b899a',width=5)
     d.line((545,623,901,623),fill='#1f3b51',width=8)
     d.line((501,455,501,635),fill='#172e40',width=12)
-    for x in (288,701):
+    for x in (96,905):
         d.line((x,40,x,236),fill='#a8b3b5',width=9)
         d.ellipse((x-28,200,x+28,261),outline='#d9dcd5',width=11)
     aki=ImageOps.fit(src.crop((914,434,1138,597)),(305,297),Image.Resampling.LANCZOS,centering=(.45,.45))
     mask=Image.new('L',aki.size,0)
     ImageDraw.Draw(mask).ellipse((16,5,aki.width-15,aki.height-2),fill=255)
     # Keep her face attached to the jacket and seat, not floating in the window.
-    page.paste(aki,(130,259),mask.filter(ImageFilter.GaussianBlur(9)))
-    d.polygon([(93,644),(104,543),(170,496),(235,508),(294,502),
+    page.paste(aki,(130,212),mask.filter(ImageFilter.GaussianBlur(9)))
+    d.polygon([(93,644),(104,543),(170,502),(235,514),(294,508),
                (398,506),(464,560),(480,644)],fill='#202b39')
     d.line((180,509,251,628),fill='#576876',width=8)
     d.line((284,510,252,626),fill='#73818a',width=5)
