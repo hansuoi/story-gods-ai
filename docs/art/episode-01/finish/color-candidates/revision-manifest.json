@@ -326,7 +326,7 @@
   "p29_v01.png": {
     "bytes": 520769,
     "height": 1536,
-    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile differs from earlier phone-answer frame. Hand/receiver pose still requires repaint.",
+    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile crop centered on the tearful eye of Aki and mouth (not her ear), different from earlier answering crop; hand/receiver pose still needs repaint.",
     "page": 29,
     "sha256": "4ed24bbe54e5afe427bf42d79b293806dd82decee6a198ffb0de4b2c8181ce5b",
     "source": {
@@ -339,7 +339,7 @@
   "p30_v01.png": {
     "bytes": 499101,
     "height": 1536,
-    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile differs from earlier phone-answer frame. Hand/receiver pose still requires repaint.",
+    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile crop centered on the tearful eye of Aki and mouth (not her ear), different from earlier answering crop; hand/receiver pose still needs repaint.",
     "page": 30,
     "sha256": "f227cf6002bb6849b9d05fa213f0c2bb8ed8ad4a482c7c48c12f729131d593c0",
     "source": {
@@ -352,7 +352,7 @@
   "p31_v01.png": {
     "bytes": 490567,
     "height": 1536,
-    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile differs from earlier phone-answer frame. Hand/receiver pose still requires repaint.",
+    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile crop centered on the tearful eye of Aki and mouth (not her ear), different from earlier answering crop; hand/receiver pose still needs repaint.",
     "page": 31,
     "sha256": "84dde50651cd0e8c91ad1a327bfed4befc54969801b0e533d5818b206d47e54c",
     "source": {
@@ -364,11 +364,11 @@
     "width": 1024
   },
   "p32_v01.png": {
-    "bytes": 579666,
+    "bytes": 588342,
     "height": 1536,
-    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile differs from earlier phone-answer frame. Hand/receiver pose still requires repaint.",
+    "notes": "P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive; P32 final profile crop centered on the tearful eye of Aki and mouth (not her ear), different from earlier answering crop; hand/receiver pose still needs repaint.",
     "page": 32,
-    "sha256": "cc38576d625c9f739b9563139e455136c741f6a4608306162ed65fd9c1de2471",
+    "sha256": "78db2c5f912c06ab830772abb420eede61e3ca478d2fc6fd68457e86e395f9cd",
     "source": {
       "sources/p13_p16_generated_montage.png": "d6745e68fc2c5e696a182618356b9200dd2aa7953a877cf12657e6195ef09105",
       "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952"
