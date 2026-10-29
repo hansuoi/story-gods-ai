@@ -297,11 +297,11 @@
     "width": 1024
   },
   "p27_v01.png": {
-    "bytes": 752673,
+    "bytes": 747393,
     "height": 1536,
-    "notes": "Composited train interior and case-ledger candidate; cartoon props and character pose need final repaint.",
+    "notes": "Train interior now shows Aki seated at left beside a visibly vacant right cushion; case-ledger candidate remains provisional and requires final character repaint.",
     "page": 27,
-    "sha256": "0882e68a546d9f0d16423175c153c25783860e63618e6d6ee3cfdcaf23b1e446",
+    "sha256": "c7c0f0f936e9dd28ebbae3657f845930594349ced7b19ec98d5ad7a2cb1c331f",
     "source": {
       "p06_v03.png": "6e0695b4b4fa3a21c8422a880f473315f5c7aa5785989d2ebe81c2edb5380063",
       "sources/p17_p20_generated_montage.png": "20c607311c2184187a64095f60876e2e27fa839263b235c7726fe97c1547a952",
@@ -313,7 +313,7 @@
   "p28_v01.png": {
     "bytes": 872818,
     "height": 1536,
-    "notes": "Composited train interior and case-ledger candidate; cartoon props and character pose need final repaint.",
+    "notes": "Train interior now shows Aki seated at left beside a visibly vacant right cushion; case-ledger candidate remains provisional and requires final character repaint.",
     "page": 28,
     "sha256": "229e10aabcadd4d02c34b6ca4a5831912cfe3cc4e62eda810d7d3ee5ff32393e",
     "source": {
