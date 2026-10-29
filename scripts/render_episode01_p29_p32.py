@@ -7,7 +7,7 @@ import json
 from PIL import Image,ImageDraw,ImageOps
 from render_episode01_p17_p18 import BASE,SRC,make_page,scene,gradient_panel,balloon,FRAME,W,H,font
 OLD=BASE/'sources/p13_p16_generated_montage.png'
-P06=BASE/'p06_v03.png'
+PORTRAIT=BASE/'sources/sakaki_living_portrait.png'
 
 def paper(page,box,color='#eee8db',border='#8a938d'):
     d=ImageDraw.Draw(page)
@@ -49,7 +49,7 @@ def p30(src,old):
     d.rounded_rectangle((257,1318,765,1495),radius=4,fill='#f0eee5',outline='#929b95',width=6)
     return page
 
-def p31(src,old,sakaki):
+def p31(src,old,portrait):
     page=make_page();d=ImageDraw.Draw(page)
     scene(page,old,(24,5,369,217),(30,30,994,796),focus=(.49,.48),dim=.35)
     paper(page,(143,76,871,763),color='#eeeade')
@@ -60,8 +60,18 @@ def p31(src,old,sakaki):
     d.rounded_rectangle((194,474,814,660),radius=10,fill='#e2e0d5',outline='#8e9b95',width=5)
     d.text((209,546),'調査対象：神谷榊',font=font(58),fill='#23343a')
     scene(page,src,(396,781,588,963),(30,815,994,1258),dim=.46)
-    photo=ImageOps.fit(sakaki.crop((75,38,968,543)),(567,392),Image.Resampling.LANCZOS)
+    # The photographed Sakaki is alive, smiling at the office. Using the P06
+    # coffin crop here turned an office photograph into a photo of the body.
+    # The reference crop is taken INSIDE a framed living portrait, avoiding
+    # its funeral-frame border and most flowers. Aki's hand shadows its right half.
+    photo=ImageOps.fit(portrait.crop((76,35,265,285)),(567,392),Image.Resampling.LANCZOS)
     page.paste(photo,(227,843))
+    shadow=Image.new('RGBA',page.size,(0,0,0,0))
+    sd=ImageDraw.Draw(shadow)
+    sd.polygon([(555,839),(806,835),(803,1243),(483,1245),(548,1140)],
+               fill=(20,25,31,143))
+    page=Image.alpha_composite(page.convert('RGBA'),shadow).convert('RGB')
+    d=ImageDraw.Draw(page)
     d.rectangle((219,835,803,1247),outline='#bfc9c6',width=10)
     gradient_panel(page,(30,1278,994,1506),top=(92,98,101),bottom=(44,54,60))
     paper(page,(100,1298,594,1493),color='#e8e5db')
@@ -91,19 +101,19 @@ def p32(src,old):
 def main():
     src=Image.open(SRC).convert('RGB')
     old=Image.open(OLD).convert('RGB')
-    sakaki=Image.open(P06).convert('RGB')
-    assert src.size==(1536,1024) and old.size==(1536,1024) and sakaki.size==(W,H)
+    portrait=Image.open(PORTRAIT).convert('RGB')
+    assert src.size==(1536,1024) and old.size==(1536,1024) and portrait.size==(285,340)
     dest=BASE/'revision-manifest.json'
     manifest=json.loads(dest.read_text(encoding='utf-8')) if dest.exists() else {}
     common={'sources/p17_p20_generated_montage.png':sha256(SRC.read_bytes()).hexdigest(),'sources/p13_p16_generated_montage.png':sha256(OLD.read_bytes()).hexdigest()}
-    for n,page in ((29,p29(src,old)),(30,p30(src,old)),(31,p31(src,old,sakaki)),(32,p32(src,old))):
+    for n,page in ((29,p29(src,old)),(30,p30(src,old)),(31,p31(src,old,portrait)),(32,p32(src,old))):
         assert page.size==(W,H)
         file=BASE/f'p{n:02d}_v01.png'
         page.save(file,optimize=True)
         data=file.read_bytes();assert data[:8]==b'\x89PNG\r\n\x1a\n'
         sources=dict(common)
-        if n==31:sources['p06_v03.png']=sha256(P06.read_bytes()).hexdigest()
-        manifest[file.name]={'page':n,'status':'candidate-needs-visual-review','width':W,'height':H,'bytes':len(data),'sha256':sha256(data).hexdigest(),'source':sources,'notes':'P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, art and prop poses still need final repaint.'}
+        if n==31:sources['sources/sakaki_living_portrait.png']=sha256(PORTRAIT.read_bytes()).hexdigest()
+        manifest[file.name]={'page':n,'status':'candidate-needs-visual-review','width':W,'height':H,'bytes':len(data),'sha256':sha256(data).hexdigest(),'source':sources,'notes':'P29–P32 casebook reveal and anonymous call; correct dialogue and page-turn timing, P31 office portrait is Sakaki alive (not his coffin photo); remaining art still needs review.'}
         print(file.name,len(data),manifest[file.name]['sha256'])
     dest.write_text(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n',encoding='utf-8')
 
