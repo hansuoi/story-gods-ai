@@ -74,7 +74,22 @@ def main():
     sources={str(p.relative_to(BASE)):sha256(p.read_bytes()).hexdigest()
              for p in (old.RESCUE,old.SAKAKI,HINGE)}
     for n,func in ((2,old.render_p02),(3,old.render_p03),(4,old.render_p04)):
-        result=func(rescue,portrait)
+        previous_scene=old.scene
+        if n==3:
+            # Original third panel re-used the OUTSTRETCHED arms from P01,
+            # showing no actual rescue. Another crop of the SAME color source
+            # contains a boy gripping an orange-jacketed rescue worker.
+            # Keep the shot only on P03 after the pin is struck.
+            def rescue_contact_scene(im,source,crop,box,center=(.5,.5),tone=0):
+                if tuple(box)==(30,996,994,1366):
+                    return previous_scene(im,source,(186,842,696,1008),box,
+                                          center=(.48,.52),tone=.045)
+                return previous_scene(im,source,crop,box,center=center,tone=tone)
+            old.scene=rescue_contact_scene
+        try:
+            result=func(rescue,portrait)
+        finally:
+            old.scene=previous_scene
         assert result.size==(1024,1536)
         dest=BASE/f'p{n:02d}_v02.png'
         result.save(dest,optimize=True)
@@ -83,7 +98,7 @@ def main():
           'page':n,'status':'candidate-needs-visual-review',
           'width':1024,'height':1536,'bytes':len(raw),
           'sha256':sha256(raw).hexdigest(),'source':sources,
-          'notes':'P02/P03/P04 use one consistent painted hinge source; a single narrow retaining pin changes before strike, after strike and repair. Character art and rescue remain provisional.'}
+          'notes':'P02/P03/P04 share one painted hinge; retaining pin changes before strike, after strike and repair. P03 now depicts the boy physically gripping an orange-jacketed rescue worker; other artwork remains provisional.'}
         print(dest.name,len(raw),manifest[dest.name]['sha256'])
     manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n',encoding='utf-8')
     # Human visual proof sheet: unchanged P01, revised P02-P04.
