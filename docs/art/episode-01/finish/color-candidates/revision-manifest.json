@@ -25,6 +25,20 @@
     "status": "candidate-needs-visual-review",
     "width": 1024
   },
+  "p02_v02.png": {
+    "bytes": 1059609,
+    "height": 1536,
+    "notes": "P02/P03/P04 use one consistent painted hinge source; a single narrow retaining pin changes before strike, after strike and repair. Character art and rescue remain provisional.",
+    "page": 2,
+    "sha256": "793f58db54a75cf758341b7cabe4c6865029e6e495cbe7ffcdc775d044c46c11",
+    "source": {
+      "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
+      "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2",
+      "sources/sakaki_living_smile.png": "0f7804d6bd6bb802ae9d23e0380c08fa7a4163fc6dc9e4ae1310b9bb4174f75b"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
   "p03_v01.png": {
     "bytes": 1224322,
     "height": 1536,
@@ -38,6 +52,20 @@
     "status": "candidate-needs-visual-review",
     "width": 1024
   },
+  "p03_v02.png": {
+    "bytes": 1326613,
+    "height": 1536,
+    "notes": "P02/P03/P04 use one consistent painted hinge source; a single narrow retaining pin changes before strike, after strike and repair. Character art and rescue remain provisional.",
+    "page": 3,
+    "sha256": "4a52783f6a15ae932a587553cf00c4d7664e002c3e482db08dbc6438769c65e7",
+    "source": {
+      "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
+      "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2",
+      "sources/sakaki_living_smile.png": "0f7804d6bd6bb802ae9d23e0380c08fa7a4163fc6dc9e4ae1310b9bb4174f75b"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
   "p04_v01.png": {
     "bytes": 988431,
     "height": 1536,
@@ -46,6 +74,20 @@
     "sha256": "a8cdf072ae228d7e2fbddade1c88016264ef3edb263f8ed882abcf3c97c0fbc1",
     "source": {
       "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
+      "sources/sakaki_living_smile.png": "0f7804d6bd6bb802ae9d23e0380c08fa7a4163fc6dc9e4ae1310b9bb4174f75b"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p04_v02.png": {
+    "bytes": 1035811,
+    "height": 1536,
+    "notes": "P02/P03/P04 use one consistent painted hinge source; a single narrow retaining pin changes before strike, after strike and repair. Character art and rescue remain provisional.",
+    "page": 4,
+    "sha256": "5b80e3b0f0eba7226b0e8f8d25dedce1b7db078729208d860da9b529a3353812",
+    "source": {
+      "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
+      "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2",
       "sources/sakaki_living_smile.png": "0f7804d6bd6bb802ae9d23e0380c08fa7a4163fc6dc9e4ae1310b9bb4174f75b"
     },
     "status": "candidate-needs-visual-review",
