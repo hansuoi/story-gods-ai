@@ -17,7 +17,11 @@ def painted_metal(im,box,broken=True,impact=False,repair=False,scale=1):
     x0,y0,x1,y1=map(int,box)
     w,h=x1-x0,y1-y0
     with Image.open(HINGE) as src:
-        pic=ImageOps.fit(src.convert('RGB'),(w,h),Image.Resampling.LANCZOS)
+        # The evidence-photo source contains a measuring ruler in the margin.
+        # A 2026 evidence ruler must not suddenly appear in the 2024 rescue.
+        # Crop to the wet metal gate before adapting its texture to the scene.
+        center_metal=src.convert('RGB').crop((40,55,528,715))
+        pic=ImageOps.fit(center_metal,(w,h),Image.Resampling.LANCZOS)
     im.paste(pic,(x0,y0))
     d=ImageDraw.Draw(im)
     X=lambda p:x0+round(w*p)
