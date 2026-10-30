@@ -26,7 +26,7 @@ def painted_metal(im,box,broken=True,impact=False,repair=False,scale=1):
     d=ImageDraw.Draw(im)
     X=lambda p:x0+round(w*p)
     Y=lambda p:y0+round(h*p)
-    # The original reference is a photograph of an ALREADY damaged hinge.
+    # This is an illustrated evidence-photo source of an ALREADY damaged hinge.
     # On P02 (before impact) and P04 (after repair), erase its old highlighted
     # crack with a feathered patch of nearby steel texture before drawing
     # the still-bent but connected retaining pin. Otherwise the reference
@@ -80,10 +80,10 @@ def main():
     for n,func in ((2,old.render_p02),(3,old.render_p03),(4,old.render_p04)):
         previous_scene=old.scene
         if n==3:
-            # Original third panel re-used the OUTSTRETCHED arms from P01,
-            # showing no actual rescue. Another crop of the SAME color source
-            # contains a boy gripping an orange-jacketed rescue worker.
-            # Keep the shot only on P03 after the pin is struck.
+            # An alternative crop of the SAME source shows the boy's wet fingers
+            # approaching the rescuer's glove in close-up. The fingers still
+            # DO NOT make convincing physical contact; final repaint needed.
+            # Keep this close-up after the pin is struck, not before.
             def rescue_contact_scene(im,source,crop,box,center=(.5,.5),tone=0):
                 if tuple(box)==(30,996,994,1366):
                     return previous_scene(im,source,(186,842,696,1008),box,
@@ -102,7 +102,7 @@ def main():
           'page':n,'status':'candidate-needs-visual-review',
           'width':1024,'height':1536,'bytes':len(raw),
           'sha256':sha256(raw).hexdigest(),'source':sources,
-          'notes':'P02/P03/P04 share one painted hinge; retaining pin changes before strike, after strike and repair. P03 now depicts the boy physically gripping an orange-jacketed rescue worker; other artwork remains provisional.'}
+          'notes':'P02/P03/P04 use a common painted hinge motif. P02 intact, P03 broken, P04 reconnected. P03 shows a child hand and rescue glove approaching, but NOT yet gripping; actual rescue contact and coherent workwear require final repaint.'}
         print(dest.name,len(raw),manifest[dest.name]['sha256'])
     manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n',encoding='utf-8')
     # Human visual proof sheet: unchanged P01, revised P02-P04.
