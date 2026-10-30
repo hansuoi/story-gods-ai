@@ -23,7 +23,7 @@
 | [完成原稿の制作プロセス](docs/art/episode-01/finish/PRODUCTION_PROCESS.md) | カラー生成・コマ別作画・文字組版・品質判定と制作方法の継続改善 |\n| [P01カラー制作仕様](docs/art/episode-01/finish/final-candidates/p01/SPEC.md) | 冒頭3コマを完成画像にするための演出・人物・場面・不採用条件 |\n| [第1話「帰ってきた人」](docs/scripts/episode-01.md) | 漫画脚本初稿 |
 | [第1話文字ネーム](docs/name/episode-01.md) | 32ページのコマ割り・台詞・ページ演出 |
 | [第1話作画ラフ 32ページ](docs/art/episode-01/README.md) | 全32ページの編集可能なSVG構図ラフ（完成原稿ではない） |
-| [第1話連続ビュー](docs/art/episode-01/gallery.md) | 第1話の32ページを順番に閲覧 |
+| [**第1話32ページ・カラー原稿候補の通読**](docs/art/episode-01/finish/color-candidates/READTHROUGH.md) | P01〜P32のカラー候補を順番に表示。**本作画の最終採用はまだ0/32** |\n| [第1話連続ビュー](docs/art/episode-01/gallery.md) | 第1話の32ページを順番に閲覧 |
 | [第1話・読書検証版 P01～P32](docs/art/episode-01/finish/readproof/reader.md) | 制作管理の文字や説明重複を削った比較版 |
 | [第1話レイアウトサムネイル](docs/name/episode-01-thumbnails.svg) | 32ページの配置・密度を見渡す図（作画ではない） |
 | [キャラクター比較図](docs/design/character-lineup-v01.svg) | 主要5人の体格・髪・服・小道具のベクター試作 |
