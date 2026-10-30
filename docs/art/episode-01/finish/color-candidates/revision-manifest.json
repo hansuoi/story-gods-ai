@@ -26,11 +26,11 @@
     "width": 1024
   },
   "p02_v02.png": {
-    "bytes": 1059609,
+    "bytes": 1055348,
     "height": 1536,
     "notes": "P02/P03/P04 use one consistent painted hinge source; a single narrow retaining pin changes before strike, after strike and repair. Character art and rescue remain provisional.",
     "page": 2,
-    "sha256": "793f58db54a75cf758341b7cabe4c6865029e6e495cbe7ffcdc775d044c46c11",
+    "sha256": "595f4fdb487afd6d3f3ed3c4be043dd994fe33591bb6943d52038082f864f1a2",
     "source": {
       "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
       "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2",
@@ -80,11 +80,11 @@
     "width": 1024
   },
   "p04_v02.png": {
-    "bytes": 1035811,
+    "bytes": 1034183,
     "height": 1536,
     "notes": "P02/P03/P04 use one consistent painted hinge source; a single narrow retaining pin changes before strike, after strike and repair. Character art and rescue remain provisional.",
     "page": 4,
-    "sha256": "5b80e3b0f0eba7226b0e8f8d25dedce1b7db078729208d860da9b529a3353812",
+    "sha256": "c182590c4ae85129cac248d37a2c3cab2572bc3728286a8c43cd35dc8bc2ff3b",
     "source": {
       "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
       "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2",
