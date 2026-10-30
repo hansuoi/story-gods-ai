@@ -22,6 +22,20 @@ def painted_metal(im,box,broken=True,impact=False,repair=False,scale=1):
     d=ImageDraw.Draw(im)
     X=lambda p:x0+round(w*p)
     Y=lambda p:y0+round(h*p)
+    # The original reference is a photograph of an ALREADY damaged hinge.
+    # On P02 (before impact) and P04 (after repair), erase its old highlighted
+    # crack with a feathered patch of nearby steel texture before drawing
+    # the still-bent but connected retaining pin. Otherwise the reference
+    # would accidentally reveal the P03 damage one page too early.
+    if not broken or repair:
+        px0,py0,px1,py1=int(w*.32),int(h*.23),int(w*.68),int(h*.79)
+        patch=ImageOps.fit(pic.crop((int(w*.12),int(h*.18),int(w*.36),int(h*.86))),
+                           (px1-px0,py1-py0),Image.Resampling.LANCZOS)
+        mask=Image.new('L',patch.size,0)
+        ImageDraw.Draw(mask).ellipse((0,0,patch.width-1,patch.height-1),fill=255)
+        mask=mask.filter(__import__('PIL.ImageFilter',fromlist=['GaussianBlur']).GaussianBlur(max(5,round(w*.025))))
+        im.paste(patch,(x0+px0,y0+py0),mask)
+        d=ImageDraw.Draw(im)
     # Thin retaining pin inside the old bent hinge. At P02 it is not cut.
     points=[(X(.49),Y(.41)),(X(.54),Y(.47)),(X(.48),Y(.55)),(X(.55),Y(.62))]
     d.line(points,fill='#182f3a',width=max(10,round(w*.029)),joint='curve')
