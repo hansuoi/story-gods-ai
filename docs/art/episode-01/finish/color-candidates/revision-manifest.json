@@ -26,11 +26,11 @@
     "width": 1024
   },
   "p02_v02.png": {
-    "bytes": 1055348,
+    "bytes": 999047,
     "height": 1536,
     "notes": "P02/P03/P04 share one painted hinge; retaining pin changes before strike, after strike and repair. P03 now depicts the boy physically gripping an orange-jacketed rescue worker; other artwork remains provisional.",
     "page": 2,
-    "sha256": "595f4fdb487afd6d3f3ed3c4be043dd994fe33591bb6943d52038082f864f1a2",
+    "sha256": "1b0abc8a1bb2af25ced4c6c4acd70be197ffb8634ee1888398bfa0e6616e1049",
     "source": {
       "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
       "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2",
@@ -53,11 +53,11 @@
     "width": 1024
   },
   "p03_v02.png": {
-    "bytes": 1205290,
+    "bytes": 1144837,
     "height": 1536,
     "notes": "P02/P03/P04 share one painted hinge; retaining pin changes before strike, after strike and repair. P03 now depicts the boy physically gripping an orange-jacketed rescue worker; other artwork remains provisional.",
     "page": 3,
-    "sha256": "7158134dd5fc386d09c68e38400719de192f36d44bc261117fb8c76de13b8723",
+    "sha256": "6d0377bd882accf8338ad6b452a572728d0ec0c05f4a9589021f1126e36c1f15",
     "source": {
       "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
       "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2",
@@ -80,11 +80,11 @@
     "width": 1024
   },
   "p04_v02.png": {
-    "bytes": 1034183,
+    "bytes": 999513,
     "height": 1536,
     "notes": "P02/P03/P04 share one painted hinge; retaining pin changes before strike, after strike and repair. P03 now depicts the boy physically gripping an orange-jacketed rescue worker; other artwork remains provisional.",
     "page": 4,
-    "sha256": "c182590c4ae85129cac248d37a2c3cab2572bc3728286a8c43cd35dc8bc2ff3b",
+    "sha256": "7bc41a1c8d3831332fa1a4823e11c42d2db70dcb617a124bc4765a183e85c38f",
     "source": {
       "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
       "sources/p19_p20_hinge_photo.png": "39310e36fcccf03a1d6c2d70b5b2552c8390425fff60a169daf5e01bd4dc01e2",
