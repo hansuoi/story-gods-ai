@@ -237,7 +237,7 @@ def render_p02(src,portrait):
     balloon(im,(55,75,422,187),['水、どかせるのか？'],size=32)
     balloon(im,(515,340,974,456),['そんな大仕事できねえよ'],size=30)
     scene(im,src,(0,700,697,1006),(30,495,994,853),tone=.32)
-    metal(im,(210,514,825,849),broken=True)
+    metal(im,(210,514,825,849),broken=False)
     balloon(im,(48,518,369,617),['壊すのは、ここ'],size=33)
     # Thin interlude; three distinct drops isolated from the rain.
     bg_gradient(im,(30,874,994,1078),'#1b374c','#325873')
@@ -249,7 +249,7 @@ def render_p02(src,portrait):
     # Last frame keeps Sakaki's eye and the single pin on one aiming axis.
     scene(im,src,(0,700,697,1006),(30,1099,994,1506),tone=.32)
     paste_face(im,portrait,(32,1144,486,1496),blur=5)
-    metal(im,(503,1120,976,1492),broken=True)
+    metal(im,(503,1120,976,1492),broken=False)
     d=ImageDraw.Draw(im);d.line((431,1356,760,1340),fill='#b4dce5',width=2)
     balloon(im,(489,1106,795,1219),['……よし'],size=39)
     return im
