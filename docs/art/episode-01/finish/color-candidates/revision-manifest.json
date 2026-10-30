@@ -1,4 +1,56 @@
 {
+  "p01_v01.png": {
+    "bytes": 1080725,
+    "height": 1536,
+    "notes": "2024 underpass rescue color collage from saved art fragments + composited props and precise Japanese typesetting; review required for character continuity, physical actions and final art quality.",
+    "page": 1,
+    "sha256": "7b1b514a6eaa7705fa959d5b63c38534633f69c72487342b741bdc43ffd83078",
+    "source": {
+      "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
+      "sources/sakaki_living_smile.png": "0f7804d6bd6bb802ae9d23e0380c08fa7a4163fc6dc9e4ae1310b9bb4174f75b"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p02_v01.png": {
+    "bytes": 994495,
+    "height": 1536,
+    "notes": "2024 underpass rescue color collage from saved art fragments + composited props and precise Japanese typesetting; review required for character continuity, physical actions and final art quality.",
+    "page": 2,
+    "sha256": "c65055898114b76fd9b018947b1df555b294964d3a02017fdfc33443c5eaf29d",
+    "source": {
+      "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
+      "sources/sakaki_living_smile.png": "0f7804d6bd6bb802ae9d23e0380c08fa7a4163fc6dc9e4ae1310b9bb4174f75b"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p03_v01.png": {
+    "bytes": 1224322,
+    "height": 1536,
+    "notes": "2024 underpass rescue color collage from saved art fragments + composited props and precise Japanese typesetting; review required for character continuity, physical actions and final art quality.",
+    "page": 3,
+    "sha256": "9753b5751e6e8bc60bb739ef4b7be1aa3d254f1cefd40399bda1c199506a9ab1",
+    "source": {
+      "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
+      "sources/sakaki_living_smile.png": "0f7804d6bd6bb802ae9d23e0380c08fa7a4163fc6dc9e4ae1310b9bb4174f75b"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
+  "p04_v01.png": {
+    "bytes": 988431,
+    "height": 1536,
+    "notes": "2024 underpass rescue color collage from saved art fragments + composited props and precise Japanese typesetting; review required for character continuity, physical actions and final art quality.",
+    "page": 4,
+    "sha256": "a8cdf072ae228d7e2fbddade1c88016264ef3edb263f8ed882abcf3c97c0fbc1",
+    "source": {
+      "sources/p01_p04_rescue_source.png": "a6049d4d13e135332865a63b8ed55f623bf66d05d4efb055c3e76aa870ed5831",
+      "sources/sakaki_living_smile.png": "0f7804d6bd6bb802ae9d23e0380c08fa7a4163fc6dc9e4ae1310b9bb4174f75b"
+    },
+    "status": "candidate-needs-visual-review",
+    "width": 1024
+  },
   "p06_v03.png": {
     "bytes": 1256144,
     "height": 1536,
